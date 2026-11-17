@@ -158,49 +158,7 @@
       background: #a1a1aa;
     }
 
-    /* Blue Spotlight & Cursor Trail */
-    .cursor-trail-layer {
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      z-index: 5;
-      overflow: hidden;
-    }
 
-    .cursor-spotlight {
-      position: absolute;
-      width: 90px;
-      height: 90px;
-      border-radius: 9999px;
-      background: radial-gradient(
-        circle,
-        rgba(59, 130, 246, 0.24) 0%,
-        rgba(14, 165, 233, 0.12) 40%,
-        rgba(99, 102, 241, 0.05) 65%,
-        rgba(255, 255, 255, 0) 80%
-      );
-      filter: blur(10px);
-      transform: translate3d(-50%, -50%, 0);
-      will-change: transform, opacity;
-      opacity: 0;
-      transition: opacity 0.4s ease;
-    }
-
-    .cursor-trail-dot {
-      position: absolute;
-      border-radius: 9999px;
-      background: radial-gradient(
-        circle,
-        rgba(56, 189, 248, 0.5) 0%,
-        rgba(59, 130, 246, 0.3) 45%,
-        rgba(37, 99, 235, 0) 100%
-      );
-      filter: blur(3px);
-      transform: translate3d(-50%, -50%, 0);
-      will-change: transform, opacity;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
   </style>
 </head>
 <body class="bg-gradient-to-b from-white via-zinc-100 to-zinc-200 text-zinc-900 min-h-screen antialiased selection:bg-zinc-800 selection:text-white font-normal">
@@ -780,92 +738,7 @@
       document.getElementById('jsonModal').classList.remove('flex');
     }
 
-    // -------------------------------------------------------------------------
-    // Blue Spotlight Trail (Matching dylangonzalez.dev)
-    // -------------------------------------------------------------------------
-    if (window.matchMedia('(pointer: fine)').matches) {
-      const trailLayer = document.createElement('div');
-      trailLayer.className = 'cursor-trail-layer';
-      document.body.appendChild(trailLayer);
 
-      const spotlight = document.createElement('div');
-      spotlight.className = 'cursor-spotlight';
-      trailLayer.appendChild(spotlight);
-
-      const numDots = 8;
-      const dots = [];
-      for (let i = 0; i < numDots; i++) {
-        const dot = document.createElement('div');
-        dot.className = 'cursor-trail-dot';
-        const size = Math.max(4, 14 - i * 1.2);
-        dot.style.width = `${size}px`;
-        dot.style.height = `${size}px`;
-        trailLayer.appendChild(dot);
-        dots.push({
-          el: dot,
-          x: window.innerWidth / 2,
-          y: window.innerHeight / 2,
-          scale: 1 - i / (numDots * 1.15)
-        });
-      }
-
-      let mouseX = window.innerWidth / 2;
-      let mouseY = window.innerHeight / 2;
-      let spotX = mouseX;
-      let spotY = mouseY;
-      let hasMoved = false;
-
-      window.addEventListener('mousemove', (e) => {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-        if (!hasMoved) {
-          hasMoved = true;
-          spotX = mouseX;
-          spotY = mouseY;
-          dots.forEach(d => {
-            d.x = mouseX;
-            d.y = mouseY;
-            d.el.style.opacity = String(d.scale * 0.7);
-          });
-          spotlight.style.opacity = '1';
-        }
-      }, { passive: true });
-
-      document.addEventListener('mouseleave', () => {
-        spotlight.style.opacity = '0';
-        dots.forEach(d => {
-          d.el.style.opacity = '0';
-        });
-      });
-
-      document.addEventListener('mouseenter', () => {
-        if (hasMoved) {
-          spotlight.style.opacity = '1';
-          dots.forEach(d => {
-            d.el.style.opacity = String(d.scale * 0.7);
-          });
-        }
-      });
-
-      function animateCursor() {
-        spotX += (mouseX - spotX) * 0.15;
-        spotY += (mouseY - spotY) * 0.15;
-        spotlight.style.transform = `translate3d(${spotX}px, ${spotY}px, 0) translate3d(-50%, -50%, 0)`;
-
-        let prevX = spotX;
-        let prevY = spotY;
-        for (let i = 0; i < dots.length; i++) {
-          const d = dots[i];
-          d.x += (prevX - d.x) * 0.35;
-          d.y += (prevY - d.y) * 0.35;
-          d.el.style.transform = `translate3d(${d.x}px, ${d.y}px, 0) translate3d(-50%, -50%, 0)`;
-          prevX = d.x;
-          prevY = d.y;
-        }
-        requestAnimationFrame(animateCursor);
-      }
-      requestAnimationFrame(animateCursor);
-    }
 
     // Set dynamic current year in footer
     document.getElementById('currentYear').innerText = new Date().getFullYear();
