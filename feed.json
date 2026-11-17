@@ -1,0 +1,1018 @@
+{
+  "generated_at": "2026-11-17T04:32:16.601630+00:00",
+  "articles": [
+    {
+      "id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
+      "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
+      "category": "finance",
+      "source_name": "Reserve Bank of Australia",
+      "published_at": "2026-11-17T03:39:49.105931+00:00",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
+      "author": "RBA",
+      "summary": "Media release number 2026-31: The RBA has today designated Prosegur Australia Pty Ltd (Prosegur Australia) (ACN 004 247 358) under the Cash Distribution Framework Act 2026 (the Act).",
+      "payload": {
+        "source_type": "rss_release"
+      },
+      "entities": [
+        {
+          "name": "Monetary Policy",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Reserve Bank of Australia",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "12bddb9d-9da3-43d6-b472-054af25eb187",
+      "title": "Running coding agents without handing them my credentials",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-17T01:18:56+00:00",
+      "url": "https://blog.antonio.cx/running-agents-with-lend",
+      "author": "antoniomika",
+      "summary": "Running coding agents without handing them my credentials Running coding agents without handing them my credentials The credential problem Keeping the socket stable across reconnects Secrets the agent never sees Answering agent prompts from the laptop What lend doesn't protect against to let remote agents use tools on my laptop with my approval. An agent can start Codex in another pane, give it a prompt, wait for it to finish, and read what it said: herdr agent start reviewer --kind codex --pane herdr agent prompt reviewer \"Review the diff on am/fix-retries\" reviewer --source recent Remote hosts work the same way.",
+      "payload": {
+        "hn_id": 50526152,
+        "score": 46,
+        "descendants": 17,
+        "discussion_url": "https://news.ycombinator.com/item?id=50526152"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "antoniomika",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "blog.antonio.cx",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f3b6fdfe-97b2-401e-865f-4dec2fc5814c",
+      "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-16T23:00:34+00:00",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "author": "kristjansson",
+      "summary": "World's Largest Brands Infected With Malware Via Optimizely World's Largest Brands Infected With Malware Via Optimizely JavaScript Integrity Monitoring On 16 November 2026, malicious JavaScript was served to visitors of through the Optimizely Web experimentation platform. , the same actor's injector, first appears on Turkish sites through an SEO \"backlink panel\" script registered (iOS exploit-kit router) scripts on sites including securitybank.com, faz.net, smh.com.au, vidaxl and foxsports.com Last clean urlscan capture of the BBC's Optimizely snippet First Optimizely injection seen certificates issued; domain registered at 05:23 first seen on bbc.com Zoom's snippet modified (its Attacker sweeps stolen crypto to exchanges Card skimmer added to registered (second iOS router) Second iOS host added; Coruna iframe injected into every iOS 18.6-or-earlier visit Optimizely snippets infected Mass clean-up (Ledger 20:41, Smartsheet 20:56, BBC 21:07) 1 of 188 snippets still infected (TalkTalk) The payload was rebuilt during the day.",
+      "payload": {
+        "hn_id": 50524767,
+        "score": 151,
+        "descendants": 78,
+        "discussion_url": "https://news.ycombinator.com/item?id=50524767"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "blog.report-uri.com",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "kristjansson",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-16T22:58:20+00:00",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "author": "cwaffles",
+      "summary": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use :: Xusheng Li Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report. Among the leads it turned up, one list immediately caught my attention: coding agents such as , alongside familiar developer tools such as Why would a Windows system DLL need a list of coding agents and developer tools?",
+      "payload": {
+        "hn_id": 50524736,
+        "score": 319,
+        "descendants": 188,
+        "discussion_url": "https://news.ycombinator.com/item?id=50524736"
+      },
+      "entities": [
+        {
+          "name": "xusheng.dev",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "cwaffles",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "20938f8e-435f-43b1-9abe-b4001a268761",
+      "title": "BugMeNot has closed",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-16T21:32:17+00:00",
+      "url": "https://www.bugmenot.com/",
+      "author": "lode",
+      "summary": "Thanks to everyone who envisioned a better internet. DXXR KAKD QMDZ QJPV UQSG\nDWRM HXCO TGVL TLWE RHIP\nNJPA ZKNZ SCVP RJWD XRFT\nYRMH YUJI PEBD YOOS YNVE\nSLGB OEJM HYIV AMMW TMWE\nCYFI DLGD JWBT DWCJ OAWA\nAUZO VKCK PZXN VNJA KXCH\nGCHT MEZS IERW LCMH LZQE\nZSNJ MIKN XLEG QIEW UBES\nCWBQ XFAS KZWY CKKA RCNK\nRMPO JGBI JQZB OGFD EVDY\nUNID WMQB WNMS SAAQ JUGV\nAUIH WKRK LADI LCMH OCSF\nNGBW CYNM MATG SOKF RCPH\nPIDY DTYA NXWZ QBMW ZOUG\nYSSM TJTM PLXV MEDB QHPK\nIBWR NDHS SJIP PALV QFMQ\nQKKE ZSZA AWNK SLNS HZWV\nYRMJ ESQT BSSA WMRA QEGP\nVPUJ DPQU WLDH TJJN NYAC\nPJHS EWKL PJUA HNWW DLDG\nUNID WMQB OVTC VCKH PXMX\nWSSK RAEU IUGH RKLB MHJY\nVOJE JFUT RGDF ZHHX UPCS\nQMRD WOJM PYJB ZHHX MXIF",
+      "payload": {
+        "hn_id": 50523601,
+        "score": 375,
+        "descendants": 187,
+        "discussion_url": "https://news.ycombinator.com/item?id=50523601"
+      },
+      "entities": [
+        {
+          "name": "bugmenot.com",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "lode",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-16T20:43:36+00:00",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "author": "pcompeau",
+      "summary": "Toggle Visibility of Main Menu Executive & Professional Education Selected Publications Undergraduate Research SCS Distinguished Lecture Series Industry & Entrepreneurship Industry & Entrepreneurship Industry & Entrepreneurship: Industry & Government Partnerships Industry & Entrepreneurship: SCS Careers & Recruitment Industry & Entrepreneurship: Explore Giving at SCS Computer science from Carnegie Mellon. Premiering in November Machine Learning with Large Datasets Principles of Computing Principles of Software Construction Premieres Tue, Nov 17 Machine Learning Systems Tianqi Chen and Zhihao Jia Premieres Tue, Nov 17 Software Architectures Swarnalatha Ashok and Scott Pavetti Premieres Wed, Nov 18 Jeffrey Gennari and Christopher Timperley Premieres Wed, Nov 18 Daniel Fried and Graham Neubig Premieres Thu, Nov 19 Machine Learning in Production Christian K\u00e4stner and Bogdan Vasilescu Premieres Thu, Nov 19 Coming in January 2027 Probability and Computing Mor Harchol-Balter, Weina Wang and Feras Saad Premieres January 2027 Multimodal Machine Learning Louis-Philippe Morency Premieres January 2027 Product Management Essentials Premieres January 2027 AI and Machine Learning I Premieres January 2027 Requirements for Embedded Systems Premieres January 2027 Subscribe on YouTube to catch every new course.",
+      "payload": {
+        "hn_id": 50522980,
+        "score": 883,
+        "descendants": 143,
+        "discussion_url": "https://news.ycombinator.com/item?id=50522980"
+      },
+      "entities": [
+        {
+          "name": "pcompeau",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "cs.cmu.edu",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
+      "title": "Bunnings: Breaking: Bunnings to make 230 jobs redundant and offshore some tech services",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T20:00:00-08:00",
+      "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860",
+      "author": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
+      "payload": {
+        "trending_query": "bunnings",
+        "approx_traffic": "2000+",
+        "traffic_num": 2000,
+        "hotness_score": 54,
+        "news_source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation"
+      },
+      "entities": [
+        {
+          "name": "Bunnings",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:bunnings",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "fa9c52a2-2c7a-47cd-af0f-20cc41f19475",
+      "title": "Mining: Modern Mining to Begin Trading Today on NYSE American Under Ticker Symbol \u201cMDRN\u201d",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T20:00:00-08:00",
+      "url": "https://www.businesswire.com/news/home/20261113240242/en/Modern-Mining-to-Begin-Trading-Today-on-NYSE-American-Under-Ticker-Symbol-MDRN",
+      "author": "Business Wire",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "mining",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "Business Wire"
+      },
+      "entities": [
+        {
+          "name": "Mining",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:mining",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Business Wire",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "214c94b9-94c6-431c-adde-a6d39325bd18",
+      "title": "Pak Vs Sl: Pakistan's Shakeel falls in the nineties twice, saves Test",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T19:50:00-08:00",
+      "url": "https://www.cricket.com.au/news/4608867/pakistans-shakeel-falls-in-the-nineties-twice-saves-test",
+      "author": "cricket.com.au",
+      "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
+      "payload": {
+        "trending_query": "pak vs sl",
+        "approx_traffic": "2000+",
+        "traffic_num": 2000,
+        "hotness_score": 54,
+        "news_source": "cricket.com.au"
+      },
+      "entities": [
+        {
+          "name": "Pak Vs Sl",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:pak vs sl",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "cricket.com.au",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
+      "title": "So You Are: Melbourne Cup runner suspected to be horse found in Sydney skip bin",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T19:50:00-08:00",
+      "url": "https://www.smh.com.au/sport/racing/melbourne-cup-runner-suspected-to-be-horse-found-in-sydney-skip-bin-20261117-p61ex8.html",
+      "author": "SMH.com.au",
+      "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
+      "payload": {
+        "trending_query": "so you are",
+        "approx_traffic": "1000+",
+        "traffic_num": 1000,
+        "hotness_score": 52,
+        "news_source": "SMH.com.au"
+      },
+      "entities": [
+        {
+          "name": "SMH.com.au",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "So You Are",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:so you are",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
+      "title": "Infant: VBPD investigating infant death on Mica Ave.",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T19:50:00-08:00",
+      "url": "https://www.wavy.com/news/local-news/virginia-beach/vbpd-investigating-infant-death-on-mica-ave/",
+      "author": "WAVY.com",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "infant",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 50,
+        "news_source": "WAVY.com"
+      },
+      "entities": [
+        {
+          "name": "WAVY.com",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Infant",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:infant",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
+      "title": "Melbourne Storm: Storm confirm new role for Kamikamica after medical retirement",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T19:50:00-08:00",
+      "url": "https://www.sen.com.au/news/2026/11/16/nrl-2026-melbourne-storm-announce-new-coaching-role-for-tui-kamikamica-following-medical-retirement",
+      "author": "SEN",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "melbourne storm",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "SEN"
+      },
+      "entities": [
+        {
+          "name": "SEN",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Melbourne Storm",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:melbourne storm",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
+      "title": "Apple Inc. (AAPL) Files Form 144: Official Filing",
+      "category": "finance",
+      "source_name": "U.S. SEC EDGAR Disclosures",
+      "published_at": "2026-11-16T00:00:00Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000192109426001188/xsl144X01/primary_doc.xml",
+      "author": "Apple Inc.",
+      "summary": "Official SEC Form 144 filing. Accession: 0001921094-26-001188",
+      "payload": {
+        "cik": "0000320193",
+        "ticker": "AAPL",
+        "form": "144",
+        "accession_number": "0001921094-26-001188"
+      },
+      "entities": [
+        {
+          "name": "Form 144",
+          "entity_type": "REGULATORY_FORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AAPL",
+          "entity_type": "TICKER",
+          "canonical_id": "AAPL",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "U.S. SEC",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "SEC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Apple Inc.",
+          "entity_type": "COMPANY",
+          "canonical_id": "CIK:0000320193",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+      "title": "An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-15T01:51:55Z",
+      "url": "https://arxiv.org/abs/2611.19714v1",
+      "author": "Yuma Enomoto, Misa Yamaguchi, Hiroki Nishikawa",
+      "summary": "Dysarthria reduces speech intelligibility, requiring self-directed rehabilitation based on fine-grained feedback to capture gradual articulatory changes. For Japanese speakers, such feedback is naturally provided in mora units due to its distinct moraic timing and consonant-vowel structure. While re...",
+      "payload": {
+        "authors": [
+          "Yuma Enomoto",
+          "Misa Yamaguchi",
+          "Hiroki Nishikawa",
+          "Ittetsu Taniguchi",
+          "Kazuhide Matsunaga",
+          "Narikazu Uzawa",
+          "Takao Onoye"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hiroki Nishikawa",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Misa Yamaguchi",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Yuma Enomoto",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+      "title": "Joint Learning of Factual and Counterfactual Worlds for Causal Prior-data Fitted Networks",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-15T01:41:28Z",
+      "url": "https://arxiv.org/abs/2611.19710v1",
+      "author": "Furkan Danisman, Luke Zhang, Zhijing Jin",
+      "summary": "Estimating treatment effects is central to science across many disciplines and requires counterfactual reasoning about alternative worlds. In the real world, however, each unit reveals its outcome only under the factual world. Thus, the factual and counterfactual outcomes can never be jointly learne...",
+      "payload": {
+        "authors": [
+          "Furkan Danisman",
+          "Luke Zhang",
+          "Zhijing Jin",
+          "Dehan Kong"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Furkan Danisman",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Zhijing Jin",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Luke Zhang",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f0d10ff7-9715-4ef3-81a3-87181935445f",
+      "title": "Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-15T01:40:18Z",
+      "url": "https://arxiv.org/abs/2611.19709v1",
+      "author": "Abhinav Gupta, Nissan Pow",
+      "summary": "Flow-matching robot policies generate each action chunk through repeated network evaluations, one per denoising step. Cross-cycle caches such as C$^3$ache reuse computation from earlier replanning calls, but whether they beat simply taking fewer steps is unclear. We compare the two in Fast-WAM, a 6B...",
+      "payload": {
+        "authors": [
+          "Abhinav Gupta",
+          "Nissan Pow"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Nissan Pow",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Abhinav Gupta",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+      "title": "Where Should LLM Agents Adapt at Test Time? In Context, in Weights, or Both",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-15T01:07:23Z",
+      "url": "https://arxiv.org/abs/2611.19700v1",
+      "author": "Parsa Mirtaheri, Mohammadreza Armandpour, Keivan Alizadeh",
+      "summary": "LLM agents operating repeatedly in the same environment, such as a code repository, a database, or an application suite, encounter tasks that share latent structure. Experience can reveal this structure, allowing agents to reuse environment knowledge and learn from environmental feedback. Agents can...",
+      "payload": {
+        "authors": [
+          "Parsa Mirtaheri",
+          "Mohammadreza Armandpour",
+          "Keivan Alizadeh",
+          "Iman Mirzadeh",
+          "Parshin Shojaee",
+          "Aryo Lotfi",
+          "David Harrison",
+          "Mehrdad Farajtabar"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Keivan Alizadeh",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mohammadreza Armandpour",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Parsa Mirtaheri",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+      "title": "Data Attribution Should Steer Pretraining",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-15T01:03:01Z",
+      "url": "https://arxiv.org/abs/2611.19698v1",
+      "author": "Glenn Matlin, Chandreyi Chakraborty, Mohammed Rehan Parwani",
+      "summary": "Pretraining data curation decides what a model learns from, yet what makes a document worth learning from depends on what the model already knows. Influence-driven selectors already rank documents to improve one run; we argue that training-data attribution should steer pretraining by identifying tes...",
+      "payload": {
+        "authors": [
+          "Glenn Matlin",
+          "Chandreyi Chakraborty",
+          "Mohammed Rehan Parwani",
+          "Saehee Eom",
+          "Anthony Wen-Ming Zang",
+          "Akhil Theerthala",
+          "Arjun Chatterjee",
+          "Tejas Khandwekar",
+          "Brandon Michaels",
+          "Alvin Deng",
+          "Mark Riedl"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Glenn Matlin",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Chandreyi Chakraborty",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mohammed Rehan Parwani",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e0de664b-470a-4d62-ba61-1676f2473d54",
+      "title": "Apple Inc. (AAPL) Files Form 4: FORM 4",
+      "category": "finance",
+      "source_name": "U.S. SEC EDGAR Disclosures",
+      "published_at": "2026-11-12T00:00:00Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126043484/xslF345X06/form4.xml",
+      "author": "Apple Inc.",
+      "summary": "Official SEC Form 4 filing. Accession: 0001140361-26-043484",
+      "payload": {
+        "cik": "0000320193",
+        "ticker": "AAPL",
+        "form": "4",
+        "accession_number": "0001140361-26-043484"
+      },
+      "entities": [
+        {
+          "name": "AAPL",
+          "entity_type": "TICKER",
+          "canonical_id": "AAPL",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "U.S. SEC",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "SEC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Apple Inc.",
+          "entity_type": "COMPANY",
+          "canonical_id": "CIK:0000320193",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Form 4",
+          "entity_type": "REGULATORY_FORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b8eb4bbf-b884-4c8b-8abc-bebd44dea17b",
+      "title": "Apple Inc. (AAPL) Files Form 25-NSE: Official Filing",
+      "category": "finance",
+      "source_name": "U.S. SEC EDGAR Disclosures",
+      "published_at": "2026-11-09T00:00:00Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000135445726001062/xslF25X02/primary_doc.xml",
+      "author": "Apple Inc.",
+      "summary": "Official SEC Form 25-NSE filing. Accession: 0001354457-26-001062",
+      "payload": {
+        "cik": "0000320193",
+        "ticker": "AAPL",
+        "form": "25-NSE",
+        "accession_number": "0001354457-26-001062"
+      },
+      "entities": [
+        {
+          "name": "AAPL",
+          "entity_type": "TICKER",
+          "canonical_id": "AAPL",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "U.S. SEC",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "SEC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Apple Inc.",
+          "entity_type": "COMPANY",
+          "canonical_id": "CIK:0000320193",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Form 25-NSE",
+          "entity_type": "REGULATORY_FORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "2cac6e09-e3b8-4010-b448-979ae595530d",
+      "title": "Apple Inc. (AAPL) Files Form 8-K: Official Filing",
+      "category": "finance",
+      "source_name": "U.S. SEC EDGAR Disclosures",
+      "published_at": "2026-11-09T00:00:00Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/ef20085077_8k.htm",
+      "author": "Apple Inc.",
+      "summary": "Official SEC Form 8-K filing. Accession: 0001140361-26-042798",
+      "payload": {
+        "cik": "0000320193",
+        "ticker": "AAPL",
+        "form": "8-K",
+        "accession_number": "0001140361-26-042798"
+      },
+      "entities": [
+        {
+          "name": "Form 8-K",
+          "entity_type": "REGULATORY_FORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AAPL",
+          "entity_type": "TICKER",
+          "canonical_id": "AAPL",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "U.S. SEC",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "SEC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Apple Inc.",
+          "entity_type": "COMPANY",
+          "canonical_id": "CIK:0000320193",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+      "title": "Fuzzy Commitments Offer Insufficient Protection to Biometric Templates Produced by Deep Learning",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2020-12-24T15:28:33Z",
+      "url": "https://arxiv.org/abs/2012.13293v1",
+      "author": "Danny Keller, Margarita Osadchy, Orr Dunkelman",
+      "summary": "In this work, we study the protection that fuzzy commitments offer when they are applied to facial images, processed by the state of the art deep learning facial recognition systems. We show that while these systems are capable of producing great accuracy, they produce templates of too little entrop...",
+      "payload": {
+        "authors": [
+          "Danny Keller",
+          "Margarita Osadchy",
+          "Orr Dunkelman"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Danny Keller",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Margarita Osadchy",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Orr Dunkelman",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+      "title": "Rethink AI-based Power Grid Control: Diving Into Algorithm Design",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2020-12-23T23:38:41Z",
+      "url": "https://arxiv.org/abs/2012.13026v1",
+      "author": "Xiren Zhou, Siqi Wang, Ruisheng Diao",
+      "summary": "Recently, deep reinforcement learning (DRL)-based approach has shown promisein solving complex decision and control problems in power engineering domain.In this paper, we present an in-depth analysis of DRL-based voltage control fromaspects of algorithm selection, state space representation, and rew...",
+      "payload": {
+        "authors": [
+          "Xiren Zhou",
+          "Siqi Wang",
+          "Ruisheng Diao",
+          "Desong Bian",
+          "Jiahui Duan",
+          "Di Shi"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Siqi Wang",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Ruisheng Diao",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Xiren Zhou",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+      "title": "A Deep Reinforcement Learning Approach for Ramp Metering Based on Traffic Video Data",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2020-12-09T05:08:41Z",
+      "url": "https://arxiv.org/abs/2012.12104v1",
+      "author": "Bing Liu, Yu Tang, Yuxiong Ji",
+      "summary": "Ramp metering that uses traffic signals to regulate vehicle flows from the on-ramps has been widely implemented to improve vehicle mobility of the freeway. Previous studies generally update signal timings in real-time based on predefined traffic measures collected by point detectors, such as traffic...",
+      "payload": {
+        "authors": [
+          "Bing Liu",
+          "Yu Tang",
+          "Yuxiong Ji",
+          "Yu Shen",
+          "Yuchuan Du"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Yuxiong Ji",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Yu Tang",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Bing Liu",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    }
+  ]
+}

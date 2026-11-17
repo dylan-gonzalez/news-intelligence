@@ -1,0 +1,1431 @@
+{
+  "article_entities": {
+    "columns": [
+      {
+        "name": "article_id",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": true
+      },
+      {
+        "name": "entity_id",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": true
+      },
+      {
+        "name": "confidence_score",
+        "type": "REAL",
+        "notnull": false,
+        "pk": false
+      },
+      {
+        "name": "extracted_via",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      }
+    ],
+    "rows": [
+      {
+        "article_id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
+        "entity_id": "36c27466-dc5e-48e2-9972-acb61412ff07",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
+        "entity_id": "12052e54-93c9-4db1-ab2a-e874e284433e",
+        "confidence_score": 1.0,
+        "extracted_via": "metadata"
+      },
+      {
+        "article_id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
+        "entity_id": "39057060-36d5-4a4a-9364-8e9d43bda3ef",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
+        "entity_id": "36c27466-dc5e-48e2-9972-acb61412ff07",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
+        "entity_id": "43cafdc1-0feb-4ded-90b4-22897d229ece",
+        "confidence_score": 1.0,
+        "extracted_via": "metadata"
+      },
+      {
+        "article_id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
+        "entity_id": "28e3619e-6a42-4804-bcbd-231ff7c253ed",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "20938f8e-435f-43b1-9abe-b4001a268761",
+        "entity_id": "36c27466-dc5e-48e2-9972-acb61412ff07",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "20938f8e-435f-43b1-9abe-b4001a268761",
+        "entity_id": "c881b98f-1a47-48f8-908c-5658fb067099",
+        "confidence_score": 1.0,
+        "extracted_via": "metadata"
+      },
+      {
+        "article_id": "20938f8e-435f-43b1-9abe-b4001a268761",
+        "entity_id": "123a9992-6c20-4a7f-8827-6caebcd3c5a4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "12bddb9d-9da3-43d6-b472-054af25eb187",
+        "entity_id": "36c27466-dc5e-48e2-9972-acb61412ff07",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "12bddb9d-9da3-43d6-b472-054af25eb187",
+        "entity_id": "5576e9d4-ae43-4a4a-8ce6-977fe83293a7",
+        "confidence_score": 1.0,
+        "extracted_via": "metadata"
+      },
+      {
+        "article_id": "12bddb9d-9da3-43d6-b472-054af25eb187",
+        "entity_id": "aafd2507-bd92-4b38-82be-26f1b083cef3",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f3b6fdfe-97b2-401e-865f-4dec2fc5814c",
+        "entity_id": "36c27466-dc5e-48e2-9972-acb61412ff07",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f3b6fdfe-97b2-401e-865f-4dec2fc5814c",
+        "entity_id": "9e1b78f3-6ad0-49e7-b72d-192253d77b84",
+        "confidence_score": 1.0,
+        "extracted_via": "metadata"
+      },
+      {
+        "article_id": "f3b6fdfe-97b2-401e-865f-4dec2fc5814c",
+        "entity_id": "452a3d44-2c59-472c-8ea1-a58d8406c5a7",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
+        "entity_id": "ba109f3f-093d-430c-b5bd-a4d885809d31",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
+        "entity_id": "12a6c7bc-7d02-4c5d-a982-7521c1f33f0a",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
+        "entity_id": "9d51399e-ed71-47da-8258-5b8245cb32cf",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
+        "entity_id": "811fd0d4-66ab-4288-bd29-004a763ba050",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "e0de664b-470a-4d62-ba61-1676f2473d54",
+        "entity_id": "ba109f3f-093d-430c-b5bd-a4d885809d31",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "e0de664b-470a-4d62-ba61-1676f2473d54",
+        "entity_id": "dd95f4b0-4ea1-441f-8988-ab0acdf926e1",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "e0de664b-470a-4d62-ba61-1676f2473d54",
+        "entity_id": "9d51399e-ed71-47da-8258-5b8245cb32cf",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "e0de664b-470a-4d62-ba61-1676f2473d54",
+        "entity_id": "811fd0d4-66ab-4288-bd29-004a763ba050",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "b8eb4bbf-b884-4c8b-8abc-bebd44dea17b",
+        "entity_id": "ba109f3f-093d-430c-b5bd-a4d885809d31",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "b8eb4bbf-b884-4c8b-8abc-bebd44dea17b",
+        "entity_id": "c95b3163-f704-4b4c-8b3e-c3edaa6d6d03",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "b8eb4bbf-b884-4c8b-8abc-bebd44dea17b",
+        "entity_id": "9d51399e-ed71-47da-8258-5b8245cb32cf",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "b8eb4bbf-b884-4c8b-8abc-bebd44dea17b",
+        "entity_id": "811fd0d4-66ab-4288-bd29-004a763ba050",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "2cac6e09-e3b8-4010-b448-979ae595530d",
+        "entity_id": "ba109f3f-093d-430c-b5bd-a4d885809d31",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "2cac6e09-e3b8-4010-b448-979ae595530d",
+        "entity_id": "73bef57f-cc02-40fa-a8f0-8f190f21f82f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "2cac6e09-e3b8-4010-b448-979ae595530d",
+        "entity_id": "9d51399e-ed71-47da-8258-5b8245cb32cf",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "2cac6e09-e3b8-4010-b448-979ae595530d",
+        "entity_id": "811fd0d4-66ab-4288-bd29-004a763ba050",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+        "entity_id": "821c742e-950b-4157-9eac-01497da956de",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+        "entity_id": "801cdae0-2b6d-4495-bcb0-9048c6844f0f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+        "entity_id": "0e6265e0-5393-4aad-8c1d-b6766a296d49",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+        "entity_id": "5c00e70d-554d-4379-80f9-7d8ec6253ad1",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+        "entity_id": "0bb22023-1184-4e49-bbae-bba6b16490e2",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+        "entity_id": "43b45da9-d675-42d0-bdab-3c58bb3e4867",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+        "entity_id": "5e31267f-823a-4160-a19e-be4db8512cb2",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+        "entity_id": "ac3d4507-f559-47bd-8b6d-2bfaa63e9335",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+        "entity_id": "d4605ef8-35a0-4501-b34f-9ea387aa1ca6",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
+        "entity_id": "ec6b0234-405f-434f-b700-36ec6c5f177b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
+        "entity_id": "6aa56454-cb0b-4828-afb6-678d5c60667f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+        "entity_id": "fc2960f6-d75e-4469-8f2a-a2ad88a08fdb",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+        "entity_id": "c1f0b2ac-8bb0-4e01-acf6-24de7519354c",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+        "entity_id": "8a25701f-13ec-4df3-a57d-5f1c747a810d",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+        "entity_id": "85647820-72d1-4b1c-8c11-17a2dec67074",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+        "entity_id": "cdae767e-db1a-48c6-986f-84cdccd722cb",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+        "entity_id": "b55a3550-1eaa-4876-8943-5188ae6f0869",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f0d10ff7-9715-4ef3-81a3-87181935445f",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f0d10ff7-9715-4ef3-81a3-87181935445f",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f0d10ff7-9715-4ef3-81a3-87181935445f",
+        "entity_id": "7be9f97d-6aaa-4e1f-99c8-b1874bbae682",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "f0d10ff7-9715-4ef3-81a3-87181935445f",
+        "entity_id": "59d53010-7514-4af3-9770-d3094057ee61",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+        "entity_id": "feacf79d-cb17-48ba-b94a-01b790c12ec6",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+        "entity_id": "e275069b-dabc-47d5-b741-8ea535e7a9e9",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+        "entity_id": "8114721c-6116-4d42-85fd-ddcca611ed2c",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+        "entity_id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+        "entity_id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+        "entity_id": "1c3be672-5abb-4812-be11-2c95660e60ef",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+        "entity_id": "454e3a56-cf8c-4d3d-9fd2-0b671ee9afdb",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+        "entity_id": "ce33ad7c-6ce7-4a82-8567-1898cc768714",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
+        "entity_id": "215ec6bc-af24-4c02-8101-7633e9474e1f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
+        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
+        "entity_id": "ef204a8c-eec3-482a-ae61-260b5b039895",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "fa9c52a2-2c7a-47cd-af0f-20cc41f19475",
+        "entity_id": "7746a8d6-1744-40a4-b655-ce7a6021fbbc",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "fa9c52a2-2c7a-47cd-af0f-20cc41f19475",
+        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "fa9c52a2-2c7a-47cd-af0f-20cc41f19475",
+        "entity_id": "be991082-f225-4ec9-914a-204741dca5a7",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "214c94b9-94c6-431c-adde-a6d39325bd18",
+        "entity_id": "041b7abf-f64d-4fc8-89b5-2fb7cc012248",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "214c94b9-94c6-431c-adde-a6d39325bd18",
+        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "214c94b9-94c6-431c-adde-a6d39325bd18",
+        "entity_id": "7b9313e7-5d17-4d5d-9546-4318abe52fcb",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
+        "entity_id": "d308f2c6-4ac0-4acf-8914-6f95bdb7f0ef",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
+        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
+        "entity_id": "b91035be-a532-4baa-a9ff-e6fc12808d34",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
+        "entity_id": "cee6bb2e-6ccf-4e65-af1c-d5edae0ec9c2",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
+        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
+        "entity_id": "7f20010d-9be7-49fc-87f6-d330e6ae58d8",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
+        "entity_id": "b7c4538f-beaa-42f9-a506-ce86e17fa163",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
+        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
+        "entity_id": "0ddb45cc-dc6a-4f16-a86f-7336d102f4bd",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      }
+    ],
+    "total_count": 90
+  },
+  "articles": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": true
+      },
+      {
+        "name": "source_id",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "title",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "url",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "published_at",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "category",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "author",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      },
+      {
+        "name": "summary",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      },
+      {
+        "name": "raw_payload",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      },
+      {
+        "name": "graph_synced_at",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      },
+      {
+        "name": "created_at",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      }
+    ],
+    "rows": [
+      {
+        "id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
+        "source_id": "hacker_news",
+        "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+        "url": "https://www.cs.cmu.edu/learn/",
+        "published_at": "2026-11-16T20:43:36+00:00",
+        "category": "tech",
+        "author": "pcompeau",
+        "summary": "Toggle Visibility of Main Menu Executive & Professional Education Selected Publications Undergraduate Research SCS Distinguished Lecture Series Industry & Entrepreneurship Industry & Entrepreneurship Industry & Entrepreneurship: Industry & Government Partnerships Industry & Entrepreneurship: SCS Careers & Recruitment Industry & Entrepreneurship: Explore Giving at SCS Computer science from Carnegie Mellon. Premiering in November Machine Learning with Large Datasets Principles of Computing Principles of Software Construction Premieres Tue, Nov 17 Machine Learning Systems Tianqi Chen and Zhihao Jia Premieres Tue, Nov 17 Software Architectures Swarnalatha Ashok and Scott Pavetti Premieres Wed, Nov 18 Jeffrey Gennari and Christopher Timperley Premieres Wed, Nov 18 Daniel Fried and Graham Neubig Premieres Thu, Nov 19 Machine Learning in Production Christian K\u00e4stner and Bogdan Vasilescu Premieres Thu, Nov 19 Coming in January 2027 Probability and Computing Mor Harchol-Balter, Weina Wang and Feras Saad Premieres January 2027 Multimodal Machine Learning Louis-Philippe Morency Premieres January 2027 Product Management Essentials Premieres January 2027 AI and Machine Learning I Premieres January 2027 Requirements for Embedded Systems Premieres January 2027 Subscribe on YouTube to catch every new course.",
+        "raw_payload": "{\"hn_id\": 50522980, \"score\": 883, \"descendants\": 143, \"discussion_url\": \"https://news.ycombinator.com/item?id=50522980\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:23"
+      },
+      {
+        "id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
+        "source_id": "hacker_news",
+        "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+        "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+        "published_at": "2026-11-16T22:58:20+00:00",
+        "category": "tech",
+        "author": "cwaffles",
+        "summary": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use :: Xusheng Li Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report. Among the leads it turned up, one list immediately caught my attention: coding agents such as , alongside familiar developer tools such as Why would a Windows system DLL need a list of coding agents and developer tools?",
+        "raw_payload": "{\"hn_id\": 50524736, \"score\": 319, \"descendants\": 188, \"discussion_url\": \"https://news.ycombinator.com/item?id=50524736\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:23"
+      },
+      {
+        "id": "20938f8e-435f-43b1-9abe-b4001a268761",
+        "source_id": "hacker_news",
+        "title": "BugMeNot has closed",
+        "url": "https://www.bugmenot.com/",
+        "published_at": "2026-11-16T21:32:17+00:00",
+        "category": "tech",
+        "author": "lode",
+        "summary": "Thanks to everyone who envisioned a better internet. DXXR KAKD QMDZ QJPV UQSG\nDWRM HXCO TGVL TLWE RHIP\nNJPA ZKNZ SCVP RJWD XRFT\nYRMH YUJI PEBD YOOS YNVE\nSLGB OEJM HYIV AMMW TMWE\nCYFI DLGD JWBT DWCJ OAWA\nAUZO VKCK PZXN VNJA KXCH\nGCHT MEZS IERW LCMH LZQE\nZSNJ MIKN XLEG QIEW UBES\nCWBQ XFAS KZWY CKKA RCNK\nRMPO JGBI JQZB OGFD EVDY\nUNID WMQB WNMS SAAQ JUGV\nAUIH WKRK LADI LCMH OCSF\nNGBW CYNM MATG SOKF RCPH\nPIDY DTYA NXWZ QBMW ZOUG\nYSSM TJTM PLXV MEDB QHPK\nIBWR NDHS SJIP PALV QFMQ\nQKKE ZSZA AWNK SLNS HZWV\nYRMJ ESQT BSSA WMRA QEGP\nVPUJ DPQU WLDH TJJN NYAC\nPJHS EWKL PJUA HNWW DLDG\nUNID WMQB OVTC VCKH PXMX\nWSSK RAEU IUGH RKLB MHJY\nVOJE JFUT RGDF ZHHX UPCS\nQMRD WOJM PYJB ZHHX MXIF",
+        "raw_payload": "{\"hn_id\": 50523601, \"score\": 375, \"descendants\": 187, \"discussion_url\": \"https://news.ycombinator.com/item?id=50523601\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:23"
+      },
+      {
+        "id": "12bddb9d-9da3-43d6-b472-054af25eb187",
+        "source_id": "hacker_news",
+        "title": "Running coding agents without handing them my credentials",
+        "url": "https://blog.antonio.cx/running-agents-with-lend",
+        "published_at": "2026-11-17T01:18:56+00:00",
+        "category": "tech",
+        "author": "antoniomika",
+        "summary": "Running coding agents without handing them my credentials Running coding agents without handing them my credentials The credential problem Keeping the socket stable across reconnects Secrets the agent never sees Answering agent prompts from the laptop What lend doesn't protect against to let remote agents use tools on my laptop with my approval. An agent can start Codex in another pane, give it a prompt, wait for it to finish, and read what it said: herdr agent start reviewer --kind codex --pane herdr agent prompt reviewer \"Review the diff on am/fix-retries\" reviewer --source recent Remote hosts work the same way.",
+        "raw_payload": "{\"hn_id\": 50526152, \"score\": 46, \"descendants\": 17, \"discussion_url\": \"https://news.ycombinator.com/item?id=50526152\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:23"
+      },
+      {
+        "id": "f3b6fdfe-97b2-401e-865f-4dec2fc5814c",
+        "source_id": "hacker_news",
+        "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
+        "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+        "published_at": "2026-11-16T23:00:34+00:00",
+        "category": "tech",
+        "author": "kristjansson",
+        "summary": "World's Largest Brands Infected With Malware Via Optimizely World's Largest Brands Infected With Malware Via Optimizely JavaScript Integrity Monitoring On 16 November 2026, malicious JavaScript was served to visitors of through the Optimizely Web experimentation platform. , the same actor's injector, first appears on Turkish sites through an SEO \"backlink panel\" script registered (iOS exploit-kit router) scripts on sites including securitybank.com, faz.net, smh.com.au, vidaxl and foxsports.com Last clean urlscan capture of the BBC's Optimizely snippet First Optimizely injection seen certificates issued; domain registered at 05:23 first seen on bbc.com Zoom's snippet modified (its Attacker sweeps stolen crypto to exchanges Card skimmer added to registered (second iOS router) Second iOS host added; Coruna iframe injected into every iOS 18.6-or-earlier visit Optimizely snippets infected Mass clean-up (Ledger 20:41, Smartsheet 20:56, BBC 21:07) 1 of 188 snippets still infected (TalkTalk) The payload was rebuilt during the day.",
+        "raw_payload": "{\"hn_id\": 50524767, \"score\": 151, \"descendants\": 78, \"discussion_url\": \"https://news.ycombinator.com/item?id=50524767\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:23"
+      },
+      {
+        "id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
+        "source_id": "sec_edgar",
+        "title": "Apple Inc. (AAPL) Files Form 144: Official Filing",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000192109426001188/xsl144X01/primary_doc.xml",
+        "published_at": "2026-11-16T00:00:00Z",
+        "category": "finance",
+        "author": "Apple Inc.",
+        "summary": "Official SEC Form 144 filing. Accession: 0001921094-26-001188",
+        "raw_payload": "{\"cik\": \"0000320193\", \"ticker\": \"AAPL\", \"form\": \"144\", \"accession_number\": \"0001921094-26-001188\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "e0de664b-470a-4d62-ba61-1676f2473d54",
+        "source_id": "sec_edgar",
+        "title": "Apple Inc. (AAPL) Files Form 4: FORM 4",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126043484/xslF345X06/form4.xml",
+        "published_at": "2026-11-12T00:00:00Z",
+        "category": "finance",
+        "author": "Apple Inc.",
+        "summary": "Official SEC Form 4 filing. Accession: 0001140361-26-043484",
+        "raw_payload": "{\"cik\": \"0000320193\", \"ticker\": \"AAPL\", \"form\": \"4\", \"accession_number\": \"0001140361-26-043484\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "b8eb4bbf-b884-4c8b-8abc-bebd44dea17b",
+        "source_id": "sec_edgar",
+        "title": "Apple Inc. (AAPL) Files Form 25-NSE: Official Filing",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000135445726001062/xslF25X02/primary_doc.xml",
+        "published_at": "2026-11-09T00:00:00Z",
+        "category": "finance",
+        "author": "Apple Inc.",
+        "summary": "Official SEC Form 25-NSE filing. Accession: 0001354457-26-001062",
+        "raw_payload": "{\"cik\": \"0000320193\", \"ticker\": \"AAPL\", \"form\": \"25-NSE\", \"accession_number\": \"0001354457-26-001062\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "2cac6e09-e3b8-4010-b448-979ae595530d",
+        "source_id": "sec_edgar",
+        "title": "Apple Inc. (AAPL) Files Form 8-K: Official Filing",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/ef20085077_8k.htm",
+        "published_at": "2026-11-09T00:00:00Z",
+        "category": "finance",
+        "author": "Apple Inc.",
+        "summary": "Official SEC Form 8-K filing. Accession: 0001140361-26-042798",
+        "raw_payload": "{\"cik\": \"0000320193\", \"ticker\": \"AAPL\", \"form\": \"8-K\", \"accession_number\": \"0001140361-26-042798\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "f274472e-b0a1-4f52-8671-4f613528ab14",
+        "source_id": "arxiv_ai",
+        "title": "A Deep Reinforcement Learning Approach for Ramp Metering Based on Traffic Video Data",
+        "url": "https://arxiv.org/abs/2012.12104v1",
+        "published_at": "2020-12-09T05:08:41Z",
+        "category": "tech",
+        "author": "Bing Liu, Yu Tang, Yuxiong Ji",
+        "summary": "Ramp metering that uses traffic signals to regulate vehicle flows from the on-ramps has been widely implemented to improve vehicle mobility of the freeway. Previous studies generally update signal timings in real-time based on predefined traffic measures collected by point detectors, such as traffic...",
+        "raw_payload": "{\"authors\": [\"Bing Liu\", \"Yu Tang\", \"Yuxiong Ji\", \"Yu Shen\", \"Yuchuan Du\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
+        "source_id": "arxiv_ai",
+        "title": "Rethink AI-based Power Grid Control: Diving Into Algorithm Design",
+        "url": "https://arxiv.org/abs/2012.13026v1",
+        "published_at": "2020-12-23T23:38:41Z",
+        "category": "tech",
+        "author": "Xiren Zhou, Siqi Wang, Ruisheng Diao",
+        "summary": "Recently, deep reinforcement learning (DRL)-based approach has shown promisein solving complex decision and control problems in power engineering domain.In this paper, we present an in-depth analysis of DRL-based voltage control fromaspects of algorithm selection, state space representation, and rew...",
+        "raw_payload": "{\"authors\": [\"Xiren Zhou\", \"Siqi Wang\", \"Ruisheng Diao\", \"Desong Bian\", \"Jiahui Duan\", \"Di Shi\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
+        "source_id": "arxiv_ai",
+        "title": "Fuzzy Commitments Offer Insufficient Protection to Biometric Templates Produced by Deep Learning",
+        "url": "https://arxiv.org/abs/2012.13293v1",
+        "published_at": "2020-12-24T15:28:33Z",
+        "category": "tech",
+        "author": "Danny Keller, Margarita Osadchy, Orr Dunkelman",
+        "summary": "In this work, we study the protection that fuzzy commitments offer when they are applied to facial images, processed by the state of the art deep learning facial recognition systems. We show that while these systems are capable of producing great accuracy, they produce templates of too little entrop...",
+        "raw_payload": "{\"authors\": [\"Danny Keller\", \"Margarita Osadchy\", \"Orr Dunkelman\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:24"
+      },
+      {
+        "id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
+        "source_id": "rba_media",
+        "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
+        "url": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
+        "published_at": "2026-11-17T03:39:49.105931+00:00",
+        "category": "finance",
+        "author": "RBA",
+        "summary": "Media release number 2026-31: The RBA has today designated Prosegur Australia Pty Ltd (Prosegur Australia) (ACN 004 247 358) under the Cash Distribution Framework Act 2026 (the Act).",
+        "raw_payload": "{\"source_type\": \"rss_release\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 03:39:49"
+      },
+      {
+        "id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
+        "source_id": "arxiv_ai",
+        "title": "An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech",
+        "url": "https://arxiv.org/abs/2611.19714v1",
+        "published_at": "2026-11-15T01:51:55Z",
+        "category": "tech",
+        "author": "Yuma Enomoto, Misa Yamaguchi, Hiroki Nishikawa",
+        "summary": "Dysarthria reduces speech intelligibility, requiring self-directed rehabilitation based on fine-grained feedback to capture gradual articulatory changes. For Japanese speakers, such feedback is naturally provided in mora units due to its distinct moraic timing and consonant-vowel structure. While re...",
+        "raw_payload": "{\"authors\": [\"Yuma Enomoto\", \"Misa Yamaguchi\", \"Hiroki Nishikawa\", \"Ittetsu Taniguchi\", \"Kazuhide Matsunaga\", \"Narikazu Uzawa\", \"Takao Onoye\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:14:10"
+      },
+      {
+        "id": "62c4be95-6319-43b8-b6b6-8ebc8ca4b02c",
+        "source_id": "arxiv_ai",
+        "title": "Joint Learning of Factual and Counterfactual Worlds for Causal Prior-data Fitted Networks",
+        "url": "https://arxiv.org/abs/2611.19710v1",
+        "published_at": "2026-11-15T01:41:28Z",
+        "category": "tech",
+        "author": "Furkan Danisman, Luke Zhang, Zhijing Jin",
+        "summary": "Estimating treatment effects is central to science across many disciplines and requires counterfactual reasoning about alternative worlds. In the real world, however, each unit reveals its outcome only under the factual world. Thus, the factual and counterfactual outcomes can never be jointly learne...",
+        "raw_payload": "{\"authors\": [\"Furkan Danisman\", \"Luke Zhang\", \"Zhijing Jin\", \"Dehan Kong\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:14:10"
+      },
+      {
+        "id": "f0d10ff7-9715-4ef3-81a3-87181935445f",
+        "source_id": "arxiv_ai",
+        "title": "Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model",
+        "url": "https://arxiv.org/abs/2611.19709v1",
+        "published_at": "2026-11-15T01:40:18Z",
+        "category": "tech",
+        "author": "Abhinav Gupta, Nissan Pow",
+        "summary": "Flow-matching robot policies generate each action chunk through repeated network evaluations, one per denoising step. Cross-cycle caches such as C$^3$ache reuse computation from earlier replanning calls, but whether they beat simply taking fewer steps is unclear. We compare the two in Fast-WAM, a 6B...",
+        "raw_payload": "{\"authors\": [\"Abhinav Gupta\", \"Nissan Pow\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:14:10"
+      },
+      {
+        "id": "c4080c38-52a6-477b-b06e-e2bbb9e63a98",
+        "source_id": "arxiv_ai",
+        "title": "Where Should LLM Agents Adapt at Test Time? In Context, in Weights, or Both",
+        "url": "https://arxiv.org/abs/2611.19700v1",
+        "published_at": "2026-11-15T01:07:23Z",
+        "category": "tech",
+        "author": "Parsa Mirtaheri, Mohammadreza Armandpour, Keivan Alizadeh",
+        "summary": "LLM agents operating repeatedly in the same environment, such as a code repository, a database, or an application suite, encounter tasks that share latent structure. Experience can reveal this structure, allowing agents to reuse environment knowledge and learn from environmental feedback. Agents can...",
+        "raw_payload": "{\"authors\": [\"Parsa Mirtaheri\", \"Mohammadreza Armandpour\", \"Keivan Alizadeh\", \"Iman Mirzadeh\", \"Parshin Shojaee\", \"Aryo Lotfi\", \"David Harrison\", \"Mehrdad Farajtabar\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:14:10"
+      },
+      {
+        "id": "751348b9-9d93-4c93-b86a-f1de84d51e95",
+        "source_id": "arxiv_ai",
+        "title": "Data Attribution Should Steer Pretraining",
+        "url": "https://arxiv.org/abs/2611.19698v1",
+        "published_at": "2026-11-15T01:03:01Z",
+        "category": "tech",
+        "author": "Glenn Matlin, Chandreyi Chakraborty, Mohammed Rehan Parwani",
+        "summary": "Pretraining data curation decides what a model learns from, yet what makes a document worth learning from depends on what the model already knows. Influence-driven selectors already rank documents to improve one run; we argue that training-data attribution should steer pretraining by identifying tes...",
+        "raw_payload": "{\"authors\": [\"Glenn Matlin\", \"Chandreyi Chakraborty\", \"Mohammed Rehan Parwani\", \"Saehee Eom\", \"Anthony Wen-Ming Zang\", \"Akhil Theerthala\", \"Arjun Chatterjee\", \"Tejas Khandwekar\", \"Brandon Michaels\", \"Alvin Deng\", \"Mark Riedl\"], \"primary_category\": \"cs.AI\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:14:10"
+      },
+      {
+        "id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
+        "source_id": "google_trends_au",
+        "title": "Bunnings: Breaking: Bunnings to make 230 jobs redundant and offshore some tech services",
+        "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860",
+        "published_at": "2026-11-16T20:00:00-08:00",
+        "category": "politics",
+        "author": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
+        "raw_payload": "{\"trending_query\": \"bunnings\", \"approx_traffic\": \"2000+\", \"traffic_num\": 2000, \"hotness_score\": 54, \"news_source\": \"ABC News & Headlines \\u2013 Australian Broadcasting Corporation\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:31:40"
+      },
+      {
+        "id": "fa9c52a2-2c7a-47cd-af0f-20cc41f19475",
+        "source_id": "google_trends_au",
+        "title": "Mining: Modern Mining to Begin Trading Today on NYSE American Under Ticker Symbol \u201cMDRN\u201d",
+        "url": "https://www.businesswire.com/news/home/20261113240242/en/Modern-Mining-to-Begin-Trading-Today-on-NYSE-American-Under-Ticker-Symbol-MDRN",
+        "published_at": "2026-11-16T20:00:00-08:00",
+        "category": "politics",
+        "author": "Business Wire",
+        "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+        "raw_payload": "{\"trending_query\": \"mining\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"Business Wire\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:31:40"
+      },
+      {
+        "id": "214c94b9-94c6-431c-adde-a6d39325bd18",
+        "source_id": "google_trends_au",
+        "title": "Pak Vs Sl: Pakistan's Shakeel falls in the nineties twice, saves Test",
+        "url": "https://www.cricket.com.au/news/4608867/pakistans-shakeel-falls-in-the-nineties-twice-saves-test",
+        "published_at": "2026-11-16T19:50:00-08:00",
+        "category": "politics",
+        "author": "cricket.com.au",
+        "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
+        "raw_payload": "{\"trending_query\": \"pak vs sl\", \"approx_traffic\": \"2000+\", \"traffic_num\": 2000, \"hotness_score\": 54, \"news_source\": \"cricket.com.au\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:31:40"
+      },
+      {
+        "id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
+        "source_id": "google_trends_au",
+        "title": "So You Are: Melbourne Cup runner suspected to be horse found in Sydney skip bin",
+        "url": "https://www.smh.com.au/sport/racing/melbourne-cup-runner-suspected-to-be-horse-found-in-sydney-skip-bin-20261117-p61ex8.html",
+        "published_at": "2026-11-16T19:50:00-08:00",
+        "category": "politics",
+        "author": "SMH.com.au",
+        "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
+        "raw_payload": "{\"trending_query\": \"so you are\", \"approx_traffic\": \"1000+\", \"traffic_num\": 1000, \"hotness_score\": 52, \"news_source\": \"SMH.com.au\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:31:40"
+      },
+      {
+        "id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
+        "source_id": "google_trends_au",
+        "title": "Infant: VBPD investigating infant death on Mica Ave.",
+        "url": "https://www.wavy.com/news/local-news/virginia-beach/vbpd-investigating-infant-death-on-mica-ave/",
+        "published_at": "2026-11-16T19:50:00-08:00",
+        "category": "politics",
+        "author": "WAVY.com",
+        "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+        "raw_payload": "{\"trending_query\": \"infant\", \"approx_traffic\": \"200+\", \"traffic_num\": 200, \"hotness_score\": 50, \"news_source\": \"WAVY.com\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:31:40"
+      },
+      {
+        "id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
+        "source_id": "google_trends_au",
+        "title": "Melbourne Storm: Storm confirm new role for Kamikamica after medical retirement",
+        "url": "https://www.sen.com.au/news/2026/11/16/nrl-2026-melbourne-storm-announce-new-coaching-role-for-tui-kamikamica-following-medical-retirement",
+        "published_at": "2026-11-16T19:50:00-08:00",
+        "category": "politics",
+        "author": "SEN",
+        "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+        "raw_payload": "{\"trending_query\": \"melbourne storm\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"SEN\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 04:31:40"
+      }
+    ],
+    "total_count": 24
+  },
+  "entities": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": true
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "entity_type",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "canonical_id",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      }
+    ],
+    "rows": [
+      {
+        "id": "36c27466-dc5e-48e2-9972-acb61412ff07",
+        "name": "Hacker News",
+        "entity_type": "INSTITUTION",
+        "canonical_id": "YCombinator"
+      },
+      {
+        "id": "12052e54-93c9-4db1-ab2a-e874e284433e",
+        "name": "pcompeau",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "39057060-36d5-4a4a-9364-8e9d43bda3ef",
+        "name": "cs.cmu.edu",
+        "entity_type": "DOMAIN",
+        "canonical_id": null
+      },
+      {
+        "id": "43cafdc1-0feb-4ded-90b4-22897d229ece",
+        "name": "cwaffles",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "28e3619e-6a42-4804-bcbd-231ff7c253ed",
+        "name": "xusheng.dev",
+        "entity_type": "DOMAIN",
+        "canonical_id": null
+      },
+      {
+        "id": "c881b98f-1a47-48f8-908c-5658fb067099",
+        "name": "lode",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "123a9992-6c20-4a7f-8827-6caebcd3c5a4",
+        "name": "bugmenot.com",
+        "entity_type": "DOMAIN",
+        "canonical_id": null
+      },
+      {
+        "id": "5576e9d4-ae43-4a4a-8ce6-977fe83293a7",
+        "name": "antoniomika",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "aafd2507-bd92-4b38-82be-26f1b083cef3",
+        "name": "blog.antonio.cx",
+        "entity_type": "DOMAIN",
+        "canonical_id": null
+      },
+      {
+        "id": "9e1b78f3-6ad0-49e7-b72d-192253d77b84",
+        "name": "kristjansson",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "452a3d44-2c59-472c-8ea1-a58d8406c5a7",
+        "name": "blog.report-uri.com",
+        "entity_type": "DOMAIN",
+        "canonical_id": null
+      },
+      {
+        "id": "ba109f3f-093d-430c-b5bd-a4d885809d31",
+        "name": "Apple Inc.",
+        "entity_type": "COMPANY",
+        "canonical_id": "CIK:0000320193"
+      },
+      {
+        "id": "12a6c7bc-7d02-4c5d-a982-7521c1f33f0a",
+        "name": "Form 144",
+        "entity_type": "REGULATORY_FORM",
+        "canonical_id": null
+      },
+      {
+        "id": "9d51399e-ed71-47da-8258-5b8245cb32cf",
+        "name": "U.S. SEC",
+        "entity_type": "INSTITUTION",
+        "canonical_id": "SEC"
+      },
+      {
+        "id": "811fd0d4-66ab-4288-bd29-004a763ba050",
+        "name": "AAPL",
+        "entity_type": "TICKER",
+        "canonical_id": "AAPL"
+      },
+      {
+        "id": "dd95f4b0-4ea1-441f-8988-ab0acdf926e1",
+        "name": "Form 4",
+        "entity_type": "REGULATORY_FORM",
+        "canonical_id": null
+      },
+      {
+        "id": "c95b3163-f704-4b4c-8b3e-c3edaa6d6d03",
+        "name": "Form 25-NSE",
+        "entity_type": "REGULATORY_FORM",
+        "canonical_id": null
+      },
+      {
+        "id": "73bef57f-cc02-40fa-a8f0-8f190f21f82f",
+        "name": "Form 8-K",
+        "entity_type": "REGULATORY_FORM",
+        "canonical_id": null
+      },
+      {
+        "id": "4ed78c6f-c5a0-4eb6-9389-49260415074b",
+        "name": "Artificial Intelligence",
+        "entity_type": "TOPIC",
+        "canonical_id": "cs.AI"
+      },
+      {
+        "id": "0761239a-4012-4a36-ad6d-bf3501f9420f",
+        "name": "arXiv",
+        "entity_type": "INSTITUTION",
+        "canonical_id": null
+      },
+      {
+        "id": "821c742e-950b-4157-9eac-01497da956de",
+        "name": "Bing Liu",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "801cdae0-2b6d-4495-bcb0-9048c6844f0f",
+        "name": "Yu Tang",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "0e6265e0-5393-4aad-8c1d-b6766a296d49",
+        "name": "Yuxiong Ji",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "5c00e70d-554d-4379-80f9-7d8ec6253ad1",
+        "name": "Xiren Zhou",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "0bb22023-1184-4e49-bbae-bba6b16490e2",
+        "name": "Siqi Wang",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "43b45da9-d675-42d0-bdab-3c58bb3e4867",
+        "name": "Ruisheng Diao",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "5e31267f-823a-4160-a19e-be4db8512cb2",
+        "name": "Danny Keller",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "ac3d4507-f559-47bd-8b6d-2bfaa63e9335",
+        "name": "Margarita Osadchy",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "d4605ef8-35a0-4501-b34f-9ea387aa1ca6",
+        "name": "Orr Dunkelman",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "ec6b0234-405f-434f-b700-36ec6c5f177b",
+        "name": "Reserve Bank of Australia",
+        "entity_type": "INSTITUTION",
+        "canonical_id": "RBA"
+      },
+      {
+        "id": "6aa56454-cb0b-4828-afb6-678d5c60667f",
+        "name": "Monetary Policy",
+        "entity_type": "TOPIC",
+        "canonical_id": null
+      },
+      {
+        "id": "fc2960f6-d75e-4469-8f2a-a2ad88a08fdb",
+        "name": "Yuma Enomoto",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "c1f0b2ac-8bb0-4e01-acf6-24de7519354c",
+        "name": "Misa Yamaguchi",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "8a25701f-13ec-4df3-a57d-5f1c747a810d",
+        "name": "Hiroki Nishikawa",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "85647820-72d1-4b1c-8c11-17a2dec67074",
+        "name": "Furkan Danisman",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "cdae767e-db1a-48c6-986f-84cdccd722cb",
+        "name": "Luke Zhang",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "b55a3550-1eaa-4876-8943-5188ae6f0869",
+        "name": "Zhijing Jin",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "7be9f97d-6aaa-4e1f-99c8-b1874bbae682",
+        "name": "Abhinav Gupta",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "59d53010-7514-4af3-9770-d3094057ee61",
+        "name": "Nissan Pow",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "feacf79d-cb17-48ba-b94a-01b790c12ec6",
+        "name": "Parsa Mirtaheri",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "e275069b-dabc-47d5-b741-8ea535e7a9e9",
+        "name": "Mohammadreza Armandpour",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "8114721c-6116-4d42-85fd-ddcca611ed2c",
+        "name": "Keivan Alizadeh",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "1c3be672-5abb-4812-be11-2c95660e60ef",
+        "name": "Glenn Matlin",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "454e3a56-cf8c-4d3d-9fd2-0b671ee9afdb",
+        "name": "Chandreyi Chakraborty",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "ce33ad7c-6ce7-4a82-8567-1898cc768714",
+        "name": "Mohammed Rehan Parwani",
+        "entity_type": "PERSON",
+        "canonical_id": null
+      },
+      {
+        "id": "215ec6bc-af24-4c02-8101-7633e9474e1f",
+        "name": "Bunnings",
+        "entity_type": "TOPIC",
+        "canonical_id": "gtrend:bunnings"
+      },
+      {
+        "id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
+        "name": "Google Trends",
+        "entity_type": "INSTITUTION",
+        "canonical_id": null
+      },
+      {
+        "id": "ef204a8c-eec3-482a-ae61-260b5b039895",
+        "name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "entity_type": "SOURCE",
+        "canonical_id": null
+      },
+      {
+        "id": "7746a8d6-1744-40a4-b655-ce7a6021fbbc",
+        "name": "Mining",
+        "entity_type": "TOPIC",
+        "canonical_id": "gtrend:mining"
+      },
+      {
+        "id": "be991082-f225-4ec9-914a-204741dca5a7",
+        "name": "Business Wire",
+        "entity_type": "SOURCE",
+        "canonical_id": null
+      },
+      {
+        "id": "041b7abf-f64d-4fc8-89b5-2fb7cc012248",
+        "name": "Pak Vs Sl",
+        "entity_type": "TOPIC",
+        "canonical_id": "gtrend:pak vs sl"
+      },
+      {
+        "id": "7b9313e7-5d17-4d5d-9546-4318abe52fcb",
+        "name": "cricket.com.au",
+        "entity_type": "SOURCE",
+        "canonical_id": null
+      },
+      {
+        "id": "d308f2c6-4ac0-4acf-8914-6f95bdb7f0ef",
+        "name": "So You Are",
+        "entity_type": "TOPIC",
+        "canonical_id": "gtrend:so you are"
+      },
+      {
+        "id": "b91035be-a532-4baa-a9ff-e6fc12808d34",
+        "name": "SMH.com.au",
+        "entity_type": "SOURCE",
+        "canonical_id": null
+      },
+      {
+        "id": "cee6bb2e-6ccf-4e65-af1c-d5edae0ec9c2",
+        "name": "Infant",
+        "entity_type": "TOPIC",
+        "canonical_id": "gtrend:infant"
+      },
+      {
+        "id": "7f20010d-9be7-49fc-87f6-d330e6ae58d8",
+        "name": "WAVY.com",
+        "entity_type": "SOURCE",
+        "canonical_id": null
+      },
+      {
+        "id": "b7c4538f-beaa-42f9-a506-ce86e17fa163",
+        "name": "Melbourne Storm",
+        "entity_type": "TOPIC",
+        "canonical_id": "gtrend:melbourne storm"
+      },
+      {
+        "id": "0ddb45cc-dc6a-4f16-a86f-7336d102f4bd",
+        "name": "SEN",
+        "entity_type": "SOURCE",
+        "canonical_id": null
+      }
+    ],
+    "total_count": 58
+  },
+  "sources": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": true
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "category",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "feed_url",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "feed_type",
+        "type": "TEXT",
+        "notnull": true,
+        "pk": false
+      },
+      {
+        "name": "is_active",
+        "type": "INTEGER",
+        "notnull": false,
+        "pk": false
+      },
+      {
+        "name": "last_fetched_at",
+        "type": "TEXT",
+        "notnull": false,
+        "pk": false
+      }
+    ],
+    "rows": [
+      {
+        "id": "rba_media",
+        "name": "Reserve Bank of Australia",
+        "category": "finance",
+        "feed_url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
+        "feed_type": "rss",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T04:32:12.228215+00:00"
+      },
+      {
+        "id": "hacker_news",
+        "name": "Hacker News (Top Stories)",
+        "category": "tech",
+        "feed_url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+        "feed_type": "rest_json",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T04:32:14.997470+00:00"
+      },
+      {
+        "id": "sec_edgar",
+        "name": "U.S. SEC EDGAR Disclosures",
+        "category": "finance",
+        "feed_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+        "feed_type": "rest_json",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T04:32:15.404008+00:00"
+      },
+      {
+        "id": "arxiv_ai",
+        "name": "arXiv Computer Science & AI",
+        "category": "tech",
+        "feed_url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&start=0&max_results=5",
+        "feed_type": "atom",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T04:32:15.453156+00:00"
+      },
+      {
+        "id": "google_trends_au",
+        "name": "Google Trends (AU)",
+        "category": "politics",
+        "feed_url": "https://trends.google.com/trending/rss?geo=AU",
+        "feed_type": "rss",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T04:32:16.137064+00:00"
+      }
+    ],
+    "total_count": 5
+  }
+}
