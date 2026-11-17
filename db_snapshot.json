@@ -709,7 +709,7 @@
         "category": "tech",
         "author": "pcompeau",
         "summary": "Toggle Visibility of Main Menu Executive & Professional Education Selected Publications Undergraduate Research SCS Distinguished Lecture Series Industry & Entrepreneurship Industry & Entrepreneurship Industry & Entrepreneurship: Industry & Government Partnerships Industry & Entrepreneurship: SCS Careers & Recruitment Industry & Entrepreneurship: Explore Giving at SCS Computer science from Carnegie Mellon. Premiering in November Machine Learning with Large Datasets Principles of Computing Principles of Software Construction Premieres Tue, Nov 17 Machine Learning Systems Tianqi Chen and Zhihao Jia Premieres Tue, Nov 17 Software Architectures Swarnalatha Ashok and Scott Pavetti Premieres Wed, Nov 18 Jeffrey Gennari and Christopher Timperley Premieres Wed, Nov 18 Daniel Fried and Graham Neubig Premieres Thu, Nov 19 Machine Learning in Production Christian K\u00e4stner and Bogdan Vasilescu Premieres Thu, Nov 19 Coming in January 2027 Probability and Computing Mor Harchol-Balter, Weina Wang and Feras Saad Premieres January 2027 Multimodal Machine Learning Louis-Philippe Morency Premieres January 2027 Product Management Essentials Premieres January 2027 AI and Machine Learning I Premieres January 2027 Requirements for Embedded Systems Premieres January 2027 Subscribe on YouTube to catch every new course.",
-        "raw_payload": "{\"hn_id\": 50522980, \"score\": 883, \"descendants\": 143, \"discussion_url\": \"https://news.ycombinator.com/item?id=50522980\"}",
+        "raw_payload": "{\"hn_id\": 50522980, \"score\": 883, \"descendants\": 143, \"discussion_url\": \"https://news.ycombinator.com/item?id=50522980\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 03:39:23"
       },
@@ -735,7 +735,7 @@
         "category": "tech",
         "author": "lode",
         "summary": "Thanks to everyone who envisioned a better internet. DXXR KAKD QMDZ QJPV UQSG\nDWRM HXCO TGVL TLWE RHIP\nNJPA ZKNZ SCVP RJWD XRFT\nYRMH YUJI PEBD YOOS YNVE\nSLGB OEJM HYIV AMMW TMWE\nCYFI DLGD JWBT DWCJ OAWA\nAUZO VKCK PZXN VNJA KXCH\nGCHT MEZS IERW LCMH LZQE\nZSNJ MIKN XLEG QIEW UBES\nCWBQ XFAS KZWY CKKA RCNK\nRMPO JGBI JQZB OGFD EVDY\nUNID WMQB WNMS SAAQ JUGV\nAUIH WKRK LADI LCMH OCSF\nNGBW CYNM MATG SOKF RCPH\nPIDY DTYA NXWZ QBMW ZOUG\nYSSM TJTM PLXV MEDB QHPK\nIBWR NDHS SJIP PALV QFMQ\nQKKE ZSZA AWNK SLNS HZWV\nYRMJ ESQT BSSA WMRA QEGP\nVPUJ DPQU WLDH TJJN NYAC\nPJHS EWKL PJUA HNWW DLDG\nUNID WMQB OVTC VCKH PXMX\nWSSK RAEU IUGH RKLB MHJY\nVOJE JFUT RGDF ZHHX UPCS\nQMRD WOJM PYJB ZHHX MXIF",
-        "raw_payload": "{\"hn_id\": 50523601, \"score\": 375, \"descendants\": 187, \"discussion_url\": \"https://news.ycombinator.com/item?id=50523601\"}",
+        "raw_payload": "{\"hn_id\": 50523601, \"score\": 375, \"descendants\": 187, \"discussion_url\": \"https://news.ycombinator.com/item?id=50523601\", \"wiki_trending\": true, \"wiki_views\": 9508, \"wiki_topic\": \"BugMeNot\", \"wiki_url\": \"https://en.wikipedia.org/wiki/BugMeNot\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 03:39:23"
       },
@@ -826,7 +826,7 @@
         "category": "tech",
         "author": "Bing Liu, Yu Tang, Yuxiong Ji",
         "summary": "Ramp metering that uses traffic signals to regulate vehicle flows from the on-ramps has been widely implemented to improve vehicle mobility of the freeway. Previous studies generally update signal timings in real-time based on predefined traffic measures collected by point detectors, such as traffic...",
-        "raw_payload": "{\"authors\": [\"Bing Liu\", \"Yu Tang\", \"Yuxiong Ji\", \"Yu Shen\", \"Yuchuan Du\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Bing Liu\", \"Yu Tang\", \"Yuxiong Ji\", \"Yu Shen\", \"Yuchuan Du\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 03:39:24"
       },
@@ -839,7 +839,7 @@
         "category": "tech",
         "author": "Xiren Zhou, Siqi Wang, Ruisheng Diao",
         "summary": "Recently, deep reinforcement learning (DRL)-based approach has shown promisein solving complex decision and control problems in power engineering domain.In this paper, we present an in-depth analysis of DRL-based voltage control fromaspects of algorithm selection, state space representation, and rew...",
-        "raw_payload": "{\"authors\": [\"Xiren Zhou\", \"Siqi Wang\", \"Ruisheng Diao\", \"Desong Bian\", \"Jiahui Duan\", \"Di Shi\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Xiren Zhou\", \"Siqi Wang\", \"Ruisheng Diao\", \"Desong Bian\", \"Jiahui Duan\", \"Di Shi\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 03:39:24"
       },
@@ -852,7 +852,7 @@
         "category": "tech",
         "author": "Danny Keller, Margarita Osadchy, Orr Dunkelman",
         "summary": "In this work, we study the protection that fuzzy commitments offer when they are applied to facial images, processed by the state of the art deep learning facial recognition systems. We show that while these systems are capable of producing great accuracy, they produce templates of too little entrop...",
-        "raw_payload": "{\"authors\": [\"Danny Keller\", \"Margarita Osadchy\", \"Orr Dunkelman\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Danny Keller\", \"Margarita Osadchy\", \"Orr Dunkelman\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 03:39:24"
       },
@@ -865,7 +865,7 @@
         "category": "finance",
         "author": "RBA",
         "summary": "Media release number 2026-31: The RBA has today designated Prosegur Australia Pty Ltd (Prosegur Australia) (ACN 004 247 358) under the Cash Distribution Framework Act 2026 (the Act).",
-        "raw_payload": "{\"source_type\": \"rss_release\"}",
+        "raw_payload": "{\"source_type\": \"rss_release\", \"wiki_trending\": true, \"wiki_views\": 9458, \"wiki_topic\": \"Australia\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Australia\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 03:39:49"
       },
@@ -878,7 +878,7 @@
         "category": "tech",
         "author": "Yuma Enomoto, Misa Yamaguchi, Hiroki Nishikawa",
         "summary": "Dysarthria reduces speech intelligibility, requiring self-directed rehabilitation based on fine-grained feedback to capture gradual articulatory changes. For Japanese speakers, such feedback is naturally provided in mora units due to its distinct moraic timing and consonant-vowel structure. While re...",
-        "raw_payload": "{\"authors\": [\"Yuma Enomoto\", \"Misa Yamaguchi\", \"Hiroki Nishikawa\", \"Ittetsu Taniguchi\", \"Kazuhide Matsunaga\", \"Narikazu Uzawa\", \"Takao Onoye\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Yuma Enomoto\", \"Misa Yamaguchi\", \"Hiroki Nishikawa\", \"Ittetsu Taniguchi\", \"Kazuhide Matsunaga\", \"Narikazu Uzawa\", \"Takao Onoye\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:14:10"
       },
@@ -891,7 +891,7 @@
         "category": "tech",
         "author": "Furkan Danisman, Luke Zhang, Zhijing Jin",
         "summary": "Estimating treatment effects is central to science across many disciplines and requires counterfactual reasoning about alternative worlds. In the real world, however, each unit reveals its outcome only under the factual world. Thus, the factual and counterfactual outcomes can never be jointly learne...",
-        "raw_payload": "{\"authors\": [\"Furkan Danisman\", \"Luke Zhang\", \"Zhijing Jin\", \"Dehan Kong\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Furkan Danisman\", \"Luke Zhang\", \"Zhijing Jin\", \"Dehan Kong\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:14:10"
       },
@@ -904,7 +904,7 @@
         "category": "tech",
         "author": "Abhinav Gupta, Nissan Pow",
         "summary": "Flow-matching robot policies generate each action chunk through repeated network evaluations, one per denoising step. Cross-cycle caches such as C$^3$ache reuse computation from earlier replanning calls, but whether they beat simply taking fewer steps is unclear. We compare the two in Fast-WAM, a 6B...",
-        "raw_payload": "{\"authors\": [\"Abhinav Gupta\", \"Nissan Pow\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Abhinav Gupta\", \"Nissan Pow\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:14:10"
       },
@@ -917,7 +917,7 @@
         "category": "tech",
         "author": "Parsa Mirtaheri, Mohammadreza Armandpour, Keivan Alizadeh",
         "summary": "LLM agents operating repeatedly in the same environment, such as a code repository, a database, or an application suite, encounter tasks that share latent structure. Experience can reveal this structure, allowing agents to reuse environment knowledge and learn from environmental feedback. Agents can...",
-        "raw_payload": "{\"authors\": [\"Parsa Mirtaheri\", \"Mohammadreza Armandpour\", \"Keivan Alizadeh\", \"Iman Mirzadeh\", \"Parshin Shojaee\", \"Aryo Lotfi\", \"David Harrison\", \"Mehrdad Farajtabar\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Parsa Mirtaheri\", \"Mohammadreza Armandpour\", \"Keivan Alizadeh\", \"Iman Mirzadeh\", \"Parshin Shojaee\", \"Aryo Lotfi\", \"David Harrison\", \"Mehrdad Farajtabar\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:14:10"
       },
@@ -930,7 +930,7 @@
         "category": "tech",
         "author": "Glenn Matlin, Chandreyi Chakraborty, Mohammed Rehan Parwani",
         "summary": "Pretraining data curation decides what a model learns from, yet what makes a document worth learning from depends on what the model already knows. Influence-driven selectors already rank documents to improve one run; we argue that training-data attribution should steer pretraining by identifying tes...",
-        "raw_payload": "{\"authors\": [\"Glenn Matlin\", \"Chandreyi Chakraborty\", \"Mohammed Rehan Parwani\", \"Saehee Eom\", \"Anthony Wen-Ming Zang\", \"Akhil Theerthala\", \"Arjun Chatterjee\", \"Tejas Khandwekar\", \"Brandon Michaels\", \"Alvin Deng\", \"Mark Riedl\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Glenn Matlin\", \"Chandreyi Chakraborty\", \"Mohammed Rehan Parwani\", \"Saehee Eom\", \"Anthony Wen-Ming Zang\", \"Akhil Theerthala\", \"Arjun Chatterjee\", \"Tejas Khandwekar\", \"Brandon Michaels\", \"Alvin Deng\", \"Mark Riedl\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:14:10"
       },
@@ -1125,7 +1125,7 @@
         "category": "finance",
         "author": "Australian Broker",
         "summary": "High-LVR borrowers in white-collar suburbs face biggest AI exposure, research finds",
-        "raw_payload": "{\"source_type\": \"atom_feed\", \"industry\": \"mortgage_broking\"}",
+        "raw_payload": "{\"source_type\": \"atom_feed\", \"industry\": \"mortgage_broking\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:19"
       },
@@ -1502,7 +1502,7 @@
         "category": "finance",
         "author": "Property Update",
         "summary": "Could one of the biggest causes of Australia\u2019s housing shortage be hiding in plain sight? Australia has around 4.5 million Baby Boomers aged between 62 and 80, and many are living longer, healthier lives while remaining in their family homes well into retirement. Of course, they are entitled to s...",
-        "raw_payload": "{\"source_type\": \"rss\", \"industry\": \"property_economics\"}",
+        "raw_payload": "{\"source_type\": \"rss\", \"industry\": \"property_economics\", \"wiki_trending\": true, \"wiki_views\": 9458, \"wiki_topic\": \"Australia\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Australia\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:21"
       },
@@ -1658,7 +1658,7 @@
         "category": "finance",
         "author": "MacroBusiness",
         "summary": "TME with the doom. The AI reckoning The AI trade is facing a critical test. Nvidia is flirting with a massive trendline, NDX has been rejected at the 200-day, and systematic funds are dumping billions. Yet semiconductor valuations are pricing in an earnings disaster, bearish positioning is reachi...",
-        "raw_payload": "{\"source_type\": \"rss\", \"industry\": \"macro_finance\"}",
+        "raw_payload": "{\"source_type\": \"rss\", \"industry\": \"macro_finance\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:21"
       },
@@ -1723,7 +1723,7 @@
         "category": "finance",
         "author": "MacroBusiness",
         "summary": "Over the past year, we have enjoyed \u2018Goldilocks\u2019 energy conditions. Mild weather has reduced energy demand. Coal generators have been reliably producing baseload power. Some additional wind and solar power supplies have been added. The federal government has budgeted $7 billion to subsidise home ...",
-        "raw_payload": "{\"source_type\": \"rss\", \"industry\": \"macro_finance\"}",
+        "raw_payload": "{\"source_type\": \"rss\", \"industry\": \"macro_finance\", \"wiki_trending\": true, \"wiki_views\": 9458, \"wiki_topic\": \"Australia\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Australia\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:21"
       },
@@ -1762,7 +1762,7 @@
         "category": "tech",
         "author": "Kangwen Zhao, Jianfeng Cai, Ruopei Sun",
         "summary": "Large language models (LLMs) are widely used to power agents that interact with tools and environments to solve complex tasks. Repeated attempts improve the quality of tool-using agents, but continued execution incurs additional costs even when it is unlikely to improve the best result ultimately re...",
-        "raw_payload": "{\"authors\": [\"Kangwen Zhao\", \"Jianfeng Cai\", \"Ruopei Sun\", \"Mingxiao Feng\", \"Peng Zhang\", \"Wengang Zhou\", \"Houqiang Li\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Kangwen Zhao\", \"Jianfeng Cai\", \"Ruopei Sun\", \"Mingxiao Feng\", \"Peng Zhang\", \"Wengang Zhou\", \"Houqiang Li\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:25"
       },
@@ -1775,7 +1775,7 @@
         "category": "tech",
         "author": "Peng Liu, Zhen Tao, Jihao Zhao",
         "summary": "Memory systems address the challenge of context loss in Large Language Models during prolonged interactions. However, as an essential tool for warm companionship and personalized services, the effectiveness of memory systems in processing affective information remains underexamined. To bridge this g...",
-        "raw_payload": "{\"authors\": [\"Peng Liu\", \"Zhen Tao\", \"Jihao Zhao\", \"Ding Chen\", \"Yansong Zhang\", \"Cuiping Li\", \"Zhiyu Li\", \"Hong Chen\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Peng Liu\", \"Zhen Tao\", \"Jihao Zhao\", \"Ding Chen\", \"Yansong Zhang\", \"Cuiping Li\", \"Zhiyu Li\", \"Hong Chen\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:25"
       },
@@ -1788,7 +1788,7 @@
         "category": "tech",
         "author": "Ahmed Tariq, Leo Guinan",
         "summary": "We tested whether features of biology questions or of a model's first answer can improve accuracy within an inference budget. In a LAB-Bench pilot, we compared a category router with one that adds six structural features. Neither reached the primary 80% accuracy target on development. At the 50% and...",
-        "raw_payload": "{\"authors\": [\"Ahmed Tariq\", \"Leo Guinan\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Ahmed Tariq\", \"Leo Guinan\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:25"
       },
@@ -1801,7 +1801,7 @@
         "category": "tech",
         "author": "Maolei Huang, Jing Tian, Dexuan Duan",
         "summary": "Auxiliary products such as flight protection and flexible-change services are recommended alongside primary travel purchases. This setting creates a granularity ambiguity: SKUs within one product type share semantics but differ in price and coverage, while rejecting one offer does not imply disinter...",
-        "raw_payload": "{\"authors\": [\"Maolei Huang\", \"Jing Tian\", \"Dexuan Duan\", \"Yan Chen\", \"Huawei Cao\", \"Shuhan Song\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Maolei Huang\", \"Jing Tian\", \"Dexuan Duan\", \"Yan Chen\", \"Huawei Cao\", \"Shuhan Song\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:25"
       },
@@ -1814,7 +1814,7 @@
         "category": "tech",
         "author": "Sachin Gupta",
         "summary": "Does recovery advice help an agent finish a task after a tool fails? AgentFaultBench evaluates LangGraph and CrewAI agents performing specified tasks in an isolated GitLab installation. We inject tool errors and check both the resulting files and issues and the required reads, verification and final...",
-        "raw_payload": "{\"authors\": [\"Sachin Gupta\"], \"primary_category\": \"cs.AI\"}",
+        "raw_payload": "{\"authors\": [\"Sachin Gupta\"], \"primary_category\": \"cs.AI\", \"wiki_trending\": true, \"wiki_views\": 15109, \"wiki_topic\": \"Artificial intelligence\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Artificial_intelligence\", \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:25"
       },
@@ -1918,7 +1918,7 @@
         "category": "politics",
         "author": "Nine.com.au",
         "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
-        "raw_payload": "{\"trending_query\": \"michael clarke sandpapergate opinions 2026\", \"approx_traffic\": \"1000+\", \"traffic_num\": 1000, \"hotness_score\": 52, \"news_source\": \"Nine.com.au\", \"trends_url\": \"https://trends.google.com/trends/explore?q=michael+clarke+sandpapergate+opinions+2026\"}",
+        "raw_payload": "{\"trending_query\": \"michael clarke sandpapergate opinions 2026\", \"approx_traffic\": \"1000+\", \"traffic_num\": 1000, \"hotness_score\": 85, \"news_source\": \"Nine.com.au\", \"trends_url\": \"https://trends.google.com/trends/explore?q=michael+clarke+sandpapergate+opinions+2026\", \"wiki_trending\": true, \"wiki_views\": 9458, \"wiki_topic\": \"Australia\", \"wiki_url\": \"https://en.wikipedia.org/wiki/Australia\"}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:26"
       },
@@ -1996,7 +1996,7 @@
         "category": "tech",
         "author": "AI Engineer",
         "summary": "Aaron Linsky explains how Bridgewater turned complaints about search into a benchmark: about 200 handpicked examples, built in less than a week. That gave the team a way to measure each improvement.\n\nFrom AI Engineer New York 2026.\n\n@Bridgewater \n\n@aiDotEngineer",
-        "raw_payload": "{\"source_type\": \"youtube_rss\", \"channel_id\": \"UCONWr2M0moA8wsGHb3zUn_w\", \"handle\": \"@aiDotEngineer\", \"thumbnail\": \"https://i4.ytimg.com/vi/SBta4bp214w/hqdefault.jpg\", \"is_video\": true, \"wiki_trending\": true, \"wiki_views\": 38157, \"hotness_score\": 85}",
+        "raw_payload": "{\"source_type\": \"youtube_rss\", \"channel_id\": \"UCONWr2M0moA8wsGHb3zUn_w\", \"handle\": \"@aiDotEngineer\", \"thumbnail\": \"https://i4.ytimg.com/vi/SBta4bp214w/hqdefault.jpg\", \"is_video\": true, \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:48:09"
       }

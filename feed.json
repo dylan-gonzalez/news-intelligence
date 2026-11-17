@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:05:02.163427+00:00",
+  "generated_at": "2026-11-17T06:10:12.906976+00:00",
   "articles": [
     {
       "id": "e63c6198-ccbf-400b-9981-b52a95dc5b3e",
@@ -205,7 +205,12 @@
       "author": "RBA",
       "summary": "Media release number 2026-31: The RBA has today designated Prosegur Australia Pty Ltd (Prosegur Australia) (ACN 004 247 358) under the Cash Distribution Framework Act 2026 (the Act).",
       "payload": {
-        "source_type": "rss_release"
+        "source_type": "rss_release",
+        "wiki_trending": true,
+        "wiki_views": 9458,
+        "wiki_topic": "Australia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Australia",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -546,7 +551,12 @@
       "summary": "TME with the doom. The AI reckoning The AI trade is facing a critical test. Nvidia is flirting with a massive trendline, NDX has been rejected at the 200-day, and systematic funds are dumping billions. Yet semiconductor valuations are pricing in an earnings disaster, bearish positioning is reachi...",
       "payload": {
         "source_type": "rss",
-        "industry": "macro_finance"
+        "industry": "macro_finance",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -876,7 +886,12 @@
         "hn_id": 50523601,
         "score": 375,
         "descendants": 187,
-        "discussion_url": "https://news.ycombinator.com/item?id=50523601"
+        "discussion_url": "https://news.ycombinator.com/item?id=50523601",
+        "wiki_trending": true,
+        "wiki_views": 9508,
+        "wiki_topic": "BugMeNot",
+        "wiki_url": "https://en.wikipedia.org/wiki/BugMeNot",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1051,7 +1066,12 @@
       "summary": "Could one of the biggest causes of Australia\u2019s housing shortage be hiding in plain sight? Australia has around 4.5 million Baby Boomers aged between 62 and 80, and many are living longer, healthier lives while remaining in their family homes well into retirement. Of course, they are entitled to s...",
       "payload": {
         "source_type": "rss",
-        "industry": "property_economics"
+        "industry": "property_economics",
+        "wiki_trending": true,
+        "wiki_views": 9458,
+        "wiki_topic": "Australia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Australia",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1329,7 +1349,8 @@
         "hn_id": 50522980,
         "score": 883,
         "descendants": 143,
-        "discussion_url": "https://news.ycombinator.com/item?id=50522980"
+        "discussion_url": "https://news.ycombinator.com/item?id=50522980",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1407,9 +1428,13 @@
         "trending_query": "michael clarke sandpapergate opinions 2026",
         "approx_traffic": "1000+",
         "traffic_num": 1000,
-        "hotness_score": 52,
+        "hotness_score": 85,
         "news_source": "Nine.com.au",
-        "trends_url": "https://trends.google.com/trends/explore?q=michael+clarke+sandpapergate+opinions+2026"
+        "trends_url": "https://trends.google.com/trends/explore?q=michael+clarke+sandpapergate+opinions+2026",
+        "wiki_trending": true,
+        "wiki_views": 9458,
+        "wiki_topic": "Australia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Australia"
       },
       "entities": [
         {
@@ -1609,9 +1634,11 @@
         "handle": "@wsj",
         "thumbnail": "https://i3.ytimg.com/vi/r4RYqRe0MM0/hqdefault.jpg",
         "is_video": true,
+        "hotness_score": 85,
         "wiki_trending": true,
-        "wiki_views": 38157,
-        "hotness_score": 85
+        "wiki_views": 8568,
+        "wiki_topic": "Kim Jong Un",
+        "wiki_url": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
       },
       "entities": [
         {
@@ -1645,8 +1672,6 @@
         "handle": "@wsj",
         "thumbnail": "https://i2.ytimg.com/vi/M_HRqrYAPCs/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -1677,7 +1702,12 @@
       "summary": "Over the past year, we have enjoyed \u2018Goldilocks\u2019 energy conditions. Mild weather has reduced energy demand. Coal generators have been reliably producing baseload power. Some additional wind and solar power supplies have been added. The federal government has budgeted $7 billion to subsidise home ...",
       "payload": {
         "source_type": "rss",
-        "industry": "macro_finance"
+        "industry": "macro_finance",
+        "wiki_trending": true,
+        "wiki_views": 9458,
+        "wiki_topic": "Australia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Australia",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1715,7 +1745,12 @@
           "Wengang Zhou",
           "Houqiang Li"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1772,7 +1807,12 @@
           "Zhiyu Li",
           "Hong Chen"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1823,7 +1863,12 @@
           "Ahmed Tariq",
           "Leo Guinan"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1872,7 +1917,12 @@
           "Huawei Cao",
           "Shuhan Song"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -1958,7 +2008,12 @@
         "authors": [
           "Sachin Gupta"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -2410,7 +2465,12 @@
       "summary": "High-LVR borrowers in white-collar suburbs face biggest AI exposure, research finds",
       "payload": {
         "source_type": "atom_feed",
-        "industry": "mortgage_broking"
+        "industry": "mortgage_broking",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -2736,7 +2796,12 @@
           "Narikazu Uzawa",
           "Takao Onoye"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -2789,7 +2854,12 @@
           "Zhijing Jin",
           "Dehan Kong"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -2840,7 +2910,12 @@
           "Abhinav Gupta",
           "Nissan Pow"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -2891,7 +2966,12 @@
           "David Harrison",
           "Mehrdad Farajtabar"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -2951,7 +3031,12 @@
           "Alvin Deng",
           "Mark Riedl"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -3003,9 +3088,11 @@
         "handle": "@wsj",
         "thumbnail": "https://i2.ytimg.com/vi/ykiNMhfRpOM/hqdefault.jpg",
         "is_video": true,
+        "hotness_score": 85,
         "wiki_trending": true,
-        "wiki_views": 38157,
-        "hotness_score": 85
+        "wiki_views": 10519,
+        "wiki_topic": "SpaceX Starship",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship"
       },
       "entities": [
         {
@@ -3039,8 +3126,6 @@
         "handle": "@wsj",
         "thumbnail": "https://i3.ytimg.com/vi/jjYG2_7Sh6Y/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3075,8 +3160,6 @@
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i4.ytimg.com/vi/SBta4bp214w/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3303,8 +3386,6 @@
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i3.ytimg.com/vi/jjL_g1Gjuj8/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3339,8 +3420,6 @@
         "handle": "@wsj",
         "thumbnail": "https://i4.ytimg.com/vi/we7JrNYTtYY/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3449,9 +3528,11 @@
         "handle": "@wsj",
         "thumbnail": "https://i2.ytimg.com/vi/qCQV7Dux20s/hqdefault.jpg",
         "is_video": true,
+        "hotness_score": 85,
         "wiki_trending": true,
-        "wiki_views": 38157,
-        "hotness_score": 85
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
       },
       "entities": [
         {
@@ -3485,8 +3566,6 @@
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i3.ytimg.com/vi/R36t70V_930/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3521,8 +3600,6 @@
         "handle": "@IBMTechnology",
         "thumbnail": "https://i3.ytimg.com/vi/ZIKzmznkUsw/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3557,8 +3634,6 @@
         "handle": "@DwarkeshPatel",
         "thumbnail": "https://i1.ytimg.com/vi/HqQYah4tXS4/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3593,8 +3668,6 @@
         "handle": "@DwarkeshPatel",
         "thumbnail": "https://i1.ytimg.com/vi/HOc77LTkt94/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3629,8 +3702,6 @@
         "handle": "@IBMTechnology",
         "thumbnail": "https://i1.ytimg.com/vi/PxG8-FJx5mw/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3665,8 +3736,6 @@
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i3.ytimg.com/vi/n6qfhMimOlU/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3701,8 +3770,6 @@
         "handle": "@DwarkeshPatel",
         "thumbnail": "https://i3.ytimg.com/vi/zSixzC1zYFM/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3737,8 +3804,6 @@
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i1.ytimg.com/vi/Hycv7NJuK-U/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3773,8 +3838,6 @@
         "handle": "@DwarkeshPatel",
         "thumbnail": "https://i3.ytimg.com/vi/RrVLA-WMeKk/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3809,8 +3872,6 @@
         "handle": "@IBMTechnology",
         "thumbnail": "https://i1.ytimg.com/vi/dHff1v35OQM/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3845,8 +3906,6 @@
         "handle": "@DwarkeshPatel",
         "thumbnail": "https://i2.ytimg.com/vi/5uCnoxImxbU/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3881,8 +3940,6 @@
         "handle": "@DwarkeshPatel",
         "thumbnail": "https://i4.ytimg.com/vi/GpnDssoaMdE/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3917,8 +3974,6 @@
         "handle": "@IBMTechnology",
         "thumbnail": "https://i4.ytimg.com/vi/379InjJP0vU/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -3983,8 +4038,6 @@
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i1.ytimg.com/vi/DhUtuBb41Ug/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -4019,8 +4072,6 @@
         "handle": "@IBMTechnology",
         "thumbnail": "https://i1.ytimg.com/vi/hOL-lSEZ2jo/hqdefault.jpg",
         "is_video": true,
-        "wiki_trending": true,
-        "wiki_views": 38157,
         "hotness_score": 85
       },
       "entities": [
@@ -4295,7 +4346,12 @@
           "Margarita Osadchy",
           "Orr Dunkelman"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -4350,7 +4406,12 @@
           "Jiahui Duan",
           "Di Shi"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {
@@ -4404,7 +4465,12 @@
           "Yu Shen",
           "Yuchuan Du"
         ],
-        "primary_category": "cs.AI"
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 15109,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
       },
       "entities": [
         {

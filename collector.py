@@ -244,8 +244,8 @@ class GoogleTrendsAdapter(BaseAdapter):
 # -----------------------------------------------------------------------------
 # 6. Wikimedia Pageviews Top Buzz Ingestion
 # -----------------------------------------------------------------------------
-def fetch_wikimedia_top_buzz(limit: int = 50) -> Dict[str, int]:
-    """Fetches the top viewed Wikipedia articles for the previous day."""
+def fetch_wikimedia_top_buzz(limit: int = 1000) -> Dict[str, Dict[str, Any]]:
+    """Fetches the top viewed Wikipedia articles for the previous day with full URLs and view counts."""
     from datetime import timedelta
     target_date = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y/%m/%d")
     url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/{target_date}"
@@ -256,14 +256,39 @@ def fetch_wikimedia_top_buzz(limit: int = 50) -> Dict[str, int]:
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             items = data.get("items", [])[0].get("articles", [])
-            ignore = {"Main_Page", "Special:Search", "-", "Special:CreateAccount", "Special:Watchlist"}
+            ignore = {
+                "main_page", "main page", "special:search", "-", 
+                "special:createaccount", "special:watchlist", "404.php", 
+                "portal:current_events", "portal:current events", "index.html"
+            }
             buzz = {}
             for item in items:
-                art_name = item.get("article", "").replace("_", " ")
-                if art_name not in ignore and not art_name.startswith("File:") and not art_name.startswith("Wikipedia:"):
-                    buzz[art_name.lower()] = item.get("views", 0)
-                    if len(buzz) >= limit:
-                        break
+                raw_slug = item.get("article", "")
+                if not raw_slug:
+                    continue
+                clean_title = raw_slug.replace("_", " ").strip()
+                clean_lower = clean_title.lower()
+                
+                if (clean_lower in ignore or 
+                    raw_slug.lower() in ignore or 
+                    raw_slug.startswith("File:") or 
+                    raw_slug.startswith("Wikipedia:") or 
+                    raw_slug.startswith("Special:") or 
+                    raw_slug.startswith("Portal:") or
+                    clean_lower.startswith("list of ")):
+                    continue
+
+                if is_sports_content(clean_title):
+                    continue
+
+                buzz[clean_lower] = {
+                    "views": item.get("views", 0),
+                    "article": raw_slug,
+                    "title": clean_title,
+                    "wiki_url": f"https://en.wikipedia.org/wiki/{urllib.parse.quote(raw_slug)}"
+                }
+                if len(buzz) >= limit:
+                    break
             return buzz
     except Exception as e:
         print(f"  [Wikimedia] Note: Could not fetch top pageviews ({e})", file=sys.stderr)
@@ -1293,43 +1318,82 @@ def run_collection():
 
     # Correlate with real-time Wikimedia Pageviews Top Buzz
     print("[*] Fetching Wikimedia Pageviews Top Buzz to detect surging entities...")
-    wiki_buzz = fetch_wikimedia_top_buzz(limit=100)
+    wiki_buzz = fetch_wikimedia_top_buzz(limit=1000)
     if wiki_buzz:
         print(f"    -> Indexed {len(wiki_buzz)} top trending Wikipedia topics globally")
         with storage._get_conn() as conn:
             cur = conn.cursor()
-            # Check all entities and enrich matching articles
-            cur.execute("SELECT id, name FROM entities;")
-            entities = cur.fetchall()
+            cur.execute("SELECT id, title, raw_payload FROM articles;")
+            all_articles = cur.fetchall()
+
+            ignore_entities = {
+                "youtube", "arxiv", "sec", "google", "platform", "institution", 
+                "u.s. sec", "google trends", "hacker news", "australian broker",
+                "mortgage professional australia", "video", "news", "topic"
+            }
+
             enriched_articles = 0
-            for ent in entities:
-                ent_name_clean = ent["name"].lower()
-                matched_views = None
-                for w_title, w_views in wiki_buzz.items():
-                    if ent_name_clean == w_title or (len(ent_name_clean) > 4 and ent_name_clean in w_title):
-                        matched_views = w_views
+            for art in all_articles:
+                art_id = art["id"]
+                title = art["title"]
+                payload = json.loads(art["raw_payload"] or "{}")
+
+                # Fetch entities for this article
+                cur.execute("""
+                SELECT e.name, e.entity_type FROM article_entities ae
+                JOIN entities e ON ae.entity_id = e.id
+                WHERE ae.article_id = ?
+                """, (art_id,))
+                entities = cur.fetchall()
+
+                matched_buzz = None
+
+                # 1. Match against specific entities
+                for ent in entities:
+                    ent_name = ent["name"].strip()
+                    ent_lower = ent_name.lower()
+                    if ent_lower in ignore_entities or ent["entity_type"] in ("PLATFORM", "REGULATORY_FORM"):
+                        continue
+                    
+                    if ent_lower in wiki_buzz:
+                        matched_buzz = wiki_buzz[ent_lower]
                         break
-                
-                if matched_views:
-                    # Enrich all articles mentioning this entity
-                    cur.execute("""
-                    SELECT a.id, a.raw_payload FROM articles a
-                    JOIN article_entities ae ON a.id = ae.article_id
-                    WHERE ae.entity_id = ?
-                    """, (ent["id"],))
-                    for row in cur.fetchall():
-                        try:
-                            payload = json.loads(row["raw_payload"] or "{}")
-                            payload["wiki_trending"] = True
-                            payload["wiki_views"] = matched_views
-                            payload["hotness_score"] = max(payload.get("hotness_score", 0), 85)
-                            cur.execute("UPDATE articles SET raw_payload = ? WHERE id = ?", (json.dumps(payload), row["id"]))
-                            enriched_articles += 1
-                        except Exception:
-                            pass
+                    
+                    # Partial match if length >= 5
+                    for w_key, info in wiki_buzz.items():
+                        if len(ent_lower) >= 5 and (ent_lower == w_key or ent_lower in w_key):
+                            matched_buzz = info
+                            break
+                    if matched_buzz:
+                        break
+
+                # 2. Match against title keywords
+                if not matched_buzz:
+                    clean_title = re.sub(r'^[📺🔥\s]+', '', title).lower()
+                    for w_key, info in wiki_buzz.items():
+                        if len(w_key) >= 5 and re.search(r'\b' + re.escape(w_key) + r'\b', clean_title):
+                            matched_buzz = info
+                            break
+
+                if matched_buzz:
+                    payload["wiki_trending"] = True
+                    payload["wiki_views"] = matched_buzz["views"]
+                    payload["wiki_topic"] = matched_buzz["title"]
+                    payload["wiki_url"] = matched_buzz["wiki_url"]
+                    payload["hotness_score"] = max(payload.get("hotness_score", 0), 85)
+                    cur.execute("UPDATE articles SET raw_payload = ? WHERE id = ?", (json.dumps(payload), art_id))
+                    enriched_articles += 1
+                else:
+                    # Clear out any previous generic matches (like accidental YouTube platform match)
+                    if payload.get("wiki_trending") and not payload.get("wiki_url"):
+                        payload.pop("wiki_trending", None)
+                        payload.pop("wiki_views", None)
+                        payload.pop("wiki_topic", None)
+                        cur.execute("UPDATE articles SET raw_payload = ? WHERE id = ?", (json.dumps(payload), art_id))
+
             conn.commit()
             if enriched_articles:
-                print(f"    -> Enriched {enriched_articles} articles with global Wikipedia buzz spikes!")
+                print(f"    -> Enriched {enriched_articles} articles with genuine Wikipedia buzz spikes!")
 
     feed_json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "feed.json")
     exported_count = storage.export_feed_json(feed_json_path)
