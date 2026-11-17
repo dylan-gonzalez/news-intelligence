@@ -191,8 +191,8 @@
         <button class="btn-active px-3.5 py-1.5 text-xs sm:text-sm rounded-lg transition-all duration-200 flex items-center gap-1.5" id="btnShowFeed" onclick="switchView('feed')">
           <span>Headlines</span>
         </button>
-        <button class="px-3.5 py-1.5 text-xs sm:text-sm rounded-lg text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100/60 transition-all duration-200 flex items-center gap-1.5" id="btnShowDb" onclick="switchView('db')">
-          <span>Database</span>
+        <button class="px-3.5 py-1.5 text-xs sm:text-sm rounded-lg text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100/60 transition-all duration-200 flex items-center gap-1.5" id="btnShowSources" onclick="switchView('sources')">
+          <span>Sources</span>
         </button>
       </div>
 
@@ -373,57 +373,77 @@
     </section>
 
     <!-- ==================================================================== -->
-    <!-- VIEW 2: DATABASE EXPLORER                                            -->
+    <!-- VIEW 2: SOURCES DIRECTORY & INGESTION REGISTRY                       -->
     <!-- ==================================================================== -->
-    <section id="dbView" class="hidden space-y-6">
+    <section id="sourcesView" class="hidden space-y-6">
 
-      <!-- DB Intro Card -->
-      <div class="glass-card rounded-2xl p-6 space-y-4">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      <!-- Sources Overview Header -->
+      <div class="glass-card rounded-3xl p-6 sm:p-7 space-y-5">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <h2 class="text-lg font-normal text-zinc-900">SQLite Database: news_platform.db</h2>
-            <p class="text-xs text-zinc-500 font-mono">Live schema inspection, structured rows, and JSON payloads</p>
-          </div>
-          
-          <div class="relative w-full sm:w-64">
-            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-400">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+            <div class="inline-flex items-center gap-2 px-2.5 py-0.5 glass-subbox rounded-full text-xs font-mono text-zinc-600 mb-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+              <span>Registry Active</span>
             </div>
-            <input 
-              type="text" 
-              id="dbSearchInput" 
-              placeholder="Filter current table rows..." 
-              oninput="renderCurrentTable()"
-              class="w-full pl-8 pr-3 py-1.5 text-xs bg-white/70 focus:bg-white border border-zinc-200 rounded-xl outline-none transition-all placeholder:text-zinc-400 text-zinc-900"
-            >
+            <h2 class="text-xl sm:text-2xl font-normal text-zinc-900">Intelligence Sources Directory</h2>
+            <p class="text-xs sm:text-sm text-zinc-500">Live feeds, YouTube channels, and regulatory APIs ingesting into news_platform.db</p>
+          </div>
+
+          <!-- Quick Stats Badges -->
+          <div class="flex items-center gap-2">
+            <span class="tech-chip text-xs" id="srcStatTotal">15 Sources</span>
+            <span class="tech-chip text-xs bg-emerald-50 text-emerald-700 border-emerald-200" id="srcStatHealth">100% Active</span>
           </div>
         </div>
 
-        <!-- Table Tabs -->
-        <div class="flex flex-wrap gap-2 pt-2 border-t border-zinc-200/60" id="tableTabsContainer"></div>
+        <!-- Filter & Search Controls Bar -->
+        <div class="pt-4 border-t border-zinc-200/60 space-y-3.5">
+          
+          <!-- Row 1: Search & Filter Counts -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+            <div class="relative flex-1 max-w-md">
+              <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-400">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <input 
+                type="text" 
+                id="sourceSearchInput" 
+                placeholder="Search source by name, channel, or URL..." 
+                oninput="renderSources()"
+                class="w-full pl-9 pr-3.5 py-2 text-xs bg-white/70 focus:bg-white border border-zinc-200/80 focus:border-zinc-400 rounded-xl outline-none transition-all placeholder:text-zinc-400 text-zinc-900"
+              >
+            </div>
+            
+            <span class="text-xs font-mono text-zinc-500" id="sourcesFilterCount">Showing 15 sources</span>
+          </div>
+
+          <!-- Row 2: Category Filter Pills -->
+          <div class="flex items-center flex-wrap gap-1.5 pt-1" id="sourceCategoryPills">
+            <span class="text-[10px] font-mono uppercase text-zinc-400 tracking-wider mr-1">Category:</span>
+            <button class="src-cat-pill btn-active px-3 py-1 rounded-xl text-xs transition-all" onclick="setSourceCategory('all', this)">All Categories</button>
+            <button class="src-cat-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1 rounded-xl text-xs transition-all" onclick="setSourceCategory('tech', this)">Tech & AI</button>
+            <button class="src-cat-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1 rounded-xl text-xs transition-all" onclick="setSourceCategory('finance', this)">Finance & Mortgage Broking</button>
+            <button class="src-cat-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1 rounded-xl text-xs transition-all" onclick="setSourceCategory('politics', this)">Policy & Public</button>
+          </div>
+
+          <!-- Row 3: Feed Type Filter Pills -->
+          <div class="flex items-center flex-wrap gap-1.5" id="sourceTypePills">
+            <span class="text-[10px] font-mono uppercase text-zinc-400 tracking-wider mr-1">Feed Type:</span>
+            <button class="src-type-pill btn-active px-2.5 py-1 rounded-lg text-xs font-mono transition-all" onclick="setSourceType('all', this)">All Types</button>
+            <button class="src-type-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-2.5 py-1 rounded-lg text-xs font-mono transition-all" onclick="setSourceType('youtube_rss', this)">YouTube RSS</button>
+            <button class="src-type-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-2.5 py-1 rounded-lg text-xs font-mono transition-all" onclick="setSourceType('atom', this)">Atom Feed</button>
+            <button class="src-type-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-2.5 py-1 rounded-lg text-xs font-mono transition-all" onclick="setSourceType('rss', this)">RSS 2.0</button>
+            <button class="src-type-pill glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-2.5 py-1 rounded-lg text-xs font-mono transition-all" onclick="setSourceType('rest_json', this)">REST API</button>
+          </div>
+
+        </div>
       </div>
 
-      <!-- Table Schema Card -->
-      <div class="glass-subbox rounded-2xl p-5 space-y-3">
-        <div class="text-xs text-zinc-500 font-mono flex items-center justify-between">
-          <span>TABLE SCHEMA: <span id="schemaTableName" class="text-zinc-800 font-mono"></span></span>
-          <span class="text-zinc-400">SQLite Datatypes</span>
-        </div>
-        <div class="flex flex-wrap gap-2" id="schemaColumnsList"></div>
-      </div>
-
-      <!-- Table Wrapper -->
-      <div class="glass-panel rounded-2xl overflow-hidden border border-zinc-200/80 shadow-sm">
-        <div class="overflow-x-auto max-h-[620px]">
-          <table class="w-full text-left text-xs border-collapse">
-            <thead class="bg-zinc-100/90 backdrop-blur sticky top-0 z-10 border-b border-zinc-200/80 text-zinc-700" id="dataThead"></thead>
-            <tbody class="divide-y divide-zinc-200/60" id="dataTbody"></tbody>
-          </table>
-        </div>
-      </div>
+      <!-- Sources Directory Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="sourcesContainer"></div>
 
     </section>
 
@@ -461,36 +481,37 @@
     let currentView = 'feed';
     let sortMode = 'chron';
     let allArticles = [];
-    let dbSnapshot = {};
-    let selectedTable = 'articles';
+    let allSources = [];
     let currentCategory = 'all';
     let currentEntityFilter = null;
+    let sourceCategoryFilter = 'all';
+    let sourceTypeFilter = 'all';
 
     // View Switching
     function switchView(view) {
       currentView = view;
       const feedView = document.getElementById('feedView');
-      const dbView = document.getElementById('dbView');
+      const sourcesView = document.getElementById('sourcesView');
       const btnFeed = document.getElementById('btnShowFeed');
-      const btnDb = document.getElementById('btnShowDb');
+      const btnSources = document.getElementById('btnShowSources');
 
       if (view === 'feed') {
         feedView.classList.remove('hidden');
-        dbView.classList.add('hidden');
+        sourcesView.classList.add('hidden');
         btnFeed.classList.add('btn-active');
         btnFeed.classList.remove('text-zinc-600');
-        btnDb.classList.remove('btn-active');
-        btnDb.classList.add('text-zinc-600');
+        btnSources.classList.remove('btn-active');
+        btnSources.classList.add('text-zinc-600');
       } else {
         feedView.classList.add('hidden');
-        dbView.classList.remove('hidden');
-        btnDb.classList.add('btn-active');
-        btnDb.classList.remove('text-zinc-600');
+        sourcesView.classList.remove('hidden');
+        btnSources.classList.add('btn-active');
+        btnSources.classList.remove('text-zinc-600');
         btnFeed.classList.remove('btn-active');
         btnFeed.classList.add('text-zinc-600');
 
-        if (Object.keys(dbSnapshot).length === 0) {
-          loadDatabaseData();
+        if (allSources.length === 0) {
+          loadSourcesData();
         }
       }
     }
@@ -521,7 +542,7 @@
       if (currentView === 'feed') {
         await loadFeed();
       } else {
-        await loadDatabaseData();
+        await loadSourcesData();
       }
       btn.innerHTML = orig;
     }
@@ -706,8 +727,21 @@
           </div>
         ` : '';
 
+        // Video thumbnail & card layout
+        let videoThumbHtml = '';
+        if (payload.thumbnail) {
+          videoThumbHtml = `
+            <div class="w-full sm:w-44 aspect-video rounded-2xl overflow-hidden flex-shrink-0 bg-zinc-100 border border-zinc-200/80 shadow-xs relative group-hover:border-zinc-300 transition-all">
+              <img src="${payload.thumbnail}" alt="${art.title}" class="w-full h-full object-cover" loading="lazy">
+              <div class="absolute inset-0 bg-black/15 flex items-center justify-center pointer-events-none">
+                <div class="w-7 h-7 rounded-full bg-zinc-900/80 text-white flex items-center justify-center text-[10px] pl-0.5 shadow-sm">▶</div>
+              </div>
+            </div>
+          `;
+        }
+
         return `
-          <article class="glass-card rounded-3xl p-6 sm:p-7 space-y-3.5">
+          <article class="glass-card rounded-3xl p-6 sm:p-7 space-y-3.5 group">
             <div class="flex items-center flex-wrap gap-2 text-xs">
               ${catBadge}
               <span class="text-zinc-700 font-normal">${art.source_name || 'Primary Source'}</span>
@@ -716,13 +750,17 @@
               ${hotBadge}
             </div>
 
-            <h2 class="text-lg sm:text-xl font-normal leading-snug">
-              <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="text-zinc-900 hover:text-sky-600 transition-colors">
-                ${art.title}
-              </a>
-            </h2>
-
-            ${art.summary ? `<p class="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">${art.summary}</p>` : ''}
+            <div class="flex flex-col sm:flex-row gap-4 items-start">
+              ${videoThumbHtml}
+              <div class="flex-1 space-y-2">
+                <h2 class="text-lg sm:text-xl font-normal leading-snug">
+                  <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="text-zinc-900 hover:text-sky-600 transition-colors">
+                    ${art.title}
+                  </a>
+                </h2>
+                ${art.summary ? `<p class="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">${art.summary}</p>` : ''}
+              </div>
+            </div>
 
             ${entitiesHtml}
           </article>
@@ -731,120 +769,155 @@
     }
 
     // -------------------------------------------------------------------------
-    // DATABASE EXPLORER LOGIC
+    // SOURCES DIRECTORY LOGIC
     // -------------------------------------------------------------------------
-    async function loadDatabaseData() {
+    async function loadSourcesData() {
       try {
-        let resp = await fetch('db_snapshot.json?t=' + Date.now());
+        let resp = await fetch('sources.json?t=' + Date.now());
         if (!resp.ok) {
-          resp = await fetch('/api/db');
+          resp = await fetch('db_snapshot.json?t=' + Date.now());
+          const snap = await resp.json();
+          allSources = snap.sources?.rows || [];
+        } else {
+          const data = await resp.json();
+          allSources = data.sources || [];
         }
-        dbSnapshot = await resp.json();
-        const tableCount = Object.keys(dbSnapshot).length;
-        document.getElementById('statTablesCount').innerText = `${tableCount} SQLite tables`;
+        const totalEl = document.getElementById('srcStatTotal');
+        if (totalEl) totalEl.innerText = `${allSources.length} Sources`;
+        const tabEl = document.getElementById('statTablesCount');
+        if (tabEl) tabEl.innerText = `${allSources.length} sources registered`;
       } catch (e) {
-        console.warn("Could not load db_snapshot.json:", e);
+        console.warn("Could not load sources data:", e);
       }
-      renderTableTabs();
-      renderCurrentTable();
+      renderSources();
     }
 
-    function renderTableTabs() {
-      const container = document.getElementById('tableTabsContainer');
-      const tableNames = Object.keys(dbSnapshot);
-      if (!tableNames.includes(selectedTable) && tableNames.length > 0) {
-        selectedTable = tableNames[0];
-      }
-
-      container.innerHTML = tableNames.map(name => {
-        const rowCount = (dbSnapshot[name].rows || []).length;
-        const isActive = (name === selectedTable);
-        const activeClass = isActive 
-          ? 'btn-active' 
-          : 'glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900';
-        return `
-          <button class="${activeClass} px-3 py-1.5 rounded-xl text-xs font-mono transition-all flex items-center gap-2" onclick="selectTable('${name}')">
-            <span>${name}</span>
-            <span class="text-[10px] opacity-75 bg-black/10 px-1.5 py-0.5 rounded-md">${rowCount}</span>
-          </button>
-        `;
-      }).join('');
+    function setSourceCategory(cat, btn) {
+      sourceCategoryFilter = cat;
+      document.querySelectorAll('#sourceCategoryPills .src-cat-pill').forEach(b => {
+        b.classList.remove('btn-active');
+        b.classList.add('glass-subbox', 'text-zinc-600', 'hover:text-zinc-900', 'hover:bg-white/80');
+      });
+      btn.classList.add('btn-active');
+      btn.classList.remove('glass-subbox', 'text-zinc-600', 'hover:text-zinc-900', 'hover:bg-white/80');
+      renderSources();
     }
 
-    function selectTable(tableName) {
-      selectedTable = tableName;
-      renderTableTabs();
-      renderCurrentTable();
+    function setSourceType(type, btn) {
+      sourceTypeFilter = type;
+      document.querySelectorAll('#sourceTypePills .src-type-pill').forEach(b => {
+        b.classList.remove('btn-active');
+        b.classList.add('glass-subbox', 'text-zinc-600', 'hover:text-zinc-900', 'hover:bg-white/80');
+      });
+      btn.classList.add('btn-active');
+      btn.classList.remove('glass-subbox', 'text-zinc-600', 'hover:text-zinc-900', 'hover:bg-white/80');
+      renderSources();
     }
 
-    function renderCurrentTable() {
-      if (!dbSnapshot[selectedTable]) return;
-      const tableData = dbSnapshot[selectedTable];
-      const cols = tableData.columns || [];
-      const rows = tableData.rows || [];
-      const search = (document.getElementById('dbSearchInput').value || '').toLowerCase().trim();
+    function renderSources() {
+      const container = document.getElementById('sourcesContainer');
+      if (!container) return;
 
-      document.getElementById('schemaTableName').innerText = selectedTable.toUpperCase();
-      document.getElementById('schemaColumnsList').innerHTML = cols.map(c => `
-        <span class="tech-chip text-xs">
-          ${c.pk ? '<span class="bg-amber-100 text-amber-800 text-[9px] px-1 rounded mr-1">PK</span>' : ''}
-          <span class="text-zinc-800">${c.name}</span>
-          <span class="text-sky-600 text-[10px] ml-1.5">${c.type}</span>
-        </span>
-      `).join('');
+      const searchQuery = (document.getElementById('sourceSearchInput')?.value || '').toLowerCase().trim();
 
-      document.getElementById('dataThead').innerHTML = `
-        <tr>
-          ${cols.map(c => `<th class="p-3 px-4 font-mono text-[11px] whitespace-nowrap">${c.name} <span class="text-zinc-400 font-mono text-[10px]">(${c.type})</span></th>`).join('')}
-        </tr>
-      `;
-
-      const filteredRows = rows.filter(r => {
-        if (!search) return true;
-        return Object.values(r).some(val => String(val).toLowerCase().includes(search));
+      const filtered = allSources.filter(s => {
+        if (sourceCategoryFilter !== 'all' && s.category !== sourceCategoryFilter) return false;
+        if (sourceTypeFilter !== 'all' && s.feed_type !== sourceTypeFilter) return false;
+        if (searchQuery) {
+          const inName = (s.name || '').toLowerCase().includes(searchQuery);
+          const inUrl = (s.feed_url || '').toLowerCase().includes(searchQuery);
+          const inType = (s.feed_type || '').toLowerCase().includes(searchQuery);
+          if (!inName && !inUrl && !inType) return false;
+        }
+        return true;
       });
 
-      if (filteredRows.length === 0) {
-        document.getElementById('dataTbody').innerHTML = `
-          <tr><td colspan="${cols.length}" class="text-center p-8 text-zinc-400 font-normal">No records match search.</td></tr>
+      const countEl = document.getElementById('sourcesFilterCount');
+      if (countEl) {
+        countEl.innerText = `Showing ${filtered.length} of ${allSources.length} sources`;
+      }
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-full glass-card rounded-3xl p-12 text-center text-zinc-500 text-sm">
+            No sources match the selected filters.
+          </div>
         `;
         return;
       }
 
-      document.getElementById('dataTbody').innerHTML = filteredRows.map(r => `
-        <tr class="hover:bg-white/80 transition-colors">
-          ${cols.map(c => {
-            const val = r[c.name];
-            if (val === null || val === undefined) {
-              return `<td class="p-3 px-4 text-zinc-300 font-mono italic">NULL</td>`;
-            }
-            if (c.name.includes('payload') || (typeof val === 'string' && val.startsWith('{'))) {
-              return `<td class="p-3 px-4"><span class="cursor-pointer text-sky-600 hover:underline font-mono bg-sky-50 px-2 py-0.5 rounded text-[11px]" onclick="viewJson('${encodeURIComponent(val)}')">{JSON Object}</span></td>`;
-            }
-            return `<td class="p-3 px-4 text-zinc-800 max-w-xs truncate" title="${String(val).replace(/"/g, '&quot;')}">${String(val)}</td>`;
-          }).join('')}
-        </tr>
-      `).join('');
+      container.innerHTML = filtered.map(s => {
+        // Type styling & icon
+        let typeIcon = '📡';
+        let typeBadge = '';
+        if (s.feed_type === 'youtube_rss') {
+          typeIcon = '📺';
+          typeBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-rose-50 text-rose-700 border border-rose-200">YOUTUBE RSS</span>';
+        } else if (s.feed_type === 'atom') {
+          typeIcon = '⚛️';
+          typeBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-purple-50 text-purple-700 border border-purple-200">ATOM FEED</span>';
+        } else if (s.feed_type === 'rss') {
+          typeIcon = '📡';
+          typeBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-amber-50 text-amber-700 border border-amber-200">RSS 2.0</span>';
+        } else {
+          typeIcon = '⚡';
+          typeBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-sky-50 text-sky-700 border border-sky-200">REST API</span>';
+        }
+
+        // Category badge
+        let catBadge = '';
+        if (s.category === 'tech') {
+          catBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-sky-50 text-sky-700 border border-sky-200">TECH</span>';
+        } else if (s.category === 'finance') {
+          catBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-emerald-50 text-emerald-700 border border-emerald-200">FINANCE</span>';
+        } else {
+          catBadge = '<span class="px-2 py-0.5 rounded-md text-[10px] font-mono bg-zinc-100 text-zinc-700 border border-zinc-200">POLICY</span>';
+        }
+
+        const countText = s.article_count !== undefined ? `${s.article_count} items stored` : 'Active pipeline';
+
+        return `
+          <div class="glass-card rounded-3xl p-5 space-y-4 flex flex-col justify-between hover:shadow-md transition-all group">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between gap-2">
+                <div class="w-8 h-8 rounded-xl glass-subbox flex items-center justify-center text-sm shadow-xs group-hover:scale-105 transition-transform">
+                  ${typeIcon}
+                </div>
+                <div class="flex items-center gap-1.5 flex-wrap">
+                  ${catBadge}
+                  ${typeBadge}
+                </div>
+              </div>
+
+              <div>
+                <h3 class="text-base font-normal text-zinc-900 leading-snug">${s.name}</h3>
+                <div class="text-[11px] font-mono text-zinc-400 mt-1 truncate" title="${s.feed_url}">
+                  ${s.feed_url}
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-zinc-200/60 flex items-center justify-between text-xs">
+              <div class="flex items-center gap-1.5 font-mono text-[11px] text-zinc-500">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>${countText}</span>
+              </div>
+
+              <a href="${s.feed_url}" target="_blank" rel="noopener noreferrer" 
+                 class="tech-chip text-[11px] text-zinc-600 hover:text-zinc-900 inline-flex items-center gap-1" 
+                 title="Open Feed Source">
+                <span>Feed</span>
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="opacity-70">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
     }
-
-    function viewJson(encodedStr) {
-      try {
-        const raw = decodeURIComponent(encodedStr);
-        const parsed = JSON.parse(raw);
-        document.getElementById('modalJsonText').innerText = JSON.stringify(parsed, null, 2);
-      } catch (e) {
-        document.getElementById('modalJsonText').innerText = decodeURIComponent(encodedStr);
-      }
-      document.getElementById('jsonModal').classList.remove('hidden');
-      document.getElementById('jsonModal').classList.add('flex');
-    }
-
-    function closeModal() {
-      document.getElementById('jsonModal').classList.add('hidden');
-      document.getElementById('jsonModal').classList.remove('flex');
-    }
-
-
 
     // Set dynamic current year in footer
     document.getElementById('currentYear').innerText = new Date().getFullYear();
@@ -852,7 +925,7 @@
     // Initial load
     window.addEventListener('DOMContentLoaded', async () => {
       await loadFeed();
-      await loadDatabaseData();
+      await loadSourcesData();
     });
   </script>
 </body>

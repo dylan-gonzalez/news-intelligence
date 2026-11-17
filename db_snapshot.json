@@ -1947,9 +1947,61 @@
         "raw_payload": "{\"trending_query\": \"mining\", \"approx_traffic\": \"200+\", \"traffic_num\": 200, \"hotness_score\": 50, \"news_source\": \"Bloomberg.com\", \"trends_url\": \"https://trends.google.com/trends/explore?q=mining\"}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:40:26"
+      },
+      {
+        "id": "e63c6198-ccbf-400b-9981-b52a95dc5b3e",
+        "source_id": "australian_broker",
+        "title": "CBA CEO pushes back on broker blame game in mortgage fraud debate",
+        "url": "https://www.brokernews.com.au/news/breaking-news/cba-ceo-pushes-back-on-broker-blame-game-in-mortgage-fraud-debate-290324.aspx",
+        "published_at": "2026-11-17T05:15:55Z",
+        "category": "finance",
+        "author": "Australian Broker",
+        "summary": "Technology and other 'cohorts of customers' are part of the problem, he says",
+        "raw_payload": "{\"source_type\": \"atom_feed\", \"industry\": \"mortgage_broking\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 05:48:02"
+      },
+      {
+        "id": "7b5ccf90-d8e0-42ea-bdb1-5bcf96c4f48f",
+        "source_id": "australian_broker",
+        "title": "Forty-six lenders pass on November hike as fixed rates also climb",
+        "url": "https://www.brokernews.com.au/news/breaking-news/fortysix-lenders-pass-on-november-hike-as-fixed-rates-also-climb-290326.aspx",
+        "published_at": "2026-11-17T02:51:42Z",
+        "category": "finance",
+        "author": "Australian Broker",
+        "summary": "Majors reprice as non-banks double share of new lending",
+        "raw_payload": "{\"source_type\": \"atom_feed\", \"industry\": \"mortgage_broking\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 05:48:02"
+      },
+      {
+        "id": "a9b48be1-c85f-42f6-a498-6333d91a88a6",
+        "source_id": "hacker_news",
+        "title": "OpenCode Browse",
+        "url": "https://opencode.ai/product/browse",
+        "published_at": "2026-11-16T21:20:37+00:00",
+        "category": "tech",
+        "author": "mfiguiere",
+        "summary": "HN Score: 190 | Comments: 24",
+        "raw_payload": "{\"hn_id\": 50523459, \"score\": 190, \"descendants\": 82, \"hotness_score\": 53, \"discussion_url\": \"https://news.ycombinator.com/item?id=50523459\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 05:48:08"
+      },
+      {
+        "id": "b96dcb42-5ec2-4e00-aeda-42601f988dca",
+        "source_id": "google_trends_au",
+        "title": "John Christ: Danzig Guitarist John Christ Has Passed Away",
+        "url": "https://knotfest.com/blogs/news/danzig-guitarist-john-christ-has-passed-away",
+        "published_at": "2026-11-16T21:30:00-08:00",
+        "category": "politics",
+        "author": "Knotfest",
+        "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+        "raw_payload": "{\"trending_query\": \"john christ\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"Knotfest\", \"trends_url\": \"https://trends.google.com/trends/explore?q=john+christ\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 05:48:09"
       }
     ],
-    "total_count": 96
+    "total_count": 100
   },
   "entities": {
     "columns": [
@@ -2635,7 +2687,7 @@
         "feed_url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:21.995254+00:00"
+        "last_fetched_at": "2026-11-17T05:48:05.457127+00:00"
       },
       {
         "id": "hacker_news",
@@ -2644,7 +2696,7 @@
         "feed_url": "https://hacker-news.firebaseio.com/v0/topstories.json",
         "feed_type": "rest_json",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:25.024196+00:00"
+        "last_fetched_at": "2026-11-17T05:48:08.619065+00:00"
       },
       {
         "id": "sec_edgar",
@@ -2653,7 +2705,7 @@
         "feed_url": "https://data.sec.gov/submissions/CIK0000320193.json",
         "feed_type": "rest_json",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:25.132285+00:00"
+        "last_fetched_at": "2026-11-17T05:48:08.901967+00:00"
       },
       {
         "id": "arxiv_ai",
@@ -2662,7 +2714,7 @@
         "feed_url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&start=0&max_results=5",
         "feed_type": "atom",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:25.742304+00:00"
+        "last_fetched_at": "2026-11-17T05:48:09.076023+00:00"
       },
       {
         "id": "google_trends_au",
@@ -2671,7 +2723,7 @@
         "feed_url": "https://trends.google.com/trending/rss?geo=AU",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:26.606685+00:00"
+        "last_fetched_at": "2026-11-17T05:48:09.567868+00:00"
       },
       {
         "id": "australian_broker",
@@ -2680,7 +2732,7 @@
         "feed_url": "https://www.brokernews.com.au/rss/",
         "feed_type": "atom",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:19.572547+00:00"
+        "last_fetched_at": "2026-11-17T05:48:02.725068+00:00"
       },
       {
         "id": "mpa_australia",
@@ -2689,7 +2741,7 @@
         "feed_url": "https://www.mpamag.com/au/rss",
         "feed_type": "atom",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:19.999577+00:00"
+        "last_fetched_at": "2026-11-17T05:48:03.161660+00:00"
       },
       {
         "id": "apra_media",
@@ -2698,7 +2750,7 @@
         "feed_url": "https://www.apra.gov.au/rss.xml",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:20.057283+00:00"
+        "last_fetched_at": "2026-11-17T05:48:03.251316+00:00"
       },
       {
         "id": "property_update_au",
@@ -2707,7 +2759,7 @@
         "feed_url": "https://propertyupdate.com.au/feed/",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:21.586911+00:00"
+        "last_fetched_at": "2026-11-17T05:48:04.986972+00:00"
       },
       {
         "id": "macrobusiness_au",
@@ -2716,7 +2768,7 @@
         "feed_url": "https://www.macrobusiness.com.au/feed/",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-17T05:40:21.892789+00:00"
+        "last_fetched_at": "2026-11-17T05:48:05.318972+00:00"
       },
       {
         "id": "rba_speeches",
@@ -2726,8 +2778,44 @@
         "feed_type": "rss",
         "is_active": 1,
         "last_fetched_at": null
+      },
+      {
+        "id": "yt_uconwr2m0moa8wsghb3zun_w",
+        "name": "YouTube: AI Engineer",
+        "category": "tech",
+        "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCONWr2M0moA8wsGHb3zUn_w",
+        "feed_type": "youtube_rss",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T05:48:09.686136+00:00"
+      },
+      {
+        "id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
+        "name": "YouTube: IBM Technology",
+        "category": "tech",
+        "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "feed_type": "youtube_rss",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T05:48:09.811677+00:00"
+      },
+      {
+        "id": "yt_ucza18yv7qayth-mrirbhdpa",
+        "name": "YouTube: Dwarkesh Patel",
+        "category": "tech",
+        "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA",
+        "feed_type": "youtube_rss",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T05:48:10.127147+00:00"
+      },
+      {
+        "id": "yt_ucmliswj7oukcew35gsayhra",
+        "name": "YouTube: The Wall Street Journal",
+        "category": "finance",
+        "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA",
+        "feed_type": "youtube_rss",
+        "is_active": 1,
+        "last_fetched_at": "2026-11-17T05:48:10.271173+00:00"
       }
     ],
-    "total_count": 11
+    "total_count": 15
   }
 }

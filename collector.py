@@ -867,6 +867,75 @@ class RBASpeechesAdapter(BaseAdapter):
         return articles
 
 # -----------------------------------------------------------------------------
+# 11. YouTube Channel RSS Adapter
+# -----------------------------------------------------------------------------
+class YouTubeChannelAdapter(BaseAdapter):
+    def __init__(self, channel_id: str, channel_name: str, category: str = "tech", handle: str = ""):
+        self.channel_id = channel_id
+        self.name = f"YouTube: {channel_name}"
+        self.source_id = f"yt_{channel_id.lower()}"
+        self.category = category
+        self.handle = handle
+        self.feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+        self.feed_type = "youtube_rss"
+
+    def fetch(self, limit: int = 6) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        ns = {
+            "atom": "http://www.w3.org/2005/Atom",
+            "media": "http://search.yahoo.com/mrss/",
+            "yt": "http://www.youtube.com/xml/schemas/2015"
+        }
+        articles = []
+        for entry in root.findall("atom:entry", namespaces=ns)[:limit]:
+            title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
+            pub_date = (entry.findtext("atom:published", namespaces=ns) or "").strip()
+            link_elem = entry.find("atom:link", namespaces=ns)
+            video_url = link_elem.attrib.get("href", "") if link_elem is not None else ""
+            
+            media_group = entry.find("media:group", namespaces=ns)
+            description = ""
+            thumbnail_url = ""
+            if media_group is not None:
+                description = (media_group.findtext("media:description", namespaces=ns) or "").strip()
+                thumb_elem = media_group.find("media:thumbnail", namespaces=ns)
+                if thumb_elem is not None:
+                    thumbnail_url = thumb_elem.attrib.get("url", "")
+
+            # Discard any accidental sports video
+            if is_sports_content(f"{title} {description}"):
+                continue
+
+            summary = description[:280] + ("..." if len(description) > 280 else "")
+
+            entities = [
+                NormalizedEntity(name=self.name.replace("YouTube: ", ""), entity_type="CREATOR"),
+                NormalizedEntity(name="YouTube", entity_type="PLATFORM")
+            ]
+            if self.category == "finance":
+                entities.extend(extract_mortgage_entities(f"{title} {description}"))
+
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=f"📺 {title}",
+                url=video_url,
+                published_at=pub_date or datetime.now(timezone.utc).isoformat(),
+                category=self.category,
+                author=self.name.replace("YouTube: ", ""),
+                summary=summary,
+                raw_payload={
+                    "source_type": "youtube_rss",
+                    "channel_id": self.channel_id,
+                    "handle": self.handle,
+                    "thumbnail": thumbnail_url,
+                    "is_video": True
+                },
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
 # Database Layer (SQLite local engine, directly compatible with PostgreSQL schema)
 # -----------------------------------------------------------------------------
 class StorageEngine:
@@ -1053,6 +1122,26 @@ class StorageEngine:
             json.dump({"generated_at": datetime.now(timezone.utc).isoformat(), "articles": articles}, f, indent=2)
         return len(articles)
 
+    def export_sources_json(self, output_path: str = "sources.json"):
+        with self._get_conn() as conn:
+            cur = conn.execute("""
+            SELECT s.id, s.name, s.category, s.feed_url, s.feed_type, s.is_active,
+                   COUNT(a.id) as article_count,
+                   MAX(a.published_at) as latest_article_at
+            FROM sources s
+            LEFT JOIN articles a ON s.id = a.source_id
+            GROUP BY s.id
+            ORDER BY s.category, s.name
+            """)
+            sources = [dict(r) for r in cur.fetchall()]
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "total_count": len(sources),
+                "sources": sources
+            }, f, indent=2)
+        return len(sources)
+
     def export_db_snapshot(self, output_path: str = "db_snapshot.json"):
         with self._get_conn() as conn:
             cur = conn.cursor()
@@ -1093,7 +1182,12 @@ def run_collection():
         HackerNewsAdapter(),
         SECAdapter(),
         ArXivAdapter(),
-        GoogleTrendsAdapter(geo="AU")
+        GoogleTrendsAdapter(geo="AU"),
+        # YouTube Channels
+        YouTubeChannelAdapter("UCONWr2M0moA8wsGHb3zUn_w", "AI Engineer", category="tech", handle="@aiDotEngineer"),
+        YouTubeChannelAdapter("UC8cc4pVKVHG7A9fbNsRNrLQ", "IBM Technology", category="tech", handle="@IBMTechnology"),
+        YouTubeChannelAdapter("UCZa18YV7qayTh-MRIrBhDpA", "Dwarkesh Patel", category="tech", handle="@DwarkeshPatel"),
+        YouTubeChannelAdapter("UCMliswJ7oukCeW35GSayhRA", "The Wall Street Journal", category="finance", handle="@wsj"),
     ]
     storage.register_sources(adapters)
     
@@ -1163,6 +1257,10 @@ def run_collection():
     db_snap_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db_snapshot.json")
     table_count = storage.export_db_snapshot(db_snap_path)
     print(f"[*] Exported {table_count} tables snapshot to {os.path.basename(db_snap_path)}")
+
+    sources_json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources.json")
+    sources_count = storage.export_sources_json(sources_json_path)
+    print(f"[*] Exported {sources_count} sources registry to {os.path.basename(sources_json_path)}")
 
     print("\n[+] LATEST FEED PREVIEW (Operational Read Layer):")
     feed = storage.get_latest_feed(10)

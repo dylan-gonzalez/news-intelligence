@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-11-17T05:48:11.025700+00:00",
+  "total_count": 15,
+  "sources": [
+    {
+      "id": "apra_media",
+      "name": "APRA Banking Regulation",
+      "category": "finance",
+      "feed_url": "https://www.apra.gov.au/rss.xml",
+      "feed_type": "rss",
+      "is_active": 1,
+      "article_count": 10,
+      "latest_article_at": "2026-10-29T23:00:00+00:00"
+    },
+    {
+      "id": "australian_broker",
+      "name": "Australian Broker",
+      "category": "finance",
+      "feed_url": "https://www.brokernews.com.au/rss/",
+      "feed_type": "atom",
+      "is_active": 1,
+      "article_count": 17,
+      "latest_article_at": "2026-11-17T05:15:55Z"
+    },
+    {
+      "id": "macrobusiness_au",
+      "name": "MacroBusiness Australia",
+      "category": "finance",
+      "feed_url": "https://www.macrobusiness.com.au/feed/",
+      "feed_type": "rss",
+      "is_active": 1,
+      "article_count": 10,
+      "latest_article_at": "2026-11-17T01:00:14+00:00"
+    },
+    {
+      "id": "mpa_australia",
+      "name": "Mortgage Professional Australia",
+      "category": "finance",
+      "feed_url": "https://www.mpamag.com/au/rss",
+      "feed_type": "atom",
+      "is_active": 1,
+      "article_count": 15,
+      "latest_article_at": "2026-11-17T05:00:55Z"
+    },
+    {
+      "id": "property_update_au",
+      "name": "Property Update Australia",
+      "category": "finance",
+      "feed_url": "https://propertyupdate.com.au/feed/",
+      "feed_type": "rss",
+      "is_active": 1,
+      "article_count": 10,
+      "latest_article_at": "2026-11-17T04:30:16+00:00"
+    },
+    {
+      "id": "rba_speeches",
+      "name": "RBA Speeches & Statements",
+      "category": "finance",
+      "feed_url": "https://www.rba.gov.au/rss/rss-cb-speeches.xml",
+      "feed_type": "rss",
+      "is_active": 1,
+      "article_count": 0,
+      "latest_article_at": null
+    },
+    {
+      "id": "rba_media",
+      "name": "Reserve Bank of Australia",
+      "category": "finance",
+      "feed_url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
+      "feed_type": "rss",
+      "is_active": 1,
+      "article_count": 1,
+      "latest_article_at": "2026-11-17T03:39:49.105931+00:00"
+    },
+    {
+      "id": "sec_edgar",
+      "name": "U.S. SEC EDGAR Disclosures",
+      "category": "finance",
+      "feed_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "feed_type": "rest_json",
+      "is_active": 1,
+      "article_count": 4,
+      "latest_article_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "yt_ucmliswj7oukcew35gsayhra",
+      "name": "YouTube: The Wall Street Journal",
+      "category": "finance",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA",
+      "feed_type": "youtube_rss",
+      "is_active": 1,
+      "article_count": 6,
+      "latest_article_at": "2026-11-16T16:58:50+00:00"
+    },
+    {
+      "id": "google_trends_au",
+      "name": "Google Trends (AU)",
+      "category": "politics",
+      "feed_url": "https://trends.google.com/trending/rss?geo=AU",
+      "feed_type": "rss",
+      "is_active": 1,
+      "article_count": 13,
+      "latest_article_at": "2026-11-16T21:30:00-08:00"
+    },
+    {
+      "id": "hacker_news",
+      "name": "Hacker News (Top Stories)",
+      "category": "tech",
+      "feed_url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "feed_type": "rest_json",
+      "is_active": 1,
+      "article_count": 7,
+      "latest_article_at": "2026-11-17T02:17:04+00:00"
+    },
+    {
+      "id": "yt_uconwr2m0moa8wsghb3zun_w",
+      "name": "YouTube: AI Engineer",
+      "category": "tech",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCONWr2M0moA8wsGHb3zUn_w",
+      "feed_type": "youtube_rss",
+      "is_active": 1,
+      "article_count": 6,
+      "latest_article_at": "2026-11-13T17:00:38+00:00"
+    },
+    {
+      "id": "yt_ucza18yv7qayth-mrirbhdpa",
+      "name": "YouTube: Dwarkesh Patel",
+      "category": "tech",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA",
+      "feed_type": "youtube_rss",
+      "is_active": 1,
+      "article_count": 6,
+      "latest_article_at": "2026-11-08T18:30:23+00:00"
+    },
+    {
+      "id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
+      "name": "YouTube: IBM Technology",
+      "category": "tech",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8cc4pVKVHG7A9fbNsRNrLQ",
+      "feed_type": "youtube_rss",
+      "is_active": 1,
+      "article_count": 5,
+      "latest_article_at": "2026-11-11T12:00:33+00:00"
+    },
+    {
+      "id": "arxiv_ai",
+      "name": "arXiv Computer Science & AI",
+      "category": "tech",
+      "feed_url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&start=0&max_results=5",
+      "feed_type": "atom",
+      "is_active": 1,
+      "article_count": 13,
+      "latest_article_at": "2026-11-16T08:40:29Z"
+    }
+  ]
+}

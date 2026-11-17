@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:40:27.284332+00:00",
+  "generated_at": "2026-11-17T05:48:11.008353+00:00",
   "articles": [
     {
       "id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
@@ -8,6 +8,46 @@
       "source_name": "Australian Broker",
       "published_at": "2026-11-17T05:15:55Z",
       "url": "https://www.brokernews.com.au/news/breaking-news/cba-ceo-pushes-back-on-broker-blame-in-mortgage-fraud-debate-290324.aspx",
+      "author": "Australian Broker",
+      "summary": "Technology and other 'cohorts of customers' are part of the problem, he says",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Fraud",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Commonwealth Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "CBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e63c6198-ccbf-400b-9981-b52a95dc5b3e",
+      "title": "CBA CEO pushes back on broker blame game in mortgage fraud debate",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T05:15:55Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/cba-ceo-pushes-back-on-broker-blame-game-in-mortgage-fraud-debate-290324.aspx",
       "author": "Australian Broker",
       "summary": "Technology and other 'cohorts of customers' are part of the problem, he says",
       "payload": {
@@ -206,6 +246,34 @@
           "name": "Reserve Bank of Australia",
           "entity_type": "INSTITUTION",
           "canonical_id": "RBA",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "7b5ccf90-d8e0-42ea-bdb1-5bcf96c4f48f",
+      "title": "Forty-six lenders pass on November hike as fixed rates also climb",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T02:51:42Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/fortysix-lenders-pass-on-november-hike-as-fixed-rates-also-climb-290326.aspx",
+      "author": "Australian Broker",
+      "summary": "Majors reprice as non-banks double share of new lending",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
@@ -820,6 +888,44 @@
       ]
     },
     {
+      "id": "b96dcb42-5ec2-4e00-aeda-42601f988dca",
+      "title": "John Christ: Danzig Guitarist John Christ Has Passed Away",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T21:30:00-08:00",
+      "url": "https://knotfest.com/blogs/news/danzig-guitarist-john-christ-has-passed-away",
+      "author": "Knotfest",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "john christ",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "Knotfest",
+        "trends_url": "https://trends.google.com/trends/explore?q=john+christ"
+      },
+      "entities": [
+        {
+          "name": "John Christ",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:john christ",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Knotfest",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "58d1ffbf-06a4-4d2a-beb6-5fc8d12c0544",
       "title": "CGT changes under fire \u2013 what would Spender plan mean for property?",
       "category": "finance",
@@ -842,6 +948,43 @@
         {
           "name": "Australian Broker",
           "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a9b48be1-c85f-42f6-a498-6333d91a88a6",
+      "title": "OpenCode Browse",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-16T21:20:37+00:00",
+      "url": "https://opencode.ai/product/browse",
+      "author": "mfiguiere",
+      "summary": "HN Score: 190 | Comments: 24",
+      "payload": {
+        "hn_id": 50523459,
+        "score": 190,
+        "descendants": 82,
+        "hotness_score": 53,
+        "discussion_url": "https://news.ycombinator.com/item?id=50523459"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "opencode.ai",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "mfiguiere",
+          "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -1396,6 +1539,74 @@
         {
           "name": "Google Trends",
           "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b8e8167b-307c-4b78-8c15-b431b696e456",
+      "title": "\ud83d\udcfa Trump Says He Might Meet With Kim Jong Un During Asia Trip | WSJ News",
+      "category": "finance",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-16T16:58:50+00:00",
+      "url": "https://www.youtube.com/watch?v=r4RYqRe0MM0",
+      "author": "The Wall Street Journal",
+      "summary": "President Trump departed for a trilateral meeting in Asia with Chinese leader Xi Jinping and Russian President Vladimir Putin. Trump said North Korean leader Kim Jong Un may also be in attendance.\n\n#Trump #NorthKorea #WSJ",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i3.ytimg.com/vi/r4RYqRe0MM0/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "872748cc-35be-4538-9993-29e381e16a53",
+      "title": "\ud83d\udcfa What Greece Learned From Going Broke\u2014and Others in Europe Still Haven\u2019t | WSJ News",
+      "category": "finance",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-16T13:55:09+00:00",
+      "url": "https://www.youtube.com/watch?v=M_HRqrYAPCs",
+      "author": "The Wall Street Journal",
+      "summary": "WSJ\u2019s Gordon Fairclough sits down with Prime Minister Kyriakos Mitsotakis, whose country is now borrowing at lower rates than France, the U.K. or the U.S. a decade after its debt crisis.\n\n#Greece #Finance #WSJ",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i2.ytimg.com/vi/M_HRqrYAPCs/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -2660,6 +2871,108 @@
       ]
     },
     {
+      "id": "1e37e98c-694c-46a5-b30b-53f6c0fd0765",
+      "title": "\ud83d\udcfa Watch: SpaceX Makes History With Starship Landing",
+      "category": "finance",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-15T00:36:47+00:00",
+      "url": "https://www.youtube.com/shorts/ykiNMhfRpOM",
+      "author": "The Wall Street Journal",
+      "summary": "The rocket company successfully caught its massive spacecraft at a Texas launchpad Saturday after it returned from orbit.",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i2.ytimg.com/vi/ykiNMhfRpOM/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "438488cb-21e0-48b1-bf7d-bd487dd0d411",
+      "title": "\ud83d\udcfa Nationwide Groundstop Linked to Contractor Replacing Copper Wire, Duffy Says",
+      "category": "finance",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-14T23:56:02+00:00",
+      "url": "https://www.youtube.com/shorts/jjYG2_7Sh6Y",
+      "author": "The Wall Street Journal",
+      "summary": "Transportation Secretary Sean Duffy said work to replace copper wires with fiber ones at a remote facility caused a router to overload the system.",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i3.ytimg.com/vi/jjYG2_7Sh6Y/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "2d8c9f4a-9bd3-412a-b515-8b9e13209b43",
+      "title": "\ud83d\udcfa Users Say Search Is Bad? Build an Eval | Aaron Linsky",
+      "category": "tech",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-11-13T17:00:38+00:00",
+      "url": "https://www.youtube.com/shorts/SBta4bp214w",
+      "author": "AI Engineer",
+      "summary": "Aaron Linsky explains how Bridgewater turned complaints about search into a benchmark: about 200 handpicked examples, built in less than a week. That gave the team a way to measure each improvement.\n\nFrom AI Engineer New York 2026.\n\n@Bridgewater \n\n@aiDotEngineer",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i4.ytimg.com/vi/SBta4bp214w/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "d51aac90-b686-463e-a3ea-463863432d24",
       "title": "Microsoft outage gives brokers a taste of old-school broking",
       "category": "finance",
@@ -2840,6 +3153,74 @@
       ]
     },
     {
+      "id": "1d0518f5-1f84-48d0-814a-a2e983868bfc",
+      "title": "\ud83d\udcfa Who Evaluates the Evaluator? | Aparna Dhinakaran",
+      "category": "tech",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-11-12T17:00:18+00:00",
+      "url": "https://www.youtube.com/shorts/jjL_g1Gjuj8",
+      "author": "AI Engineer",
+      "summary": "Aparna Dhinakaran of Arize AI explains why AI engineers need to inspect traces, identify errors, and check evaluators against human judgment before shipping them.\n\nFrom AI Engineer New York 2026.\n\n@arizeai \n\n@aiDotEngineer",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i3.ytimg.com/vi/jjL_g1Gjuj8/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "72485c00-eaf5-4066-9f04-a53ae24e86a0",
+      "title": "\ud83d\udcfa Eight Killed and 17 Injured in Brooklyn Building Collapse",
+      "category": "finance",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-12T16:17:40+00:00",
+      "url": "https://www.youtube.com/shorts/we7JrNYTtYY",
+      "author": "The Wall Street Journal",
+      "summary": "A three-story apartment building collapsed into an adjacent construction site, trapping residents and construction workers, according to the New York City Fire Department. The cause is still under investigation.\n\n#NewYork #Brooklyn #WSJ",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i4.ytimg.com/vi/we7JrNYTtYY/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "4daef0bd-3e12-4a0b-b96f-10cbcce23f89",
       "title": "New builds claim a record share of investor lending but\u2026",
       "category": "finance",
@@ -2904,6 +3285,108 @@
         {
           "name": "Form 4",
           "entity_type": "REGULATORY_FORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "55c594e3-5efe-4320-89ab-84b6f587ff4c",
+      "title": "\ud83d\udcfa Why the U.S.\u2019s AI Boom Faces a New Challenge After the Midterms | WSJ",
+      "category": "finance",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-11T20:34:42+00:00",
+      "url": "https://www.youtube.com/watch?v=qCQV7Dux20s",
+      "author": "The Wall Street Journal",
+      "summary": "Voters across the U.S. voted to either ban or slow data center construction in the midterm elections. WSJ\u2019s Amrith Ramkumar walks through the three states where this slowdown could be a problem for the AI industry. \n\nChapters:\n0:00 U.S. data center buildout\n0:29 Texas\n1:33 Ohio\n2...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i2.ytimg.com/vi/qCQV7Dux20s/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e73c6669-a3ac-4508-a121-633952b75e89",
+      "title": "\ud83d\udcfa Your Agent's Compute Needs Change Mid-Run | Akshat Bubna",
+      "category": "tech",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-11-11T17:00:12+00:00",
+      "url": "https://www.youtube.com/shorts/R36t70V_930",
+      "author": "AI Engineer",
+      "summary": "Akshat Bubna of Modal shows how CPU and memory demand changes across agent sandboxes and during a single run. Provisioning every sandbox for its peak can leave you paying for resources you do not need.\n\nFrom AI Engineer New York 2026.\n\n@ModalLabs \n\n@aiDotEngineer",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i3.ytimg.com/vi/R36t70V_930/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "10a5e994-7a7b-42b9-9c3d-5e1fe56e86e1",
+      "title": "\ud83d\udcfa 1 Year Into IBM\u2019s Sales Accelerator Program: What We Learned",
+      "category": "tech",
+      "source_name": "YouTube: IBM Technology",
+      "published_at": "2026-11-11T12:00:33+00:00",
+      "url": "https://www.youtube.com/watch?v=ZIKzmznkUsw",
+      "author": "IBM Technology",
+      "summary": "A year ago, they were just getting started. Now, they have a few stories to tell. \ud83d\udc99\n\nWe caught up with 10 Sales Accelerator Program participants in Valencia to talk about their first year at IBM: the unexpected moments, the people they met, the challenges they worked through and ...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "handle": "@IBMTechnology",
+        "thumbnail": "https://i3.ytimg.com/vi/ZIKzmznkUsw/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -2994,6 +3477,380 @@
       ]
     },
     {
+      "id": "054738a7-db85-4ea9-be80-dbd07b3a0c72",
+      "title": "\ud83d\udcfa Was Robert Moses a Hero or a Villain? - Robert Caro",
+      "category": "tech",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-08T18:30:23+00:00",
+      "url": "https://www.youtube.com/watch?v=HqQYah4tXS4",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i1.ytimg.com/vi/HqQYah4tXS4/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ed8c9b48-05fe-4afc-8574-6b8e20502296",
+      "title": "\ud83d\udcfa How to Get Someone to Tell You the Truth - Robert Caro",
+      "category": "tech",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-07T18:30:21+00:00",
+      "url": "https://www.youtube.com/watch?v=HOc77LTkt94",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i1.ytimg.com/vi/HOc77LTkt94/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a018c6ae-d4c0-46c9-92d7-87af5a5182ad",
+      "title": "\ud83d\udcfa Your Career Isn\u2019t Linear. Here\u2019s What Actually Drives Growth \ud83d\ude80",
+      "category": "tech",
+      "source_name": "YouTube: IBM Technology",
+      "published_at": "2026-11-07T17:00:54+00:00",
+      "url": "https://www.youtube.com/shorts/PxG8-FJx5mw",
+      "author": "IBM Technology",
+      "summary": "Career growth doesn\u2019t always happen one step at a time. Sometimes, opportunities come all at once. But the foundation for those moments is built long before they arrive.\n\nMichael, a Lead Product Manager at IBM in the US, shares what nearly a decade at IBM has taught him about car...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "handle": "@IBMTechnology",
+        "thumbnail": "https://i1.ytimg.com/vi/PxG8-FJx5mw/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e8a83989-0f81-44b0-98c0-212c4f9c26c3",
+      "title": "\ud83d\udcfa Why Code Quality Still Matters | Max Kanat-Alexander",
+      "category": "tech",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-11-06T22:00:36+00:00",
+      "url": "https://www.youtube.com/shorts/n6qfhMimOlU",
+      "author": "AI Engineer",
+      "summary": "Why did code quality matter in the first place? Max Kanat-Alexander brings it back to understanding what a system actually does and changing that behavior safely.\n\nFrom AI Engineer New York 2026.\n\n@mkanat \n\n@aiDotEngineer",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i3.ytimg.com/vi/n6qfhMimOlU/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "9d00086d-d089-4075-acbd-288b1e72c870",
+      "title": "\ud83d\udcfa The Loneliness That Shaped Lyndon Johnson - Robert Caro",
+      "category": "tech",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-06T19:33:14+00:00",
+      "url": "https://www.youtube.com/watch?v=zSixzC1zYFM",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i3.ytimg.com/vi/zSixzC1zYFM/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d9f47c8c-046c-4879-b2c0-7a60a676fdf7",
+      "title": "\ud83d\udcfa Your Coding Agent Writes Too Many Tests | Ben Holmes",
+      "category": "tech",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-11-06T17:00:13+00:00",
+      "url": "https://www.youtube.com/shorts/Hycv7NJuK-U",
+      "author": "AI Engineer",
+      "summary": "Ben Holmes explains two scores for evaluating coding agents: redundant tests and verbosity. Both can add work to code review.\n\nFrom AI Engineer New York 2026.\n\n@bholmesdev \n\n@aiDotEngineer",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i1.ytimg.com/vi/Hycv7NJuK-U/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "0a76f1d2-3702-43b6-945f-fb2ad43d56ff",
+      "title": "\ud83d\udcfa Why Robert Caro\u2019s Books Are So Long",
+      "category": "tech",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-05T19:11:42+00:00",
+      "url": "https://www.youtube.com/watch?v=RrVLA-WMeKk",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i3.ytimg.com/vi/RrVLA-WMeKk/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d36ec1d7-2fec-4912-a19b-1bc9fe904d03",
+      "title": "\ud83d\udcfa The Ferrari Race Day Ritual Every Tifosi Knows \ud83c\udfce\ufe0f",
+      "category": "tech",
+      "source_name": "YouTube: IBM Technology",
+      "published_at": "2026-11-05T17:00:14+00:00",
+      "url": "https://www.youtube.com/shorts/dHff1v35OQM",
+      "author": "IBM Technology",
+      "summary": "Alarms at 3AM \u23f0.\u200b Coffee brewing \u2615\u200b. Screens on \ud83d\udcfa\u200b. From living rooms to long\u2011distance watch parties, Tifosi everywhere bring the same ritual: show up before lights out and cheer Ferrari together. \u200b\n\n#ferrari #tifosi #scuderiaferrari",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "handle": "@IBMTechnology",
+        "thumbnail": "https://i1.ytimg.com/vi/dHff1v35OQM/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "fbdb9a26-3b0c-49bd-bd63-93b125226b13",
+      "title": "\ud83d\udcfa The Day Robert Moses\u2019 Phone Stopped Ringing - Robert Caro",
+      "category": "tech",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-04T18:30:37+00:00",
+      "url": "https://www.youtube.com/watch?v=5uCnoxImxbU",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i2.ytimg.com/vi/5uCnoxImxbU/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "07cd368f-850a-421f-85f4-07aa75287897",
+      "title": "\ud83d\udcfa How Robert Moses Destroyed Anyone in His Way - Robert Caro",
+      "category": "tech",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-03T20:20:29+00:00",
+      "url": "https://www.youtube.com/watch?v=GpnDssoaMdE",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i4.ytimg.com/vi/GpnDssoaMdE/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "2ee8356f-636e-4537-8d45-83e4f9f2c489",
+      "title": "\ud83d\udcfa The Power of Never Giving Up on Your Dream \u2728",
+      "category": "tech",
+      "source_name": "YouTube: IBM Technology",
+      "published_at": "2026-11-03T18:00:14+00:00",
+      "url": "https://www.youtube.com/shorts/379InjJP0vU",
+      "author": "IBM Technology",
+      "summary": "Adrian's passion was built on grit and love. His story is a reminder that chasing your dream is a journey. \u200b\n\n#ferrari #scuderia #tifosi",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "handle": "@IBMTechnology",
+        "thumbnail": "https://i4.ytimg.com/vi/379InjJP0vU/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "3a57cc75-0efd-4a33-bc70-d136ad1ae0f9",
       "title": "Monthly Authorised Deposit-taking Institution Statistics",
       "category": "finance",
@@ -3016,6 +3873,74 @@
         {
           "name": "Banking Regulation",
           "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6d1e4e21-ab20-4320-81c9-7b18746de3da",
+      "title": "\ud83d\udcfa Startups Are Side Projects Now",
+      "category": "tech",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-10-29T18:44:51+00:00",
+      "url": "https://www.youtube.com/watch?v=DhUtuBb41Ug",
+      "author": "AI Engineer",
+      "summary": "AI coding models got so good that the rules of building software flipped. What used to need a startup is now a side project, and whole companies could be replaced by a single text file. Theo Browne, YouTuber and founder of T3 Chat, explains the habits developers need to drop, why...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i1.ytimg.com/vi/DhUtuBb41Ug/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e26f6d5b-7cf4-43bb-9417-ea8124b9dd88",
+      "title": "\ud83d\udcfa Walking through the wrong cybersecurity door \ud83d\udeaa",
+      "category": "tech",
+      "source_name": "YouTube: IBM Technology",
+      "published_at": "2026-10-29T16:00:23+00:00",
+      "url": "https://www.youtube.com/shorts/hOL-lSEZ2jo",
+      "author": "IBM Technology",
+      "summary": "Ever opened a door and immediately realized... wrong one? \ud83d\ude2c The same thing can happen online. One click can take you somewhere you never intended to go. This Cybersecurity Month, pause, check and make sure you\u2019re walking through the right digital door. \ud83d\udd10\n\n#cybersecurity #cybersec...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "handle": "@IBMTechnology",
+        "thumbnail": "https://i1.ytimg.com/vi/hOL-lSEZ2jo/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 38157,
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
