@@ -172,7 +172,7 @@
 
   <!-- Centered Top Navbar -->
   <header class="fixed top-5 inset-x-0 z-50 flex justify-center px-4">
-    <nav class="glass-pill rounded-2xl px-3 py-2 flex items-center justify-between gap-4 sm:gap-6 w-full max-w-4xl transition-all duration-300">
+    <nav class="glass-pill rounded-2xl px-3 py-2 flex items-center justify-between gap-4 sm:gap-6 w-full max-w-6xl transition-all duration-300">
       
       <!-- Brand Logo / Badge -->
       <div class="flex items-center gap-2">
@@ -217,7 +217,7 @@
   </header>
 
   <!-- Main Content Wrapper -->
-  <main class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 pt-32 pb-24 space-y-10">
+  <main class="relative z-10 max-w-6xl mx-auto px-5 sm:px-8 pt-32 pb-24 space-y-10">
 
     <!-- Hero / Headline Header -->
     <section class="space-y-4">
@@ -236,77 +236,138 @@
 
       <!-- Summary Stats Badges -->
       <div class="flex flex-wrap items-center gap-2 pt-1" id="statsRow">
-        <span class="tech-chip" id="statArticlesCount">100 articles</span>
+        <span class="tech-chip" id="statArticlesCount">Loading articles...</span>
         <span class="tech-chip" id="statTablesCount">7 SQLite tables</span>
         <span class="tech-chip text-zinc-400 font-mono" id="statLastUpdated">Real-time</span>
       </div>
     </section>
 
     <!-- ==================================================================== -->
-    <!-- VIEW 1: HEADLINES FEED VIEW                                          -->
+    <!-- VIEW 1: HEADLINES FEED VIEW (TWO-COLUMN WITH STICKY SIDEBAR)        -->
     <!-- ==================================================================== -->
-    <section id="feedView" class="space-y-6">
+    <section id="feedView" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
       
-      <!-- Controls Bar -->
-      <div class="glass-card rounded-2xl p-4 space-y-4">
+      <!-- Sticky Category & Filter Sidebar -->
+      <aside class="lg:col-span-4 lg:sticky lg:top-28 space-y-4 self-start">
         
-        <!-- Category Filter Pills -->
-        <div class="flex items-center justify-between flex-wrap gap-2.5">
-          <div class="flex items-center flex-wrap gap-1.5" id="categoryPillGroup">
-            <button class="pill-btn btn-active px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('all', this)">All Stories</button>
-            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('tech', this)">Tech & AI</button>
-            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('finance', this)">Finance & Macro</button>
-            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('health', this)">Health & Science</button>
-            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('politics', this)">Politics & Policy</button>
-          </div>
+        <!-- Sidebar Navigation Card -->
+        <div class="glass-card rounded-3xl p-5 space-y-5">
           
-          <!-- Sort Toggles -->
-          <div class="flex items-center gap-1 glass-subbox p-1 rounded-xl">
-            <button class="btn-active px-2.5 py-1 text-xs rounded-lg transition-all duration-200" id="sortChronBtn" onclick="setSortMode('chron')">Latest</button>
-            <button class="text-zinc-600 hover:text-zinc-900 px-2.5 py-1 text-xs rounded-lg transition-all duration-200" id="sortHotBtn" onclick="setSortMode('hot')">🔥 Trending</button>
+          <!-- Search Bar -->
+          <div class="space-y-1.5">
+            <div class="text-[11px] font-mono uppercase text-zinc-400 tracking-wider">Search Headlines</div>
+            <div class="relative w-full">
+              <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-400">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Keywords, companies, topics..." 
+                oninput="renderFeed()"
+                class="w-full pl-9 pr-3.5 py-2 text-xs bg-white/70 focus:bg-white border border-zinc-200/80 focus:border-zinc-400 rounded-xl outline-none transition-all placeholder:text-zinc-400 text-zinc-900"
+              >
+            </div>
           </div>
+
+          <!-- Category Navigation List -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between text-[11px] font-mono uppercase text-zinc-400 tracking-wider">
+              <span>Categories</span>
+              <span class="text-[10px] text-zinc-400 font-mono" id="totalFilteredCount"></span>
+            </div>
+
+            <nav class="space-y-1" id="categoryNav">
+              <button class="cat-nav-btn btn-active w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs transition-all text-left" onclick="setCategory('all', this)">
+                <span class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-zinc-400"></span>
+                  <span>All Stories</span>
+                </span>
+                <span class="count-badge text-[10px] font-mono px-2 py-0.5 rounded-md bg-white/20 text-white" id="count-all">0</span>
+              </button>
+
+              <button class="cat-nav-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs transition-all text-left" onclick="setCategory('tech', this)">
+                <span class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                  <span>Tech & AI</span>
+                </span>
+                <span class="count-badge text-[10px] font-mono px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-500" id="count-tech">0</span>
+              </button>
+
+              <button class="cat-nav-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs transition-all text-left" onclick="setCategory('finance', this)">
+                <span class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  <span>Finance & Macro</span>
+                </span>
+                <span class="count-badge text-[10px] font-mono px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-500" id="count-finance">0</span>
+              </button>
+
+              <button class="cat-nav-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs transition-all text-left" onclick="setCategory('health', this)">
+                <span class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-rose-500"></span>
+                  <span>Health & Science</span>
+                </span>
+                <span class="count-badge text-[10px] font-mono px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-500" id="count-health">0</span>
+              </button>
+
+              <button class="cat-nav-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs transition-all text-left" onclick="setCategory('politics', this)">
+                <span class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                  <span>Policy & Public</span>
+                </span>
+                <span class="count-badge text-[10px] font-mono px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-500" id="count-politics">0</span>
+              </button>
+            </nav>
+          </div>
+
+          <!-- Feed Sort Mode Toggle -->
+          <div class="space-y-2 pt-3 border-t border-zinc-200/60">
+            <div class="text-[11px] font-mono uppercase text-zinc-400 tracking-wider">Sort Order</div>
+            <div class="grid grid-cols-2 gap-1.5 glass-subbox p-1 rounded-xl">
+              <button class="btn-active py-1.5 text-xs rounded-lg transition-all text-center" id="sortChronBtn" onclick="setSortMode('chron')">Latest</button>
+              <button class="text-zinc-600 hover:text-zinc-900 py-1.5 text-xs rounded-lg transition-all text-center" id="sortHotBtn" onclick="setSortMode('hot')">🔥 Trending</button>
+            </div>
+          </div>
+
+          <!-- Active Entity Filter Box (Shown when filtering by entity) -->
+          <div class="hidden flex-col gap-2 p-3 bg-sky-50/80 border border-sky-200/80 rounded-2xl text-xs text-sky-900" id="entityBanner">
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-mono uppercase tracking-wider text-sky-700">Entity Filter</span>
+              <button class="text-sky-600 hover:text-sky-900 text-[11px] underline" onclick="clearEntityFilter()">Clear ✕</button>
+            </div>
+            <div class="font-mono text-xs bg-white/90 p-1.5 px-2.5 rounded-xl border border-sky-200 truncate" id="activeEntityName"></div>
+          </div>
+
         </div>
 
-        <!-- Search Bar -->
-        <div class="relative w-full">
-          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-400">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-          </div>
-          <input 
-            type="text" 
-            id="searchInput" 
-            placeholder="Search headlines, keywords, or entities..." 
-            oninput="renderFeed()"
-            class="w-full pl-9 pr-4 py-2 text-xs sm:text-sm bg-white/70 focus:bg-white border border-zinc-200/80 focus:border-zinc-400 rounded-xl outline-none transition-all placeholder:text-zinc-400 text-zinc-900"
-          >
-        </div>
-
-        <!-- Active Entity Filter Banner -->
-        <div class="hidden items-center justify-between p-2.5 px-3.5 bg-sky-50/80 border border-sky-200/80 rounded-xl text-xs text-sky-800" id="entityBanner">
+        <!-- Micro Status Pill Card -->
+        <div class="glass-subbox rounded-2xl p-3.5 px-4 text-[11px] font-mono text-zinc-500 flex items-center justify-between">
           <div class="flex items-center gap-2">
-            <span>Filtered by Entity:</span>
-            <span class="font-mono bg-white px-2 py-0.5 rounded border border-sky-200 text-sky-900" id="activeEntityName"></span>
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>SQLite Active</span>
           </div>
-          <button class="text-sky-700 hover:text-sky-900 underline cursor-pointer" onclick="clearEntityFilter()">Clear filter ✕</button>
+          <span class="text-zinc-400" id="statArticleBadge"></span>
         </div>
 
-      </div>
+      </aside>
 
-      <!-- Story Feed Container -->
-      <div class="space-y-4" id="feedContainer"></div>
+      <!-- Story Feed Column (Scrollable) -->
+      <div class="lg:col-span-8 space-y-4">
+        <div class="space-y-4" id="feedContainer"></div>
 
-      <!-- End of Feed Banner -->
-      <div class="glass-card rounded-2xl p-8 text-center space-y-2">
-        <div class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 border border-emerald-200 flex items-center justify-center mx-auto text-sm">
-          ✓
+        <!-- End of Feed Banner -->
+        <div class="glass-card rounded-3xl p-8 text-center space-y-2">
+          <div class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 border border-emerald-200 flex items-center justify-center mx-auto text-sm">
+            ✓
+          </div>
+          <h3 class="text-sm sm:text-base font-normal text-zinc-900">You're caught up for this edition</h3>
+          <p class="text-xs text-zinc-500 max-w-sm mx-auto">
+            No infinite algorithmic scroll. Stored locally in SQLite with zero telemetry tracking.
+          </p>
         </div>
-        <h3 class="text-sm sm:text-base font-normal text-zinc-900">You're caught up for this edition</h3>
-        <p class="text-xs text-zinc-500 max-w-sm mx-auto">
-          No infinite algorithmic scroll. Stored locally in SQLite with zero telemetry tracking.
-        </p>
       </div>
 
     </section>
@@ -369,7 +430,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 py-10 border-t border-zinc-200/60 text-xs text-zinc-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+  <footer class="relative z-10 max-w-6xl mx-auto px-5 sm:px-8 py-10 border-t border-zinc-200/60 text-xs text-zinc-500 flex flex-col sm:flex-row items-center justify-between gap-4">
     <div class="flex items-center gap-2">
       <div class="w-5 h-5 rounded-lg bg-zinc-900 text-white flex items-center justify-center text-[10px]">DG</div>
       <span>Dylan Gonzalez • <a href="https://dylangonzalez.dev/" class="text-zinc-700 hover:text-zinc-900 underline">dylangonzalez.dev</a></span>
@@ -468,6 +529,21 @@
     // -------------------------------------------------------------------------
     // FEED LOGIC
     // -------------------------------------------------------------------------
+    function updateCategoryCounts() {
+      const counts = { all: allArticles.length, tech: 0, finance: 0, health: 0, politics: 0 };
+      allArticles.forEach(a => {
+        if (counts[a.category] !== undefined) {
+          counts[a.category]++;
+        }
+      });
+      for (const k in counts) {
+        const el = document.getElementById(`count-${k}`);
+        if (el) el.innerText = counts[k];
+      }
+      const badge = document.getElementById('statArticleBadge');
+      if (badge) badge.innerText = `${allArticles.length} stories`;
+    }
+
     async function loadFeed() {
       try {
         const resp = await fetch('feed.json?t=' + Date.now());
@@ -476,6 +552,7 @@
         allArticles = data.articles || [];
         document.getElementById('statArticlesCount').innerText = `${allArticles.length} articles`;
         document.getElementById('statLastUpdated').innerText = `Synced ${timeAgo(data.generated_at || new Date().toISOString())}`;
+        updateCategoryCounts();
       } catch (err) {
         console.warn("Could not load feed.json, checking database snapshot...", err);
       } finally {
@@ -485,12 +562,22 @@
 
     function setCategory(cat, btn) {
       currentCategory = cat;
-      document.querySelectorAll('#categoryPillGroup .pill-btn').forEach(p => {
-        p.classList.remove('btn-active');
-        p.classList.add('text-zinc-600', 'glass-subbox');
+      document.querySelectorAll('#categoryNav .cat-nav-btn').forEach(b => {
+        b.classList.remove('btn-active');
+        b.classList.add('glass-subbox', 'text-zinc-600', 'hover:text-zinc-900', 'hover:bg-white/80');
+        const badge = b.querySelector('.count-badge');
+        if (badge) {
+          badge.classList.remove('bg-white/20', 'text-white');
+          badge.classList.add('bg-zinc-100', 'text-zinc-500');
+        }
       });
       btn.classList.add('btn-active');
-      btn.classList.remove('text-zinc-600', 'glass-subbox');
+      btn.classList.remove('glass-subbox', 'text-zinc-600', 'hover:text-zinc-900', 'hover:bg-white/80');
+      const activeBadge = btn.querySelector('.count-badge');
+      if (activeBadge) {
+        activeBadge.classList.add('bg-white/20', 'text-white');
+        activeBadge.classList.remove('bg-zinc-100', 'text-zinc-500');
+      }
       renderFeed();
     }
 
@@ -541,6 +628,11 @@
         }
         return true;
       });
+
+      const totalFilteredEl = document.getElementById('totalFilteredCount');
+      if (totalFilteredEl) {
+        totalFilteredEl.innerText = `${filtered.length} visible`;
+      }
 
       // Sort
       filtered.sort((a, b) => {
