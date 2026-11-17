@@ -1,835 +1,554 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News & Intelligence • Reader & Database Explorer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>News & Intelligence • Dylan Gonzalez</title>
+  <meta name="description" content="News & Intelligence reader and SQLite database explorer by Dylan Gonzalez. Anti-algorithm curated feeds and structured knowledge graph data.">
+  <meta name="author" content="Dylan Gonzalez">
+  <meta name="theme-color" content="#18181b">
+
+  <!-- Favicon (DG Badge) -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['"SF Mono"', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#F8FAFC',
+              100: '#F1F5F9',
+              200: '#E2E8F0',
+              300: '#CBD5E1',
+              400: '#94A3B8',
+              500: '#64748B',
+              600: '#475569',
+              700: '#334155',
+              800: '#1E293B',
+              900: '#0F172A',
+            }
+          },
+          borderRadius: {
+            '2xl': '1rem',
+            '3xl': '1.5rem',
+            '4xl': '2rem',
+          }
+        }
+      }
+    }
+  </script>
+
   <style>
-    :root {
-      --bg: #0b0f17;
-      --card-bg: #131a26;
-      --card-hover: #172132;
-      --border: #232d42;
-      --text-main: #f1f5f9;
-      --text-muted: #94a3b8;
-      --accent-tech: #38bdf8;
-      --accent-finance: #34d399;
-      --accent-health: #f472b6;
-      --accent-politics: #fbbf24;
-      --tag-bg: #1e293b;
-      --tag-text: #cbd5e1;
-      --tag-entity-border: #334155;
+    /* ========================================================================= */
+    /* Global Typography: Helvetica Style & Zero Bold (from dylangonzalez.dev)  */
+    /* ========================================================================= */
+    *,
+    *::before,
+    *::after {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400 !important;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    code, kbd, samp, pre, .font-mono {
+      font-family: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+      font-weight: 400 !important;
     }
 
-    body {
-      background-color: var(--bg);
-      color: var(--text-main);
-      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-      line-height: 1.5;
-      padding-bottom: 60px;
+    h1, h2, h3, h4, h5, h6, b, strong, th, button, input, textarea, select {
+      font-weight: 400 !important;
     }
 
-    header {
-      border-bottom: 1px solid var(--border);
-      background-color: rgba(11, 15, 23, 0.9);
+    /* Glassmorphism Classes */
+    .glass-panel {
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.04), inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.04), inset 0 1px 1px 0 rgba(255, 255, 255, 0.95);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .glass-card:hover {
+      background: rgba(255, 255, 255, 0.85);
+      border-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.08), inset 0 1px 1px 0 rgba(255, 255, 255, 1);
+      transform: translateY(-2px);
+    }
+
+    .glass-subbox {
+      background: rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      position: sticky;
-      top: 0;
-      z-index: 100;
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.8);
     }
 
-    .header-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 14px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
+    .glass-pill {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03), inset 0 1px 0 rgba(255, 255, 255, 0.9);
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .brand-icon {
-      width: 32px;
-      height: 32px;
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      font-size: 16px;
-      color: #0b0f17;
-    }
-
-    .brand h1 {
-      font-size: 1.15rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-    }
-
-    .brand-subtitle {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      font-family: 'JetBrains Mono', monospace;
-    }
-
-    /* Main View Mode Navigation (Feed vs Database) */
-    .view-switcher {
-      display: flex;
-      background: #070a10;
-      padding: 3px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-    }
-
-    .view-btn {
-      background: none;
-      border: none;
-      color: var(--text-muted);
-      padding: 6px 14px;
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.15s ease;
-    }
-
-    .view-btn.active {
-      background: #1e293b;
-      color: #38bdf8;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-    }
-
-    .header-actions {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      color: var(--text-main);
-      padding: 7px 14px;
-      border-radius: 6px;
-      font-size: 0.82rem;
-      font-weight: 500;
-      cursor: pointer;
+    .tech-chip {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      transition: all 0.15s ease;
-    }
-
-    .btn:hover {
-      background: var(--card-hover);
-      border-color: #3b4d6b;
-    }
-
-    main {
-      max-width: 1100px;
-      margin: 24px auto 0;
-      padding: 0 20px;
-    }
-
-    /* ------------------------------------------------------------------------ */
-    /* VIEW 1: HEADLINES FEED VIEW                                              */
-    /* ------------------------------------------------------------------------ */
-    .controls {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      margin-bottom: 24px;
-    }
-
-    .filter-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .pill-group {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
-
-    .pill {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-      padding: 5px 12px;
-      border-radius: 20px;
-      font-size: 0.78rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.15s ease;
-    }
-
-    .pill:hover {
-      color: var(--text-main);
-      border-color: #3b4d6b;
-    }
-
-    .pill.active {
-      background: #1e293b;
-      color: #38bdf8;
-      border-color: #38bdf8;
-    }
-
-    .search-box {
-      position: relative;
-      flex: 1;
-      max-width: 280px;
-      min-width: 200px;
-    }
-
-    .search-box input {
-      width: 100%;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 12px 6px 30px;
-      color: var(--text-main);
-      font-size: 0.82rem;
-      outline: none;
-    }
-
-    .search-box input:focus {
-      border-color: #38bdf8;
-    }
-
-    .search-box svg {
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 14px;
-      height: 14px;
-      fill: var(--text-muted);
-    }
-
-    .active-entity-banner {
-      display: none;
-      background: rgba(56, 189, 248, 0.1);
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      padding: 8px 14px;
-      border-radius: 6px;
-      font-size: 0.82rem;
-      color: #38bdf8;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .clear-entity-btn {
-      background: none;
-      border: none;
-      color: #38bdf8;
-      font-size: 0.8rem;
-      cursor: pointer;
-      text-decoration: underline;
-    }
-
-    .feed-container {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .story-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px 18px;
-      transition: border-color 0.15s ease;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .story-card:hover {
-      border-color: #334460;
-    }
-
-    .card-meta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.75rem;
-      font-family: 'JetBrains Mono', monospace;
-      color: var(--text-muted);
-      flex-wrap: wrap;
-    }
-
-    .category-tag {
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 0.68rem;
-      padding: 2px 7px;
-      border-radius: 4px;
-      letter-spacing: 0.04em;
-    }
-
-    .category-tech {
-      background: rgba(56, 189, 248, 0.15);
-      color: var(--accent-tech);
-    }
-
-    .category-finance {
-      background: rgba(52, 211, 153, 0.15);
-      color: var(--accent-finance);
-    }
-
-    .category-health {
-      background: rgba(244, 114, 182, 0.15);
-      color: var(--accent-health);
-    }
-
-    .category-politics {
-      background: rgba(251, 191, 36, 0.15);
-      color: var(--accent-politics);
-    }
-
-    .source-label {
-      color: #cbd5e1;
-      font-weight: 500;
-    }
-
-    .time-label {
-      color: #64748b;
-    }
-
-    .story-title {
-      font-size: 1.05rem;
-      font-weight: 600;
-      line-height: 1.35;
-      color: var(--text-main);
-      text-decoration: none;
-    }
-
-    .story-title:hover {
-      color: #38bdf8;
-      text-decoration: underline;
-    }
-
-    .story-summary {
-      font-size: 0.85rem;
-      color: #94a3b8;
-      line-height: 1.5;
-    }
-
-    .entities-container {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-      padding-top: 6px;
-      border-top: 1px solid rgba(255, 255, 255, 0.04);
-    }
-
-    .entities-label {
-      font-size: 0.7rem;
-      color: #64748b;
-      font-family: 'JetBrains Mono', monospace;
-      margin-right: 4px;
-    }
-
-    .entity-chip {
-      background: var(--tag-bg);
-      border: 1px solid var(--tag-entity-border);
-      border-radius: 4px;
-      padding: 2px 7px;
+      padding: 0.25rem 0.65rem;
+      background-color: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      border-radius: 0.75rem;
+      font-family: "SF Mono", Menlo, Monaco, Consolas, monospace !important;
       font-size: 0.72rem;
-      color: var(--tag-text);
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      transition: all 0.15s ease;
-    }
-
-    .entity-chip:hover {
-      background: #273549;
-      border-color: #38bdf8;
-      color: #38bdf8;
-    }
-
-    .entity-type-badge {
-      font-size: 0.62rem;
-      font-family: 'JetBrains Mono', monospace;
-      color: #64748b;
-      text-transform: uppercase;
-    }
-
-    .finish-banner {
-      margin-top: 36px;
-      padding: 24px;
-      text-align: center;
-      background: #0f1623;
-      border: 1px dashed var(--border);
-      border-radius: 8px;
-    }
-
-    .finish-banner h3 {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #34d399;
-      margin-bottom: 4px;
-    }
-
-    .finish-banner p {
-      font-size: 0.8rem;
-      color: #64748b;
-    }
-
-    /* ------------------------------------------------------------------------ */
-    /* VIEW 2: DATABASE EXPLORER                                                */
-    /* ------------------------------------------------------------------------ */
-    #dbView {
-      display: none;
-    }
-
-    .db-header {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px 20px;
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .db-title h2 {
-      font-size: 1.05rem;
-      font-weight: 700;
-    }
-
-    .db-subtitle {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      font-family: 'JetBrains Mono', monospace;
-    }
-
-    .table-tabs {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-bottom: 16px;
-    }
-
-    .table-tab-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-size: 0.82rem;
-      font-family: 'JetBrains Mono', monospace;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .table-tab-btn:hover {
-      border-color: #3b82f6;
-      color: var(--text-main);
-    }
-
-    .table-tab-btn.active {
-      background: #1e293b;
-      border-color: #38bdf8;
-      color: #38bdf8;
-    }
-
-    .table-badge {
-      background: rgba(255, 255, 255, 0.08);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.7rem;
-    }
-
-    /* Schema summary banner */
-    .schema-card {
-      background: #0d131f;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 14px 18px;
-      margin-bottom: 16px;
-    }
-
-    .schema-title {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 10px;
-    }
-
-    .schema-columns-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .col-pill {
-      background: #131a26;
-      border: 1px solid #2a374f;
-      border-radius: 4px;
-      padding: 4px 8px;
-      font-size: 0.75rem;
-      font-family: 'JetBrains Mono', monospace;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .col-type {
-      color: #38bdf8;
-      font-size: 0.7rem;
-    }
-
-    .col-pk {
-      background: #fbbf24;
-      color: #0b0f17;
-      font-size: 0.6rem;
-      padding: 1px 4px;
-      border-radius: 2px;
-      font-weight: 700;
-    }
-
-    /* Data Table */
-    .table-wrapper {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow-x: auto;
-      max-height: 600px;
-    }
-
-    table.data-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.8rem;
-      text-align: left;
-    }
-
-    table.data-table th {
-      background: #0d131f;
-      color: #94a3b8;
-      padding: 10px 14px;
-      border-bottom: 1px solid var(--border);
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 600;
-      white-space: nowrap;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    table.data-table td {
-      padding: 10px 14px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-      color: #e2e8f0;
-      max-width: 320px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    table.data-table tr:hover td {
-      background-color: var(--card-hover);
-    }
-
-    .json-cell {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.72rem;
-      color: #a5b4fc;
+      font-weight: 400 !important;
+      color: #3f3f46;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02), inset 0 1px 0 rgba(255, 255, 255, 0.85);
+      transition: all 0.2s ease;
       cursor: pointer;
     }
-    .json-cell:hover {
-      text-decoration: underline;
+
+    .tech-chip:hover {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-color: rgba(212, 212, 216, 0.9);
+      color: #09090b;
+      transform: translateY(-1px);
     }
 
-    /* Modal for JSON inspector */
-    .modal-overlay {
-      display: none;
+    /* Active Buttons */
+    .btn-active {
+      background-color: #18181b !important;
+      color: #ffffff !important;
+      font-weight: 400 !important;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f4f4f5;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #d4d4d8;
+      border-radius: 9999px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #a1a1aa;
+    }
+
+    /* Blue Spotlight & Cursor Trail */
+    .cursor-trail-layer {
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.7);
-      backdrop-filter: blur(4px);
-      z-index: 1000;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .modal-content {
-      background: #131a26;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      width: 90%;
-      max-width: 650px;
-      max-height: 80vh;
+      inset: 0;
+      pointer-events: none;
+      z-index: 5;
       overflow: hidden;
-      display: flex;
-      flex-direction: column;
     }
 
-    .modal-header {
-      padding: 14px 18px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-weight: 600;
-      font-size: 0.9rem;
+    .cursor-spotlight {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      border-radius: 9999px;
+      background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.24) 0%,
+        rgba(14, 165, 233, 0.12) 40%,
+        rgba(99, 102, 241, 0.05) 65%,
+        rgba(255, 255, 255, 0) 80%
+      );
+      filter: blur(10px);
+      transform: translate3d(-50%, -50%, 0);
+      will-change: transform, opacity;
+      opacity: 0;
+      transition: opacity 0.4s ease;
     }
 
-    .modal-body {
-      padding: 18px;
-      overflow-y: auto;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.78rem;
-      color: #e2e8f0;
-      background: #090d14;
-      white-space: pre-wrap;
+    .cursor-trail-dot {
+      position: absolute;
+      border-radius: 9999px;
+      background: radial-gradient(
+        circle,
+        rgba(56, 189, 248, 0.5) 0%,
+        rgba(59, 130, 246, 0.3) 45%,
+        rgba(37, 99, 235, 0) 100%
+      );
+      filter: blur(3px);
+      transform: translate3d(-50%, -50%, 0);
+      will-change: transform, opacity;
+      opacity: 0;
+      transition: opacity 0.3s ease;
     }
   </style>
 </head>
-<body>
+<body class="bg-gradient-to-b from-white via-zinc-100 to-zinc-200 text-zinc-900 min-h-screen antialiased selection:bg-zinc-800 selection:text-white font-normal">
 
-  <header>
-    <div class="header-container">
-      <div class="brand">
-        <div class="brand-icon">⌘</div>
-        <div>
-          <h1>News & Intelligence Platform</h1>
-          <div class="brand-subtitle">news_platform.db • Anti-Algorithm Engine</div>
-        </div>
+  <!-- Ambient Glow Effects -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[850px] h-[480px] bg-gradient-to-br from-zinc-200/60 via-zinc-300/40 to-transparent blur-3xl rounded-full"></div>
+    <div class="absolute top-[35%] -right-40 w-[550px] h-[550px] bg-sky-100/40 blur-3xl rounded-full"></div>
+    <div class="absolute bottom-10 -left-40 w-[550px] h-[550px] bg-zinc-300/40 blur-3xl rounded-full"></div>
+  </div>
+
+  <!-- Centered Top Navbar -->
+  <header class="fixed top-5 inset-x-0 z-50 flex justify-center px-4">
+    <nav class="glass-pill rounded-2xl px-3 py-2 flex items-center justify-between gap-4 sm:gap-6 w-full max-w-4xl transition-all duration-300">
+      
+      <!-- Brand Logo / Badge -->
+      <div class="flex items-center gap-2">
+        <a href="https://dylangonzalez.dev/" class="flex items-center gap-2.5 px-2.5 py-1.5 rounded-xl hover:bg-zinc-100/60 transition-colors group" title="Back to Dylan Gonzalez Portfolio">
+          <div class="w-7 h-7 rounded-xl bg-zinc-900 text-white flex items-center justify-center font-normal text-xs tracking-tight shadow-sm group-hover:scale-105 transition-transform">
+            DG
+          </div>
+          <span class="font-normal text-sm tracking-tight text-zinc-900 hidden sm:inline-block">Dylan Gonzalez</span>
+        </a>
+        <span class="text-zinc-300 hidden sm:inline-block">/</span>
+        <span class="text-xs font-mono text-zinc-500 hidden md:inline-block bg-white/70 px-2 py-0.5 rounded-lg border border-zinc-200/80">info</span>
       </div>
 
-      <!-- View Switcher -->
-      <div class="view-switcher">
-        <button class="view-btn active" id="btnShowFeed" onclick="switchView('feed')">
-          📰 Headlines Feed
+      <!-- Main View Mode Switcher -->
+      <div class="flex items-center gap-1 glass-subbox p-1 rounded-xl">
+        <button class="btn-active px-3.5 py-1.5 text-xs sm:text-sm rounded-lg transition-all duration-200 flex items-center gap-1.5" id="btnShowFeed" onclick="switchView('feed')">
+          <span>Headlines</span>
         </button>
-        <button class="view-btn" id="btnShowDb" onclick="switchView('db')">
-          🗄️ Database Tables
+        <button class="px-3.5 py-1.5 text-xs sm:text-sm rounded-lg text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100/60 transition-all duration-200 flex items-center gap-1.5" id="btnShowDb" onclick="switchView('db')">
+          <span>Database</span>
         </button>
       </div>
 
-      <div class="header-actions">
-        <button class="btn" id="refreshBtn" onclick="refreshCurrentView()">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <!-- Action Button -->
+      <div class="flex items-center gap-2">
+        <button class="glass-subbox hover:bg-white/80 px-3 py-1.5 rounded-xl text-xs sm:text-sm text-zinc-700 hover:text-zinc-900 transition-all duration-200 flex items-center gap-1.5" id="refreshBtn" onclick="refreshCurrentView()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-zinc-600">
             <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
           </svg>
-          Refresh Data
+          <span class="hidden sm:inline">Refresh</span>
         </button>
+        <a href="https://dylangonzalez.dev/" class="glass-subbox hover:bg-white/80 p-2 rounded-xl text-zinc-600 hover:text-zinc-900 transition-all duration-200" title="Return to dylangonzalez.dev">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
       </div>
-    </div>
+
+    </nav>
   </header>
 
-  <main>
+  <!-- Main Content Wrapper -->
+  <main class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 pt-32 pb-24 space-y-10">
+
+    <!-- Hero / Headline Header -->
+    <section class="space-y-4">
+      <div class="space-y-2">
+        <div class="inline-flex items-center gap-2 px-3 py-1 glass-subbox rounded-full text-xs font-mono text-zinc-600">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>news_platform.db • SQLite Pipeline</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-normal tracking-tight text-zinc-900">
+          News & Intelligence
+        </h1>
+        <p class="text-sm sm:text-base text-zinc-600 leading-relaxed font-normal max-w-2xl">
+          Curated multi-source news synthesis, structured entities, and SQLite database explorer. Designed without engagement traps or infinite scroll.
+        </p>
+      </div>
+
+      <!-- Summary Stats Badges -->
+      <div class="flex flex-wrap items-center gap-2 pt-1" id="statsRow">
+        <span class="tech-chip" id="statArticlesCount">100 articles</span>
+        <span class="tech-chip" id="statTablesCount">7 SQLite tables</span>
+        <span class="tech-chip text-zinc-400 font-mono" id="statLastUpdated">Real-time</span>
+      </div>
+    </section>
+
     <!-- ==================================================================== -->
-    <!-- VIEW 1: HEADLINES FEED                                               -->
+    <!-- VIEW 1: HEADLINES FEED VIEW                                          -->
     <!-- ==================================================================== -->
-    <section id="feedView">
-      <div class="controls">
-        <div class="filter-row">
-          <div class="pill-group">
-            <button class="pill active" onclick="setCategory('all')">All Stories</button>
-            <button class="pill" onclick="setCategory('tech')">Tech & AI</button>
-            <button class="pill" onclick="setCategory('finance')">Finance & Macro</button>
-            <button class="pill" onclick="setCategory('health')">Health & Science</button>
-            <button class="pill" onclick="setCategory('politics')">Politics & Policy</button>
+    <section id="feedView" class="space-y-6">
+      
+      <!-- Controls Bar -->
+      <div class="glass-card rounded-2xl p-4 space-y-4">
+        
+        <!-- Category Filter Pills -->
+        <div class="flex items-center justify-between flex-wrap gap-2.5">
+          <div class="flex items-center flex-wrap gap-1.5" id="categoryPillGroup">
+            <button class="pill-btn btn-active px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('all', this)">All Stories</button>
+            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('tech', this)">Tech & AI</button>
+            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('finance', this)">Finance & Macro</button>
+            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('health', this)">Health & Science</button>
+            <button class="pill-btn glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900 px-3 py-1.5 rounded-xl text-xs transition-all duration-200" onclick="setCategory('politics', this)">Politics & Policy</button>
           </div>
           
-          <div style="display:flex; align-items:center; gap: 8px;">
-            <!-- Sort Toggle -->
-            <div style="display:inline-flex; background:#070a10; padding:2px; border-radius:6px; border:1px solid var(--border);">
-              <button class="view-btn active" id="sortChronBtn" style="font-size:0.75rem; padding:4px 10px;" onclick="setSortMode('chron')">⏱️ Latest</button>
-              <button class="view-btn" id="sortHotBtn" style="font-size:0.75rem; padding:4px 10px;" onclick="setSortMode('hot')">🔥 Trending / Hot</button>
-            </div>
-
-            <div class="search-box">
-              <svg viewBox="0 0 24 24">
-                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"/>
-              </svg>
-              <input type="text" id="searchInput" placeholder="Search headlines or entities..." oninput="renderFeed()">
-            </div>
+          <!-- Sort Toggles -->
+          <div class="flex items-center gap-1 glass-subbox p-1 rounded-xl">
+            <button class="btn-active px-2.5 py-1 text-xs rounded-lg transition-all duration-200" id="sortChronBtn" onclick="setSortMode('chron')">Latest</button>
+            <button class="text-zinc-600 hover:text-zinc-900 px-2.5 py-1 text-xs rounded-lg transition-all duration-200" id="sortHotBtn" onclick="setSortMode('hot')">🔥 Trending</button>
           </div>
         </div>
 
-        <div class="active-entity-banner" id="entityBanner">
-          <span>Filtered by Graph Entity: <strong id="activeEntityName"></strong></span>
-          <button class="clear-entity-btn" onclick="clearEntityFilter()">Clear Filter ✕</button>
+        <!-- Search Bar -->
+        <div class="relative w-full">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-400">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Search headlines, keywords, or entities..." 
+            oninput="renderFeed()"
+            class="w-full pl-9 pr-4 py-2 text-xs sm:text-sm bg-white/70 focus:bg-white border border-zinc-200/80 focus:border-zinc-400 rounded-xl outline-none transition-all placeholder:text-zinc-400 text-zinc-900"
+          >
         </div>
+
+        <!-- Active Entity Filter Banner -->
+        <div class="hidden items-center justify-between p-2.5 px-3.5 bg-sky-50/80 border border-sky-200/80 rounded-xl text-xs text-sky-800" id="entityBanner">
+          <div class="flex items-center gap-2">
+            <span>Filtered by Entity:</span>
+            <span class="font-mono bg-white px-2 py-0.5 rounded border border-sky-200 text-sky-900" id="activeEntityName"></span>
+          </div>
+          <button class="text-sky-700 hover:text-sky-900 underline cursor-pointer" onclick="clearEntityFilter()">Clear filter ✕</button>
+        </div>
+
       </div>
 
-      <div class="feed-container" id="feedContainer"></div>
+      <!-- Story Feed Container -->
+      <div class="space-y-4" id="feedContainer"></div>
 
-      <div class="finish-banner">
-        <h3>✓ You're all caught up for this edition</h3>
-        <p>No infinite scroll, no engagement algorithms. Check back at your next scheduled digest time.</p>
+      <!-- End of Feed Banner -->
+      <div class="glass-card rounded-2xl p-8 text-center space-y-2">
+        <div class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 border border-emerald-200 flex items-center justify-center mx-auto text-sm">
+          ✓
+        </div>
+        <h3 class="text-sm sm:text-base font-normal text-zinc-900">You're caught up for this edition</h3>
+        <p class="text-xs text-zinc-500 max-w-sm mx-auto">
+          No infinite algorithmic scroll. Stored locally in SQLite with zero telemetry tracking.
+        </p>
       </div>
+
     </section>
 
     <!-- ==================================================================== -->
     <!-- VIEW 2: DATABASE EXPLORER                                            -->
     <!-- ==================================================================== -->
-    <section id="dbView">
-      <div class="db-header">
-        <div class="db-title">
-          <h2>SQLite Database: <code>news_platform.db</code></h2>
-          <div class="db-subtitle">Inspect raw columns, schema definitions, and staged graph relationships</div>
+    <section id="dbView" class="hidden space-y-6">
+
+      <!-- DB Intro Card -->
+      <div class="glass-card rounded-2xl p-6 space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h2 class="text-lg font-normal text-zinc-900">SQLite Database: news_platform.db</h2>
+            <p class="text-xs text-zinc-500 font-mono">Live schema inspection, structured rows, and JSON payloads</p>
+          </div>
+          
+          <div class="relative w-full sm:w-64">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-zinc-400">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <input 
+              type="text" 
+              id="dbSearchInput" 
+              placeholder="Filter current table rows..." 
+              oninput="renderCurrentTable()"
+              class="w-full pl-8 pr-3 py-1.5 text-xs bg-white/70 focus:bg-white border border-zinc-200 rounded-xl outline-none transition-all placeholder:text-zinc-400 text-zinc-900"
+            >
+          </div>
         </div>
-        <div class="search-box">
-          <svg viewBox="0 0 24 24">
-            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-            <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2"/>
-          </svg>
-          <input type="text" id="dbSearchInput" placeholder="Filter rows..." oninput="renderCurrentTable()">
+
+        <!-- Table Tabs -->
+        <div class="flex flex-wrap gap-2 pt-2 border-t border-zinc-200/60" id="tableTabsContainer"></div>
+      </div>
+
+      <!-- Table Schema Card -->
+      <div class="glass-subbox rounded-2xl p-5 space-y-3">
+        <div class="text-xs text-zinc-500 font-mono flex items-center justify-between">
+          <span>TABLE SCHEMA: <span id="schemaTableName" class="text-zinc-800 font-mono"></span></span>
+          <span class="text-zinc-400">SQLite Datatypes</span>
+        </div>
+        <div class="flex flex-wrap gap-2" id="schemaColumnsList"></div>
+      </div>
+
+      <!-- Table Wrapper -->
+      <div class="glass-panel rounded-2xl overflow-hidden border border-zinc-200/80 shadow-sm">
+        <div class="overflow-x-auto max-h-[620px]">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead class="bg-zinc-100/90 backdrop-blur sticky top-0 z-10 border-b border-zinc-200/80 text-zinc-700" id="dataThead"></thead>
+            <tbody class="divide-y divide-zinc-200/60" id="dataTbody"></tbody>
+          </table>
         </div>
       </div>
 
-      <!-- Table Selection Tabs -->
-      <div class="table-tabs" id="tableTabsContainer"></div>
-
-      <!-- Table Schema Pill Bar -->
-      <div class="schema-card">
-        <div class="schema-title">Schema & Column Types: <span id="schemaTableName" style="color: #38bdf8;"></span></div>
-        <div class="schema-columns-list" id="schemaColumnsList"></div>
-      </div>
-
-      <!-- Raw Table Data -->
-      <div class="table-wrapper">
-        <table class="data-table" id="dataTable">
-          <thead id="dataThead"></thead>
-          <tbody id="dataTbody"></tbody>
-        </table>
-      </div>
     </section>
+
   </main>
 
-  <!-- JSON Cell Viewer Modal -->
-  <div class="modal-overlay" id="jsonModal" onclick="closeModal()">
-    <div class="modal-content" onclick="event.stopPropagation()">
-      <div class="modal-header">
-        <span>Raw Payload (JSONB)</span>
-        <button style="background:none;border:none;color:#94a3b8;cursor:pointer;font-size:1.1rem;" onclick="closeModal()">✕</button>
+  <!-- Footer -->
+  <footer class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 py-10 border-t border-zinc-200/60 text-xs text-zinc-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <div class="w-5 h-5 rounded-lg bg-zinc-900 text-white flex items-center justify-center text-[10px]">DG</div>
+      <span>Dylan Gonzalez • <a href="https://dylangonzalez.dev/" class="text-zinc-700 hover:text-zinc-900 underline">dylangonzalez.dev</a></span>
+    </div>
+    <div class="flex items-center gap-4 text-zinc-500">
+      <a href="https://dylangonzalez.dev/#projects" class="hover:text-zinc-900 transition-colors">Projects</a>
+      <a href="https://github.com/dylan-gonzalez" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 transition-colors">GitHub</a>
+      <a href="https://www.linkedin.com/in/dylan-gonzalez-10" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-900 transition-colors">LinkedIn</a>
+      <span>© <span id="currentYear">2026</span></span>
+    </div>
+  </footer>
+
+  <!-- JSON Cell Modal -->
+  <div class="fixed inset-0 bg-zinc-900/40 backdrop-blur-sm z-50 hidden items-center justify-center p-4" id="jsonModal" onclick="closeModal()">
+    <div class="glass-panel rounded-3xl max-w-xl w-full max-h-[80vh] flex flex-col overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between p-4 px-6 border-b border-zinc-200/80 bg-white/70">
+        <div class="text-xs font-mono text-zinc-700">JSON Payload Explorer</div>
+        <button onclick="closeModal()" class="w-7 h-7 rounded-lg hover:bg-zinc-200/60 flex items-center justify-center text-zinc-500 hover:text-zinc-900 text-sm">✕</button>
       </div>
-      <pre class="modal-body" id="modalJsonText"></pre>
+      <div class="p-6 overflow-y-auto bg-zinc-950 text-zinc-200 font-mono text-xs leading-relaxed">
+        <pre id="modalJsonText"></pre>
+      </div>
     </div>
   </div>
 
+  <!-- JavaScript -->
   <script>
     let currentView = 'feed';
-    let sortMode = 'chron'; // 'chron' or 'hot'
+    let sortMode = 'chron';
     let allArticles = [];
     let dbSnapshot = {};
     let selectedTable = 'articles';
     let currentCategory = 'all';
     let currentEntityFilter = null;
 
-    function setSortMode(mode) {
-      sortMode = mode;
-      document.getElementById('sortChronBtn').classList.toggle('active', mode === 'chron');
-      document.getElementById('sortHotBtn').classList.toggle('active', mode === 'hot');
-      renderFeed();
-    }
-
     // View Switching
     function switchView(view) {
       currentView = view;
-      document.getElementById('feedView').style.display = (view === 'feed') ? 'block' : 'none';
-      document.getElementById('dbView').style.display = (view === 'db') ? 'block' : 'none';
-      document.getElementById('btnShowFeed').classList.toggle('active', view === 'feed');
-      document.getElementById('btnShowDb').classList.toggle('active', view === 'db');
+      const feedView = document.getElementById('feedView');
+      const dbView = document.getElementById('dbView');
+      const btnFeed = document.getElementById('btnShowFeed');
+      const btnDb = document.getElementById('btnShowDb');
 
-      if (view === 'db' && Object.keys(dbSnapshot).length === 0) {
-        loadDatabaseData();
+      if (view === 'feed') {
+        feedView.classList.remove('hidden');
+        dbView.classList.add('hidden');
+        btnFeed.classList.add('btn-active');
+        btnFeed.classList.remove('text-zinc-600');
+        btnDb.classList.remove('btn-active');
+        btnDb.classList.add('text-zinc-600');
+      } else {
+        feedView.classList.add('hidden');
+        dbView.classList.remove('hidden');
+        btnDb.classList.add('btn-active');
+        btnDb.classList.remove('text-zinc-600');
+        btnFeed.classList.remove('btn-active');
+        btnFeed.classList.add('text-zinc-600');
+
+        if (Object.keys(dbSnapshot).length === 0) {
+          loadDatabaseData();
+        }
       }
     }
 
+    function setSortMode(mode) {
+      sortMode = mode;
+      const chronBtn = document.getElementById('sortChronBtn');
+      const hotBtn = document.getElementById('sortHotBtn');
+
+      if (mode === 'chron') {
+        chronBtn.classList.add('btn-active');
+        chronBtn.classList.remove('text-zinc-600');
+        hotBtn.classList.remove('btn-active');
+        hotBtn.classList.add('text-zinc-600');
+      } else {
+        hotBtn.classList.add('btn-active');
+        hotBtn.classList.remove('text-zinc-600');
+        chronBtn.classList.remove('btn-active');
+        chronBtn.classList.add('text-zinc-600');
+      }
+      renderFeed();
+    }
+
     async function refreshCurrentView() {
+      const btn = document.getElementById('refreshBtn');
+      const orig = btn.innerHTML;
+      btn.innerHTML = `<span class="animate-spin inline-block text-xs">⟳</span> <span>Updating...</span>`;
       if (currentView === 'feed') {
         await loadFeed();
       } else {
         await loadDatabaseData();
       }
+      btn.innerHTML = orig;
     }
 
     // -------------------------------------------------------------------------
     // FEED LOGIC
     // -------------------------------------------------------------------------
     async function loadFeed() {
-      const btn = document.getElementById('refreshBtn');
-      btn.innerText = "Loading...";
       try {
         const resp = await fetch('feed.json?t=' + Date.now());
         if (!resp.ok) throw new Error("Could not load feed.json");
         const data = await resp.json();
         allArticles = data.articles || [];
+        document.getElementById('statArticlesCount').innerText = `${allArticles.length} articles`;
+        document.getElementById('statLastUpdated').innerText = `Synced ${timeAgo(data.generated_at || new Date().toISOString())}`;
       } catch (err) {
         console.warn("Could not load feed.json, checking database snapshot...", err);
       } finally {
-        btn.innerHTML = `
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
-          </svg>
-          Refresh Data
-        `;
         renderFeed();
       }
     }
 
-    function setCategory(cat) {
+    function setCategory(cat, btn) {
       currentCategory = cat;
-      document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
-      event.target.classList.add('active');
+      document.querySelectorAll('#categoryPillGroup .pill-btn').forEach(p => {
+        p.classList.remove('btn-active');
+        p.classList.add('text-zinc-600', 'glass-subbox');
+      });
+      btn.classList.add('btn-active');
+      btn.classList.remove('text-zinc-600', 'glass-subbox');
       renderFeed();
     }
 
     function filterByEntity(entityName) {
       currentEntityFilter = entityName;
       document.getElementById('activeEntityName').innerText = entityName;
-      document.getElementById('entityBanner').style.display = 'flex';
+      document.getElementById('entityBanner').classList.remove('hidden');
+      document.getElementById('entityBanner').classList.add('flex');
+      window.scrollTo({ top: 120, behavior: 'smooth' });
       renderFeed();
     }
 
     function clearEntityFilter() {
       currentEntityFilter = null;
-      document.getElementById('entityBanner').style.display = 'none';
+      document.getElementById('entityBanner').classList.add('hidden');
+      document.getElementById('entityBanner').classList.remove('flex');
       renderFeed();
     }
 
@@ -848,7 +567,7 @@
 
     function renderFeed() {
       const container = document.getElementById('feedContainer');
-      const searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
+      const searchQuery = (document.getElementById('searchInput').value || '').toLowerCase().trim();
 
       const filtered = allArticles.filter(art => {
         if (currentCategory !== 'all' && art.category !== currentCategory) return false;
@@ -865,7 +584,7 @@
         return true;
       });
 
-      // Sort either Chronological or Hotness
+      // Sort
       filtered.sort((a, b) => {
         if (sortMode === 'hot') {
           const scoreA = (a.payload && a.payload.hotness_score) ? a.payload.hotness_score : 0;
@@ -876,47 +595,71 @@
       });
 
       if (filtered.length === 0) {
-        container.innerHTML = `<div style="text-align: center; padding: 40px; color: #64748b;">No stories match current filter.</div>`;
+        container.innerHTML = `
+          <div class="glass-card rounded-2xl p-12 text-center text-zinc-500 text-sm">
+            No stories match the active filters.
+          </div>
+        `;
         return;
       }
 
       container.innerHTML = filtered.map(art => {
-        const catClass = `category-${art.category || 'tech'}`;
         const payload = art.payload || {};
         
+        // Category styling (pastel + crisp light theme)
+        let catBadge = '';
+        if (art.category === 'tech') {
+          catBadge = `<span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-sky-50 text-sky-700 border border-sky-200/80">TECH & AI</span>`;
+        } else if (art.category === 'finance') {
+          catBadge = `<span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-emerald-50 text-emerald-700 border border-emerald-200/80">FINANCE</span>`;
+        } else if (art.category === 'health') {
+          catBadge = `<span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-rose-50 text-rose-700 border border-rose-200/80">SCIENCE</span>`;
+        } else if (art.category === 'politics') {
+          catBadge = `<span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-amber-50 text-amber-700 border border-amber-200/80">POLICY</span>`;
+        } else {
+          catBadge = `<span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-zinc-100 text-zinc-700 border border-zinc-200">GENERAL</span>`;
+        }
+
         // Trending Hotness Badges
         let hotBadge = '';
         if (payload.approx_traffic) {
-          hotBadge = `<span style="background:rgba(239, 68, 68, 0.15); color:#f87171; border:1px solid rgba(239, 68, 68, 0.3); padding:2px 7px; border-radius:4px; font-weight:600; font-size:0.68rem; display:inline-flex; align-items:center; gap:3px;">🔥 Google Trends: ${payload.approx_traffic} searches</span>`;
+          hotBadge = `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-mono bg-rose-50 text-rose-600 border border-rose-200/80">🔥 Google Trends: ${payload.approx_traffic}</span>`;
         } else if (payload.wiki_trending) {
-          hotBadge = `<span style="background:rgba(168, 85, 247, 0.15); color:#c084fc; border:1px solid rgba(168, 85, 247, 0.3); padding:2px 7px; border-radius:4px; font-weight:600; font-size:0.68rem; display:inline-flex; align-items:center; gap:3px;">🔥 Wikipedia Buzz: ${payload.wiki_views.toLocaleString()} views</span>`;
+          hotBadge = `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-mono bg-purple-50 text-purple-600 border border-purple-200/80">🔥 Wikipedia: ${payload.wiki_views.toLocaleString()} views</span>`;
         } else if (payload.score && payload.score > 200) {
-          hotBadge = `<span style="background:rgba(249, 115, 22, 0.15); color:#fb923c; border:1px solid rgba(249, 115, 22, 0.3); padding:2px 7px; border-radius:4px; font-weight:600; font-size:0.68rem; display:inline-flex; align-items:center; gap:3px;">🔥 High Discussion (${payload.score} pts)</span>`;
+          hotBadge = `<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-mono bg-orange-50 text-orange-600 border border-orange-200/80">🔥 High Discussion (${payload.score} pts)</span>`;
         }
 
         const entitiesHtml = (art.entities && art.entities.length > 0) ? `
-          <div class="entities-container">
-            <span class="entities-label">GRAPH STAGED:</span>
+          <div class="pt-3 border-t border-zinc-200/60 flex items-center flex-wrap gap-1.5">
+            <span class="text-[10px] font-mono text-zinc-400 uppercase tracking-wider mr-1">Entities:</span>
             ${art.entities.map(e => `
-              <span class="entity-chip" onclick="filterByEntity('${e.name.replace(/'/g, "\\'")}')" title="Filter in graph">
+              <span class="tech-chip text-[11px]" onclick="filterByEntity('${e.name.replace(/'/g, "\\'")}')" title="Filter by ${e.name}">
                 ${e.name}
-                <span class="entity-type-badge">${e.entity_type}</span>
+                <span class="text-[9px] text-zinc-400 font-mono ml-1.5">${e.entity_type}</span>
               </span>
             `).join('')}
           </div>
         ` : '';
 
         return `
-          <article class="story-card">
-            <div class="card-meta">
-              <span class="category-tag ${catClass}">${art.category}</span>
-              <span class="source-label">${art.source_name || 'Primary Source'}</span>
-              <span>•</span>
-              <span class="time-label">${timeAgo(art.published_at)}</span>
+          <article class="glass-card rounded-3xl p-6 sm:p-7 space-y-3.5">
+            <div class="flex items-center flex-wrap gap-2 text-xs">
+              ${catBadge}
+              <span class="text-zinc-700 font-normal">${art.source_name || 'Primary Source'}</span>
+              <span class="text-zinc-300">•</span>
+              <span class="text-zinc-400 font-mono">${timeAgo(art.published_at)}</span>
               ${hotBadge}
             </div>
-            <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="story-title">${art.title}</a>
-            ${art.summary ? `<p class="story-summary">${art.summary}</p>` : ''}
+
+            <h2 class="text-lg sm:text-xl font-normal leading-snug">
+              <a href="${art.url}" target="_blank" rel="noopener noreferrer" class="text-zinc-900 hover:text-sky-600 transition-colors">
+                ${art.title}
+              </a>
+            </h2>
+
+            ${art.summary ? `<p class="text-xs sm:text-sm text-zinc-600 leading-relaxed font-normal">${art.summary}</p>` : ''}
+
             ${entitiesHtml}
           </article>
         `;
@@ -928,14 +671,15 @@
     // -------------------------------------------------------------------------
     async function loadDatabaseData() {
       try {
-        // Try live /api/db endpoint first, fallback to db_snapshot.json
-        let resp = await fetch('/api/db');
+        let resp = await fetch('db_snapshot.json?t=' + Date.now());
         if (!resp.ok) {
-          resp = await fetch('db_snapshot.json?t=' + Date.now());
+          resp = await fetch('/api/db');
         }
         dbSnapshot = await resp.json();
+        const tableCount = Object.keys(dbSnapshot).length;
+        document.getElementById('statTablesCount').innerText = `${tableCount} SQLite tables`;
       } catch (e) {
-        console.warn("Could not load db_snapshot.json directly:", e);
+        console.warn("Could not load db_snapshot.json:", e);
       }
       renderTableTabs();
       renderCurrentTable();
@@ -950,11 +694,14 @@
 
       container.innerHTML = tableNames.map(name => {
         const rowCount = (dbSnapshot[name].rows || []).length;
-        const activeClass = (name === selectedTable) ? 'active' : '';
+        const isActive = (name === selectedTable);
+        const activeClass = isActive 
+          ? 'btn-active' 
+          : 'glass-subbox hover:bg-white/80 text-zinc-600 hover:text-zinc-900';
         return `
-          <button class="table-tab-btn ${activeClass}" onclick="selectTable('${name}')">
-            📁 ${name}
-            <span class="table-badge">${rowCount} rows</span>
+          <button class="${activeClass} px-3 py-1.5 rounded-xl text-xs font-mono transition-all flex items-center gap-2" onclick="selectTable('${name}')">
+            <span>${name}</span>
+            <span class="text-[10px] opacity-75 bg-black/10 px-1.5 py-0.5 rounded-md">${rowCount}</span>
           </button>
         `;
       }).join('');
@@ -973,24 +720,21 @@
       const rows = tableData.rows || [];
       const search = (document.getElementById('dbSearchInput').value || '').toLowerCase().trim();
 
-      // Update Schema banner
       document.getElementById('schemaTableName').innerText = selectedTable.toUpperCase();
       document.getElementById('schemaColumnsList').innerHTML = cols.map(c => `
-        <span class="col-pill">
-          ${c.pk ? '<span class="col-pk">PK</span>' : ''}
-          ${c.name}
-          <span class="col-type">${c.type}</span>
+        <span class="tech-chip text-xs">
+          ${c.pk ? '<span class="bg-amber-100 text-amber-800 text-[9px] px-1 rounded mr-1">PK</span>' : ''}
+          <span class="text-zinc-800">${c.name}</span>
+          <span class="text-sky-600 text-[10px] ml-1.5">${c.type}</span>
         </span>
       `).join('');
 
-      // Header row
       document.getElementById('dataThead').innerHTML = `
         <tr>
-          ${cols.map(c => `<th>${c.name} <span style="font-weight:400;color:#64748b;font-size:0.65rem;">(${c.type})</span></th>`).join('')}
+          ${cols.map(c => `<th class="p-3 px-4 font-mono text-[11px] whitespace-nowrap">${c.name} <span class="text-zinc-400 font-mono text-[10px]">(${c.type})</span></th>`).join('')}
         </tr>
       `;
 
-      // Filter rows
       const filteredRows = rows.filter(r => {
         if (!search) return true;
         return Object.values(r).some(val => String(val).toLowerCase().includes(search));
@@ -998,22 +742,22 @@
 
       if (filteredRows.length === 0) {
         document.getElementById('dataTbody').innerHTML = `
-          <tr><td colspan="${cols.length}" style="text-align:center;padding:30px;color:#64748b;">No matching records found.</td></tr>
+          <tr><td colspan="${cols.length}" class="text-center p-8 text-zinc-400 font-normal">No records match search.</td></tr>
         `;
         return;
       }
 
       document.getElementById('dataTbody').innerHTML = filteredRows.map(r => `
-        <tr>
+        <tr class="hover:bg-white/80 transition-colors">
           ${cols.map(c => {
             const val = r[c.name];
             if (val === null || val === undefined) {
-              return `<td style="color:#64748b;font-style:italic;">NULL</td>`;
+              return `<td class="p-3 px-4 text-zinc-300 font-mono italic">NULL</td>`;
             }
             if (c.name.includes('payload') || (typeof val === 'string' && val.startsWith('{'))) {
-              return `<td class="json-cell" onclick="viewJson('${encodeURIComponent(val)}')">{JSON Object}</td>`;
+              return `<td class="p-3 px-4"><span class="cursor-pointer text-sky-600 hover:underline font-mono bg-sky-50 px-2 py-0.5 rounded text-[11px]" onclick="viewJson('${encodeURIComponent(val)}')">{JSON Object}</span></td>`;
             }
-            return `<td title="${String(val)}">${String(val)}</td>`;
+            return `<td class="p-3 px-4 text-zinc-800 max-w-xs truncate" title="${String(val).replace(/"/g, '&quot;')}">${String(val)}</td>`;
           }).join('')}
         </tr>
       `).join('');
@@ -1027,14 +771,106 @@
       } catch (e) {
         document.getElementById('modalJsonText').innerText = decodeURIComponent(encodedStr);
       }
-      document.getElementById('jsonModal').style.display = 'flex';
+      document.getElementById('jsonModal').classList.remove('hidden');
+      document.getElementById('jsonModal').classList.add('flex');
     }
 
     function closeModal() {
-      document.getElementById('jsonModal').style.display = 'none';
+      document.getElementById('jsonModal').classList.add('hidden');
+      document.getElementById('jsonModal').classList.remove('flex');
     }
 
-    // Initialize on page load
+    // -------------------------------------------------------------------------
+    // Blue Spotlight Trail (Matching dylangonzalez.dev)
+    // -------------------------------------------------------------------------
+    if (window.matchMedia('(pointer: fine)').matches) {
+      const trailLayer = document.createElement('div');
+      trailLayer.className = 'cursor-trail-layer';
+      document.body.appendChild(trailLayer);
+
+      const spotlight = document.createElement('div');
+      spotlight.className = 'cursor-spotlight';
+      trailLayer.appendChild(spotlight);
+
+      const numDots = 8;
+      const dots = [];
+      for (let i = 0; i < numDots; i++) {
+        const dot = document.createElement('div');
+        dot.className = 'cursor-trail-dot';
+        const size = Math.max(4, 14 - i * 1.2);
+        dot.style.width = `${size}px`;
+        dot.style.height = `${size}px`;
+        trailLayer.appendChild(dot);
+        dots.push({
+          el: dot,
+          x: window.innerWidth / 2,
+          y: window.innerHeight / 2,
+          scale: 1 - i / (numDots * 1.15)
+        });
+      }
+
+      let mouseX = window.innerWidth / 2;
+      let mouseY = window.innerHeight / 2;
+      let spotX = mouseX;
+      let spotY = mouseY;
+      let hasMoved = false;
+
+      window.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        if (!hasMoved) {
+          hasMoved = true;
+          spotX = mouseX;
+          spotY = mouseY;
+          dots.forEach(d => {
+            d.x = mouseX;
+            d.y = mouseY;
+            d.el.style.opacity = String(d.scale * 0.7);
+          });
+          spotlight.style.opacity = '1';
+        }
+      }, { passive: true });
+
+      document.addEventListener('mouseleave', () => {
+        spotlight.style.opacity = '0';
+        dots.forEach(d => {
+          d.el.style.opacity = '0';
+        });
+      });
+
+      document.addEventListener('mouseenter', () => {
+        if (hasMoved) {
+          spotlight.style.opacity = '1';
+          dots.forEach(d => {
+            d.el.style.opacity = String(d.scale * 0.7);
+          });
+        }
+      });
+
+      function animateCursor() {
+        spotX += (mouseX - spotX) * 0.15;
+        spotY += (mouseY - spotY) * 0.15;
+        spotlight.style.transform = `translate3d(${spotX}px, ${spotY}px, 0) translate3d(-50%, -50%, 0)`;
+
+        let prevX = spotX;
+        let prevY = spotY;
+        for (let i = 0; i < dots.length; i++) {
+          const d = dots[i];
+          d.x += (prevX - d.x) * 0.35;
+          d.y += (prevY - d.y) * 0.35;
+          d.el.style.transform = `translate3d(${d.x}px, ${d.y}px, 0) translate3d(-50%, -50%, 0)`;
+          prevX = d.x;
+          prevY = d.y;
+        }
+        requestAnimationFrame(animateCursor);
+      }
+      requestAnimationFrame(animateCursor);
+    }
+
+    // Set dynamic current year in footer
+    document.getElementById('currentYear').innerText = new Date().getFullYear();
+
+    // Initial load
     window.addEventListener('DOMContentLoaded', async () => {
       await loadFeed();
       await loadDatabaseData();
