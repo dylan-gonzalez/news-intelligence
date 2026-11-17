@@ -1,6 +1,188 @@
 {
-  "generated_at": "2026-11-17T05:25:50.683771+00:00",
+  "generated_at": "2026-11-17T05:40:27.284332+00:00",
   "articles": [
+    {
+      "id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
+      "title": "CBA CEO pushes back on broker blame in mortgage fraud debate",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T05:15:55Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/cba-ceo-pushes-back-on-broker-blame-in-mortgage-fraud-debate-290324.aspx",
+      "author": "Australian Broker",
+      "summary": "Technology and other 'cohorts of customers' are part of the problem, he says",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Fraud",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Commonwealth Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "CBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a42f25ac-481c-405d-8521-f54e4b844a09",
+      "title": "Macquarie bank relaxes credit policy for mortgage brokers",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-17T05:00:55Z",
+      "url": "https://www.mpamag.com/au/news/general/macquarie-bank-relaxes-credit-policy-for-mortgage-brokers/597610",
+      "author": "MPA Magazine",
+      "summary": "Self-employed status could reduce lending barriers for new-to-industry mortgage professionals",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Macquarie Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "MQG",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Credit Policy",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6d312715-eb06-41f3-8a19-ccd771b9ed68",
+      "title": "FBAA winner: Julian Fayad strikes gold again",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T05:00:28Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/fbaa-winner-julian-fayad-strikes-gold-again-290330.aspx",
+      "author": "Australian Broker",
+      "summary": "How the industry partner secured two coveted awards",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "FBAA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "FBAA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "0b8e1da4-44eb-4b62-ae0b-019d47f7eee9",
+      "title": "Why Property Investors Don\u2019t Think Rationally And How Understanding Your Biases Can Make You a Better Investor",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-17T04:30:16+00:00",
+      "url": "https://propertyupdate.com.au/why-property-investors-dont-think-rationally-and-how-understanding-your-biases-can-make-you-a-better-investor/?utm_source=rss&utm_medium=rss&utm_campaign=why-property-investors-dont-think-rationally-and-how-understanding-your-biases-can-make-you-a-better-investor",
+      "author": "Property Update",
+      "summary": "Let me start with a blunt truth: most property investors think they\u2019re rational - but they\u2019re not. They believe they\u2019re making strategic decisions based on research, market fundamentals, and cold, hard data. But the reality is their\u00a0decisions are often driven by fear, greed, overconfidence, and a...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Investment",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "fd887a55-1cd1-4f09-bfab-1af023577e30",
+      "title": "As mortgage fraud blame game ignites, broking bodies pitch their fixes",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-17T04:09:42Z",
+      "url": "https://www.mpamag.com/au/news/general/as-mortgage-fraud-blame-game-ignites-broking-bodies-pitch-their-fixes/597604",
+      "author": "MPA Magazine",
+      "summary": "Peak broking bodies say accountability must rest on evidence as brokers thrust into mortgage fraud spotlight once again",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Fraud",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
     {
       "id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
       "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
@@ -24,6 +206,43 @@
           "name": "Reserve Bank of Australia",
           "entity_type": "INSTITUTION",
           "canonical_id": "RBA",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "8c2de7d3-d185-4b24-8e55-8d27ab11290d",
+      "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+      "category": "tech",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-17T02:17:04+00:00",
+      "url": "https://support.apple.com/en-us/149699",
+      "author": "jshier",
+      "summary": "HN Score: 61 | Comments: 12",
+      "payload": {
+        "hn_id": 50526560,
+        "score": 61,
+        "descendants": 38,
+        "hotness_score": 37,
+        "discussion_url": "https://news.ycombinator.com/item?id=50526560"
+      },
+      "entities": [
+        {
+          "name": "jshier",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "support.apple.com",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
@@ -59,6 +278,226 @@
         {
           "name": "blog.antonio.cx",
           "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1e611210-f062-47a9-908a-38e34c6cc657",
+      "title": "The federal government must fix bracket creep once and for all",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-17T01:00:14+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/the-federal-government-must-fix-bracket-creep-once-and-for-all/",
+      "author": "MacroBusiness",
+      "summary": "Australians have experienced the sharpest decline in real wages in living memory, with no recovery forecast by the Reserve Bank. Yet, despite their wages losing purchasing power, Australians are paying more personal income tax because of bracket creep. In short, the amount of tax paid every year ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "52b44fae-765e-462b-b34d-0bf84cec52ba",
+      "title": "First-home buyers most exposed as negative equity set to rise: Moody\u2019s",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T00:57:10Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/firsthome-buyers-most-exposed-as-negative-equity-set-to-rise-moodys-290328.aspx",
+      "author": "Australian Broker",
+      "summary": "Price falls to push more borrowers underwater, but risks stay contained",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "First Home Buyers",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Negative Equity",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ee2c226a-8ac6-447e-ae10-c498ee6dabc5",
+      "title": "MFAA\u2019s Anja Pannek named COSBOA deputy chair",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T00:33:13Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/mfaas-anja-pannek-named-cosboa-deputy-chair-290327.aspx",
+      "author": "Australian Broker",
+      "summary": "Broking body chief takes senior role in small business advocacy",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MFAA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "MFAA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "16e4587f-8e70-4c33-a767-89826fcc6a7f",
+      "title": "Westpac: Housing sentiment slips as buyer intentions hold firm",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T00:32:05Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/westpac-housing-sentiment-slips-as-buyer-intentions-hold-firm-290325.aspx",
+      "author": "Australian Broker",
+      "summary": "Price expectations tumble, yet nearly 13% of Australians plan to buy",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Westpac",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "WBC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c5b7bcdb-a18a-453c-a59f-a81b0532462b",
+      "title": "Gas hysteria flares",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-17T00:30:08+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/gas-hysteria-flares/",
+      "author": "MacroBusiness",
+      "summary": "That great plume of fire and smoke you can see is the great gas reservation fight. Labor\u2019s gas plan threatens to undermine as much as two-thirds of east coast supply, according to Beach Energy boss Brett Woods, who says parliament must resist pressure for short-term relief at the expense of the n...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "2a23ce00-6b19-4228-afec-242ee71ed66f",
+      "title": "Perth property values are in freefall",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-17T00:00:34+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/perth-property-values-are-in-freefall/",
+      "author": "MacroBusiness",
+      "summary": "After dwelling values more than doubled following the pandemic, Perth property is now in freefall. According to Cotality&#8217;s daily dwelling values index, Perth has declined by 10.1% in only 187 days, the fastest decline in the nation: Perth dwelling values have declined by 5.9% in the past qu...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "0d241370-aef1-4089-b6a0-f1cf0c84f8bb",
+      "title": "AI goodbye!",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T23:30:39+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/ai-goodbye/",
+      "author": "MacroBusiness",
+      "summary": "TME with the doom. The AI reckoning The AI trade is facing a critical test. Nvidia is flirting with a massive trendline, NDX has been rejected at the 200-day, and systematic funds are dumping billions. Yet semiconductor valuations are pricing in an earnings disaster, bearish positioning is reachi...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -101,6 +540,34 @@
       ]
     },
     {
+      "id": "a1eb4a4c-a978-4a5d-b8c8-72bdc2023a1f",
+      "title": "Aussie immigration continues to moderate",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T23:00:11+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/aussie-immigration-continues-to-moderate/",
+      "author": "MacroBusiness",
+      "summary": "In the first four years of the Albanese government, net overseas migration (NOM) into Australia reached an unprecedented level, with more than 1,100 net migrants arriving each day. The May federal budget forecast that NOM would be 245,000 this financial year, down from the latest reading of 292,1...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
       "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
       "category": "tech",
@@ -131,6 +598,186 @@
         {
           "name": "cwaffles",
           "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e2c20e02-a875-47b1-ac10-388e5f51d9b6",
+      "title": "CGT rethink leaves property investors sidelined",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-16T22:44:54Z",
+      "url": "https://www.mpamag.com/au/news/general/cgt-rethink-leaves-property-investors-sidelined/597576",
+      "author": "MPA Magazine",
+      "summary": "Business owners and shareholders stand to gain from a teal-backed rethink, but brokers should expect no change for investor clients",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Investment",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "3b11dd81-3153-4752-aada-4ff038151040",
+      "title": "Australian dollar growth shocked",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T22:30:16+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/australian-dollar-growth-shocked/",
+      "author": "MacroBusiness",
+      "summary": "Remember when I said reining Trump might restore DXY? Voila! Given the short, AUD is spectacularly weak. The rubber band to CNY is very stretched. The twins are screaming blue murder. This is when you nibble at gold if you are a believer. Copper is yelling &#8220;growth panic&#8221; Big miners ar...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4a41959a-f398-4f9a-9268-523d113a7f87",
+      "title": "There is one other way to make oil cheaper\u2026.",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T22:00:20+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/there-is-one-other-way-to-make-oil-cheaper/",
+      "author": "MacroBusiness",
+      "summary": "War headlines today. Six tankers ablaze in Hormuz in two days. Third aircraft carrier arrives. Saudi sacks failing general fighting Houthis. Still no Israeli government. Ukraine launches biggest ever drone ttack. Brent and cracks both plunged. Dated held. LNG plunged. The IEA chimed in with a maj...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "84e20130-2bd9-4a56-8e01-9088aa6e2e08",
+      "title": "COSBOA strengthens small business advocacy with new board appointments",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-16T21:52:43Z",
+      "url": "https://www.mpamag.com/au/specialty/sme/cosboa-strengthens-small-business-advocacy-with-new-board-appointments/597575",
+      "author": "MPA Magazine",
+      "summary": "New leadership brings together small business, financial services, and digital expertise ahead of a big policy year",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "5b83e7e1-1f32-4a19-a581-7d66f989c1b0",
+      "title": "Rental pain now the biggest driver of first home buyers",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-16T21:37:09Z",
+      "url": "https://www.mpamag.com/au/news/general/rental-pain-now-the-biggest-driver-of-first-home-buyers/597574",
+      "author": "MPA Magazine",
+      "summary": "Renters are rushing to own not out of confidence, but desperation to escape rising rents",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "First Home Buyers",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f911c440-c25c-4499-9047-f0d85c6f38ce",
+      "title": "Australian Dream still means homeownership, Compare the Market finds",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T21:34:46Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/australian-dream-still-means-homeownership-compare-the-market-finds-290329.aspx",
+      "author": "Australian Broker",
+      "summary": "Older generations most pessimistic as median savings sit at $250 monthly",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -173,6 +820,324 @@
       ]
     },
     {
+      "id": "58d1ffbf-06a4-4d2a-beb6-5fc8d12c0544",
+      "title": "CGT changes under fire \u2013 what would Spender plan mean for property?",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T21:28:55Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/cgt-changes-under-fire--what-would-spender-plan-mean-for-property-290323.aspx",
+      "author": "Australian Broker",
+      "summary": "The Greens are warming to a teal alternative that keeps investment property on inflation indexation but gives shares and businesses a flat 40% discount.",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "8da7cdfe-1a6f-4554-9e07-7819a827ec09",
+      "title": "Labor in deep denial over falling real wages",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T21:00:54+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/labor-in-deep-denial-over-falling-real-wages/",
+      "author": "MacroBusiness",
+      "summary": "In a recent interview on News 24, Employment Minister Amanda Rishworth tried to defend real wage growth since the Albanese government came to power. &#8220;There is now a three in front of wages growth&#8221;, Rishworth said, attempting to place the focus on the rate of nominal wage growth that w...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "8d28acd5-143d-4b74-a343-63b895277022",
+      "title": "[PODCAST] The 1.3 Million Homes Missing From Australia\u2019s Property Market with Simon Kuestenmacher",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-16T21:00:22+00:00",
+      "url": "https://propertyupdate.com.au/podcast-the-1-3-million-homes-missing-from-australias-property-market-with-simon-kuestenmacher/?utm_source=rss&utm_medium=rss&utm_campaign=podcast-the-1-3-million-homes-missing-from-australias-property-market-with-simon-kuestenmacher",
+      "author": "Property Update",
+      "summary": "Could one of the biggest causes of Australia\u2019s housing shortage be hiding in plain sight? Australia has around 4.5 million Baby Boomers aged between 62 and 80, and many are living longer, healthier lives while remaining in their family homes well into retirement. Of course, they are entitled to s...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Investment",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4d76bb36-9659-4387-908c-29fca984f145",
+      "title": "Cameron Munster: 'Go f*** yourself': Beau responds to Roos prank backfire as mistaken identity forces apology",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T21:00:00-08:00",
+      "url": "https://www.foxsports.com.au/en-AU/news/rugby-league/radio-host-beau-ryan-eviscerated-after-act-kangaroos-call-backfires/q99etst527xg1avmd707nod1p",
+      "author": "Fox Sports",
+      "summary": "\ud83d\udd25 High Search Velocity: 5000+ searches. ",
+      "payload": {
+        "trending_query": "cameron munster",
+        "approx_traffic": "5000+",
+        "traffic_num": 5000,
+        "hotness_score": 60,
+        "news_source": "Fox Sports",
+        "trends_url": "https://trends.google.com/trends/explore?q=cameron+munster"
+      },
+      "entities": [
+        {
+          "name": "Fox Sports",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cameron Munster",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:cameron munster",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "74a63068-90b4-4c53-bdaf-8b7626e1995f",
+      "title": "Patrick Reed Pga Tour Card: Meet the 10 players who earned 2027 PGA Tour cards through Race to Dubai",
+      "category": "health",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T21:00:00-08:00",
+      "url": "https://www.pgatour.com/article/news/latest/2026/11/15/meet-the-10-who-earned-2027-pga-tour-cards-via-dp-world-tour-race-to-dubai-patrick-reed-eugenio-chacarra",
+      "author": "PGA Tour",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "patrick reed pga tour card",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 50,
+        "news_source": "PGA Tour",
+        "trends_url": "https://trends.google.com/trends/explore?q=patrick+reed+pga+tour+card"
+      },
+      "entities": [
+        {
+          "name": "PGA Tour",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Patrick Reed Pga Tour Card",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:patrick reed pga tour card",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "747c0d6d-3ae8-46b1-b7e7-d9c3d28ad812",
+      "title": "Country: Which countries offer day-one unfair dismissal protections?",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T21:00:00-08:00",
+      "url": "https://www.hcamag.com/us/specialization/employment-law/which-countries-offer-day-one-unfair-dismissal-protections/597603",
+      "author": "Human Resources Director",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "country",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "Human Resources Director",
+        "trends_url": "https://trends.google.com/trends/explore?q=country"
+      },
+      "entities": [
+        {
+          "name": "Country",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:country",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Human Resources Director",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "814ec3be-a320-46fa-abcc-043bc49b2712",
+      "title": "Ruby Franke: Shari Franke releases statement ahead of Ruby Franke, Jodi Hildebrandt's parole hearing",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T21:00:00-08:00",
+      "url": "https://kutv.com/news/local/shari-franke-releases-statement-ahead-of-ruby-franke-jodi-hildebrandts-parole-hearing",
+      "author": "KUTV",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "ruby franke",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 50,
+        "news_source": "KUTV",
+        "trends_url": "https://trends.google.com/trends/explore?q=ruby+franke"
+      },
+      "entities": [
+        {
+          "name": "Ruby Franke",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:ruby franke",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "KUTV",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a0bf20b2-76ad-456c-949c-dff3b70c46ee",
+      "title": "1998 Ky26: Scientists Are Stumped by This Strange Object in Space",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T21:00:00-08:00",
+      "url": "https://www.nytimes.com/2026/11/16/science/1998-ky26-asteroid-comet.html",
+      "author": "The New York Times",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "1998 ky26",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "The New York Times",
+        "trends_url": "https://trends.google.com/trends/explore?q=1998+ky26"
+      },
+      "entities": [
+        {
+          "name": "The New York Times",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "1998 Ky26",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:1998 ky26",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4217197b-2583-431b-a64b-b65cf2eacba5",
+      "title": "Criminal Investigation: Break and enter appeal, Moranbah",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T20:50:00-08:00",
+      "url": "https://mypolice.qld.gov.au/news/2026/11/17/break-and-enter-appeal-moranbah/",
+      "author": "Queensland Police News",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "criminal investigation",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "Queensland Police News",
+        "trends_url": "https://trends.google.com/trends/explore?q=criminal+investigation"
+      },
+      "entities": [
+        {
+          "name": "Criminal Investigation",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:criminal investigation",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Queensland Police News",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "category": "tech",
@@ -203,6 +1168,82 @@
         {
           "name": "cs.cmu.edu",
           "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "fea7b78d-70f9-4e49-bab6-f177a8e217a4",
+      "title": "Property: WA buyers get rare chance to snap up tightly held homes",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T20:30:00-08:00",
+      "url": "https://www.perthnow.com.au/lifestyle/real-estate/flood-of-tightly-held-properties-hit-the-wa-market-c-23114767",
+      "author": "PerthNow",
+      "summary": "\ud83d\udd25 High Search Velocity: 500+ searches. ",
+      "payload": {
+        "trending_query": "property",
+        "approx_traffic": "500+",
+        "traffic_num": 500,
+        "hotness_score": 51,
+        "news_source": "PerthNow",
+        "trends_url": "https://trends.google.com/trends/explore?q=property"
+      },
+      "entities": [
+        {
+          "name": "Property",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:property",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "PerthNow",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "41716698-f459-4400-a624-f04eededc096",
+      "title": "Michael Clarke Sandpapergate Opinions 2026: Clarke claims Sandpapergate scars pushed Smith out of Australia",
+      "category": "politics",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T20:20:00-08:00",
+      "url": "https://www.nine.com.au/sport/cricket/sandpapergate-news-steve-smith-michael-clarke-new-york-theory-wife-scandal-20261117-p61evw.html",
+      "author": "Nine.com.au",
+      "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
+      "payload": {
+        "trending_query": "michael clarke sandpapergate opinions 2026",
+        "approx_traffic": "1000+",
+        "traffic_num": 1000,
+        "hotness_score": 52,
+        "news_source": "Nine.com.au",
+        "trends_url": "https://trends.google.com/trends/explore?q=michael+clarke+sandpapergate+opinions+2026"
+      },
+      "entities": [
+        {
+          "name": "Michael Clarke Sandpapergate Opinions 2026",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:michael clarke sandpapergate opinions 2026",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Nine.com.au",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -285,6 +1326,44 @@
       ]
     },
     {
+      "id": "6d5e7936-359b-4daf-8923-3534c6f7b582",
+      "title": "Mining: Miners Negotiate Cross-Border Tie-Ups to Unlock Argentina Copper",
+      "category": "finance",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-16T20:00:00-08:00",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/miners-discuss-cross-border-tie-ups-to-tap-argentina-s-40-billion-copper-belt",
+      "author": "Bloomberg.com",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "mining",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 50,
+        "news_source": "Bloomberg.com",
+        "trends_url": "https://trends.google.com/trends/explore?q=mining"
+      },
+      "entities": [
+        {
+          "name": "Mining",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:mining",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Bloomberg.com",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
       "title": "Infant: VBPD investigating infant death on Mica Ave.",
       "category": "politics",
@@ -317,6 +1396,661 @@
         {
           "name": "Google Trends",
           "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4777dee8-6371-4d2c-8a28-3b2cbc5731dd",
+      "title": "Like it or not, Australia needs coal generation",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T13:01:17+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/like-it-or-not-australia-needs-coal-generation/",
+      "author": "MacroBusiness",
+      "summary": "Over the past year, we have enjoyed \u2018Goldilocks\u2019 energy conditions. Mild weather has reduced energy demand. Coal generators have been reliably producing baseload power. Some additional wind and solar power supplies have been added. The federal government has budgeted $7 billion to subsidise home ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "8e72f7c4-cb59-489b-8e5f-6fdb2010110f",
+      "title": "GainCtrl: Predicting Remaining Gains for Efficient LLM Agent Execution",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-16T08:40:29Z",
+      "url": "https://arxiv.org/abs/2611.20736v1",
+      "author": "Kangwen Zhao, Jianfeng Cai, Ruopei Sun",
+      "summary": "Large language models (LLMs) are widely used to power agents that interact with tools and environments to solve complex tasks. Repeated attempts improve the quality of tool-using agents, but continued execution incurs additional costs even when it is unlikely to improve the best result ultimately re...",
+      "payload": {
+        "authors": [
+          "Kangwen Zhao",
+          "Jianfeng Cai",
+          "Ruopei Sun",
+          "Mingxiao Feng",
+          "Peng Zhang",
+          "Wengang Zhou",
+          "Houqiang Li"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Kangwen Zhao",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Jianfeng Cai",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Ruopei Sun",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4cc5fc0c-ea48-46cb-b080-3bc1413ceb65",
+      "title": "MemEmo: Evaluating Emotion in Memory Systems",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-16T08:39:09Z",
+      "url": "https://arxiv.org/abs/2611.20733v1",
+      "author": "Peng Liu, Zhen Tao, Jihao Zhao",
+      "summary": "Memory systems address the challenge of context loss in Large Language Models during prolonged interactions. However, as an essential tool for warm companionship and personalized services, the effectiveness of memory systems in processing affective information remains underexamined. To bridge this g...",
+      "payload": {
+        "authors": [
+          "Peng Liu",
+          "Zhen Tao",
+          "Jihao Zhao",
+          "Ding Chen",
+          "Yansong Zhang",
+          "Cuiping Li",
+          "Zhiyu Li",
+          "Hong Chen"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Jihao Zhao",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Zhen Tao",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Peng Liu",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1f75583c-4551-42cb-8a3d-ee99efeb7172",
+      "title": "Routing Beyond Task Categories: A Cost-Aware LAB-Bench Study",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-16T08:38:20Z",
+      "url": "https://arxiv.org/abs/2611.20732v1",
+      "author": "Ahmed Tariq, Leo Guinan",
+      "summary": "We tested whether features of biology questions or of a model's first answer can improve accuracy within an inference budget. In a LAB-Bench pilot, we compared a category router with one that adds six structural features. Neither reached the primary 80% accuracy target on development. At the 50% and...",
+      "payload": {
+        "authors": [
+          "Ahmed Tariq",
+          "Leo Guinan"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Ahmed Tariq",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Leo Guinan",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e16d2047-3801-432e-930f-a87edf198924",
+      "title": "PEETS: Preference-aware Embeddings with Explicit Tree Structure for Auxiliary Product Bundling",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-16T08:32:09Z",
+      "url": "https://arxiv.org/abs/2611.20726v1",
+      "author": "Maolei Huang, Jing Tian, Dexuan Duan",
+      "summary": "Auxiliary products such as flight protection and flexible-change services are recommended alongside primary travel purchases. This setting creates a granularity ambiguity: SKUs within one product type share semantics but differ in price and coverage, while rejecting one offer does not imply disinter...",
+      "payload": {
+        "authors": [
+          "Maolei Huang",
+          "Jing Tian",
+          "Dexuan Duan",
+          "Yan Chen",
+          "Huawei Cao",
+          "Shuhan Song"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Jing Tian",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Maolei Huang",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dexuan Duan",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d926f314-f3db-4f9d-95f0-939e900c26ae",
+      "title": "This week\u2019s Australian Property Market Update \u2013 Latest Data, State by State November 17th 2026",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-16T08:30:35+00:00",
+      "url": "https://propertyupdate.com.au/australian-property-market/?utm_source=rss&utm_medium=rss&utm_campaign=australian-property-market",
+      "author": "Property Update",
+      "summary": "Australia's property markets are continuing to weaken as we move towards the end of the year, with the latest figures showing that higher interest rates, affordability constraints and cautious buyer sentiment are taking their toll. The number of new home loans fell 15.0% to 111,878 in the Septemb...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1ebc6e14-c913-4482-a22a-ffbe300b90d2",
+      "title": "AgentFaultBench: State-Verified Evaluation of Tool-Fault Recovery",
+      "category": "tech",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-16T08:19:25Z",
+      "url": "https://arxiv.org/abs/2611.20711v1",
+      "author": "Sachin Gupta",
+      "summary": "Does recovery advice help an agent finish a task after a tool fails? AgentFaultBench evaluates LangGraph and CrewAI agents performing specified tasks in an isolated GitLab installation. We inject tool errors and check both the resulting files and issues and the required reads, verification and final...",
+      "payload": {
+        "authors": [
+          "Sachin Gupta"
+        ],
+        "primary_category": "cs.AI"
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Sachin Gupta",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f32c4151-1051-4d76-9e14-745693942cf9",
+      "title": "Melbourne\u2019s investor exodus: why renters could pay the price for property tax changes",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-16T06:30:44+00:00",
+      "url": "https://propertyupdate.com.au/melbournes-investor-exodus-why-renters-could-pay-the-price-for-property-tax-changes/?utm_source=rss&utm_medium=rss&utm_campaign=melbournes-investor-exodus-why-renters-could-pay-the-price-for-property-tax-changes",
+      "author": "Property Update",
+      "summary": "How do we expect to make renting more affordable if we keep making the provision of rental housing less attractive? That\u2019s the concern raised by the latest evidence of Melbourne\u2019s investor sell-off, and I believe tenants have good reason to worry about where it could lead. Recently, realestate.co...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b0209496-9317-4caa-9128-30dbc6d307ab",
+      "title": "The Bank of Mum and Dad: Fueling the Dream or Risking Retirement?",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-16T05:30:31+00:00",
+      "url": "https://propertyupdate.com.au/the-bank-of-mum-and-dad-fueling-the-dream-or-risking-retirement/?utm_source=rss&utm_medium=rss&utm_campaign=the-bank-of-mum-and-dad-fueling-the-dream-or-risking-retirement",
+      "author": "Property Update",
+      "summary": "We often talk about Australia\u2019s housing affordability crisis, but one silent force shaping the market is the Bank of Mum and Dad, now one of the country\u2019s largest \u201clenders,\u201d unofficially of course. According to Finder\u2019s 2025 First Home Buyer Report, nearly 1 in 5 first home buyers (17%) are relyi...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "First Home Buyers",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b4b3e54d-b8e3-42a0-81c0-8251dea3a706",
+      "title": "Is the refi window about to slam shut on mortgage holders?",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-16T04:50:33Z",
+      "url": "https://www.mpamag.com/au/news/general/is-the-refi-window-about-to-slam-shut-on-mortgage-holders/597448",
+      "author": "MPA Magazine",
+      "summary": "Falling property values and tighter serviceability could trap recent buyers, even as Mortgage Choice data shows refi volumes surging",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Serviceability Buffer",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "3d998e6c-3330-456b-90c8-0154ec914ccb",
+      "title": "Westpac says RBA ready to clock off for 2026",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T04:40:38Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/westpac-says-rba-ready-to-clock-off-for-2026-290321.aspx",
+      "author": "Australian Broker",
+      "summary": "Brokers offer their predictions on the central bank's next move",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Westpac",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "WBC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1a774ce7-0ff1-4846-86f0-616c10710156",
+      "title": "Industry groups warn trust tax threatens housing supply",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T04:24:38Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/industry-groups-warn-trust-tax-threatens-housing-supply-290320.aspx",
+      "author": "Australian Broker",
+      "summary": "Five business bodies urge Senators to block discretionary trust changes as drafted",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "59e32853-257d-4302-acf9-326c46b0464d",
+      "title": "Major bank CEOs throw brokers under the bus for growing fraud problem",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T01:58:31Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/major-bank-ceos-throw-brokers-under-the-bus-for-growing-fraud-problem-290316.aspx",
+      "author": "Australian Broker",
+      "summary": "But brokers aren't buying it",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "20498789-a886-499a-94a8-ab1f06bdfe5d",
+      "title": "Trust tax \u2018house of horrors\u2019 slammed by business groups and brokers",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-16T01:14:48Z",
+      "url": "https://www.mpamag.com/au/news/general/trust-tax-house-of-horrors-slammed-by-business-groups-and-brokers/597415",
+      "author": "MPA Magazine",
+      "summary": "With a Senate vote looming, we unpack the minimum tax on discretionary trusts and its stakes for broker-run businesses",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "3d3be984-8d63-4d62-9b3d-3a77665bf808",
+      "title": "Macquarie adds brokers to self-employed professionals list",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T01:00:50Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/macquarie-adds-brokers-to-selfemployed-professionals-list-290322.aspx",
+      "author": "Australian Broker",
+      "summary": "Brokers can verify income with one year of financials from 19 November",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Macquarie Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "MQG",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f823c44f-ae82-4e97-9bc7-637641cf9f1d",
+      "title": "Spendthrift Aussie governments drive higher inflation",
+      "category": "finance",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-16T01:00:21+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/spendthrift-aussie-governments-drive-higher-inflation/",
+      "author": "MacroBusiness",
+      "summary": "For months, a spirited debate has centred on the extent to which excessive government spending is driving Australia&#8217;s inflation, which remains well above the Reserve Bank of Australia&#8217;s (RBA) target and has prompted five rate hikes this year. Australia&#8217;s public spending as a sha...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c60cd49e-07e5-4c5f-ae77-e7248af1b307",
+      "title": "APRA and ASIC scrap two FAR reporting requirements",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-16T00:34:04Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/apra-and-asic-scrap-two-far-reporting-requirements-290317.aspx",
+      "author": "Australian Broker",
+      "summary": "Regulators cut red tape for thousands of accountable people under FAR",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "ASIC",
+          "entity_type": "REGULATOR",
+          "canonical_id": "ASIC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -360,6 +2094,306 @@
           "name": "Apple Inc.",
           "entity_type": "COMPANY",
           "canonical_id": "CIK:0000320193",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a64c3959-035e-4002-be04-ce71c643d149",
+      "title": "Mortgage belt suburbs most exposed to AI job risk: FoundIt",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-15T23:55:39Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/mortgage-belt-suburbs-most-exposed-to-ai-job-risk-foundit-290319.aspx",
+      "author": "Australian Broker",
+      "summary": "High-LVR borrowers in white-collar suburbs face biggest AI exposure, research finds",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Negative Equity",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e272425f-7db7-455f-9479-316366047293",
+      "title": "Just 8% of SMEs use rewards platforms for supplier payments: Prospa",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-15T23:07:53Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/just-8-of-smes-use-rewards-platforms-for-supplier-payments-prospa-290318.aspx",
+      "author": "Australian Broker",
+      "summary": "Survey finds strong SME appetite for rewards on unavoidable business costs",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c1116748-4863-46e3-bbbd-b7c8ed6241bc",
+      "title": "The Poor Love To Hate Other\u2019s Success",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-15T23:00:00+00:00",
+      "url": "https://propertyupdate.com.au/the-poor-love-to-hate-others-success/?utm_source=rss&utm_medium=rss&utm_campaign=the-poor-love-to-hate-others-success",
+      "author": "Property Update",
+      "summary": "There are two types of people in the world: Those who hate the\u00a0success of others Those who let the successes of others fuel them toward their own greatness. Unfortunatley, most people fall into the first group. It's why we have \"tall poppy syndrome.\" Here\u2019s my free tip for you: Be in the second g...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "5cc30742-0e34-4e77-ae35-dd34450d0b9e",
+      "title": "Major banks lift mortgage rates en masse following latest RBA hike",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-15T22:21:06Z",
+      "url": "https://www.mpamag.com/au/news/general/major-banks-lift-mortgage-rates-en-masse-following-latest-rba-hike/597410",
+      "author": "MPA Magazine",
+      "summary": "ANZ, Westpac, NAB pass on November rise in full \u2013 here is the real cost for mortgage holders",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Westpac",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "WBC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "ANZ Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "ANZ",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "National Australia Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "NAB",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b35fe8f0-d6d3-412c-ad43-77619dd5ce9e",
+      "title": "Latest Property Price Forecasts. Australian Property Market Outlook 2026-2027: Navigating a Market Correction",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-15T21:00:39+00:00",
+      "url": "https://propertyupdate.com.au/australian-property-market-predictions/?utm_source=rss&utm_medium=rss&utm_campaign=australian-property-market-predictions",
+      "author": "Property Update",
+      "summary": "Early this year the conversation about Australian property was all about resilience, about how our markets kept climbing despite thirteen rate rises and a cost of living squeeze that refused to ease. Boy has that conversation has changed. Capital city dwelling values have fallen for seven months ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "513c5812-084d-4033-90d7-a807dabbcb19",
+      "title": "Brisbane Property Market Forecast [2026 & Beyond] \u2013 What The Olympics Decade Means for Investors.",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-15T15:00:00+00:00",
+      "url": "https://propertyupdate.com.au/whats-ahead-brisbanes-property-market/?utm_source=rss&utm_medium=rss&utm_campaign=whats-ahead-brisbanes-property-market",
+      "author": "Property Update",
+      "summary": "Brisbane has quietly become one of Australia\u2019s most exciting property stories \u2014 a city transforming from the underdog of the east coast into a powerhouse of growth, lifestyle, and opportunity. While Sydney and Melbourne often steal the headlines, Brisbane has been outperforming expectation delive...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6bf595a6-60f7-4857-bd5b-562274e6e168",
+      "title": "Melbourne property market forecast for 2026 & 2027 | Separating the fundamentals from the sentiment",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "url": "https://propertyupdate.com.au/property-investment-melbourne/?utm_source=rss&utm_medium=rss&utm_campaign=property-investment-melbourne",
+      "author": "Property Update",
+      "summary": "Are you considering investing in Melbourne's property market? You're not alone, since more investors are once again eyeing Melbourne. But the forecasts that looked so promising at the start of 2026 have since been revised down, and that's understandably making some investors nervous. ANZ Research...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "ANZ Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "ANZ",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "25cc4d0b-b6a7-4615-91d6-16ab2a31a62a",
+      "title": "Sydney property market forecast for 2026 and 2027 | Why the short-term softness is a long-term opportunity",
+      "category": "finance",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "url": "https://propertyupdate.com.au/property-investment-sydney/?utm_source=rss&utm_medium=rss&utm_campaign=property-investment-sydney",
+      "author": "Property Update",
+      "summary": "Thinking of investing in Sydney property? You're not alone, but that doesn't mean it's straightforward right now. \"Sydney's too expensive,\" \"you've missed the boat,\" \"now's not the time to invest,\" these are the lines doing the rounds at dinner tables and on social media, and none of them tell yo...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f15d2de2-3ac3-4904-a0bd-a6e78d8512b6",
+      "title": "Westpac growing more certain cash rate has peaked",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-15T05:11:08Z",
+      "url": "https://www.mpamag.com/au/news/general/westpac-growing-more-certain-cash-rate-has-peaked/597407",
+      "author": "MPA Magazine",
+      "summary": "Westpac's chief economist says converging data on housing, consumers, and oil prices cement the case for a rate pause",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Westpac",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "WBC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
@@ -626,6 +2660,214 @@
       ]
     },
     {
+      "id": "d51aac90-b686-463e-a3ea-463863432d24",
+      "title": "Microsoft outage gives brokers a taste of old-school broking",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-13T04:58:18Z",
+      "url": "https://www.mpamag.com/au/news/general/microsoft-outage-gives-brokers-a-taste-of-old-school-broking/597274",
+      "author": "MPA Magazine",
+      "summary": "Friday\u2019s failure is a reminder that client relationships in are built by voice, not virtual inboxes",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "03834a92-70d9-4216-a07e-da18c2041c70",
+      "title": "AFG brings the glitter and gold rush to Melbourne for annual awards gala",
+      "category": "finance",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-13T04:01:37Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/afg-brings-the-glitter-and-gold-rush-to-melbourne-for-annual-awards-gala-290315.aspx",
+      "author": "Australian Broker",
+      "summary": "Here's who came, who won and what they had to say",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AFG",
+          "entity_type": "AGGREGATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b59f6ad7-7d66-416d-a7eb-2d3a580e5085",
+      "title": "Bridgit appoints Tom Panos to reach homeowners in buy-sell dilemma",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-13T03:55:24Z",
+      "url": "https://www.mpamag.com/au/news/general/bridgit-appoints-tom-panos-to-reach-homeowners-in-buy-sell-dilemma/597263",
+      "author": "MPA Magazine",
+      "summary": "Fintech\u2019s new ambassador targets homeowners and agents navigating the risks of buying before they sell",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f3837a96-81a6-43a9-8344-76c87f2da068",
+      "title": "Lending standards on notice as mortgage wars heat up",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-12T22:41:49Z",
+      "url": "https://www.mpamag.com/au/news/general/lending-standards-on-notice-as-mortgage-wars-heat-up/597225",
+      "author": "MPA Magazine",
+      "summary": "Scrutiny mounts as easing of mortgage activity ramps up competition for new customers",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e83ecb7e-66f7-4fd0-8032-ab09b6b61181",
+      "title": "Mortgage arrears to keep climbing, bank chiefs warn",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-12T22:05:27Z",
+      "url": "https://www.mpamag.com/au/news/general/mortgage-arrears-to-keep-climbing-bank-chiefs-warn/597222",
+      "author": "MPA Magazine",
+      "summary": "Benefit of falling prices being cancelled out by higher borrowing costs, warns Westpac boss",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Westpac",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "WBC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c857cc4c-193e-4ada-ab02-a1502fc0d48f",
+      "title": "Housing downturn now led by former boom towns",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-12T21:59:32Z",
+      "url": "https://www.mpamag.com/au/mortgage-industry/market-updates/housing-downturn-now-led-by-former-boom-towns/597223",
+      "author": "MPA Magazine",
+      "summary": "Speed of market correction coming as shock to forecasters as mid-sized markets that powered the boom reverse hardest",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4daef0bd-3e12-4a0b-b96f-10cbcce23f89",
+      "title": "New builds claim a record share of investor lending but\u2026",
+      "category": "finance",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-12T05:31:16Z",
+      "url": "https://www.mpamag.com/au/news/general/new-builds-claim-a-record-share-of-investor-lending-but/597106",
+      "author": "MPA Magazine",
+      "summary": "\u2026there\u2019s a catch. It\u2019s because established-home lending has collapsed, not because new-build lending has grown",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
       "id": "e0de664b-470a-4d62-ba61-1676f2473d54",
       "title": "Apple Inc. (AAPL) Files Form 4: FORM 4",
       "category": "finance",
@@ -747,6 +2989,286 @@
           "name": "Apple Inc.",
           "entity_type": "COMPANY",
           "canonical_id": "CIK:0000320193",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "3a57cc75-0efd-4a33-bc70-d136ad1ae0f9",
+      "title": "Monthly Authorised Deposit-taking Institution Statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-10-29T23:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/monthly-authorised-deposit-taking-institution-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "142fb7b3-e665-46e9-863b-bdfca5b26987",
+      "title": "Life insurance claims and disputes statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-10-15T23:15:02+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/life-insurance-claims-and-disputes-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "03ad573d-fe52-4340-a41e-74213478022e",
+      "title": "Authorised deposit-taking institutions' points of presence statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-10-13T23:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/authorised-deposit-taking-institutions-points-presence-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "7eed837d-1919-4aac-b4f8-998a7f38200f",
+      "title": "APRA Annual Reports archive",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-10-13T23:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/apra-annual-reports-archive",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "fa7accea-1111-4189-a374-1bb876b73386",
+      "title": "Intermediated general insurance statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-09-29T01:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/intermediated-general-insurance-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d44edb11-885b-42f0-9521-e9f3f9bee286",
+      "title": "Quarterly authorised deposit-taking institution statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-09-17T00:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-authorised-deposit-taking-institution-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "889a04d3-9e30-4b26-95bb-2f906f3a92f2",
+      "title": "Quarterly Superannuation Product Statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-09-09T01:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-superannuation-product-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "321c78bf-6661-45b5-b909-78d18245eaf8",
+      "title": "Quarterly Fund-Level Statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-fund-level-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1ec13ca4-05f8-4785-8129-3bdd46700c92",
+      "title": "Quarterly Superannuation Industry publication",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-superannuation-industry-publication",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d9e10dff-f811-419e-a4ad-50eace293418",
+      "title": "Quarterly superannuation statistics",
+      "category": "finance",
+      "source_name": "APRA Banking Regulation",
+      "published_at": "2026-08-31T00:00:00+00:00",
+      "url": "https://www.apra.gov.au/news-and-publications/quarterly-superannuation-statistics",
+      "author": "APRA",
+      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "banking_prudential"
+      },
+      "entities": [
+        {
+          "name": "APRA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "APRA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Banking Regulation",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
           "confidence_score": 1.0
         }
       ]

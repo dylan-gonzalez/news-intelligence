@@ -512,6 +512,361 @@ class ArXivAdapter(BaseAdapter):
         return articles
 
 # -----------------------------------------------------------------------------
+# Mortgage Broking & Australian Finance Entity Extractor
+# -----------------------------------------------------------------------------
+def extract_mortgage_entities(text: str) -> List[NormalizedEntity]:
+    entities = []
+    text_lower = text.lower()
+    
+    # Major Lenders & Banks
+    banks = [
+        ("Commonwealth Bank", "CBA", [r"\bcba\b", r"\bcommonwealth bank\b"]),
+        ("Westpac", "WBC", [r"\bwestpac\b"]),
+        ("National Australia Bank", "NAB", [r"\bnab\b", r"\bnational australia bank\b"]),
+        ("ANZ Bank", "ANZ", [r"\banz\b", r"\banz bank\b"]),
+        ("Macquarie Bank", "MQG", [r"\bmacquarie\b", r"\bmacquarie bank\b"]),
+        ("Bankwest", "BWA", [r"\bbankwest\b"]),
+        ("ING Bank", "ING", [r"\bing\b", r"\bing bank\b", r"\bing australia\b"]),
+        ("Suncorp Bank", "SUN", [r"\bsuncorp\b"]),
+        ("Bendigo Bank", "BEN", [r"\bbendigo\b", r"\bbendigo bank\b"]),
+        ("AMP Bank", "AMP", [r"\bamp\b", r"\bamp bank\b"])
+    ]
+    for name, code, triggers in banks:
+        if any(re.search(tr, text_lower) for tr in triggers):
+            entities.append(NormalizedEntity(name=name, entity_type="INSTITUTION", canonical_id=code))
+            
+    # Regulators & Industry Bodies
+    bodies = [
+        ("MFAA", "MFAA", [r"\bmfaa\b", r"mortgage & finance association"]),
+        ("FBAA", "FBAA", [r"\bfbaa\b", r"finance brokers association"]),
+        ("APRA", "APRA", [r"\bapra\b", r"prudential regulation authority"]),
+        ("ASIC", "ASIC", [r"\basic\b", r"securities and investments commission"]),
+        ("RBA", "RBA", [r"\brba\b", r"reserve bank of australia"]),
+        ("AFCA", "AFCA", [r"\bafca\b", r"financial complaints authority"])
+    ]
+    for name, code, triggers in bodies:
+        if any(re.search(tr, text_lower) for tr in triggers):
+            entities.append(NormalizedEntity(name=name, entity_type="REGULATOR", canonical_id=code))
+
+    # Aggregators
+    aggregators = [
+        ("LMG", [r"\blmg\b", r"loan market group", r"loan market"]),
+        ("AFG", [r"\bafg\b", r"australian finance group"]),
+        ("Finsure", [r"\bfinsure\b"]),
+        ("Connective", [r"\bconnective\b"])
+    ]
+    for name, triggers in aggregators:
+        if any(re.search(tr, text_lower) for tr in triggers):
+            entities.append(NormalizedEntity(name=name, entity_type="AGGREGATOR"))
+            
+    # Core Mortgage Industry Topics
+    concepts = [
+        ("Mortgage Broking", [r"mortgage broker", r"mortgage broking", r"brokers", r"brokerage"]),
+        ("Serviceability Buffer", [r"serviceability", r"3% buffer", r"serviceability buffer", r"borrowing capacity"]),
+        ("Cash Rate", [r"cash rate", r"interest rate", r"rate hike", r"rate cut", r"monetary policy"]),
+        ("First Home Buyers", [r"first home buyer", r"first-home buyer", r"\bfhb\b"]),
+        ("Refinancing", [r"refinance", r"refinancing", r"clawback", r"clawbacks"]),
+        ("Credit Policy", [r"credit policy", r"lending policy", r"lending criteria", r"lending barriers"]),
+        ("Mortgage Fraud", [r"mortgage fraud", r"loan fraud"]),
+        ("Negative Equity", [r"negative equity", r"\blvr\b", r"loan to value"]),
+        ("Property Investment", [r"property investor", r"property investment", r"rental yield", r"housing shortage"])
+    ]
+    for name, triggers in concepts:
+        if any(re.search(tr, text_lower) for tr in triggers):
+            entities.append(NormalizedEntity(name=name, entity_type="TOPIC"))
+            
+    return entities
+
+# -----------------------------------------------------------------------------
+# 5. Australian Broker Adapter (Premier Broking Industry News)
+# -----------------------------------------------------------------------------
+class AustralianBrokerAdapter(BaseAdapter):
+    source_id = "australian_broker"
+    name = "Australian Broker"
+    category = "finance"
+    feed_url = "https://www.brokernews.com.au/rss/"
+    feed_type = "atom"
+
+    def fetch(self, limit: int = 15) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        articles = []
+        for entry in root.findall("atom:entry", namespaces=ns)[:limit]:
+            title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
+            updated = (entry.findtext("atom:updated", namespaces=ns) or "").strip()
+            link_elem = entry.find("atom:link", namespaces=ns)
+            link = link_elem.attrib.get("href", "") if link_elem is not None else ""
+            content = entry.findtext("atom:content", namespaces=ns) or ""
+            clean_desc = re.sub(r"<[^<]+?>", "", content).strip()
+            if len(clean_desc) > 300:
+                clean_desc = clean_desc[:297] + "..."
+                
+            entities = [
+                NormalizedEntity(name="Australian Broker", entity_type="SOURCE"),
+                NormalizedEntity(name="Mortgage Industry", entity_type="TOPIC")
+            ]
+            entities.extend(extract_mortgage_entities(f"{title} {clean_desc}"))
+            
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=title,
+                url=link,
+                published_at=updated or datetime.now(timezone.utc).isoformat(),
+                category=self.category,
+                author="Australian Broker",
+                summary=clean_desc,
+                raw_payload={"source_type": "atom_feed", "industry": "mortgage_broking"},
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
+# 6. MPA Magazine Adapter (Mortgage Professional Australia)
+# -----------------------------------------------------------------------------
+class MPAAdapter(BaseAdapter):
+    source_id = "mpa_australia"
+    name = "Mortgage Professional Australia"
+    category = "finance"
+    feed_url = "https://www.mpamag.com/au/rss"
+    feed_type = "atom"
+
+    def fetch(self, limit: int = 15) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        articles = []
+        for entry in root.findall("atom:entry", namespaces=ns)[:limit]:
+            title = (entry.findtext("atom:title", namespaces=ns) or "").strip()
+            updated = (entry.findtext("atom:updated", namespaces=ns) or "").strip()
+            link_elem = entry.find("atom:link", namespaces=ns)
+            link = link_elem.attrib.get("href", "") if link_elem is not None else ""
+            content = entry.findtext("atom:content", namespaces=ns) or ""
+            clean_desc = re.sub(r"<[^<]+?>", "", content).strip()
+            if len(clean_desc) > 300:
+                clean_desc = clean_desc[:297] + "..."
+                
+            entities = [
+                NormalizedEntity(name="Mortgage Professional Australia", entity_type="SOURCE"),
+                NormalizedEntity(name="Mortgage Broking", entity_type="TOPIC")
+            ]
+            entities.extend(extract_mortgage_entities(f"{title} {clean_desc}"))
+            
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=title,
+                url=link,
+                published_at=updated or datetime.now(timezone.utc).isoformat(),
+                category=self.category,
+                author="MPA Magazine",
+                summary=clean_desc,
+                raw_payload={"source_type": "atom_feed", "industry": "mortgage_broking"},
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
+# 7. APRA Adapter (Prudential Regulation Authority)
+# -----------------------------------------------------------------------------
+class APRAAdapter(BaseAdapter):
+    source_id = "apra_media"
+    name = "APRA Banking Regulation"
+    category = "finance"
+    feed_url = "https://www.apra.gov.au/rss.xml"
+    feed_type = "rss"
+
+    def fetch(self, limit: int = 10) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        articles = []
+        for item in root.findall(".//item")[:limit]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            desc = (item.findtext("description") or "").strip()
+            pub_date_str = item.findtext("pubDate")
+            
+            pub_iso = datetime.now(timezone.utc).isoformat()
+            if pub_date_str:
+                try:
+                    dt = email.utils.parsedate_to_datetime(pub_date_str)
+                    pub_iso = dt.isoformat()
+                except Exception:
+                    pass
+                    
+            clean_desc = re.sub(r"<[^<]+?>", "", desc).strip()
+            if len(clean_desc) > 300:
+                clean_desc = clean_desc[:297] + "..."
+                
+            entities = [
+                NormalizedEntity(name="APRA", entity_type="REGULATOR", canonical_id="APRA"),
+                NormalizedEntity(name="Banking Regulation", entity_type="TOPIC")
+            ]
+            entities.extend(extract_mortgage_entities(f"{title} {clean_desc}"))
+            
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=title,
+                url=link,
+                published_at=pub_iso,
+                category=self.category,
+                author="APRA",
+                summary=clean_desc,
+                raw_payload={"source_type": "rss", "industry": "banking_prudential"},
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
+# 8. Property Update Adapter (Michael Yardney Housing & Property Economics)
+# -----------------------------------------------------------------------------
+class PropertyUpdateAdapter(BaseAdapter):
+    source_id = "property_update_au"
+    name = "Property Update Australia"
+    category = "finance"
+    feed_url = "https://propertyupdate.com.au/feed/"
+    feed_type = "rss"
+
+    def fetch(self, limit: int = 10) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        articles = []
+        for item in root.findall(".//item")[:limit]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            desc = (item.findtext("description") or "").strip()
+            pub_date_str = item.findtext("pubDate")
+            
+            pub_iso = datetime.now(timezone.utc).isoformat()
+            if pub_date_str:
+                try:
+                    dt = email.utils.parsedate_to_datetime(pub_date_str)
+                    pub_iso = dt.isoformat()
+                except Exception:
+                    pass
+                    
+            clean_desc = re.sub(r"<[^<]+?>", "", desc).strip()
+            if len(clean_desc) > 300:
+                clean_desc = clean_desc[:297] + "..."
+                
+            entities = [
+                NormalizedEntity(name="Property Update", entity_type="SOURCE"),
+                NormalizedEntity(name="Housing Market", entity_type="TOPIC")
+            ]
+            entities.extend(extract_mortgage_entities(f"{title} {clean_desc}"))
+            
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=title,
+                url=link,
+                published_at=pub_iso,
+                category=self.category,
+                author="Property Update",
+                summary=clean_desc,
+                raw_payload={"source_type": "rss", "industry": "property_economics"},
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
+# 9. MacroBusiness Australia Adapter (Macro, Housing Debt & Rates)
+# -----------------------------------------------------------------------------
+class MacrobusinessAdapter(BaseAdapter):
+    source_id = "macrobusiness_au"
+    name = "MacroBusiness Australia"
+    category = "finance"
+    feed_url = "https://www.macrobusiness.com.au/feed/"
+    feed_type = "rss"
+
+    def fetch(self, limit: int = 10) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        articles = []
+        for item in root.findall(".//item")[:limit]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            desc = (item.findtext("description") or "").strip()
+            pub_date_str = item.findtext("pubDate")
+            
+            pub_iso = datetime.now(timezone.utc).isoformat()
+            if pub_date_str:
+                try:
+                    dt = email.utils.parsedate_to_datetime(pub_date_str)
+                    pub_iso = dt.isoformat()
+                except Exception:
+                    pass
+                    
+            clean_desc = re.sub(r"<[^<]+?>", "", desc).strip()
+            if len(clean_desc) > 300:
+                clean_desc = clean_desc[:297] + "..."
+                
+            entities = [
+                NormalizedEntity(name="MacroBusiness", entity_type="SOURCE"),
+                NormalizedEntity(name="Macroeconomics", entity_type="TOPIC")
+            ]
+            entities.extend(extract_mortgage_entities(f"{title} {clean_desc}"))
+            
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=title,
+                url=link,
+                published_at=pub_iso,
+                category=self.category,
+                author="MacroBusiness",
+                summary=clean_desc,
+                raw_payload={"source_type": "rss", "industry": "macro_finance"},
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
+# 10. RBA Speeches & Statements Adapter
+# -----------------------------------------------------------------------------
+class RBASpeechesAdapter(BaseAdapter):
+    source_id = "rba_speeches"
+    name = "RBA Speeches & Statements"
+    category = "finance"
+    feed_url = "https://www.rba.gov.au/rss/rss-cb-speeches.xml"
+    feed_type = "rss"
+
+    def fetch(self, limit: int = 5) -> List[NormalizedArticle]:
+        raw = self._http_get(self.feed_url)
+        root = ET.fromstring(raw)
+        articles = []
+        for item in root.findall(".//item")[:limit]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            desc = (item.findtext("description") or "").strip()
+            pub_date_str = item.findtext("pubDate")
+            
+            pub_iso = datetime.now(timezone.utc).isoformat()
+            if pub_date_str:
+                try:
+                    dt = email.utils.parsedate_to_datetime(pub_date_str)
+                    pub_iso = dt.isoformat()
+                except Exception:
+                    pass
+                    
+            clean_desc = re.sub(r"<[^<]+?>", "", desc).strip()
+            entities = [
+                NormalizedEntity(name="Reserve Bank of Australia", entity_type="INSTITUTION", canonical_id="RBA"),
+                NormalizedEntity(name="Monetary Policy", entity_type="TOPIC")
+            ]
+            entities.extend(extract_mortgage_entities(f"{title} {clean_desc}"))
+            
+            articles.append(NormalizedArticle(
+                source_id=self.source_id,
+                title=f"RBA Speech: {title}",
+                url=link,
+                published_at=pub_iso,
+                category=self.category,
+                author="Reserve Bank of Australia",
+                summary=clean_desc,
+                raw_payload={"source_type": "rss", "type": "speech"},
+                entities=entities
+            ))
+        return articles
+
+# -----------------------------------------------------------------------------
 # Database Layer (SQLite local engine, directly compatible with PostgreSQL schema)
 # -----------------------------------------------------------------------------
 class StorageEngine:
@@ -652,7 +1007,7 @@ class StorageEngine:
             """, (limit,))
             return cur.fetchall()
 
-    def export_feed_json(self, output_path: str = "feed.json", limit: int = 50):
+    def export_feed_json(self, output_path: str = "feed.json", limit: int = 150):
         with self._get_conn() as conn:
             cur = conn.execute("""
             SELECT a.id, a.title, a.category, s.name as source_name, a.published_at, a.url,
@@ -728,7 +1083,13 @@ def run_collection():
     storage = StorageEngine(db_file)
     
     adapters: List[BaseAdapter] = [
+        AustralianBrokerAdapter(),
+        MPAAdapter(),
+        APRAAdapter(),
+        PropertyUpdateAdapter(),
+        MacrobusinessAdapter(),
         RBAAdapter(),
+        RBASpeechesAdapter(),
         HackerNewsAdapter(),
         SECAdapter(),
         ArXivAdapter(),
