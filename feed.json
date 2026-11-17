@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:32:16.601630+00:00",
+  "generated_at": "2026-11-17T05:25:50.683771+00:00",
   "articles": [
     {
       "id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
@@ -211,7 +211,7 @@
     {
       "id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
       "title": "Bunnings: Breaking: Bunnings to make 230 jobs redundant and offshore some tech services",
-      "category": "politics",
+      "category": "finance",
       "source_name": "Google Trends (AU)",
       "published_at": "2026-11-16T20:00:00-08:00",
       "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860",
@@ -222,7 +222,8 @@
         "approx_traffic": "2000+",
         "traffic_num": 2000,
         "hotness_score": 54,
-        "news_source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation"
+        "news_source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "trends_url": "https://trends.google.com/trends/explore?q=bunnings"
       },
       "entities": [
         {
@@ -248,7 +249,7 @@
     {
       "id": "fa9c52a2-2c7a-47cd-af0f-20cc41f19475",
       "title": "Mining: Modern Mining to Begin Trading Today on NYSE American Under Ticker Symbol \u201cMDRN\u201d",
-      "category": "politics",
+      "category": "finance",
       "source_name": "Google Trends (AU)",
       "published_at": "2026-11-16T20:00:00-08:00",
       "url": "https://www.businesswire.com/news/home/20261113240242/en/Modern-Mining-to-Begin-Trading-Today-on-NYSE-American-Under-Ticker-Symbol-MDRN",
@@ -259,7 +260,8 @@
         "approx_traffic": "100+",
         "traffic_num": 100,
         "hotness_score": 50,
-        "news_source": "Business Wire"
+        "news_source": "Business Wire",
+        "trends_url": "https://trends.google.com/trends/explore?q=mining"
       },
       "entities": [
         {
@@ -272,80 +274,6 @@
           "name": "Business Wire",
           "entity_type": "SOURCE",
           "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "214c94b9-94c6-431c-adde-a6d39325bd18",
-      "title": "Pak Vs Sl: Pakistan's Shakeel falls in the nineties twice, saves Test",
-      "category": "politics",
-      "source_name": "Google Trends (AU)",
-      "published_at": "2026-11-16T19:50:00-08:00",
-      "url": "https://www.cricket.com.au/news/4608867/pakistans-shakeel-falls-in-the-nineties-twice-saves-test",
-      "author": "cricket.com.au",
-      "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
-      "payload": {
-        "trending_query": "pak vs sl",
-        "approx_traffic": "2000+",
-        "traffic_num": 2000,
-        "hotness_score": 54,
-        "news_source": "cricket.com.au"
-      },
-      "entities": [
-        {
-          "name": "Pak Vs Sl",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:pak vs sl",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "cricket.com.au",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
-      "title": "So You Are: Melbourne Cup runner suspected to be horse found in Sydney skip bin",
-      "category": "politics",
-      "source_name": "Google Trends (AU)",
-      "published_at": "2026-11-16T19:50:00-08:00",
-      "url": "https://www.smh.com.au/sport/racing/melbourne-cup-runner-suspected-to-be-horse-found-in-sydney-skip-bin-20261117-p61ex8.html",
-      "author": "SMH.com.au",
-      "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
-      "payload": {
-        "trending_query": "so you are",
-        "approx_traffic": "1000+",
-        "traffic_num": 1000,
-        "hotness_score": 52,
-        "news_source": "SMH.com.au"
-      },
-      "entities": [
-        {
-          "name": "SMH.com.au",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "So You Are",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:so you are",
           "confidence_score": 1.0
         },
         {
@@ -370,7 +298,8 @@
         "approx_traffic": "200+",
         "traffic_num": 200,
         "hotness_score": 50,
-        "news_source": "WAVY.com"
+        "news_source": "WAVY.com",
+        "trends_url": "https://trends.google.com/trends/explore?q=infant"
       },
       "entities": [
         {
@@ -383,43 +312,6 @@
           "name": "Infant",
           "entity_type": "TOPIC",
           "canonical_id": "gtrend:infant",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
-      "title": "Melbourne Storm: Storm confirm new role for Kamikamica after medical retirement",
-      "category": "politics",
-      "source_name": "Google Trends (AU)",
-      "published_at": "2026-11-16T19:50:00-08:00",
-      "url": "https://www.sen.com.au/news/2026/11/16/nrl-2026-melbourne-storm-announce-new-coaching-role-for-tui-kamikamica-following-medical-retirement",
-      "author": "SEN",
-      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
-      "payload": {
-        "trending_query": "melbourne storm",
-        "approx_traffic": "100+",
-        "traffic_num": 100,
-        "hotness_score": 50,
-        "news_source": "SEN"
-      },
-      "entities": [
-        {
-          "name": "SEN",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Melbourne Storm",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:melbourne storm",
           "confidence_score": 1.0
         },
         {

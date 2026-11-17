@@ -496,42 +496,6 @@
         "extracted_via": "rule"
       },
       {
-        "article_id": "214c94b9-94c6-431c-adde-a6d39325bd18",
-        "entity_id": "041b7abf-f64d-4fc8-89b5-2fb7cc012248",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "214c94b9-94c6-431c-adde-a6d39325bd18",
-        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "214c94b9-94c6-431c-adde-a6d39325bd18",
-        "entity_id": "7b9313e7-5d17-4d5d-9546-4318abe52fcb",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
-        "entity_id": "d308f2c6-4ac0-4acf-8914-6f95bdb7f0ef",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
-        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
-        "entity_id": "b91035be-a532-4baa-a9ff-e6fc12808d34",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
         "article_id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
         "entity_id": "cee6bb2e-6ccf-4e65-af1c-d5edae0ec9c2",
         "confidence_score": 1.0,
@@ -548,27 +512,9 @@
         "entity_id": "7f20010d-9be7-49fc-87f6-d330e6ae58d8",
         "confidence_score": 1.0,
         "extracted_via": "rule"
-      },
-      {
-        "article_id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
-        "entity_id": "b7c4538f-beaa-42f9-a506-ce86e17fa163",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
-        "entity_id": "faecb2f2-8aca-41ec-a0d9-4f3bc0b870b4",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
-        "entity_id": "0ddb45cc-dc6a-4f16-a86f-7336d102f4bd",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
       }
     ],
-    "total_count": 90
+    "total_count": 81
   },
   "articles": {
     "columns": [
@@ -880,10 +826,10 @@
         "title": "Bunnings: Breaking: Bunnings to make 230 jobs redundant and offshore some tech services",
         "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860",
         "published_at": "2026-11-16T20:00:00-08:00",
-        "category": "politics",
+        "category": "finance",
         "author": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
         "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
-        "raw_payload": "{\"trending_query\": \"bunnings\", \"approx_traffic\": \"2000+\", \"traffic_num\": 2000, \"hotness_score\": 54, \"news_source\": \"ABC News & Headlines \\u2013 Australian Broadcasting Corporation\"}",
+        "raw_payload": "{\"trending_query\": \"bunnings\", \"approx_traffic\": \"2000+\", \"traffic_num\": 2000, \"hotness_score\": 54, \"news_source\": \"ABC News & Headlines \\u2013 Australian Broadcasting Corporation\", \"trends_url\": \"https://trends.google.com/trends/explore?q=bunnings\"}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:31:40"
       },
@@ -893,36 +839,10 @@
         "title": "Mining: Modern Mining to Begin Trading Today on NYSE American Under Ticker Symbol \u201cMDRN\u201d",
         "url": "https://www.businesswire.com/news/home/20261113240242/en/Modern-Mining-to-Begin-Trading-Today-on-NYSE-American-Under-Ticker-Symbol-MDRN",
         "published_at": "2026-11-16T20:00:00-08:00",
-        "category": "politics",
+        "category": "finance",
         "author": "Business Wire",
         "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
-        "raw_payload": "{\"trending_query\": \"mining\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"Business Wire\"}",
-        "graph_synced_at": null,
-        "created_at": "2026-11-17 04:31:40"
-      },
-      {
-        "id": "214c94b9-94c6-431c-adde-a6d39325bd18",
-        "source_id": "google_trends_au",
-        "title": "Pak Vs Sl: Pakistan's Shakeel falls in the nineties twice, saves Test",
-        "url": "https://www.cricket.com.au/news/4608867/pakistans-shakeel-falls-in-the-nineties-twice-saves-test",
-        "published_at": "2026-11-16T19:50:00-08:00",
-        "category": "politics",
-        "author": "cricket.com.au",
-        "summary": "\ud83d\udd25 High Search Velocity: 2000+ searches. ",
-        "raw_payload": "{\"trending_query\": \"pak vs sl\", \"approx_traffic\": \"2000+\", \"traffic_num\": 2000, \"hotness_score\": 54, \"news_source\": \"cricket.com.au\"}",
-        "graph_synced_at": null,
-        "created_at": "2026-11-17 04:31:40"
-      },
-      {
-        "id": "ef20818f-41ec-49b5-b5d7-1e39323c9dde",
-        "source_id": "google_trends_au",
-        "title": "So You Are: Melbourne Cup runner suspected to be horse found in Sydney skip bin",
-        "url": "https://www.smh.com.au/sport/racing/melbourne-cup-runner-suspected-to-be-horse-found-in-sydney-skip-bin-20261117-p61ex8.html",
-        "published_at": "2026-11-16T19:50:00-08:00",
-        "category": "politics",
-        "author": "SMH.com.au",
-        "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
-        "raw_payload": "{\"trending_query\": \"so you are\", \"approx_traffic\": \"1000+\", \"traffic_num\": 1000, \"hotness_score\": 52, \"news_source\": \"SMH.com.au\"}",
+        "raw_payload": "{\"trending_query\": \"mining\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"Business Wire\", \"trends_url\": \"https://trends.google.com/trends/explore?q=mining\"}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:31:40"
       },
@@ -935,25 +855,12 @@
         "category": "politics",
         "author": "WAVY.com",
         "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
-        "raw_payload": "{\"trending_query\": \"infant\", \"approx_traffic\": \"200+\", \"traffic_num\": 200, \"hotness_score\": 50, \"news_source\": \"WAVY.com\"}",
-        "graph_synced_at": null,
-        "created_at": "2026-11-17 04:31:40"
-      },
-      {
-        "id": "14475eee-db43-488f-b696-2a3c57c0d9a0",
-        "source_id": "google_trends_au",
-        "title": "Melbourne Storm: Storm confirm new role for Kamikamica after medical retirement",
-        "url": "https://www.sen.com.au/news/2026/11/16/nrl-2026-melbourne-storm-announce-new-coaching-role-for-tui-kamikamica-following-medical-retirement",
-        "published_at": "2026-11-16T19:50:00-08:00",
-        "category": "politics",
-        "author": "SEN",
-        "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
-        "raw_payload": "{\"trending_query\": \"melbourne storm\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"SEN\"}",
+        "raw_payload": "{\"trending_query\": \"infant\", \"approx_traffic\": \"200+\", \"traffic_num\": 200, \"hotness_score\": 50, \"news_source\": \"WAVY.com\", \"trends_url\": \"https://trends.google.com/trends/explore?q=infant\"}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:31:40"
       }
     ],
-    "total_count": 24
+    "total_count": 21
   },
   "entities": {
     "columns": [

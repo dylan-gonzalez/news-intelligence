@@ -63,6 +63,92 @@ class BaseAdapter:
             return resp.read()
 
 # -----------------------------------------------------------------------------
+# Sports Filter & Content Classifier
+# -----------------------------------------------------------------------------
+SPORTS_PATTERNS = [
+    # General sports keywords & match language
+    r"\b(cricket|afl|nrl|rugby|footy|football|soccer|baseball|basketball|tennis|golf|boxing|ufc|mma|wwe|wrestling)\b",
+    r"\b(premier league|champions league|la liga|serie a|bundesliga|fifa|uefa|epl)\b",
+    r"\b(nba|nfl|nhl|mlb|mls|wnba|ipl|bbl)\b",
+    r"\b(wimbledon|australian open|us open|french open|atp|wta|roland garros)\b",
+    r"\b(formula 1|formula one|f1|grand prix|motogp|nascar|supercars)\b",
+    r"\b(melbourne cup|horse racing|jockey|derby|spring carnival|cox plate)\b",
+    r"\b(olympics|paralympics|commonwealth games)\b",
+    r"\b(grand final|semi-final|playoff|playoffs|quarterfinal|touchdown|goalkeeper|striker|red card|yellow card)\b",
+    r"\b(innings|wicket|wickets|batsman|bowler|batting|bowling|overs)\b",
+    r"\b(head coach|quarterback|pitcher|punt|scrum|try line|homerun)\b",
+    # Specific common sports fixtures and teams
+    r"\b(melbourne storm|penrith panthers|brisbane broncos|sydney roosters|south sydney|rabbitohs|eels|sea eagles|raiders|cowboys)\b",
+    r"\b(collingwood|carlton|richmond|geelong|essendon|hawthorn|swans|st kilda|western bulldogs|adelaide crows|port adelaide|fremantle|dockers|west coast eagles)\b",
+    r"\b(manchester united|manchester city|liverpool fc|arsenal fc|chelsea fc|tottenham|real madrid|barcelona|psg|bayern|juventus)\b",
+    r"\b(pak vs sl|ind vs aus|aus vs eng|eng vs nz|rsa vs ind)\b",
+    r"\b\w+\s+(vs\.?|v)\s+\w+\b",
+]
+
+def is_sports_content(text: str) -> bool:
+    """Returns True if the text relates to sports, games, or matches."""
+    text_lower = text.lower()
+    for pattern in SPORTS_PATTERNS:
+        if re.search(pattern, text_lower):
+            return True
+    return False
+
+def classify_content(title: str, query: str = "", snippet: str = "") -> Optional[str]:
+    """
+    Classifies content into 'tech', 'finance', 'health', 'politics'.
+    Returns None if the content is identified as sports (to be discarded).
+    """
+    full_text = f"{title} {query} {snippet}".lower()
+    
+    # 1. Sports Filter - Discard sports entirely
+    if is_sports_content(full_text):
+        return None
+        
+    # 2. Technology & AI
+    tech_patterns = [
+        r"\b(ai|artificial intelligence|machine learning|deep learning|llm|gpt|claude|gemini)\b",
+        r"\b(tech|technology|software|hardware|computing|cyber|cybersecurity|crypto|bitcoin|ethereum)\b",
+        r"\b(nvidia|apple|google|microsoft|meta|amazon|openai|anthropic|tsmc|intel|amd)\b",
+        r"\b(semiconductor|chips|microchip|quantum|robot|robotics|autonomous|algorithm)\b"
+    ]
+    if any(re.search(p, full_text) for p in tech_patterns):
+        return "tech"
+
+    # 3. Finance, Markets & Business
+    finance_patterns = [
+        r"\b(finance|financial|economy|economic|inflation|deflation|recession|gdp|cpi)\b",
+        r"\b(market|markets|stock|stocks|shares|trading|investor|investors|wall street|nyse|nasdaq|asx)\b",
+        r"\b(rba|reserve bank|federal reserve|fed|central bank|interest rate|rates|cash rate)\b",
+        r"\b(earnings|revenue|profit|loss|quarterly|dividend|ipo|merger|acquisition|offshore)\b",
+        r"\b(jobs|redundant|redundancies|layoffs|hiring|unemployment|workforce)\b",
+        r"\b(mining|commodities|crude|oil|gold|lithium|bunnings|banking|bank|treasury)\b"
+    ]
+    if any(re.search(p, full_text) for p in finance_patterns):
+        return "finance"
+
+    # 4. Health, Medicine & Science
+    health_patterns = [
+        r"\b(health|medical|medicine|hospital|clinic|doctor|patient|cancer|disease|virus|infection)\b",
+        r"\b(vaccine|vaccination|clinical trial|fda|tga|cdc|who|pharma|pharmaceutical|drug)\b",
+        r"\b(biotech|genetics|dna|mental health|pandemic|therapy|surgery)\b"
+    ]
+    if any(re.search(p, full_text) for p in health_patterns):
+        return "health"
+
+    # 5. Politics, Policy, Government & Law
+    politics_patterns = [
+        r"\b(politics|political|policy|government|parliament|senate|congress|legislation|bill|law)\b",
+        r"\b(election|poll|voting|vote|prime minister|president|minister|albanese|biden|trump)\b",
+        r"\b(court|judge|legal|lawsuit|supreme court|police|investigation|investigating|crime)\b",
+        r"\b(foreign affairs|geopolitics|treaty|diplomat|diplomacy|sanctions|military|defense)\b"
+    ]
+    if any(re.search(p, full_text) for p in politics_patterns):
+        return "politics"
+
+    # Default fallback for general non-sports news
+    return "politics"
+
+# -----------------------------------------------------------------------------
 # 5. Google Trends Realtime Adapter (Search Velocity & Hot Stories)
 # -----------------------------------------------------------------------------
 class GoogleTrendsAdapter(BaseAdapter):
@@ -70,17 +156,17 @@ class GoogleTrendsAdapter(BaseAdapter):
         self.geo = geo
         self.source_id = f"google_trends_{geo.lower()}"
         self.name = f"Google Trends ({geo})"
-        self.category = "politics"  # Macro / Broad Interest
+        self.category = "politics"  # Default fallback
         self.feed_url = f"https://trends.google.com/trending/rss?geo={geo}"
         self.feed_type = "rss"
 
-    def fetch(self, limit: int = 6) -> List[NormalizedArticle]:
+    def fetch(self, limit: int = 15) -> List[NormalizedArticle]:
         raw = self._http_get(self.feed_url)
         root = ET.fromstring(raw)
         articles = []
 
         ns = {"ht": "https://trends.google.com/trending/rss"}
-        items = root.findall(".//item")[:limit]
+        items = root.findall(".//item")
 
         for item in items:
             query = (item.findtext("title") or "").strip()
@@ -108,7 +194,13 @@ class GoogleTrendsAdapter(BaseAdapter):
                 snippet = news_items[0].findtext("ht:news_item_snippet", namespaces=ns) or ""
 
             article_title = f"{query.title()}: {headline}" if headline else f"Surging Search: {query.title()}"
-            target_url = news_url if news_url else f"https://trends.google.com/trends/explore?q={query}"
+            target_url = news_url if news_url else f"https://trends.google.com/trends/explore?q={urllib.parse.quote_plus(query)}"
+
+            # Dynamically classify category & filter out sports
+            detected_category = classify_content(article_title, query, snippet)
+            if detected_category is None:
+                # Discard sports articles entirely
+                continue
 
             # Calculate numerical hotness from traffic (e.g. "50,000+" -> 50000)
             traffic_num = 1000
@@ -131,7 +223,7 @@ class GoogleTrendsAdapter(BaseAdapter):
                 title=article_title,
                 url=target_url,
                 published_at=pub_iso,
-                category=self.category,
+                category=detected_category,
                 author=news_source or "Google Trends",
                 summary=f"🔥 High Search Velocity: {traffic} searches. {snippet}",
                 raw_payload={
@@ -139,10 +231,14 @@ class GoogleTrendsAdapter(BaseAdapter):
                     "approx_traffic": traffic,
                     "traffic_num": traffic_num,
                     "hotness_score": min(100, int(traffic_num / 500) + 50),
-                    "news_source": news_source
+                    "news_source": news_source,
+                    "trends_url": f"https://trends.google.com/trends/explore?q={urllib.parse.quote_plus(query)}"
                 },
                 entities=entities
             ))
+            if len(articles) >= limit:
+                break
+
         return articles
 
 # -----------------------------------------------------------------------------
