@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:48:11.025700+00:00",
+  "generated_at": "2026-11-17T06:05:02.173214+00:00",
   "total_count": 15,
   "sources": [
     {
@@ -19,7 +19,7 @@
       "feed_url": "https://www.brokernews.com.au/rss/",
       "feed_type": "atom",
       "is_active": 1,
-      "article_count": 17,
+      "article_count": 16,
       "latest_article_at": "2026-11-17T05:15:55Z"
     },
     {

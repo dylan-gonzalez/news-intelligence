@@ -936,6 +936,63 @@ class YouTubeChannelAdapter(BaseAdapter):
         return articles
 
 # -----------------------------------------------------------------------------
+# Headline Deduplication Utilities
+# -----------------------------------------------------------------------------
+def normalize_headline(title: str) -> str:
+    """Strips leading emojis, labels, punctuation, and lowercases for deduplication."""
+    t = re.sub(r'^[📺🔥\s]+', '', title)
+    t = re.sub(r'^(breaking|exclusive|analysis|watch|podcast|speech|special report)[\s:\-]+', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'[^a-zA-Z0-9\s]', ' ', t.lower())
+    words = [w for w in t.split() if len(w) > 2]
+    return ' '.join(words)
+
+def is_title_duplicate(title1: str, title2: str) -> bool:
+    """Returns True if two headlines share >= 75% significant words."""
+    norm1 = normalize_headline(title1)
+    norm2 = normalize_headline(title2)
+    if norm1 == norm2:
+        return True
+    words1 = set(norm1.split())
+    words2 = set(norm2.split())
+    if not words1 or not words2:
+        return False
+    similarity = len(words1.intersection(words2)) / len(words1.union(words2))
+    return similarity >= 0.75
+
+def determine_news_type(url: str, source_id: str = "", title: str = "", raw_payload: dict = None) -> str:
+    """
+    Classifies an article into:
+    - 'youtube_short': Vertical video (<60s, /shorts/ URL, or #shorts tag)
+    - 'youtube_video': Standard horizontal YouTube video / long-form
+    - 'blog_post': Long-form blogs, essays, Substacks, and market commentaries
+    - 'official_filing': SEC filings, arXiv preprints, RBA speeches, APRA regulatory disclosures
+    - 'news_post': Standard news reporting, wire reports, and media articles
+    """
+    url_lower = (url or "").lower()
+    title_lower = (title or "").lower()
+    source_lower = (source_id or "").lower()
+    payload = raw_payload or {}
+
+    # YouTube Shorts
+    if "/shorts/" in url_lower or "#shorts" in title_lower or "#short" in title_lower:
+        return "youtube_short"
+
+    # YouTube Standard Videos
+    if source_lower.startswith("yt_") or "youtube.com" in url_lower or "youtu.be" in url_lower or payload.get("is_video"):
+        return "youtube_video"
+
+    # Official Filings, Central Banks, Academic Preprints
+    if source_lower in ("sec_edgar", "arxiv_ai", "apra_media", "rba_media", "rba_speeches") or "arxiv.org" in url_lower or "sec.gov" in url_lower:
+        return "official_filing"
+
+    # Blogs & Analytical Commentaries
+    if source_lower in ("macrobusiness_au", "property_update_au", "hacker_news") or "substack.com" in url_lower or "/blog" in url_lower:
+        return "blog_post"
+
+    # Default News Post
+    return "news_post"
+
+# -----------------------------------------------------------------------------
 # Database Layer (SQLite local engine, directly compatible with PostgreSQL schema)
 # -----------------------------------------------------------------------------
 class StorageEngine:
@@ -1011,7 +1068,15 @@ class StorageEngine:
         import uuid
         inserted_count = 0
         with self._get_conn() as conn:
+            # Pre-load recent article titles for fuzzy deduplication
+            cur = conn.execute("SELECT id, title, url FROM articles ORDER BY published_at DESC LIMIT 500")
+            recent_articles = list(cur.fetchall())
+
             for a in articles:
+                # Check for duplicate headline against existing recent articles
+                if any(is_title_duplicate(a.title, existing["title"]) for existing in recent_articles):
+                    continue
+
                 art_id = str(uuid.uuid4())
                 payload_json = json.dumps(a.raw_payload)
                 try:
@@ -1020,6 +1085,7 @@ class StorageEngine:
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                     """, (art_id, a.source_id, a.title, a.url, a.published_at, a.category, a.author, a.summary, payload_json))
                     inserted_count += 1
+                    recent_articles.append({"id": art_id, "title": a.title, "url": a.url})
 
                     # Save entities and relationships
                     for ent in a.entities:
@@ -1079,7 +1145,7 @@ class StorageEngine:
     def export_feed_json(self, output_path: str = "feed.json", limit: int = 150):
         with self._get_conn() as conn:
             cur = conn.execute("""
-            SELECT a.id, a.title, a.category, s.name as source_name, a.published_at, a.url,
+            SELECT a.id, a.source_id, a.title, a.category, s.name as source_name, a.published_at, a.url,
                    a.author, a.summary, a.raw_payload
             FROM articles a
             JOIN sources s ON a.source_id = s.id
@@ -1087,7 +1153,13 @@ class StorageEngine:
             LIMIT ?
             """, (limit,))
             articles = []
+            seen_titles = []
             for row in cur.fetchall():
+                title = row["title"]
+                if any(is_title_duplicate(title, st) for st in seen_titles):
+                    continue
+                seen_titles.append(title)
+
                 art_id = row["id"]
                 # Fetch entities for this article
                 ent_cur = conn.execute("""
@@ -1105,10 +1177,19 @@ class StorageEngine:
                     except Exception:
                         pass
 
+                news_type = determine_news_type(
+                    url=row["url"],
+                    source_id=row["source_id"],
+                    title=row["title"],
+                    raw_payload=payload
+                )
+
                 articles.append({
                     "id": art_id,
                     "title": row["title"],
                     "category": row["category"],
+                    "news_type": news_type,
+                    "source_id": row["source_id"],
                     "source_name": row["source_name"],
                     "published_at": row["published_at"],
                     "url": row["url"],

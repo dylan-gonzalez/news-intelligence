@@ -514,30 +514,6 @@
         "extracted_via": "rule"
       },
       {
-        "article_id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
-        "entity_id": "c05d3efe-1dbf-4eaa-a703-4e19e4707c93",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
-        "entity_id": "2b06e2df-44fa-470e-85b9-eb1e8509ff3f",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
-        "entity_id": "a137e1a2-d778-4f9f-9304-6f0052442c1b",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
-        "article_id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
-        "entity_id": "1f3e9910-cb2c-4aed-9b4b-64b6b0d6bb39",
-        "confidence_score": 1.0,
-        "extracted_via": "rule"
-      },
-      {
         "article_id": "6d312715-eb06-41f3-8a19-ccd771b9ed68",
         "entity_id": "c05d3efe-1dbf-4eaa-a703-4e19e4707c93",
         "confidence_score": 1.0,
@@ -623,6 +599,30 @@
       },
       {
         "article_id": "f911c440-c25c-4499-9047-f0d85c6f38ce",
+        "entity_id": "2b06e2df-44fa-470e-85b9-eb1e8509ff3f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "58d1ffbf-06a4-4d2a-beb6-5fc8d12c0544",
+        "entity_id": "c05d3efe-1dbf-4eaa-a703-4e19e4707c93",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "58d1ffbf-06a4-4d2a-beb6-5fc8d12c0544",
+        "entity_id": "2b06e2df-44fa-470e-85b9-eb1e8509ff3f",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "3d998e6c-3330-456b-90c8-0154ec914ccb",
+        "entity_id": "c05d3efe-1dbf-4eaa-a703-4e19e4707c93",
+        "confidence_score": 1.0,
+        "extracted_via": "rule"
+      },
+      {
+        "article_id": "3d998e6c-3330-456b-90c8-0154ec914ccb",
         "entity_id": "2b06e2df-44fa-470e-85b9-eb1e8509ff3f",
         "confidence_score": 1.0,
         "extracted_via": "rule"
@@ -972,19 +972,6 @@
         "raw_payload": "{\"trending_query\": \"infant\", \"approx_traffic\": \"200+\", \"traffic_num\": 200, \"hotness_score\": 50, \"news_source\": \"WAVY.com\", \"trends_url\": \"https://trends.google.com/trends/explore?q=infant\"}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 04:31:40"
-      },
-      {
-        "id": "62c67f61-eef9-418a-8b98-3e61cb7cffd8",
-        "source_id": "australian_broker",
-        "title": "CBA CEO pushes back on broker blame in mortgage fraud debate",
-        "url": "https://www.brokernews.com.au/news/breaking-news/cba-ceo-pushes-back-on-broker-blame-in-mortgage-fraud-debate-290324.aspx",
-        "published_at": "2026-11-17T05:15:55Z",
-        "category": "finance",
-        "author": "Australian Broker",
-        "summary": "Technology and other 'cohorts of customers' are part of the problem, he says",
-        "raw_payload": "{\"source_type\": \"atom_feed\", \"industry\": \"mortgage_broking\"}",
-        "graph_synced_at": null,
-        "created_at": "2026-11-17 05:40:19"
       },
       {
         "id": "6d312715-eb06-41f3-8a19-ccd771b9ed68",
@@ -1997,6 +1984,19 @@
         "author": "Knotfest",
         "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
         "raw_payload": "{\"trending_query\": \"john christ\", \"approx_traffic\": \"100+\", \"traffic_num\": 100, \"hotness_score\": 50, \"news_source\": \"Knotfest\", \"trends_url\": \"https://trends.google.com/trends/explore?q=john+christ\"}",
+        "graph_synced_at": null,
+        "created_at": "2026-11-17 05:48:09"
+      },
+      {
+        "id": "2d8c9f4a-9bd3-412a-b515-8b9e13209b43",
+        "source_id": "yt_uconwr2m0moa8wsghb3zun_w",
+        "title": "\ud83d\udcfa Users Say Search Is Bad? Build an Eval | Aaron Linsky",
+        "url": "https://www.youtube.com/shorts/SBta4bp214w",
+        "published_at": "2026-11-13T17:00:38+00:00",
+        "category": "tech",
+        "author": "AI Engineer",
+        "summary": "Aaron Linsky explains how Bridgewater turned complaints about search into a benchmark: about 200 handpicked examples, built in less than a week. That gave the team a way to measure each improvement.\n\nFrom AI Engineer New York 2026.\n\n@Bridgewater \n\n@aiDotEngineer",
+        "raw_payload": "{\"source_type\": \"youtube_rss\", \"channel_id\": \"UCONWr2M0moA8wsGHb3zUn_w\", \"handle\": \"@aiDotEngineer\", \"thumbnail\": \"https://i4.ytimg.com/vi/SBta4bp214w/hqdefault.jpg\", \"is_video\": true, \"wiki_trending\": true, \"wiki_views\": 38157, \"hotness_score\": 85}",
         "graph_synced_at": null,
         "created_at": "2026-11-17 05:48:09"
       }
