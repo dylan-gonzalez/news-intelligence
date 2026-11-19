@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T03:15:14.472144+00:00",
+  "generated_at": "2026-11-19T03:17:01.606083+00:00",
   "articles": [
     {
-      "id": "3be4bce1-fbb4-4a23-b219-7d960e24e45d",
+      "id": "34c007ce-688a-4081-a60d-c3b4002dba3e",
       "title": "RBA doves handed a lifeline as unemployment spikes",
       "category": "finance",
       "news_type": "news_post",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": "2be68245-5117-47f2-9aac-0bb91ed625d9",
+      "id": "becc8c33-6f45-4d42-b07c-0235820d76bc",
       "title": "Economic shock builds as unemployment hits five year high",
       "category": "finance",
       "news_type": "blog_post",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "62eed0a2-3a6e-4036-99cd-2b0556d3d8b0",
+      "id": "830dbaee-5a01-412b-b7a0-c8bae752cf23",
       "title": "Labor market cracks, RBA done",
       "category": "finance",
       "news_type": "blog_post",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "4d8bbc36-3ee7-4143-a2ea-6e5ef8b38e2e",
+      "id": "29f1c47f-5eb1-4621-a6a2-69b69e55331c",
       "title": "Survey proves Victorians are housing irrational",
       "category": "finance",
       "news_type": "blog_post",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "id": "d5a1d0fc-f74b-4f6a-a4ac-273738ec302f",
+      "id": "dcab3625-2edb-407b-8f87-7fffed6f7ade",
       "title": "Gas cartel runs riot as gas ranga explodes",
       "category": "finance",
       "news_type": "blog_post",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "id": "0f2f2b1a-eedd-436d-be82-ac4da6289faf",
+      "id": "69a24ee5-b9a4-4ea0-84a5-7f5d16680e90",
       "title": "Unemployment continues to rise Down Under",
       "category": "finance",
       "news_type": "news_post",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": "fe2cd6c1-1875-43f3-b79b-6aafb9045ce5",
+      "id": "5d7467b5-e146-44bc-a606-5a9eb20369bd",
       "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
       "category": "tech",
       "news_type": "blog_post",
@@ -215,10 +215,10 @@
       "published_at": "2026-11-19T00:29:45+00:00",
       "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
       "author": "seizethecheese",
-      "summary": "HN Score: 107 | Comments: 12",
+      "summary": "HN Score: 108 | Comments: 12",
       "payload": {
         "hn_id": 50554374,
-        "score": 107,
+        "score": 108,
         "descendants": 36,
         "hotness_score": 43,
         "discussion_url": "https://news.ycombinator.com/item?id=50554374"
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "id": "392ea8b9-87dc-4461-8d20-f8720bf97824",
+      "id": "65b8f73f-a9c5-4741-a622-4df1665fdf38",
       "title": "RBA to remain on hold as recession risks build",
       "category": "finance",
       "news_type": "blog_post",
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "id": "2fdf0f68-4dd2-46a0-9d31-8f79fb3723e1",
+      "id": "1f953427-a99a-493d-92d7-56022319ab66",
       "title": "Multiple vulnerabilities in Regexp and String case conversion",
       "category": "tech",
       "news_type": "blog_post",
@@ -296,10 +296,10 @@
       "published_at": "2026-11-18T23:52:50+00:00",
       "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
       "author": "runesoerensen",
-      "summary": "HN Score: 101 | Comments: 4",
+      "summary": "HN Score: 102 | Comments: 4",
       "payload": {
         "hn_id": 50554038,
-        "score": 101,
+        "score": 102,
         "descendants": 22,
         "hotness_score": 42,
         "discussion_url": "https://news.ycombinator.com/item?id=50554038"
@@ -312,21 +312,21 @@
           "confidence_score": 1.0
         },
         {
-          "name": "runesoerensen",
-          "entity_type": "PERSON",
+          "name": "ruby-lang.org",
+          "entity_type": "DOMAIN",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "ruby-lang.org",
-          "entity_type": "DOMAIN",
+          "name": "runesoerensen",
+          "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "dd2904c0-4662-4ab1-855f-e307894d5f50",
+      "id": "6d4bc6c2-f883-49ce-b24e-2df117f37159",
       "title": "Refinances take a bigger slice of a shrinking mortgage market",
       "category": "finance",
       "news_type": "news_post",
@@ -348,21 +348,21 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Refinancing",
-          "entity_type": "TOPIC",
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
+          "name": "Refinancing",
+          "entity_type": "TOPIC",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "1c07e13a-19be-4b89-8012-3f7d181a3f5f",
+      "id": "ce2519e4-8f9d-4640-9ae6-8c1aeb991838",
       "title": "Chinese steel marches lower",
       "category": "finance",
       "news_type": "blog_post",
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "id": "c6923aa7-cd10-4ec6-a3bd-e82ba6842771",
+      "id": "c042a462-6503-4fbd-b63b-8dffafd6f2b0",
       "title": "The Habits of Unsuccessful People vs. Successful People [infographic]",
       "category": "finance",
       "news_type": "blog_post",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": "4def37da-8479-407e-ba34-bcc69b4b744a",
+      "id": "b4ac785a-7420-4eeb-809f-ccdfa1cf3efd",
       "title": "Sydney tipped to lead 2027 house price rebound even as forced sales climb",
       "category": "finance",
       "news_type": "news_post",
@@ -452,7 +452,7 @@
       ]
     },
     {
-      "id": "86bbd672-b80b-411d-b500-887bc2528af7",
+      "id": "c674d91d-7b2d-4553-82fb-35499cba49ec",
       "title": "Unemployment jumps, but wage growth also higher than expected",
       "category": "finance",
       "news_type": "blog_post",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "id": "b01cbac4-b288-4629-88a2-83542c65b765",
+      "id": "aba1f591-a4b4-45e7-972b-5ffc1bdded04",
       "title": "The golden crash",
       "category": "finance",
       "news_type": "blog_post",
@@ -512,7 +512,7 @@
       ]
     },
     {
-      "id": "c8f3b8da-a6d3-450e-b2e3-a8c35a26686c",
+      "id": "bb5aa34e-69c5-4d13-ac9a-f52bff635068",
       "title": "Fed crushes Australian dollar",
       "category": "finance",
       "news_type": "blog_post",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": "f919d44f-1ca7-4df3-b2e8-f4ceb42bda3a",
+      "id": "24c2c46e-0b8c-49e8-ab27-748423df627c",
       "title": "Regional property values fall, boom markets lead the decline",
       "category": "finance",
       "news_type": "news_post",
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "id": "91ffad1f-e3d0-449a-afc0-d716184f7aa7",
+      "id": "6982b23e-bd59-4c68-a94d-4d99e55db8d9",
       "title": "Gemini 4 Neon",
       "category": "tech",
       "news_type": "blog_post",
@@ -581,15 +581,21 @@
       "published_at": "2026-11-18T21:34:07+00:00",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "author": "yigitdemirag",
-      "summary": "HN Score: 520 | Comments: 102",
+      "summary": "HN Score: 522 | Comments: 102",
       "payload": {
         "hn_id": 50552424,
-        "score": 520,
+        "score": 522,
         "descendants": 474,
         "hotness_score": 95,
         "discussion_url": "https://news.ycombinator.com/item?id=50552424"
       },
       "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
         {
           "name": "blog.google",
           "entity_type": "DOMAIN",
@@ -601,17 +607,11 @@
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
-        },
-        {
-          "name": "Hacker News",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "YCombinator",
-          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "c7ab2cbe-cb6d-481c-a197-d9d08c5abff1",
+      "id": "abee481e-97b3-4c5c-a69a-1c6858a7eb44",
       "title": "Melbourne broker elected as CAFBA\u2019s first female president",
       "category": "finance",
       "news_type": "news_post",
@@ -641,7 +641,7 @@
       ]
     },
     {
-      "id": "30eb992a-4289-47ee-ba61-c65849540080",
+      "id": "6001912e-7bcb-4ba6-a26c-2adad830bb18",
       "title": "Canada\u2019s major immigration policy U-turn is a warning to Australia",
       "category": "finance",
       "news_type": "blog_post",
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "id": "6bb9bf94-71e0-4712-8c15-aa68367599b1",
+      "id": "824f9251-76dd-411c-8b93-895bb1892ac0",
       "title": "Mortgage broker profiles top 60,000 views in national spring campaign",
       "category": "finance",
       "news_type": "news_post",
@@ -706,7 +706,7 @@
       ]
     },
     {
-      "id": "7e7f2431-8392-46fb-b2c0-7d20140a7174",
+      "id": "b183348a-cb3d-4469-b122-3337f7d4d116",
       "title": "[PODCAST] Waiting for the Property Market To Bottom? Here Is What I Am Watching with Dorian Traill",
       "category": "finance",
       "news_type": "blog_post",
@@ -742,7 +742,91 @@
       ]
     },
     {
-      "id": "2101d4f1-a22c-4a7d-8e3a-ba9d1d143267",
+      "id": "a11b7f52-c6d6-465f-8a36-e9cf5fd2dd6b",
+      "title": "Cam Spencer: Cam Spencer records 26 points, seven assists",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T19:00:00-08:00",
+      "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-18/cam-spencer-records-26-points-seven-assists",
+      "author": "NBC Sports",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "cam spencer",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "NBC Sports",
+        "trends_url": "https://trends.google.com/trends/explore?q=cam+spencer"
+      },
+      "entities": [
+        {
+          "name": "Cam Spencer",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:cam spencer",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "NBC Sports",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "10986dbc-7369-4613-8e80-2bd279047292",
+      "title": "Ashton Kutcher: Ashton Kutcher Could Become a Billionaire After Anthropic Starts Trading on the Stock Market",
+      "category": "tech",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T19:00:00-08:00",
+      "url": "https://www.townandcountrymag.com/society/money-and-power/a74465816/ashton-kutcher-billionaire-status-anthropic-ipo/",
+      "author": "Town & Country Magazine",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "ashton kutcher",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 85,
+        "news_source": "Town & Country Magazine",
+        "trends_url": "https://trends.google.com/trends/explore?q=ashton+kutcher",
+        "wiki_trending": true,
+        "wiki_views": 16471,
+        "wiki_topic": "Ashton Kutcher",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ashton_Kutcher"
+      },
+      "entities": [
+        {
+          "name": "Ashton Kutcher",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:ashton kutcher",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Town & Country Magazine",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "2d8369a6-b7da-4997-8505-fa0b44351135",
       "title": "Vehicle: Stolen Vehicle Alert \u2013 18 November",
       "category": "politics",
       "news_type": "news_post",
@@ -762,15 +846,15 @@
       },
       "entities": [
         {
-          "name": "Queensland Police News",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Vehicle",
           "entity_type": "TOPIC",
           "canonical_id": "gtrend:vehicle",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Queensland Police News",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
           "confidence_score": 1.0
         },
         {
@@ -782,7 +866,51 @@
       ]
     },
     {
-      "id": "35c19aa1-1e25-4361-abb0-617b12c5e7d8",
+      "id": "edb65caf-79e2-496b-943e-7be518525f42",
+      "title": "Lebron James: LeBron James sues sports betting app Bron for using nickname and likeness without permission",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T18:40:00-08:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/lebron-james-bron-betting-app-lawsuit",
+      "author": "The Guardian",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "lebron james",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 85,
+        "news_source": "The Guardian",
+        "trends_url": "https://trends.google.com/trends/explore?q=lebron+james",
+        "wiki_trending": true,
+        "wiki_views": 11761,
+        "wiki_topic": "LeBron James",
+        "wiki_url": "https://en.wikipedia.org/wiki/LeBron_James"
+      },
+      "entities": [
+        {
+          "name": "The Guardian",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Lebron James",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:lebron james",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b021eb2b-a15b-4c96-85a9-2c3d1c5a07b0",
       "title": "Jamal Fogarty: Tigers ready to pounce on Manly halfback Jamal Fogarty",
       "category": "politics",
       "news_type": "news_post",
@@ -822,7 +950,7 @@
       ]
     },
     {
-      "id": "d6cc45ce-3bab-46be-8f56-7b12ef10f38a",
+      "id": "5dbe156c-d639-45a5-b46a-59af55d6d366",
       "title": "Lawyers Weekly: House Judiciary panel advances Matos' nomination for Supreme Court",
       "category": "politics",
       "news_type": "news_post",
@@ -842,15 +970,15 @@
       },
       "entities": [
         {
-          "name": "The Providence Journal",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Lawyers Weekly",
           "entity_type": "TOPIC",
           "canonical_id": "gtrend:lawyers weekly",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Providence Journal",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
           "confidence_score": 1.0
         },
         {
@@ -862,7 +990,7 @@
       ]
     },
     {
-      "id": "638bacbe-8dda-4f01-ae16-2433f7f17ec4",
+      "id": "f6662ea3-8a36-403d-8d3a-1dcee327c61b",
       "title": "\ud83d\udcfa What Putin Wants From Trump at the APEC Summit | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -881,21 +1009,21 @@
       },
       "entities": [
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "c73bb80e-90c6-4cff-b693-c55dbbe1a7ab",
+      "id": "d9c25933-cd0c-46a8-ad76-b5cc117b2466",
       "title": "Joel Leavitt Royal Commission: \u2018I\u2019ll take the rap\u2019: Big Build labour hire boss admits fake invoices",
       "category": "politics",
       "news_type": "news_post",
@@ -935,87 +1063,7 @@
       ]
     },
     {
-      "id": "119e4dd0-75af-431d-b546-a239f9e510dd",
-      "title": "Unemployment: Breaking: Analysts surprised as unemployment rate surges to 4.9pc in October",
-      "category": "finance",
-      "news_type": "news_post",
-      "source_id": "google_trends_au",
-      "source_name": "Google Trends (AU)",
-      "published_at": "2026-11-18T17:40:00-08:00",
-      "url": "https://www.abc.net.au/news/2026-11-19/unemployment-rate-jumps-in-october-in-australia/107399076",
-      "author": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
-      "payload": {
-        "trending_query": "unemployment",
-        "approx_traffic": "1000+",
-        "traffic_num": 1000,
-        "hotness_score": 52,
-        "news_source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-        "trends_url": "https://trends.google.com/trends/explore?q=unemployment"
-      },
-      "entities": [
-        {
-          "name": "Unemployment",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:unemployment",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "d1c5c377-1067-45dd-9a13-24532b2dd953",
-      "title": "Cma Awards: Danielle Parton Will Wear a Dress Made for Dolly to The CMA Awards",
-      "category": "politics",
-      "news_type": "news_post",
-      "source_id": "google_trends_au",
-      "source_name": "Google Trends (AU)",
-      "published_at": "2026-11-18T17:40:00-08:00",
-      "url": "https://tasteofcountry.com/danielle-parton-wears-dolly-dress-cma-awards/",
-      "author": "Taste of Country",
-      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
-      "payload": {
-        "trending_query": "cma awards",
-        "approx_traffic": "200+",
-        "traffic_num": 200,
-        "hotness_score": 50,
-        "news_source": "Taste of Country",
-        "trends_url": "https://trends.google.com/trends/explore?q=cma+awards"
-      },
-      "entities": [
-        {
-          "name": "Taste of Country",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Cma Awards",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:cma awards",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "918a0254-653f-4afe-a332-26f94da6ae7c",
+      "id": "641b4547-8981-4e3e-9449-8ec5963839b4",
       "title": "\ud83d\udcfa America\u2019s AI Lead Over China Is 12 Hours Not 12 Months \u2013 Paul Christiano",
       "category": "tech",
       "news_type": "youtube_video",
@@ -1039,21 +1087,21 @@
       },
       "entities": [
         {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "e5341aac-9d15-4d92-81fd-8003199f2a9f",
+      "id": "81660f55-15fc-45ea-a8ec-2ee76cbaa57f",
       "title": "Seven new models at scalable price-performance",
       "category": "tech",
       "news_type": "blog_post",
@@ -1072,12 +1120,6 @@
       },
       "entities": [
         {
-          "name": "gmays",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Hacker News",
           "entity_type": "INSTITUTION",
           "canonical_id": "YCombinator",
@@ -1088,11 +1130,17 @@
           "entity_type": "DOMAIN",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "gmays",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "329a3c39-100c-4335-80a3-ba1ec7c8a90b",
+      "id": "69ac349d-f877-4ec1-b9d4-88c6d35cc9e5",
       "title": "Unauthenticated remote code execution in Nginx",
       "category": "tech",
       "news_type": "blog_post",
@@ -1105,7 +1153,7 @@
       "payload": {
         "hn_id": 50547374,
         "score": 1179,
-        "descendants": 527,
+        "descendants": 528,
         "hotness_score": 100,
         "discussion_url": "https://news.ycombinator.com/item?id=50547374"
       },
@@ -1131,7 +1179,7 @@
       ]
     },
     {
-      "id": "d6a74dd5-42fc-4eff-b1bb-0c917a8ff988",
+      "id": "9c12929e-3718-4c92-87e0-1584020dba11",
       "title": "Chief AI officers lack control over AI spending: study",
       "category": "finance",
       "news_type": "news_post",
@@ -1161,7 +1209,7 @@
       ]
     },
     {
-      "id": "6468cbde-07c2-44ba-9dbd-7fa0673563ff",
+      "id": "570d720f-cc15-4639-a59f-18869b8af640",
       "title": "Brokers on Banks 2027 survey now open",
       "category": "finance",
       "news_type": "news_post",
@@ -1191,7 +1239,7 @@
       ]
     },
     {
-      "id": "d2c07a26-d459-4c5f-bc40-de98c4005fd7",
+      "id": "40745aa9-3834-465b-ba4c-14cf4c04d4b3",
       "title": "The Investing Rules Nobody Follows (But Everyone Knows)",
       "category": "finance",
       "news_type": "blog_post",
@@ -1221,7 +1269,7 @@
       ]
     },
     {
-      "id": "aee82436-dfff-49a5-a798-c908a213d5e3",
+      "id": "0b1b1808-2f85-4c87-8ab9-45f2d4ef885b",
       "title": "Mortgage brokers top trust rankings, but some scepticism lingers",
       "category": "finance",
       "news_type": "news_post",
@@ -1251,7 +1299,7 @@
       ]
     },
     {
-      "id": "7ddfc74c-d5d9-4f70-963b-42b05bf30fe2",
+      "id": "a244e48f-0638-4123-aca3-f77a814b56ed",
       "title": "How much superannuation do you really need to retire comfortably?",
       "category": "finance",
       "news_type": "blog_post",
@@ -1281,7 +1329,7 @@
       ]
     },
     {
-      "id": "0f66ce2d-493d-41c3-8f3c-698b7deca57e",
+      "id": "2bc0fc43-4721-4773-85bb-b27ba334e80e",
       "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
       "category": "tech",
       "news_type": "official_filing",
@@ -1313,12 +1361,6 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Dahyun Nam",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Akshay Govind Srinivasan",
           "entity_type": "PERSON",
           "canonical_id": null,
@@ -1331,6 +1373,12 @@
           "confidence_score": 1.0
         },
         {
+          "name": "Dahyun Nam",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
           "name": "Ghadi Nehme",
           "entity_type": "PERSON",
           "canonical_id": null,
@@ -1339,7 +1387,7 @@
       ]
     },
     {
-      "id": "220f8469-2383-4702-9e8d-5e2fc675572d",
+      "id": "45b2a41d-1905-4b1b-bdc5-a16a3b443fe4",
       "title": "ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation",
       "category": "tech",
       "news_type": "official_filing",
@@ -1368,12 +1416,6 @@
       },
       "entities": [
         {
-          "name": "Junpeng Zhang",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "arXiv",
           "entity_type": "INSTITUTION",
           "canonical_id": null,
@@ -1386,7 +1428,7 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Jie Feng",
+          "name": "Junpeng Zhang",
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
@@ -1396,11 +1438,17 @@
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "Jie Feng",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "a2cc167f-60f1-40e5-8f86-eabb8f108013",
+      "id": "95b13605-f088-4f8f-ae52-1e082cabcd84",
       "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models",
       "category": "tech",
       "news_type": "official_filing",
@@ -1439,12 +1487,6 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Damon Conover",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Manav Kulshrestha",
           "entity_type": "PERSON",
           "canonical_id": null,
@@ -1455,11 +1497,17 @@
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "Damon Conover",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "1cf2b3e2-dc9f-4917-ab9d-7cc9c95a0d6f",
+      "id": "e16f7a2e-7b57-4c75-a8ac-1d7535cd7db9",
       "title": "TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery",
       "category": "tech",
       "news_type": "official_filing",
@@ -1502,13 +1550,13 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Chanhwi Jeong",
+          "name": "Seungwook Kim",
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "Seungwook Kim",
+          "name": "Chanhwi Jeong",
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
@@ -1516,7 +1564,7 @@
       ]
     },
     {
-      "id": "dca19e49-164b-4892-bdb3-e4f303a80545",
+      "id": "509a9d0b-3100-4719-a31f-ad653337dbcd",
       "title": "A System 1 Decision Model for Medical Multiple-Choice Questions Built on Frozen Language Models",
       "category": "tech",
       "news_type": "official_filing",
@@ -1545,21 +1593,21 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Pavan Kumar Mantha",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Artificial Intelligence",
           "entity_type": "TOPIC",
           "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Pavan Kumar Mantha",
+          "entity_type": "PERSON",
+          "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "9304ecd2-600f-45d9-a120-7e626ff28647",
+      "id": "873fb10f-807e-45f0-a35e-14596da7d268",
       "title": "National Vacancy Rate Rises to 1.5% | SQM Research",
       "category": "finance",
       "news_type": "blog_post",
@@ -1589,7 +1637,7 @@
       ]
     },
     {
-      "id": "70f68ece-0f1f-4c59-bb5f-2bc810629cf8",
+      "id": "68519e5d-c7f0-4d95-af59-9d9724a7ea05",
       "title": "Brokers remain a trusted source of information, MFAA says",
       "category": "finance",
       "news_type": "news_post",
@@ -1631,7 +1679,7 @@
       ]
     },
     {
-      "id": "a9820405-af73-4386-aea5-6c9f589490f7",
+      "id": "4c24857f-9df2-4c41-83e3-febca18bb511",
       "title": "Unlicensed car loans cost Sydney dealer millions in penalties",
       "category": "finance",
       "news_type": "news_post",
@@ -1661,7 +1709,7 @@
       ]
     },
     {
-      "id": "c4f7ad8a-fce2-46a2-ac1d-839061e184b9",
+      "id": "eaa453c6-67ac-4886-8431-d8e2f7a881bc",
       "title": "Mortgage demand plummeting as \u2018buyer strike\u2019 spreads across Australia",
       "category": "finance",
       "news_type": "news_post",
@@ -1708,7 +1756,7 @@
       ]
     },
     {
-      "id": "cdc68a45-0cbb-4da0-b019-e4f711523f6f",
+      "id": "2919d9ea-e94e-4617-8db5-d758365cccf2",
       "title": "CBA fights fraud with new AI tool as blame game grips lending industry",
       "category": "finance",
       "news_type": "news_post",
@@ -1750,7 +1798,7 @@
       ]
     },
     {
-      "id": "40b88077-e040-48ea-b0a3-89530a7b64be",
+      "id": "2b7ebe14-eb74-4cb5-a418-a8067e3582fd",
       "title": "Westpac leading index slips below trend as rate rises bite",
       "category": "finance",
       "news_type": "news_post",
@@ -1786,7 +1834,7 @@
       ]
     },
     {
-      "id": "77b9ac5f-be51-4f0c-b4d7-80bc5e47b3ab",
+      "id": "ed7b8a93-671f-4ddf-b718-42fef67a5621",
       "title": "Bendigo Bank completes RACQ Bank takeover",
       "category": "finance",
       "news_type": "news_post",
@@ -1822,7 +1870,7 @@
       ]
     },
     {
-      "id": "054f1821-b31a-48c4-9e80-af67f3009616",
+      "id": "23d5a107-c4b9-4475-9f50-af2e32c71458",
       "title": "Genuine savings fall $25K short of 5% deposit, survey finds",
       "category": "finance",
       "news_type": "news_post",
@@ -1852,7 +1900,7 @@
       ]
     },
     {
-      "id": "e729776f-5770-4a2f-bc10-28fb126b6f60",
+      "id": "4757e7ff-d771-465f-a5cc-8b65b47e3014",
       "title": "Mortgage demand sinks to seven-year seasonal low as buyers retreat",
       "category": "finance",
       "news_type": "news_post",
@@ -1882,7 +1930,7 @@
       ]
     },
     {
-      "id": "ba8ecf07-5ab9-4518-a208-ce965be1713b",
+      "id": "d15685d3-6035-4b47-9ead-23c9fd5742e4",
       "title": "Broker body executive Evan Thomas joins lending data standards board",
       "category": "finance",
       "news_type": "news_post",
@@ -1912,7 +1960,7 @@
       ]
     },
     {
-      "id": "2225c435-2af9-4a8f-9f45-ada558c35d0b",
+      "id": "54a67860-a5a5-4f97-8482-11d9e99c5e05",
       "title": "Rich people are luckier",
       "category": "finance",
       "news_type": "blog_post",
@@ -1942,7 +1990,7 @@
       ]
     },
     {
-      "id": "3ac707de-cbd9-4c2a-8c8b-4ddb99e7222f",
+      "id": "c4a80c16-8f60-4c79-b542-6985b7986752",
       "title": "Broking industry voice added to LIXI board",
       "category": "finance",
       "news_type": "news_post",
@@ -1978,7 +2026,7 @@
       ]
     },
     {
-      "id": "c8b3e7b5-16b9-4d76-b63d-7e980b572769",
+      "id": "280536bf-ed67-448f-892a-66f0742e35d8",
       "title": "Rental vacancy rate rises to 1.5% as Sydney and Melbourne ease",
       "category": "finance",
       "news_type": "news_post",
@@ -2008,7 +2056,7 @@
       ]
     },
     {
-      "id": "34f1011a-d2f8-4ff0-8f8d-57b1ca9df35b",
+      "id": "73000487-b724-496d-b104-6badc93e7174",
       "title": "\ud83d\udcfa Not to Let Fear Hold Me Back: Interview With Executive Jackie Varela",
       "category": "tech",
       "news_type": "youtube_video",
@@ -2027,21 +2075,21 @@
       },
       "entities": [
         {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "f8d5e7b4-cb12-48b3-872d-93264b7e6668",
+      "id": "7fdec566-dc9d-4646-a6ef-e2624713a8f7",
       "title": "\ud83d\udcfa Why Xi Jinping Keeps Purging China\u2019s Top Leaders | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -2065,21 +2113,21 @@
       },
       "entities": [
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "0558ef34-a960-41d1-b407-241cbd7af060",
+      "id": "111416a9-e65e-42c1-9676-95a416751453",
       "title": "\ud83d\udcfa Why Your AI Agents Never Get Smarter",
       "category": "tech",
       "news_type": "youtube_video",
@@ -2098,21 +2146,21 @@
       },
       "entities": [
         {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "e6af6048-4d6d-4073-898a-da405622294f",
+      "id": "ed55c232-8e5c-4b21-9b3e-0f39ff33cd3f",
       "title": "Investors head for the exits as lending records its biggest fall ever | Property Insiders",
       "category": "finance",
       "news_type": "blog_post",
@@ -2148,7 +2196,7 @@
       ]
     },
     {
-      "id": "f7f3aba2-bb21-4fd8-88ca-83432bac02bc",
+      "id": "5168671f-7e88-4a70-903e-8d1084be2cd1",
       "title": "NSW blinks on underquoting: what the last-minute backflip means for buyers, sellers and investors",
       "category": "finance",
       "news_type": "blog_post",
@@ -2178,7 +2226,7 @@
       ]
     },
     {
-      "id": "12d72b5e-560f-41dc-9889-c8fc6933a59f",
+      "id": "fcfde985-fddf-4e34-be2b-f6444970b4ad",
       "title": "Negative equity siren blares for first home buyers",
       "category": "finance",
       "news_type": "news_post",
@@ -3345,7 +3393,7 @@
       ]
     },
     {
-      "id": "1a8f1c66-9b3d-4853-bf8b-4027831fe248",
+      "id": "2c1f124d-dbf1-4934-b940-4a512d45c1d6",
       "title": "\ud83d\udcfa Trump Says He Might Meet With Kim Jong Un During Asia Trip | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -3369,21 +3417,21 @@
       },
       "entities": [
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "8ba85002-847b-4d45-85ce-ff01220e5c61",
+      "id": "702acee7-5b2f-4ecb-9f81-386ed9379198",
       "title": "\ud83d\udcfa What Greece Learned From Going Broke\u2014and Others in Europe Still Haven\u2019t | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -3402,14 +3450,14 @@
       },
       "entities": [
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -4275,7 +4323,7 @@
       ]
     },
     {
-      "id": "654b1488-cbab-46fa-ba98-841745449079",
+      "id": "4a862889-6227-4ee0-bd01-f9af2e2626f5",
       "title": "\ud83d\udcfa Watch: SpaceX Makes History With Starship Landing",
       "category": "finance",
       "news_type": "youtube_short",
@@ -4294,21 +4342,21 @@
       },
       "entities": [
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "574ef486-9ba7-4721-9172-2ed5dc0f63a3",
+      "id": "089ca37e-22e0-4b99-b5ae-d5399e0bbf7d",
       "title": "\ud83d\udcfa Nationwide Groundstop Linked to Contractor Replacing Copper Wire, Duffy Says",
       "category": "finance",
       "news_type": "youtube_short",
@@ -4327,14 +4375,14 @@
       },
       "entities": [
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -4464,7 +4512,7 @@
       "entities": []
     },
     {
-      "id": "ff5ea32c-9e73-4e58-8740-6917fe383f4f",
+      "id": "e59900ae-84f3-49ad-a715-fa6700209d58",
       "title": "\ud83d\udcfa Who Evaluates the Evaluator? | Aparna Dhinakaran",
       "category": "tech",
       "news_type": "youtube_short",
@@ -4483,35 +4531,18 @@
       },
       "entities": [
         {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "YouTube",
           "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
-    },
-    {
-      "id": "4daef0bd-3e12-4a0b-b96f-10cbcce23f89",
-      "title": "New builds claim a record share of investor lending but\u2026",
-      "category": "finance",
-      "news_type": "news_post",
-      "source_id": "mpa_australia",
-      "source_name": "Mortgage Professional Australia",
-      "published_at": "2026-11-12T05:31:16Z",
-      "url": "https://www.mpamag.com/au/news/general/new-builds-claim-a-record-share-of-investor-lending-but/597106",
-      "author": "MPA Magazine",
-      "summary": "\u2026there\u2019s a catch. It\u2019s because established-home lending has collapsed, not because new-build lending has grown",
-      "payload": {
-        "source_type": "atom_feed",
-        "industry": "mortgage_broking"
-      },
-      "entities": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:15:14.477753+00:00",
+  "generated_at": "2026-11-19T03:17:01.612800+00:00",
   "total_count": 15,
   "sources": [
     {
@@ -99,8 +99,8 @@
       "feed_url": "https://trends.google.com/trending/rss?geo=AU",
       "feed_type": "rss",
       "is_active": 1,
-      "article_count": 19,
-      "latest_article_at": "2026-11-18T18:40:00-08:00"
+      "article_count": 20,
+      "latest_article_at": "2026-11-18T19:00:00-08:00"
     },
     {
       "id": "hacker_news",

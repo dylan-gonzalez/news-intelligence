@@ -2687,7 +2687,7 @@
         "feed_url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:09.053105+00:00"
+        "last_fetched_at": "2026-11-19T03:16:55.583169+00:00"
       },
       {
         "id": "hacker_news",
@@ -2696,7 +2696,7 @@
         "feed_url": "https://hacker-news.firebaseio.com/v0/topstories.json",
         "feed_type": "rest_json",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:10.287646+00:00"
+        "last_fetched_at": "2026-11-19T03:16:56.710977+00:00"
       },
       {
         "id": "sec_edgar",
@@ -2705,7 +2705,7 @@
         "feed_url": "https://data.sec.gov/submissions/CIK0000320193.json",
         "feed_type": "rest_json",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:10.497503+00:00"
+        "last_fetched_at": "2026-11-19T03:16:56.858938+00:00"
       },
       {
         "id": "arxiv_ai",
@@ -2714,7 +2714,7 @@
         "feed_url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&start=0&max_results=5",
         "feed_type": "atom",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:10.742061+00:00"
+        "last_fetched_at": "2026-11-19T03:16:57.034989+00:00"
       },
       {
         "id": "google_trends_au",
@@ -2723,7 +2723,7 @@
         "feed_url": "https://trends.google.com/trending/rss?geo=AU",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:11.035210+00:00"
+        "last_fetched_at": "2026-11-19T03:16:57.572262+00:00"
       },
       {
         "id": "australian_broker",
@@ -2732,7 +2732,7 @@
         "feed_url": "https://www.brokernews.com.au/rss/",
         "feed_type": "atom",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:05.041081+00:00"
+        "last_fetched_at": "2026-11-19T03:16:51.175599+00:00"
       },
       {
         "id": "mpa_australia",
@@ -2741,7 +2741,7 @@
         "feed_url": "https://www.mpamag.com/au/rss",
         "feed_type": "atom",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:05.414745+00:00"
+        "last_fetched_at": "2026-11-19T03:16:51.622558+00:00"
       },
       {
         "id": "apra_media",
@@ -2750,7 +2750,7 @@
         "feed_url": "https://www.apra.gov.au/rss.xml",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:05.736948+00:00"
+        "last_fetched_at": "2026-11-19T03:16:52.092062+00:00"
       },
       {
         "id": "property_update_au",
@@ -2759,7 +2759,7 @@
         "feed_url": "https://propertyupdate.com.au/feed/",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:07.496820+00:00"
+        "last_fetched_at": "2026-11-19T03:16:54.084120+00:00"
       },
       {
         "id": "macrobusiness_au",
@@ -2768,7 +2768,7 @@
         "feed_url": "https://www.macrobusiness.com.au/feed/",
         "feed_type": "rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:08.246248+00:00"
+        "last_fetched_at": "2026-11-19T03:16:54.766059+00:00"
       },
       {
         "id": "rba_speeches",
@@ -2786,7 +2786,7 @@
         "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCONWr2M0moA8wsGHb3zUn_w",
         "feed_type": "youtube_rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:11.189787+00:00"
+        "last_fetched_at": "2026-11-19T03:16:57.749080+00:00"
       },
       {
         "id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
@@ -2795,7 +2795,7 @@
         "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8cc4pVKVHG7A9fbNsRNrLQ",
         "feed_type": "youtube_rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:11.263255+00:00"
+        "last_fetched_at": "2026-11-19T03:16:57.892543+00:00"
       },
       {
         "id": "yt_ucza18yv7qayth-mrirbhdpa",
@@ -2804,7 +2804,7 @@
         "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA",
         "feed_type": "youtube_rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:11.532881+00:00"
+        "last_fetched_at": "2026-11-19T03:16:58.056986+00:00"
       },
       {
         "id": "yt_ucmliswj7oukcew35gsayhra",
@@ -2813,7 +2813,7 @@
         "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA",
         "feed_type": "youtube_rss",
         "is_active": 1,
-        "last_fetched_at": "2026-11-19T03:15:11.605674+00:00"
+        "last_fetched_at": "2026-11-19T03:16:58.229306+00:00"
       }
     ],
     "total_count": 15
