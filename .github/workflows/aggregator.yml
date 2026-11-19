@@ -54,6 +54,8 @@ jobs:
             --exclude "*.db*" \
             --exclude "README.md" \
             --exclude "LEGAL.md" \
+            --exclude "deploy.ps1" \
+            --exclude "setup_windows_task.ps1" \
             --exclude "__pycache__/*"
 
       - name: Invalidate CloudFront Cache
@@ -69,6 +71,7 @@ jobs:
           git add feed.json db_snapshot.json sources.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: automated 30-min news ingestion [skip ci]"
+            git pull --rebase origin main
             git push origin main
           else
             echo "No feed changes detected."
