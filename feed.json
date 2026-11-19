@@ -1,6 +1,2267 @@
 {
-  "generated_at": "2026-11-17T06:10:12.906976+00:00",
+  "generated_at": "2026-11-19T03:13:49.334017+00:00",
   "articles": [
+    {
+      "id": "188b759d-b7b1-4ea2-b986-04e55cc72e0c",
+      "title": "RBA doves handed a lifeline as unemployment spikes",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-19T02:39:07Z",
+      "url": "https://www.mpamag.com/au/news/general/rba-doves-handed-a-lifeline-as-unemployment-spikes/597994",
+      "author": "MPA Magazine",
+      "summary": "Cash rate cut still unlikely, but latest jobs data will give policymakers pause for thought",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e97105e5-829b-4580-b23d-02f795aedef7",
+      "title": "Economic shock builds as unemployment hits five year high",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-19T01:18:41+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/economic-shock-builds-as-unemployment-hits-five-year-high/",
+      "author": "MacroBusiness",
+      "summary": "Today&#8217;s labour force report for October from the Australian Bureau of Statistics (ABS) was an absolute shocker, with the nation&#8217;s unemployment rate jumping to 4.9% &#8211; the highest reading since October 2021 &#8211; amid the loss of 43,500 jobs (albeit mostly part-time). Aggregate ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c447b820-e91b-4b5e-b234-8f0f396c88db",
+      "title": "Labor market cracks, RBA done",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-19T01:03:42+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/labor-market-cracks/",
+      "author": "MacroBusiness",
+      "summary": "From the ABS just now. \u00a0In seasonally adjusted terms, in October 2026: the employment-to-population ratio decreased 0.3pts to 63.3%. the unemployment rate increased 0.1pts to 4.9%. In trend terms, in October 2026: the employment-to-population ratio\u00a0decreased 0.1pts to 63.6%. the unemployment rate...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a59cc71c-b524-4489-a824-58dd84c86d97",
+      "title": "Survey proves Victorians are housing irrational",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-19T01:00:40+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/survey-proves-victorians-are-housing-irrational/",
+      "author": "MacroBusiness",
+      "summary": "I despise the Victorian Labor government and view it as one of the worst governments in the nation&#8217;s history. However, one issue that I cannot accuse the government of is making housing less affordable. The Property Council of Australia has released the latest findings from its exclusive Ro...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b1820156-1ad0-4428-b1e5-08c7fb05ff36",
+      "title": "Gas cartel runs riot as gas ranga explodes",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-19T00:30:39+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/gas-cartel-runs-riot-as-gas-ranga-explodes/",
+      "author": "MacroBusiness",
+      "summary": "In Australian politics, there are no fixed alliances, only interests. The Coalition is pushing to reduce the amount of gas set aside each year for heavy industry under the Albanese government\u2019s proposed 20 per cent reservation scheme as it inches closer to a deal to pass the controversial new law...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b7a669d3-6aa5-4318-b517-923ac2d2c8e2",
+      "title": "Unemployment continues to rise Down Under",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-19T00:30:00Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/unemployment-continues-to-rise-down-under-290340.aspx",
+      "author": "Australian Broker",
+      "summary": "The latest data fuels hope that the RBA is done raising rates for the year",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d5f2883d-a2bd-40fb-b5be-3734be2a6669",
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "category": "tech",
+      "news_type": "blog_post",
+      "source_id": "hacker_news",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-19T00:29:45+00:00",
+      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "author": "seizethecheese",
+      "summary": "HN Score: 106 | Comments: 12",
+      "payload": {
+        "hn_id": 50554374,
+        "score": 106,
+        "descendants": 36,
+        "hotness_score": 43,
+        "discussion_url": "https://news.ycombinator.com/item?id=50554374"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "micjm.com",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "seizethecheese",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "5e71fc08-ea27-4ae6-b8ea-3527a80206db",
+      "title": "RBA to remain on hold as recession risks build",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-19T00:00:56+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/rba-to-remain-on-hold-as-recession-risks-build/",
+      "author": "MacroBusiness",
+      "summary": "The minutes of the Reserve Bank of Australia&#8217;s (RBA) November board meeting revealed a 3\u20136 split vote on raising the cash rate from 4.6% to 4.85%, with three board members warning that Australia may be close to a much sharper economic downturn and expressing concern about higher unemploymen...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "499b8633-d44c-4084-b887-554253bb03c1",
+      "title": "Multiple vulnerabilities in Regexp and String case conversion",
+      "category": "tech",
+      "news_type": "blog_post",
+      "source_id": "hacker_news",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-18T23:52:50+00:00",
+      "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+      "author": "runesoerensen",
+      "summary": "HN Score: 100 | Comments: 3",
+      "payload": {
+        "hn_id": 50554038,
+        "score": 100,
+        "descendants": 21,
+        "hotness_score": 42,
+        "discussion_url": "https://news.ycombinator.com/item?id=50554038"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "runesoerensen",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "ruby-lang.org",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "db327a83-d358-43d8-8daf-69454a5b6d87",
+      "title": "Refinances take a bigger slice of a shrinking mortgage market",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-18T23:39:32Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/refinances-take-a-bigger-slice-of-a-shrinking-mortgage-market-290339.aspx",
+      "author": "Australian Broker",
+      "summary": "Refinances now make up nearly a third of broker deals, but it\u2019s not because more borrowers are switching.",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Refinancing",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d0b50565-5536-4076-aebb-21fed012b5c3",
+      "title": "Chinese steel marches lower",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-18T23:30:33+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/chinese-steel-marches-lower/",
+      "author": "MacroBusiness",
+      "summary": "A minor rebound for iron ore overnight after the Chinese data flush, but as long as HRC is falling, so will iron ore. Channel checks from Goldman. Orderbook trend: The forward orderbook trend of most steel mills softened MoM in November (following softness in October), and saw weaker than normal ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "abb5460c-34ea-4ad0-aaba-01dd9faa0258",
+      "title": "Anthropic prices initial public offering",
+      "category": "tech",
+      "news_type": "blog_post",
+      "source_id": "hacker_news",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-18T23:30:09+00:00",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "author": "surprisetalk",
+      "summary": "HN Score: 107 | Comments: 16",
+      "payload": {
+        "hn_id": 50553843,
+        "score": 107,
+        "descendants": 57,
+        "hotness_score": 85,
+        "discussion_url": "https://news.ycombinator.com/item?id=50553843",
+        "wiki_trending": true,
+        "wiki_views": 23680,
+        "wiki_topic": "Anthropic",
+        "wiki_url": "https://en.wikipedia.org/wiki/Anthropic"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "anthropic.com",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "surprisetalk",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "977087c8-41c8-4118-a1fd-a84fe3b483c9",
+      "title": "The Habits of Unsuccessful People vs. Successful People [infographic]",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-18T23:30:02+00:00",
+      "url": "https://propertyupdate.com.au/the-habits-of-unsuccessful-people-vs-successful-people/?utm_source=rss&utm_medium=rss&utm_campaign=the-habits-of-unsuccessful-people-vs-successful-people",
+      "author": "Property Update",
+      "summary": "Succeeding is\u00a0hard: it\u00a0requires a\u00a0lot of\u00a0work, strong will and a\u00a0great deal of\u00a0patience. So what's the difference between successful and unsuccessful people? It's their habits. If you think about it, you are\u00a0where you are in life today because of all the things you've chosen to do, and all the th...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "9a5eb466-abd8-451a-980e-c21dd135dd8e",
+      "title": "Sydney tipped to lead 2027 house price rebound even as forced sales climb",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-18T23:15:41Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/sydney-tipped-to-lead-2027-house-price-rebound-even-as-forced-sales-climb-290338.aspx",
+      "author": "Australian Broker",
+      "summary": "A new report expects capital city house prices to bottom out around mid-2027 after falling 10% to 13% from their peak",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "01cab0ea-c067-4289-b125-036abdee2539",
+      "title": "Unemployment jumps, but wage growth also higher than expected",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-18T23:00:21+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/unemployment-jumps-but-wage-growth-also-higher-than-expected/",
+      "author": "MacroBusiness",
+      "summary": "The mixed labour market outcomes have persisted, with unemployment measures rising alongside wage growth. Roy Morgan&#8217;s unemployment estimate for October rose to 11.3%, up from 10.6% in September and from 10.3% in the same month last year: SEEK&#8217;s latest employment data also showed that...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "a598748b-774e-4c23-a239-dd3c73bb6ac2",
+      "title": "The golden crash",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-18T22:30:53+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/the-golden-crash/",
+      "author": "MacroBusiness",
+      "summary": "TME with details. Breaking Gold is breaking below the major trendline that has been in place since 2024. RSI is already oversold, but oversold markets can stay oversold much longer than most expect. More importantly, gold is also breaking below the 100-week moving average, a level it hasn&#8217;t...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "7a535eda-99af-4ed6-a139-66462c3c9de2",
+      "title": "Fed crushes Australian dollar",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-18T22:00:45+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/fed-crushes-australian-dollar/",
+      "author": "MacroBusiness",
+      "summary": "It&#8217;s a DXY face-ripper now. AUD has departed North Asia. The twins are racing to the bottom. Gold is winning. Copper is now growth panic central. Big miners gapped into madness. EM is driving the porcelain bus. Junk is still falling, but it&#8217;s got a parachute. 10-year yields rolled eve...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance"
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "05c77d1e-903b-412b-99f4-5a848081ac2d",
+      "title": "Regional property values fall, boom markets lead the decline",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T21:54:50Z",
+      "url": "https://www.mpamag.com/au/mortgage-industry/market-updates/regional-property-values-fall-boom-markets-lead-the-decline/597977",
+      "author": "MPA Magazine",
+      "summary": "Cotality data shows regional values fell 2% in three months to October, with areas that grew fastest falling furthest",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "9e552ef6-635b-4d6c-9225-bd9cbe06146a",
+      "title": "Gemini 4 Neon",
+      "category": "tech",
+      "news_type": "blog_post",
+      "source_id": "hacker_news",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-18T21:34:07+00:00",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "author": "yigitdemirag",
+      "summary": "HN Score: 518 | Comments: 102",
+      "payload": {
+        "hn_id": 50552424,
+        "score": 518,
+        "descendants": 471,
+        "hotness_score": 94,
+        "discussion_url": "https://news.ycombinator.com/item?id=50552424"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "blog.google",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "yigitdemirag",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1de4a4be-68df-4673-b8ab-76d3ecb952c2",
+      "title": "Melbourne broker elected as CAFBA\u2019s first female president",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T21:23:38Z",
+      "url": "https://www.mpamag.com/au/news/general/melbourne-broker-elected-as-cafbas-first-female-president/597974",
+      "author": "MPA Magazine",
+      "summary": "Piening brings more than 30 years of experience to the role after CAFBA\u2019s November AGM",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "66e58a18-5d90-4ec0-b01d-8c365bd7693f",
+      "title": "Canada\u2019s major immigration policy U-turn is a warning to Australia",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "macrobusiness_au",
+      "source_name": "MacroBusiness Australia",
+      "published_at": "2026-11-18T21:00:13+00:00",
+      "url": "https://www.macrobusiness.com.au/2026/11/canadas-major-immigration-policy-u-turn-is-a-warning-to-australia/",
+      "author": "MacroBusiness",
+      "summary": "In the years since the pandemic, Canada&#8217;s migration system has become one of the most talked about in the world, as net overseas migration first surged to all-time highs, then dropped back to well below pre-pandemic levels. Between the final pre-pandemic reading in the December quarter of 2...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "macro_finance",
+        "wiki_trending": true,
+        "wiki_views": 12420,
+        "wiki_topic": "Australia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Australia",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "Macroeconomics",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MacroBusiness",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "d626b409-8ca6-43f6-9978-e6ca271c6007",
+      "title": "Mortgage broker profiles top 60,000 views in national spring campaign",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T21:00:06Z",
+      "url": "https://www.mpamag.com/au/news/general/mortgage-broker-profiles-top-60000-views-in-national-spring-campaign/597976",
+      "author": "MPA Magazine",
+      "summary": "Find a Broker directory logs nearly 12,000 phone reveals as buyers seek help with budgets and repayments",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ec782f99-46b3-4722-aeb7-9f12058e6445",
+      "title": "[PODCAST] Waiting for the Property Market To Bottom? Here Is What I Am Watching with Dorian Traill",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-18T21:00:05+00:00",
+      "url": "https://propertyupdate.com.au/podcast-waiting-for-the-property-market-to-bottom-here-is-what-i-am-watching-with-dorian-traill/?utm_source=rss&utm_medium=rss&utm_campaign=podcast-waiting-for-the-property-market-to-bottom-here-is-what-i-am-watching-with-dorian-traill",
+      "author": "Property Update",
+      "summary": "Right now Australian home values are down more than 7% from their peak in March this year, auction clearance rates are stuck in the 40s and the Reserve Bank has just pushed the cash rate 5 times this year. So it's no surprise that the question I'm being asked more than any other at the...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "375a43ad-e358-414d-9840-629e74bfa4d9",
+      "title": "Vehicle: Stolen Vehicle Alert \u2013 18 November",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T18:40:00-08:00",
+      "url": "https://mypolice.qld.gov.au/ipswich/2026/11/19/stolen-vehicle-alert-18-november/",
+      "author": "Queensland Police News",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "vehicle",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 50,
+        "news_source": "Queensland Police News",
+        "trends_url": "https://trends.google.com/trends/explore?q=vehicle"
+      },
+      "entities": [
+        {
+          "name": "Queensland Police News",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Vehicle",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:vehicle",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "56ac98f8-75d1-4ec6-9819-a6b465d855fb",
+      "title": "Jamal Fogarty: Tigers ready to pounce on Manly halfback Jamal Fogarty",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T18:10:00-08:00",
+      "url": "https://www.smh.com.au/sport/nrl/tigers-ready-to-pounce-on-manly-halfback-jamal-fogarty-20261118-p61f48.html",
+      "author": "SMH.com.au",
+      "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
+      "payload": {
+        "trending_query": "jamal fogarty",
+        "approx_traffic": "1000+",
+        "traffic_num": 1000,
+        "hotness_score": 52,
+        "news_source": "SMH.com.au",
+        "trends_url": "https://trends.google.com/trends/explore?q=jamal+fogarty"
+      },
+      "entities": [
+        {
+          "name": "Jamal Fogarty",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:jamal fogarty",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "SMH.com.au",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b05d9d68-f1fe-462e-8c52-f55c1e1ff31a",
+      "title": "Lawyers Weekly: House Judiciary panel advances Matos' nomination for Supreme Court",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T18:10:00-08:00",
+      "url": "https://www.providencejournal.com/story/news/politics/2026/11/17/ri-judge-nominee-luis-matos-faces-questions-on-abortion-views/92808080007/",
+      "author": "The Providence Journal",
+      "summary": "\ud83d\udd25 High Search Velocity: 100+ searches. ",
+      "payload": {
+        "trending_query": "lawyers weekly",
+        "approx_traffic": "100+",
+        "traffic_num": 100,
+        "hotness_score": 50,
+        "news_source": "The Providence Journal",
+        "trends_url": "https://trends.google.com/trends/explore?q=lawyers+weekly"
+      },
+      "entities": [
+        {
+          "name": "The Providence Journal",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Lawyers Weekly",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:lawyers weekly",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ad2a0e98-15af-42d7-ace4-fb444f5a209b",
+      "title": "\ud83d\udcfa What Putin Wants From Trump at the APEC Summit | WSJ News",
+      "category": "finance",
+      "news_type": "youtube_video",
+      "source_id": "yt_ucmliswj7oukcew35gsayhra",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-18T18:02:23+00:00",
+      "url": "https://www.youtube.com/watch?v=cIL2geipaZg",
+      "author": "The Wall Street Journal",
+      "summary": "After years of isolation, Vladimir Putin is seeking renewed legitimacy and a direct line to President Trump to push for an end to the Ukraine war on Russia\u2019s terms. WSJ\u2019s Vera Bergengruen explains.\n\n#Putin #Trump #WSJ",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i4.ytimg.com/vi/cIL2geipaZg/hqdefault.jpg",
+        "is_video": true
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "61f671c2-6cd2-4620-937a-a4ad8df3832d",
+      "title": "Joel Leavitt Royal Commission: \u2018I\u2019ll take the rap\u2019: Big Build labour hire boss admits fake invoices",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T17:50:00-08:00",
+      "url": "https://www.afr.com/work-and-careers/workplace/i-ll-take-the-rap-big-build-labour-hire-boss-admits-fake-invoices-20261119-p61fj5",
+      "author": "AFR",
+      "summary": "\ud83d\udd25 High Search Velocity: 500+ searches. ",
+      "payload": {
+        "trending_query": "joel leavitt royal commission",
+        "approx_traffic": "500+",
+        "traffic_num": 500,
+        "hotness_score": 51,
+        "news_source": "AFR",
+        "trends_url": "https://trends.google.com/trends/explore?q=joel+leavitt+royal+commission"
+      },
+      "entities": [
+        {
+          "name": "AFR",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Joel Leavitt Royal Commission",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:joel leavitt royal commission",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "bea1ef2d-1954-4de0-af04-8727aa08b448",
+      "title": "Unemployment: Breaking: Analysts surprised as unemployment rate surges to 4.9pc in October",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T17:40:00-08:00",
+      "url": "https://www.abc.net.au/news/2026-11-19/unemployment-rate-jumps-in-october-in-australia/107399076",
+      "author": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "summary": "\ud83d\udd25 High Search Velocity: 1000+ searches. ",
+      "payload": {
+        "trending_query": "unemployment",
+        "approx_traffic": "1000+",
+        "traffic_num": 1000,
+        "hotness_score": 52,
+        "news_source": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+        "trends_url": "https://trends.google.com/trends/explore?q=unemployment"
+      },
+      "entities": [
+        {
+          "name": "Unemployment",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:unemployment",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6b5f3832-d0aa-45ef-b64c-03f5a14ab242",
+      "title": "Cma Awards: Danielle Parton Will Wear a Dress Made for Dolly to The CMA Awards",
+      "category": "politics",
+      "news_type": "news_post",
+      "source_id": "google_trends_au",
+      "source_name": "Google Trends (AU)",
+      "published_at": "2026-11-18T17:40:00-08:00",
+      "url": "https://tasteofcountry.com/danielle-parton-wears-dolly-dress-cma-awards/",
+      "author": "Taste of Country",
+      "summary": "\ud83d\udd25 High Search Velocity: 200+ searches. ",
+      "payload": {
+        "trending_query": "cma awards",
+        "approx_traffic": "200+",
+        "traffic_num": 200,
+        "hotness_score": 50,
+        "news_source": "Taste of Country",
+        "trends_url": "https://trends.google.com/trends/explore?q=cma+awards"
+      },
+      "entities": [
+        {
+          "name": "Cma Awards",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:cma awards",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Taste of Country",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Google Trends",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f158d01e-5310-4d81-93d8-1d8a58c9bcc1",
+      "title": "\ud83d\udcfa America\u2019s AI Lead Over China Is 12 Hours Not 12 Months \u2013 Paul Christiano",
+      "category": "tech",
+      "news_type": "youtube_video",
+      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
+      "source_name": "YouTube: Dwarkesh Patel",
+      "published_at": "2026-11-18T16:30:02+00:00",
+      "url": "https://www.youtube.com/watch?v=6BxzNgQGj6E",
+      "author": "Dwarkesh Patel",
+      "summary": "Full episode: https://www.youtube.com/watch?v=SyHM5hNPAEo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
+        "handle": "@DwarkeshPatel",
+        "thumbnail": "https://i3.ytimg.com/vi/6BxzNgQGj6E/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 13080,
+        "wiki_topic": "China",
+        "wiki_url": "https://en.wikipedia.org/wiki/China",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "5c6c4d75-cd3f-4f00-b2d2-cb83f64cfa23",
+      "title": "Seven new models at scalable price-performance",
+      "category": "tech",
+      "news_type": "blog_post",
+      "source_id": "hacker_news",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-18T16:08:24+00:00",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "author": "gmays",
+      "summary": "HN Score: 468 | Comments: 61",
+      "payload": {
+        "hn_id": 50548021,
+        "score": 468,
+        "descendants": 325,
+        "hotness_score": 88,
+        "discussion_url": "https://news.ycombinator.com/item?id=50548021"
+      },
+      "entities": [
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "gmays",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "microsoft.ai",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "c67b504e-d168-4024-a2c9-499e6c338fe9",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "category": "tech",
+      "news_type": "blog_post",
+      "source_id": "hacker_news",
+      "source_name": "Hacker News (Top Stories)",
+      "published_at": "2026-11-18T15:19:55+00:00",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "author": "speedping",
+      "summary": "HN Score: 1176 | Comments: 80",
+      "payload": {
+        "hn_id": 50547374,
+        "score": 1176,
+        "descendants": 525,
+        "hotness_score": 100,
+        "discussion_url": "https://news.ycombinator.com/item?id=50547374"
+      },
+      "entities": [
+        {
+          "name": "wiz.io",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "speedping",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "ba49ab03-a32d-4323-b92e-9a6dd86d70c6",
+      "title": "Chief AI officers lack control over AI spending: study",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T15:07:59Z",
+      "url": "https://www.mpamag.com/au/mortgage-industry/business-growth/chief-ai-officers-lack-control-over-ai-spending-study/597903",
+      "author": "MPA Magazine",
+      "summary": "\u2018Few leaders have a broader view of how AI is creating value across the enterprise'",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4791040b-8fa0-4483-a838-1a644023f85a",
+      "title": "Brokers on Banks 2027 survey now open",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T12:59:59Z",
+      "url": "https://www.mpamag.com/au/news/general/brokers-on-banks-2027-survey-now-open/597819",
+      "author": "MPA Magazine",
+      "summary": "Help identify the banks delivering for brokers and their clients across Australia",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b0667384-61cb-46bf-916f-689f23d4da78",
+      "title": "The Investing Rules Nobody Follows (But Everyone Knows)",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-18T08:30:31+00:00",
+      "url": "https://propertyupdate.com.au/the-investing-rules-nobody-follows-but-everyone-knows/?utm_source=rss&utm_medium=rss&utm_campaign=the-investing-rules-nobody-follows-but-everyone-knows",
+      "author": "Property Update",
+      "summary": "Most investors know what they should do to become financially successful. They know they should invest for the long term, avoid making emotional decisions, ignore the daily market noise and resist the temptation to chase the next hot investment opportunity. They've heard that time in the market i...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "5e3f6d81-ee01-42ce-9b42-c7d92075c0a1",
+      "title": "Mortgage brokers top trust rankings, but some scepticism lingers",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T05:51:29Z",
+      "url": "https://www.mpamag.com/au/news/general/mortgage-brokers-top-trust-rankings-but-some-scepticism-lingers/597775",
+      "author": "MPA Magazine",
+      "summary": "New research finds brokers are buyers' most trusted source, but cost and conflict doubts persist",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "8cdfd973-5728-469a-9cf9-4276748bfba6",
+      "title": "How much superannuation do you really need to retire comfortably?",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-18T05:30:30+00:00",
+      "url": "https://propertyupdate.com.au/how-much-superannuation-do-you-really-need-to-retire-comfortably/?utm_source=rss&utm_medium=rss&utm_campaign=how-much-superannuation-do-you-really-need-to-retire-comfortably",
+      "author": "Property Update",
+      "summary": "Most Australians know they need to save for retirement, but very few have worked out what their retirement will actually cost. They may have a superannuation target in mind, yet that figure often bears little relationship to the lifestyle they hope to enjoy once they stop working. After all, ther...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "54c5ea33-6789-4779-a480-3bb4aebfe0da",
+      "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
+      "category": "tech",
+      "news_type": "official_filing",
+      "source_id": "arxiv_ai",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-18T05:02:07Z",
+      "url": "https://arxiv.org/abs/2611.23855v1",
+      "author": "Ghadi Nehme, Dahyun Nam, Akshay Govind Srinivasan",
+      "summary": "Can AI agents design robots that work in the real world? We introduce RoboBuilder, a benchmark in which coding agents co-design a robot's hardware and program from standard parts, motors and a custom 3D-printed part, and every design that passes in simulation is built and tested on a physical course...",
+      "payload": {
+        "authors": [
+          "Ghadi Nehme",
+          "Dahyun Nam",
+          "Akshay Govind Srinivasan",
+          "Faez Ahmed"
+        ],
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 16170,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Ghadi Nehme",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dahyun Nam",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Akshay Govind Srinivasan",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "270ffb9c-cc66-42e0-b5a5-46663f87b88b",
+      "title": "ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation",
+      "category": "tech",
+      "news_type": "official_filing",
+      "source_id": "arxiv_ai",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-18T04:50:50Z",
+      "url": "https://arxiv.org/abs/2611.23845v1",
+      "author": "Jiawei Shen, Jie Feng, Junpeng Zhang",
+      "summary": "Text-conditioned 3D indoor scene generation requires layouts satisfying geometric, functional, and semantic constraints. However, existing diffusion methods rely primarily on static textual conditions, limiting their ability to assess evolving scenes and translate semantic discrepancies into executa...",
+      "payload": {
+        "authors": [
+          "Jiawei Shen",
+          "Jie Feng",
+          "Junpeng Zhang",
+          "Guanbin Li",
+          "Wanyi Chen",
+          "Weisheng Dong",
+          "Guangming Shi"
+        ],
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 16170,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Jiawei Shen",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Jie Feng",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Junpeng Zhang",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4d3edb98-a43f-4b40-9660-d4b013086cde",
+      "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models",
+      "category": "tech",
+      "news_type": "official_filing",
+      "source_id": "arxiv_ai",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-18T04:49:41Z",
+      "url": "https://arxiv.org/abs/2611.23843v1",
+      "author": "Apoorva Vashisth, Manav Kulshrestha, Damon Conover",
+      "summary": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic manipulation, yet their performance often degrades on long-horizon tasks that require multiple interdependent manipulations. Instead of burdening the VLA policies with long-horizon reasoning, memory,...",
+      "payload": {
+        "authors": [
+          "Apoorva Vashisth",
+          "Manav Kulshrestha",
+          "Damon Conover",
+          "Zachary Kingston",
+          "Aniket Bera"
+        ],
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 16170,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Manav Kulshrestha",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Damon Conover",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Apoorva Vashisth",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "65572fb2-b70e-4675-8a0a-e9156a55079e",
+      "title": "TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery",
+      "category": "tech",
+      "news_type": "official_filing",
+      "source_id": "arxiv_ai",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-18T04:45:57Z",
+      "url": "https://arxiv.org/abs/2611.23840v1",
+      "author": "Chanhwi Jeong, Dongmin You, Seungwook Kim",
+      "summary": "Advances in deep generative models now enable the synthesis of realistic imagery. However, aerial imagery is dominated by tiny objects, such as vehicles, ships, and aircraft, which occupy only a few pixels owing to the overhead, wide-area nature of aerial imaging. Existing generative models struggle...",
+      "payload": {
+        "authors": [
+          "Chanhwi Jeong",
+          "Dongmin You",
+          "Seungwook Kim"
+        ],
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 16170,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Chanhwi Jeong",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Dongmin You",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Seungwook Kim",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "213fd5e1-8cae-4256-9f42-a56be4a6a41b",
+      "title": "A System 1 Decision Model for Medical Multiple-Choice Questions Built on Frozen Language Models",
+      "category": "tech",
+      "news_type": "official_filing",
+      "source_id": "arxiv_ai",
+      "source_name": "arXiv Computer Science & AI",
+      "published_at": "2026-11-18T04:38:49Z",
+      "url": "https://arxiv.org/abs/2611.23832v1",
+      "author": "Pavan Kumar Mantha",
+      "summary": "A System 1 model answers a multiple-choice question in a single pass. A frozen language model turns the question and each option into vectors, two small, trained heads place them in a shared space, and the closest option wins. The design has been shown on agent decisions, but we are not aware of a s...",
+      "payload": {
+        "authors": [
+          "Pavan Kumar Mantha"
+        ],
+        "primary_category": "cs.AI",
+        "wiki_trending": true,
+        "wiki_views": 16170,
+        "wiki_topic": "Artificial intelligence",
+        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "arXiv",
+          "entity_type": "INSTITUTION",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Pavan Kumar Mantha",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "cee2cba9-dbe2-4ab6-8065-92a98a916e75",
+      "title": "National Vacancy Rate Rises to 1.5% | SQM Research",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-18T04:30:49+00:00",
+      "url": "https://propertyupdate.com.au/rental-vacancy-rates/?utm_source=rss&utm_medium=rss&utm_campaign=rental-vacancy-rates",
+      "author": "Property Update",
+      "summary": "SQM Research released its latest data on\u00a0on residential property vacancy rates for October 2026. Australia\u2019s national residential vacancy rate rose to 1.5% in October 2026, up from 1.4% in September and 1.3% in August. The total number of residential vacancies increased to 44,275 dwellings, up fr...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "f4a8aa73-9a5a-4814-9bd3-d9e7243c40db",
+      "title": "Brokers remain a trusted source of information, MFAA says",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-18T04:15:00Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/brokers-remain-a-trusted-source-of-information-mfaa-says-290335.aspx",
+      "author": "Australian Broker",
+      "summary": "A new report found that a greater number of borrowers trust a broker, compared with a bank or financial adviser",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MFAA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "MFAA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e43b3c0c-9ad9-4434-b99f-d974c741fd76",
+      "title": "Unlicensed car loans cost Sydney dealer millions in penalties",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T03:53:34Z",
+      "url": "https://www.mpamag.com/au/news/general/unlicensed-car-loans-cost-sydney-dealer-millions-in-penalties/597779",
+      "author": "MPA Magazine",
+      "summary": "Regulator\u2019s scrutiny of vehicle finance sector heats up as $6.75 million in penalties dished out",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "0d94e3a0-fedf-4aed-851f-dc6ae86b987e",
+      "title": "Mortgage demand plummeting as \u2018buyer strike\u2019 spreads across Australia",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-18T02:06:01Z",
+      "url": "https://www.mpamag.com/au/news/general/mortgage-demand-plummeting-as-buyer-strike-spreads-across-australia/597762",
+      "author": "MPA Magazine",
+      "summary": "Slump gaining pace following five RBA rate hikes and punitive negative gearing, capital gains tax overhaul",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking",
+        "wiki_trending": true,
+        "wiki_views": 12420,
+        "wiki_topic": "Australia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Australia",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "RBA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "RBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cash Rate",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6463b3a1-a626-4231-b02e-e578cc962d97",
+      "title": "CBA fights fraud with new AI tool as blame game grips lending industry",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-18T01:47:41Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/cba-fights-fraud-with-new-ai-tool-as-blame-game-grips-lending-industry-290331.aspx",
+      "author": "Australian Broker",
+      "summary": "Brokers reject blame but embrace AI tools",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Commonwealth Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "CBA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6934445f-14bc-4423-a257-deaf17b6593f",
+      "title": "Westpac leading index slips below trend as rate rises bite",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-18T00:40:32Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/westpac-leading-index-slips-below-trend-as-rate-rises-bite-290333.aspx",
+      "author": "Australian Broker",
+      "summary": "Labour market drag points to softer momentum into early 2027",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Westpac",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "WBC",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e2f02ba1-1063-454e-a6e1-5b4e6e6f045b",
+      "title": "Bendigo Bank completes RACQ Bank takeover",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-17T23:57:59Z",
+      "url": "https://www.mpamag.com/au/news/general/bendigo-bank-completes-racq-bank-takeover/597744",
+      "author": "MPA Magazine",
+      "summary": "Acquisition lands as regional heavyweight hits three million customers",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Bendigo Bank",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "BEN",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6ef7ac72-6e5d-4f1c-b9ba-fb2ef849370d",
+      "title": "Genuine savings fall $25K short of 5% deposit, survey finds",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T23:21:47Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/genuine-savings-fall-25k-short-of-5-deposit-survey-finds-290336.aspx",
+      "author": "Australian Broker",
+      "summary": "Gen X renters trail every generation as costs outpace incomes",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "e2163f1b-9edf-473f-a450-62819f32c497",
+      "title": "Mortgage demand sinks to seven-year seasonal low as buyers retreat",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T23:21:33Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/mortgage-demand-sinks-to-sevenyear-seasonal-low-as-buyers-retreat-290334.aspx",
+      "author": "Australian Broker",
+      "summary": "Credit card demand climbs as first-time entrants pull back sharply",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "75c745ac-e7d7-4ef7-b5f0-b01cbe4005f6",
+      "title": "Broker body executive Evan Thomas joins lending data standards board",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T23:18:46Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/broker-body-executive-evan-thomas-joins-lending-data-standards-board-290332.aspx",
+      "author": "Australian Broker",
+      "summary": "Industry push to cut duplicate entry and smooth AI adoption",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "03d819f6-8923-4564-8650-0e56e2a7b96a",
+      "title": "Rich people are luckier",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-17T23:00:00+00:00",
+      "url": "https://propertyupdate.com.au/rich-people-luckier/?utm_source=rss&utm_medium=rss&utm_campaign=rich-people-luckier",
+      "author": "Property Update",
+      "summary": "Each one of the 233 millionaires in\u00a0my five-year study of rich and poor people was lucky. Fifty-six (24%) were born into it and 177 (76%) created it. The type of luck those 24% received was random good luck. The type of luck those 76% received was self-made. Luck, whether random or self-made, is ...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "1ae4bf19-a9d2-4f74-a3f6-d4fba53315ae",
+      "title": "Broking industry voice added to LIXI board",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-17T22:53:03Z",
+      "url": "https://www.mpamag.com/au/mortgage-industry/technology/broking-industry-voice-added-to-lixi-board/597748",
+      "author": "MPA Magazine",
+      "summary": "MFAA operations chief joins board to help shape lending data standards",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "MFAA",
+          "entity_type": "REGULATOR",
+          "canonical_id": "MFAA",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "743da8af-6820-49be-b370-7946f12fbc36",
+      "title": "Rental vacancy rate rises to 1.5% as Sydney and Melbourne ease",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "australian_broker",
+      "source_name": "Australian Broker",
+      "published_at": "2026-11-17T22:38:59Z",
+      "url": "https://www.brokernews.com.au/news/breaking-news/rental-vacancy-rate-rises-to-1-5-as-sydney-and-melbourne-ease-290337.aspx",
+      "author": "Australian Broker",
+      "summary": "Smaller capitals stay tight as annual rent growth slows to 6.4%",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "Mortgage Industry",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "4edd712e-b32e-4daa-adb5-c43759d25fb7",
+      "title": "\ud83d\udcfa Not to Let Fear Hold Me Back: Interview With Executive Jackie Varela",
+      "category": "tech",
+      "news_type": "youtube_video",
+      "source_id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
+      "source_name": "YouTube: IBM Technology",
+      "published_at": "2026-11-17T18:55:06+00:00",
+      "url": "https://www.youtube.com/watch?v=kWyAmunGgmA",
+      "author": "IBM Technology",
+      "summary": "IBM Private Equity Leader Jackie Varela drops a masterclass on overcoming imposter syndrome, unlocking your professional power, and navigating the intersection of capital and deep tech. From managing 36+ global deals as a client to spearheading IBM's specialized PE practice in NY...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
+        "handle": "@IBMTechnology",
+        "thumbnail": "https://i4.ytimg.com/vi/kWyAmunGgmA/hqdefault.jpg",
+        "is_video": true
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b450471b-e64d-422e-b1dd-82d62519e84d",
+      "title": "\ud83d\udcfa Why Xi Jinping Keeps Purging China\u2019s Top Leaders | WSJ News",
+      "category": "finance",
+      "news_type": "youtube_video",
+      "source_id": "yt_ucmliswj7oukcew35gsayhra",
+      "source_name": "YouTube: The Wall Street Journal",
+      "published_at": "2026-11-17T18:53:27+00:00",
+      "url": "https://www.youtube.com/watch?v=5S95E4HPF4M",
+      "author": "The Wall Street Journal",
+      "summary": "As Xi Jinping\u2019s latest purges shake up China\u2019s military and political elite, we examine what they reveal about his grip on power and the challenges facing Beijing ahead of his meeting with Trump.\n\n#China #Trump #WSJ",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
+        "handle": "@wsj",
+        "thumbnail": "https://i2.ytimg.com/vi/5S95E4HPF4M/hqdefault.jpg",
+        "is_video": true,
+        "wiki_trending": true,
+        "wiki_views": 24317,
+        "wiki_topic": "Xi Jinping",
+        "wiki_url": "https://en.wikipedia.org/wiki/Xi_Jinping",
+        "hotness_score": 85
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "0b7c611b-0b54-407b-b97e-159001fb3db7",
+      "title": "\ud83d\udcfa Why Your AI Agents Never Get Smarter",
+      "category": "tech",
+      "news_type": "youtube_video",
+      "source_id": "yt_uconwr2m0moa8wsghb3zun_w",
+      "source_name": "YouTube: AI Engineer",
+      "published_at": "2026-11-17T17:33:10+00:00",
+      "url": "https://www.youtube.com/watch?v=J3Mn16ghsMs",
+      "author": "AI Engineer",
+      "summary": "Most AI agents wake up tomorrow no smarter than they were today. Emil Eifrem, founder and CEO of Neo4j, explains why, and the fix he's seeing work at a Fortune 20 bank, a major tech platform, and a fintech.\n\nHis idea: keep each AI agent thin, and put what the company knows in one...",
+      "payload": {
+        "source_type": "youtube_rss",
+        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
+        "handle": "@aiDotEngineer",
+        "thumbnail": "https://i3.ytimg.com/vi/J3Mn16ghsMs/hqdefault.jpg",
+        "is_video": true
+      },
+      "entities": [
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "6d350a03-bb95-4163-8d25-3f817f038f16",
+      "title": "Investors head for the exits as lending records its biggest fall ever | Property Insiders",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "url": "https://propertyupdate.com.au/property-news-headlines-forecasts/?utm_source=rss&utm_medium=rss&utm_campaign=property-news-headlines-forecasts",
+      "author": "Property Update",
+      "summary": "Property investors have just pulled back from the market faster than at any time since the ABS started keeping records. New investor loans fell 30.6% in the September quarter, and total home lending recorded its largest quarterly fall in the series' history. At the same time, investor sentiment s...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Investment",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "da29097f-062b-4c5d-9538-7ffe55a88cd7",
+      "title": "NSW blinks on underquoting: what the last-minute backflip means for buyers, sellers and investors",
+      "category": "finance",
+      "news_type": "blog_post",
+      "source_id": "property_update_au",
+      "source_name": "Property Update Australia",
+      "published_at": "2026-11-17T06:30:30+00:00",
+      "url": "https://propertyupdate.com.au/nsw-blinks-on-underquoting-what-the-last-minute-backflip-means-for-buyers-sellers-and-investors/?utm_source=rss&utm_medium=rss&utm_campaign=nsw-blinks-on-underquoting-what-the-last-minute-backflip-means-for-buyers-sellers-and-investors",
+      "author": "Property Update",
+      "summary": "After months of preparation, detailed guidance from NSW Fair Trading and a formal start date, the NSW Government pulled the handbrake on its underquoting reforms with less than a day to go. Many real estate agents had spent around a month rewriting their processes and advertising templates to com...",
+      "payload": {
+        "source_type": "rss",
+        "industry": "property_economics"
+      },
+      "entities": [
+        {
+          "name": "Housing Market",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Property Update",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
+    {
+      "id": "7ccaadf8-6a33-45a4-b258-779510ea0c1d",
+      "title": "Negative equity siren blares for first home buyers",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-17T05:56:48Z",
+      "url": "https://www.mpamag.com/au/news/general/negative-equity-siren-blares-for-first-home-buyers/597638",
+      "author": "MPA Magazine",
+      "summary": "Recent low-deposit buyers could owe more than their homes are worth as Moody\u2019s tips steeper market correction",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": [
+        {
+          "name": "First Home Buyers",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Broking",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Negative Equity",
+          "entity_type": "TOPIC",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        }
+      ]
+    },
     {
       "id": "e63c6198-ccbf-400b-9981-b52a95dc5b3e",
       "title": "CBA CEO pushes back on broker blame game in mortgage fraud debate",
@@ -207,7 +2468,7 @@
       "payload": {
         "source_type": "rss_release",
         "wiki_trending": true,
-        "wiki_views": 9458,
+        "wiki_views": 12420,
         "wiki_topic": "Australia",
         "wiki_url": "https://en.wikipedia.org/wiki/Australia",
         "hotness_score": 85
@@ -929,9 +3190,13 @@
         "trending_query": "john christ",
         "approx_traffic": "100+",
         "traffic_num": 100,
-        "hotness_score": 50,
+        "hotness_score": 85,
         "news_source": "Knotfest",
-        "trends_url": "https://trends.google.com/trends/explore?q=john+christ"
+        "trends_url": "https://trends.google.com/trends/explore?q=john+christ",
+        "wiki_trending": true,
+        "wiki_views": 24438,
+        "wiki_topic": "John Christ",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_Christ"
       },
       "entities": [
         {
@@ -1068,7 +3333,7 @@
         "source_type": "rss",
         "industry": "property_economics",
         "wiki_trending": true,
-        "wiki_views": 9458,
+        "wiki_views": 12420,
         "wiki_topic": "Australia",
         "wiki_url": "https://en.wikipedia.org/wiki/Australia",
         "hotness_score": 85
@@ -1229,9 +3494,13 @@
         "trending_query": "ruby franke",
         "approx_traffic": "200+",
         "traffic_num": 200,
-        "hotness_score": 50,
+        "hotness_score": 85,
         "news_source": "KUTV",
-        "trends_url": "https://trends.google.com/trends/explore?q=ruby+franke"
+        "trends_url": "https://trends.google.com/trends/explore?q=ruby+franke",
+        "wiki_trending": true,
+        "wiki_views": 29272,
+        "wiki_topic": "Ruby Franke",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ruby_Franke"
       },
       "entities": [
         {
@@ -1350,7 +3619,11 @@
         "score": 883,
         "descendants": 143,
         "discussion_url": "https://news.ycombinator.com/item?id=50522980",
-        "hotness_score": 85
+        "hotness_score": 85,
+        "wiki_trending": true,
+        "wiki_views": 40370,
+        "wiki_topic": "YouTube",
+        "wiki_url": "https://en.wikipedia.org/wiki/YouTube"
       },
       "entities": [
         {
@@ -1432,7 +3705,7 @@
         "news_source": "Nine.com.au",
         "trends_url": "https://trends.google.com/trends/explore?q=michael+clarke+sandpapergate+opinions+2026",
         "wiki_trending": true,
-        "wiki_views": 9458,
+        "wiki_views": 12420,
         "wiki_topic": "Australia",
         "wiki_url": "https://en.wikipedia.org/wiki/Australia"
       },
@@ -1636,7 +3909,7 @@
         "is_video": true,
         "hotness_score": 85,
         "wiki_trending": true,
-        "wiki_views": 8568,
+        "wiki_views": 14463,
         "wiki_topic": "Kim Jong Un",
         "wiki_url": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
       },
@@ -1704,7 +3977,7 @@
         "source_type": "rss",
         "industry": "macro_finance",
         "wiki_trending": true,
-        "wiki_views": 9458,
+        "wiki_views": 12420,
         "wiki_topic": "Australia",
         "wiki_url": "https://en.wikipedia.org/wiki/Australia",
         "hotness_score": 85
@@ -1747,7 +4020,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -1809,7 +4082,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -1865,7 +4138,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -1919,7 +4192,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -2010,7 +4283,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -2798,7 +5071,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -2856,7 +5129,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -2912,7 +5185,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -2968,7 +5241,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -3033,7 +5306,7 @@
         ],
         "primary_category": "cs.AI",
         "wiki_trending": true,
-        "wiki_views": 15109,
+        "wiki_views": 16170,
         "wiki_topic": "Artificial intelligence",
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
@@ -3398,1108 +5671,6 @@
         {
           "name": "AI Engineer",
           "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "72485c00-eaf5-4066-9f04-a53ae24e86a0",
-      "title": "\ud83d\udcfa Eight Killed and 17 Injured in Brooklyn Building Collapse",
-      "category": "finance",
-      "news_type": "youtube_short",
-      "source_id": "yt_ucmliswj7oukcew35gsayhra",
-      "source_name": "YouTube: The Wall Street Journal",
-      "published_at": "2026-11-12T16:17:40+00:00",
-      "url": "https://www.youtube.com/shorts/we7JrNYTtYY",
-      "author": "The Wall Street Journal",
-      "summary": "A three-story apartment building collapsed into an adjacent construction site, trapping residents and construction workers, according to the New York City Fire Department. The cause is still under investigation.\n\n#NewYork #Brooklyn #WSJ",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
-        "handle": "@wsj",
-        "thumbnail": "https://i4.ytimg.com/vi/we7JrNYTtYY/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "4daef0bd-3e12-4a0b-b96f-10cbcce23f89",
-      "title": "New builds claim a record share of investor lending but\u2026",
-      "category": "finance",
-      "news_type": "news_post",
-      "source_id": "mpa_australia",
-      "source_name": "Mortgage Professional Australia",
-      "published_at": "2026-11-12T05:31:16Z",
-      "url": "https://www.mpamag.com/au/news/general/new-builds-claim-a-record-share-of-investor-lending-but/597106",
-      "author": "MPA Magazine",
-      "summary": "\u2026there\u2019s a catch. It\u2019s because established-home lending has collapsed, not because new-build lending has grown",
-      "payload": {
-        "source_type": "atom_feed",
-        "industry": "mortgage_broking"
-      },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "e0de664b-470a-4d62-ba61-1676f2473d54",
-      "title": "Apple Inc. (AAPL) Files Form 4: FORM 4",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "sec_edgar",
-      "source_name": "U.S. SEC EDGAR Disclosures",
-      "published_at": "2026-11-12T00:00:00Z",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126043484/xslF345X06/form4.xml",
-      "author": "Apple Inc.",
-      "summary": "Official SEC Form 4 filing. Accession: 0001140361-26-043484",
-      "payload": {
-        "cik": "0000320193",
-        "ticker": "AAPL",
-        "form": "4",
-        "accession_number": "0001140361-26-043484"
-      },
-      "entities": [
-        {
-          "name": "AAPL",
-          "entity_type": "TICKER",
-          "canonical_id": "AAPL",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "U.S. SEC",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "SEC",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Apple Inc.",
-          "entity_type": "COMPANY",
-          "canonical_id": "CIK:0000320193",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Form 4",
-          "entity_type": "REGULATORY_FORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "55c594e3-5efe-4320-89ab-84b6f587ff4c",
-      "title": "\ud83d\udcfa Why the U.S.\u2019s AI Boom Faces a New Challenge After the Midterms | WSJ",
-      "category": "finance",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucmliswj7oukcew35gsayhra",
-      "source_name": "YouTube: The Wall Street Journal",
-      "published_at": "2026-11-11T20:34:42+00:00",
-      "url": "https://www.youtube.com/watch?v=qCQV7Dux20s",
-      "author": "The Wall Street Journal",
-      "summary": "Voters across the U.S. voted to either ban or slow data center construction in the midterm elections. WSJ\u2019s Amrith Ramkumar walks through the three states where this slowdown could be a problem for the AI industry. \n\nChapters:\n0:00 U.S. data center buildout\n0:29 Texas\n1:33 Ohio\n2...",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCMliswJ7oukCeW35GSayhRA",
-        "handle": "@wsj",
-        "thumbnail": "https://i2.ytimg.com/vi/qCQV7Dux20s/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85,
-        "wiki_trending": true,
-        "wiki_views": 15109,
-        "wiki_topic": "Artificial intelligence",
-        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "e73c6669-a3ac-4508-a121-633952b75e89",
-      "title": "\ud83d\udcfa Your Agent's Compute Needs Change Mid-Run | Akshat Bubna",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uconwr2m0moa8wsghb3zun_w",
-      "source_name": "YouTube: AI Engineer",
-      "published_at": "2026-11-11T17:00:12+00:00",
-      "url": "https://www.youtube.com/shorts/R36t70V_930",
-      "author": "AI Engineer",
-      "summary": "Akshat Bubna of Modal shows how CPU and memory demand changes across agent sandboxes and during a single run. Provisioning every sandbox for its peak can leave you paying for resources you do not need.\n\nFrom AI Engineer New York 2026.\n\n@ModalLabs \n\n@aiDotEngineer",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
-        "handle": "@aiDotEngineer",
-        "thumbnail": "https://i3.ytimg.com/vi/R36t70V_930/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "10a5e994-7a7b-42b9-9c3d-5e1fe56e86e1",
-      "title": "\ud83d\udcfa 1 Year Into IBM\u2019s Sales Accelerator Program: What We Learned",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
-      "source_name": "YouTube: IBM Technology",
-      "published_at": "2026-11-11T12:00:33+00:00",
-      "url": "https://www.youtube.com/watch?v=ZIKzmznkUsw",
-      "author": "IBM Technology",
-      "summary": "A year ago, they were just getting started. Now, they have a few stories to tell. \ud83d\udc99\n\nWe caught up with 10 Sales Accelerator Program participants in Valencia to talk about their first year at IBM: the unexpected moments, the people they met, the challenges they worked through and ...",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
-        "handle": "@IBMTechnology",
-        "thumbnail": "https://i3.ytimg.com/vi/ZIKzmznkUsw/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "054738a7-db85-4ea9-be80-dbd07b3a0c72",
-      "title": "\ud83d\udcfa Was Robert Moses a Hero or a Villain? - Robert Caro",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
-      "source_name": "YouTube: Dwarkesh Patel",
-      "published_at": "2026-11-08T18:30:23+00:00",
-      "url": "https://www.youtube.com/watch?v=HqQYah4tXS4",
-      "author": "Dwarkesh Patel",
-      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
-        "handle": "@DwarkeshPatel",
-        "thumbnail": "https://i1.ytimg.com/vi/HqQYah4tXS4/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "ed8c9b48-05fe-4afc-8574-6b8e20502296",
-      "title": "\ud83d\udcfa How to Get Someone to Tell You the Truth - Robert Caro",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
-      "source_name": "YouTube: Dwarkesh Patel",
-      "published_at": "2026-11-07T18:30:21+00:00",
-      "url": "https://www.youtube.com/watch?v=HOc77LTkt94",
-      "author": "Dwarkesh Patel",
-      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
-        "handle": "@DwarkeshPatel",
-        "thumbnail": "https://i1.ytimg.com/vi/HOc77LTkt94/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "a018c6ae-d4c0-46c9-92d7-87af5a5182ad",
-      "title": "\ud83d\udcfa Your Career Isn\u2019t Linear. Here\u2019s What Actually Drives Growth \ud83d\ude80",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
-      "source_name": "YouTube: IBM Technology",
-      "published_at": "2026-11-07T17:00:54+00:00",
-      "url": "https://www.youtube.com/shorts/PxG8-FJx5mw",
-      "author": "IBM Technology",
-      "summary": "Career growth doesn\u2019t always happen one step at a time. Sometimes, opportunities come all at once. But the foundation for those moments is built long before they arrive.\n\nMichael, a Lead Product Manager at IBM in the US, shares what nearly a decade at IBM has taught him about car...",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
-        "handle": "@IBMTechnology",
-        "thumbnail": "https://i1.ytimg.com/vi/PxG8-FJx5mw/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "e8a83989-0f81-44b0-98c0-212c4f9c26c3",
-      "title": "\ud83d\udcfa Why Code Quality Still Matters | Max Kanat-Alexander",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uconwr2m0moa8wsghb3zun_w",
-      "source_name": "YouTube: AI Engineer",
-      "published_at": "2026-11-06T22:00:36+00:00",
-      "url": "https://www.youtube.com/shorts/n6qfhMimOlU",
-      "author": "AI Engineer",
-      "summary": "Why did code quality matter in the first place? Max Kanat-Alexander brings it back to understanding what a system actually does and changing that behavior safely.\n\nFrom AI Engineer New York 2026.\n\n@mkanat \n\n@aiDotEngineer",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
-        "handle": "@aiDotEngineer",
-        "thumbnail": "https://i3.ytimg.com/vi/n6qfhMimOlU/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "9d00086d-d089-4075-acbd-288b1e72c870",
-      "title": "\ud83d\udcfa The Loneliness That Shaped Lyndon Johnson - Robert Caro",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
-      "source_name": "YouTube: Dwarkesh Patel",
-      "published_at": "2026-11-06T19:33:14+00:00",
-      "url": "https://www.youtube.com/watch?v=zSixzC1zYFM",
-      "author": "Dwarkesh Patel",
-      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
-        "handle": "@DwarkeshPatel",
-        "thumbnail": "https://i3.ytimg.com/vi/zSixzC1zYFM/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "d9f47c8c-046c-4879-b2c0-7a60a676fdf7",
-      "title": "\ud83d\udcfa Your Coding Agent Writes Too Many Tests | Ben Holmes",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uconwr2m0moa8wsghb3zun_w",
-      "source_name": "YouTube: AI Engineer",
-      "published_at": "2026-11-06T17:00:13+00:00",
-      "url": "https://www.youtube.com/shorts/Hycv7NJuK-U",
-      "author": "AI Engineer",
-      "summary": "Ben Holmes explains two scores for evaluating coding agents: redundant tests and verbosity. Both can add work to code review.\n\nFrom AI Engineer New York 2026.\n\n@bholmesdev \n\n@aiDotEngineer",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
-        "handle": "@aiDotEngineer",
-        "thumbnail": "https://i1.ytimg.com/vi/Hycv7NJuK-U/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "0a76f1d2-3702-43b6-945f-fb2ad43d56ff",
-      "title": "\ud83d\udcfa Why Robert Caro\u2019s Books Are So Long",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
-      "source_name": "YouTube: Dwarkesh Patel",
-      "published_at": "2026-11-05T19:11:42+00:00",
-      "url": "https://www.youtube.com/watch?v=RrVLA-WMeKk",
-      "author": "Dwarkesh Patel",
-      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
-        "handle": "@DwarkeshPatel",
-        "thumbnail": "https://i3.ytimg.com/vi/RrVLA-WMeKk/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "d36ec1d7-2fec-4912-a19b-1bc9fe904d03",
-      "title": "\ud83d\udcfa The Ferrari Race Day Ritual Every Tifosi Knows \ud83c\udfce\ufe0f",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
-      "source_name": "YouTube: IBM Technology",
-      "published_at": "2026-11-05T17:00:14+00:00",
-      "url": "https://www.youtube.com/shorts/dHff1v35OQM",
-      "author": "IBM Technology",
-      "summary": "Alarms at 3AM \u23f0.\u200b Coffee brewing \u2615\u200b. Screens on \ud83d\udcfa\u200b. From living rooms to long\u2011distance watch parties, Tifosi everywhere bring the same ritual: show up before lights out and cheer Ferrari together. \u200b\n\n#ferrari #tifosi #scuderiaferrari",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
-        "handle": "@IBMTechnology",
-        "thumbnail": "https://i1.ytimg.com/vi/dHff1v35OQM/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "fbdb9a26-3b0c-49bd-bd63-93b125226b13",
-      "title": "\ud83d\udcfa The Day Robert Moses\u2019 Phone Stopped Ringing - Robert Caro",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
-      "source_name": "YouTube: Dwarkesh Patel",
-      "published_at": "2026-11-04T18:30:37+00:00",
-      "url": "https://www.youtube.com/watch?v=5uCnoxImxbU",
-      "author": "Dwarkesh Patel",
-      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
-        "handle": "@DwarkeshPatel",
-        "thumbnail": "https://i2.ytimg.com/vi/5uCnoxImxbU/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "07cd368f-850a-421f-85f4-07aa75287897",
-      "title": "\ud83d\udcfa How Robert Moses Destroyed Anyone in His Way - Robert Caro",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_ucza18yv7qayth-mrirbhdpa",
-      "source_name": "YouTube: Dwarkesh Patel",
-      "published_at": "2026-11-03T20:20:29+00:00",
-      "url": "https://www.youtube.com/watch?v=GpnDssoaMdE",
-      "author": "Dwarkesh Patel",
-      "summary": "Full episode: https://www.youtube.com/watch?v=f0J_EeW42Lo\nMe on twitter: https://x.com/dwarkesh_sp",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCZa18YV7qayTh-MRIrBhDpA",
-        "handle": "@DwarkeshPatel",
-        "thumbnail": "https://i4.ytimg.com/vi/GpnDssoaMdE/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "2ee8356f-636e-4537-8d45-83e4f9f2c489",
-      "title": "\ud83d\udcfa The Power of Never Giving Up on Your Dream \u2728",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
-      "source_name": "YouTube: IBM Technology",
-      "published_at": "2026-11-03T18:00:14+00:00",
-      "url": "https://www.youtube.com/shorts/379InjJP0vU",
-      "author": "IBM Technology",
-      "summary": "Adrian's passion was built on grit and love. His story is a reminder that chasing your dream is a journey. \u200b\n\n#ferrari #scuderia #tifosi",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
-        "handle": "@IBMTechnology",
-        "thumbnail": "https://i4.ytimg.com/vi/379InjJP0vU/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "3a57cc75-0efd-4a33-bc70-d136ad1ae0f9",
-      "title": "Monthly Authorised Deposit-taking Institution Statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-10-29T23:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/monthly-authorised-deposit-taking-institution-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "6d1e4e21-ab20-4320-81c9-7b18746de3da",
-      "title": "\ud83d\udcfa Startups Are Side Projects Now",
-      "category": "tech",
-      "news_type": "youtube_video",
-      "source_id": "yt_uconwr2m0moa8wsghb3zun_w",
-      "source_name": "YouTube: AI Engineer",
-      "published_at": "2026-10-29T18:44:51+00:00",
-      "url": "https://www.youtube.com/watch?v=DhUtuBb41Ug",
-      "author": "AI Engineer",
-      "summary": "AI coding models got so good that the rules of building software flipped. What used to need a startup is now a side project, and whole companies could be replaced by a single text file. Theo Browne, YouTuber and founder of T3 Chat, explains the habits developers need to drop, why...",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
-        "handle": "@aiDotEngineer",
-        "thumbnail": "https://i1.ytimg.com/vi/DhUtuBb41Ug/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "e26f6d5b-7cf4-43bb-9417-ea8124b9dd88",
-      "title": "\ud83d\udcfa Walking through the wrong cybersecurity door \ud83d\udeaa",
-      "category": "tech",
-      "news_type": "youtube_short",
-      "source_id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
-      "source_name": "YouTube: IBM Technology",
-      "published_at": "2026-10-29T16:00:23+00:00",
-      "url": "https://www.youtube.com/shorts/hOL-lSEZ2jo",
-      "author": "IBM Technology",
-      "summary": "Ever opened a door and immediately realized... wrong one? \ud83d\ude2c The same thing can happen online. One click can take you somewhere you never intended to go. This Cybersecurity Month, pause, check and make sure you\u2019re walking through the right digital door. \ud83d\udd10\n\n#cybersecurity #cybersec...",
-      "payload": {
-        "source_type": "youtube_rss",
-        "channel_id": "UC8cc4pVKVHG7A9fbNsRNrLQ",
-        "handle": "@IBMTechnology",
-        "thumbnail": "https://i1.ytimg.com/vi/hOL-lSEZ2jo/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "142fb7b3-e665-46e9-863b-bdfca5b26987",
-      "title": "Life insurance claims and disputes statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-10-15T23:15:02+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/life-insurance-claims-and-disputes-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "03ad573d-fe52-4340-a41e-74213478022e",
-      "title": "Authorised deposit-taking institutions' points of presence statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-10-13T23:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/authorised-deposit-taking-institutions-points-presence-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "7eed837d-1919-4aac-b4f8-998a7f38200f",
-      "title": "APRA Annual Reports archive",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-10-13T23:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/apra-annual-reports-archive",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "fa7accea-1111-4189-a374-1bb876b73386",
-      "title": "Intermediated general insurance statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-09-29T01:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/intermediated-general-insurance-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "d44edb11-885b-42f0-9521-e9f3f9bee286",
-      "title": "Quarterly authorised deposit-taking institution statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-09-17T00:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/quarterly-authorised-deposit-taking-institution-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "889a04d3-9e30-4b26-95bb-2f906f3a92f2",
-      "title": "Quarterly Superannuation Product Statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-09-09T01:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/quarterly-superannuation-product-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "321c78bf-6661-45b5-b909-78d18245eaf8",
-      "title": "Quarterly Fund-Level Statistics",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-09-09T00:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/quarterly-fund-level-statistics",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "1ec13ca4-05f8-4785-8129-3bdd46700c92",
-      "title": "Quarterly Superannuation Industry publication",
-      "category": "finance",
-      "news_type": "official_filing",
-      "source_id": "apra_media",
-      "source_name": "APRA Banking Regulation",
-      "published_at": "2026-09-09T00:00:00+00:00",
-      "url": "https://www.apra.gov.au/news-and-publications/quarterly-superannuation-industry-publication",
-      "author": "APRA",
-      "summary": "Breadcrumb\n    \n              \n                            \n\n\n  \n\n\n  \n  \n      \n                          \n\n\n\n\n  \n                  \n\n  \n\n  \n  \n    \n                      \n    \n  \n    \n  \n      \n        \n      Home\n    \n      \n                    \n          \n  \n\n    \n  \n\n      \n      \n           ...",
-      "payload": {
-        "source_type": "rss",
-        "industry": "banking_prudential"
-      },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Banking Regulation",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "5d83f7eb-855b-46e1-96e5-6a7c54b2a917",
-      "title": "Fuzzy Commitments Offer Insufficient Protection to Biometric Templates Produced by Deep Learning",
-      "category": "tech",
-      "news_type": "official_filing",
-      "source_id": "arxiv_ai",
-      "source_name": "arXiv Computer Science & AI",
-      "published_at": "2020-12-24T15:28:33Z",
-      "url": "https://arxiv.org/abs/2012.13293v1",
-      "author": "Danny Keller, Margarita Osadchy, Orr Dunkelman",
-      "summary": "In this work, we study the protection that fuzzy commitments offer when they are applied to facial images, processed by the state of the art deep learning facial recognition systems. We show that while these systems are capable of producing great accuracy, they produce templates of too little entrop...",
-      "payload": {
-        "authors": [
-          "Danny Keller",
-          "Margarita Osadchy",
-          "Orr Dunkelman"
-        ],
-        "primary_category": "cs.AI",
-        "wiki_trending": true,
-        "wiki_views": 15109,
-        "wiki_topic": "Artificial intelligence",
-        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Danny Keller",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Margarita Osadchy",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Orr Dunkelman",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "08a1b7e8-54ad-499d-aed4-0868ea120a46",
-      "title": "Rethink AI-based Power Grid Control: Diving Into Algorithm Design",
-      "category": "tech",
-      "news_type": "official_filing",
-      "source_id": "arxiv_ai",
-      "source_name": "arXiv Computer Science & AI",
-      "published_at": "2020-12-23T23:38:41Z",
-      "url": "https://arxiv.org/abs/2012.13026v1",
-      "author": "Xiren Zhou, Siqi Wang, Ruisheng Diao",
-      "summary": "Recently, deep reinforcement learning (DRL)-based approach has shown promisein solving complex decision and control problems in power engineering domain.In this paper, we present an in-depth analysis of DRL-based voltage control fromaspects of algorithm selection, state space representation, and rew...",
-      "payload": {
-        "authors": [
-          "Xiren Zhou",
-          "Siqi Wang",
-          "Ruisheng Diao",
-          "Desong Bian",
-          "Jiahui Duan",
-          "Di Shi"
-        ],
-        "primary_category": "cs.AI",
-        "wiki_trending": true,
-        "wiki_views": 15109,
-        "wiki_topic": "Artificial intelligence",
-        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Siqi Wang",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Ruisheng Diao",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Xiren Zhou",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "f274472e-b0a1-4f52-8671-4f613528ab14",
-      "title": "A Deep Reinforcement Learning Approach for Ramp Metering Based on Traffic Video Data",
-      "category": "tech",
-      "news_type": "official_filing",
-      "source_id": "arxiv_ai",
-      "source_name": "arXiv Computer Science & AI",
-      "published_at": "2020-12-09T05:08:41Z",
-      "url": "https://arxiv.org/abs/2012.12104v1",
-      "author": "Bing Liu, Yu Tang, Yuxiong Ji",
-      "summary": "Ramp metering that uses traffic signals to regulate vehicle flows from the on-ramps has been widely implemented to improve vehicle mobility of the freeway. Previous studies generally update signal timings in real-time based on predefined traffic measures collected by point detectors, such as traffic...",
-      "payload": {
-        "authors": [
-          "Bing Liu",
-          "Yu Tang",
-          "Yuxiong Ji",
-          "Yu Shen",
-          "Yuchuan Du"
-        ],
-        "primary_category": "cs.AI",
-        "wiki_trending": true,
-        "wiki_views": 15109,
-        "wiki_topic": "Artificial intelligence",
-        "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-        "hotness_score": 85
-      },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Yuxiong Ji",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Yu Tang",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Bing Liu",
-          "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
         }

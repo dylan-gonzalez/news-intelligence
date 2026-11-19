@@ -1078,6 +1078,27 @@ class StorageEngine:
             CREATE INDEX IF NOT EXISTS idx_articles_graph_sync ON articles(published_at DESC) WHERE graph_synced_at IS NULL;
             """)
 
+        # Restore from existing snapshot if starting on a clean database (e.g. CI/CD runners)
+        snapshot_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db_snapshot.json")
+        if os.path.exists(snapshot_file):
+            with self._get_conn() as conn:
+                cur = conn.execute("SELECT COUNT(*) FROM articles")
+                if cur.fetchone()[0] == 0:
+                    try:
+                        with open(snapshot_file, "r", encoding="utf-8") as f:
+                            snap = json.load(f)
+                        for tbl in ["sources", "articles", "entities", "article_entities"]:
+                            if tbl in snap and "rows" in snap[tbl]:
+                                for row in snap[tbl]["rows"]:
+                                    cols = list(row.keys())
+                                    placeholders = ", ".join(["?"] * len(cols))
+                                    col_names = ", ".join(cols)
+                                    conn.execute(f"INSERT OR IGNORE INTO {tbl} ({col_names}) VALUES ({placeholders})", list(row.values()))
+                        conn.commit()
+                        print(f"[*] Restored {os.path.basename(snapshot_file)} into fresh database")
+                    except Exception as e:
+                        print(f"[!] Note: Could not restore snapshot ({e})")
+
     def register_sources(self, adapters: List[BaseAdapter]):
         with self._get_conn() as conn:
             for ad in adapters:

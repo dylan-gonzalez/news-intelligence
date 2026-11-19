@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:10:12.916341+00:00",
+  "generated_at": "2026-11-19T03:13:49.350823+00:00",
   "total_count": 15,
   "sources": [
     {
@@ -19,8 +19,8 @@
       "feed_url": "https://www.brokernews.com.au/rss/",
       "feed_type": "atom",
       "is_active": 1,
-      "article_count": 16,
-      "latest_article_at": "2026-11-17T05:15:55Z"
+      "article_count": 26,
+      "latest_article_at": "2026-11-19T00:30:00Z"
     },
     {
       "id": "macrobusiness_au",
@@ -29,8 +29,8 @@
       "feed_url": "https://www.macrobusiness.com.au/feed/",
       "feed_type": "rss",
       "is_active": 1,
-      "article_count": 10,
-      "latest_article_at": "2026-11-17T01:00:14+00:00"
+      "article_count": 20,
+      "latest_article_at": "2026-11-19T01:18:41+00:00"
     },
     {
       "id": "mpa_australia",
@@ -39,8 +39,8 @@
       "feed_url": "https://www.mpamag.com/au/rss",
       "feed_type": "atom",
       "is_active": 1,
-      "article_count": 15,
-      "latest_article_at": "2026-11-17T05:00:55Z"
+      "article_count": 27,
+      "latest_article_at": "2026-11-19T02:39:07Z"
     },
     {
       "id": "property_update_au",
@@ -49,8 +49,8 @@
       "feed_url": "https://propertyupdate.com.au/feed/",
       "feed_type": "rss",
       "is_active": 1,
-      "article_count": 10,
-      "latest_article_at": "2026-11-17T04:30:16+00:00"
+      "article_count": 18,
+      "latest_article_at": "2026-11-18T23:30:02+00:00"
     },
     {
       "id": "rba_speeches",
@@ -89,8 +89,8 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 6,
-      "latest_article_at": "2026-11-16T16:58:50+00:00"
+      "article_count": 8,
+      "latest_article_at": "2026-11-18T18:02:23+00:00"
     },
     {
       "id": "google_trends_au",
@@ -99,8 +99,8 @@
       "feed_url": "https://trends.google.com/trending/rss?geo=AU",
       "feed_type": "rss",
       "is_active": 1,
-      "article_count": 13,
-      "latest_article_at": "2026-11-16T21:30:00-08:00"
+      "article_count": 19,
+      "latest_article_at": "2026-11-18T18:40:00-08:00"
     },
     {
       "id": "hacker_news",
@@ -109,8 +109,8 @@
       "feed_url": "https://hacker-news.firebaseio.com/v0/topstories.json",
       "feed_type": "rest_json",
       "is_active": 1,
-      "article_count": 7,
-      "latest_article_at": "2026-11-17T02:17:04+00:00"
+      "article_count": 13,
+      "latest_article_at": "2026-11-19T00:29:45+00:00"
     },
     {
       "id": "yt_uconwr2m0moa8wsghb3zun_w",
@@ -119,8 +119,8 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCONWr2M0moA8wsGHb3zUn_w",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 6,
-      "latest_article_at": "2026-11-13T17:00:38+00:00"
+      "article_count": 7,
+      "latest_article_at": "2026-11-17T17:33:10+00:00"
     },
     {
       "id": "yt_ucza18yv7qayth-mrirbhdpa",
@@ -129,8 +129,8 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 6,
-      "latest_article_at": "2026-11-08T18:30:23+00:00"
+      "article_count": 7,
+      "latest_article_at": "2026-11-18T16:30:02+00:00"
     },
     {
       "id": "yt_uc8cc4pvkvhg7a9fbnsrnrlq",
@@ -139,8 +139,8 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8cc4pVKVHG7A9fbNsRNrLQ",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 5,
-      "latest_article_at": "2026-11-11T12:00:33+00:00"
+      "article_count": 6,
+      "latest_article_at": "2026-11-17T18:55:06+00:00"
     },
     {
       "id": "arxiv_ai",
@@ -149,8 +149,8 @@
       "feed_url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&start=0&max_results=5",
       "feed_type": "atom",
       "is_active": 1,
-      "article_count": 13,
-      "latest_article_at": "2026-11-16T08:40:29Z"
+      "article_count": 18,
+      "latest_article_at": "2026-11-18T05:02:07Z"
     }
   ]
 }
