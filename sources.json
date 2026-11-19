@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:13:49.350823+00:00",
+  "generated_at": "2026-11-19T03:15:14.477753+00:00",
   "total_count": 15,
   "sources": [
     {
@@ -89,7 +89,7 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMliswJ7oukCeW35GSayhRA",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 8,
+      "article_count": 6,
       "latest_article_at": "2026-11-18T18:02:23+00:00"
     },
     {
@@ -109,7 +109,7 @@
       "feed_url": "https://hacker-news.firebaseio.com/v0/topstories.json",
       "feed_type": "rest_json",
       "is_active": 1,
-      "article_count": 13,
+      "article_count": 12,
       "latest_article_at": "2026-11-19T00:29:45+00:00"
     },
     {
@@ -119,7 +119,7 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCONWr2M0moA8wsGHb3zUn_w",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 7,
+      "article_count": 6,
       "latest_article_at": "2026-11-17T17:33:10+00:00"
     },
     {
@@ -129,7 +129,7 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 7,
+      "article_count": 6,
       "latest_article_at": "2026-11-18T16:30:02+00:00"
     },
     {
@@ -139,7 +139,7 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8cc4pVKVHG7A9fbNsRNrLQ",
       "feed_type": "youtube_rss",
       "is_active": 1,
-      "article_count": 6,
+      "article_count": 4,
       "latest_article_at": "2026-11-17T18:55:06+00:00"
     },
     {

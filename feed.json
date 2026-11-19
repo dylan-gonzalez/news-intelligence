@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T03:13:49.334017+00:00",
+  "generated_at": "2026-11-19T03:15:14.472144+00:00",
   "articles": [
     {
-      "id": "188b759d-b7b1-4ea2-b986-04e55cc72e0c",
+      "id": "3be4bce1-fbb4-4a23-b219-7d960e24e45d",
       "title": "RBA doves handed a lifeline as unemployment spikes",
       "category": "finance",
       "news_type": "news_post",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": "e97105e5-829b-4580-b23d-02f795aedef7",
+      "id": "2be68245-5117-47f2-9aac-0bb91ed625d9",
       "title": "Economic shock builds as unemployment hits five year high",
       "category": "finance",
       "news_type": "blog_post",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "c447b820-e91b-4b5e-b234-8f0f396c88db",
+      "id": "62eed0a2-3a6e-4036-99cd-2b0556d3d8b0",
       "title": "Labor market cracks, RBA done",
       "category": "finance",
       "news_type": "blog_post",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "a59cc71c-b524-4489-a824-58dd84c86d97",
+      "id": "4d8bbc36-3ee7-4143-a2ea-6e5ef8b38e2e",
       "title": "Survey proves Victorians are housing irrational",
       "category": "finance",
       "news_type": "blog_post",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "id": "b1820156-1ad0-4428-b1e5-08c7fb05ff36",
+      "id": "d5a1d0fc-f74b-4f6a-a4ac-273738ec302f",
       "title": "Gas cartel runs riot as gas ranga explodes",
       "category": "finance",
       "news_type": "blog_post",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "id": "b7a669d3-6aa5-4318-b517-923ac2d2c8e2",
+      "id": "0f2f2b1a-eedd-436d-be82-ac4da6289faf",
       "title": "Unemployment continues to rise Down Under",
       "category": "finance",
       "news_type": "news_post",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": "d5f2883d-a2bd-40fb-b5be-3734be2a6669",
+      "id": "fe2cd6c1-1875-43f3-b79b-6aafb9045ce5",
       "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
       "category": "tech",
       "news_type": "blog_post",
@@ -215,10 +215,10 @@
       "published_at": "2026-11-19T00:29:45+00:00",
       "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
       "author": "seizethecheese",
-      "summary": "HN Score: 106 | Comments: 12",
+      "summary": "HN Score: 107 | Comments: 12",
       "payload": {
         "hn_id": 50554374,
-        "score": 106,
+        "score": 107,
         "descendants": 36,
         "hotness_score": 43,
         "discussion_url": "https://news.ycombinator.com/item?id=50554374"
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "id": "5e71fc08-ea27-4ae6-b8ea-3527a80206db",
+      "id": "392ea8b9-87dc-4461-8d20-f8720bf97824",
       "title": "RBA to remain on hold as recession risks build",
       "category": "finance",
       "news_type": "blog_post",
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "id": "499b8633-d44c-4084-b887-554253bb03c1",
+      "id": "2fdf0f68-4dd2-46a0-9d31-8f79fb3723e1",
       "title": "Multiple vulnerabilities in Regexp and String case conversion",
       "category": "tech",
       "news_type": "blog_post",
@@ -296,11 +296,11 @@
       "published_at": "2026-11-18T23:52:50+00:00",
       "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
       "author": "runesoerensen",
-      "summary": "HN Score: 100 | Comments: 3",
+      "summary": "HN Score: 101 | Comments: 4",
       "payload": {
         "hn_id": 50554038,
-        "score": 100,
-        "descendants": 21,
+        "score": 101,
+        "descendants": 22,
         "hotness_score": 42,
         "discussion_url": "https://news.ycombinator.com/item?id=50554038"
       },
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": "db327a83-d358-43d8-8daf-69454a5b6d87",
+      "id": "dd2904c0-4662-4ab1-855f-e307894d5f50",
       "title": "Refinances take a bigger slice of a shrinking mortgage market",
       "category": "finance",
       "news_type": "news_post",
@@ -348,21 +348,21 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
+          "name": "Refinancing",
+          "entity_type": "TOPIC",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "Refinancing",
-          "entity_type": "TOPIC",
+          "name": "Australian Broker",
+          "entity_type": "SOURCE",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "d0b50565-5536-4076-aebb-21fed012b5c3",
+      "id": "1c07e13a-19be-4b89-8012-3f7d181a3f5f",
       "title": "Chinese steel marches lower",
       "category": "finance",
       "news_type": "blog_post",
@@ -392,50 +392,7 @@
       ]
     },
     {
-      "id": "abb5460c-34ea-4ad0-aaba-01dd9faa0258",
-      "title": "Anthropic prices initial public offering",
-      "category": "tech",
-      "news_type": "blog_post",
-      "source_id": "hacker_news",
-      "source_name": "Hacker News (Top Stories)",
-      "published_at": "2026-11-18T23:30:09+00:00",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "author": "surprisetalk",
-      "summary": "HN Score: 107 | Comments: 16",
-      "payload": {
-        "hn_id": 50553843,
-        "score": 107,
-        "descendants": 57,
-        "hotness_score": 85,
-        "discussion_url": "https://news.ycombinator.com/item?id=50553843",
-        "wiki_trending": true,
-        "wiki_views": 23680,
-        "wiki_topic": "Anthropic",
-        "wiki_url": "https://en.wikipedia.org/wiki/Anthropic"
-      },
-      "entities": [
-        {
-          "name": "Hacker News",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "YCombinator",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "anthropic.com",
-          "entity_type": "DOMAIN",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "surprisetalk",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
-    },
-    {
-      "id": "977087c8-41c8-4118-a1fd-a84fe3b483c9",
+      "id": "c6923aa7-cd10-4ec6-a3bd-e82ba6842771",
       "title": "The Habits of Unsuccessful People vs. Successful People [infographic]",
       "category": "finance",
       "news_type": "blog_post",
@@ -465,7 +422,7 @@
       ]
     },
     {
-      "id": "9a5eb466-abd8-451a-980e-c21dd135dd8e",
+      "id": "4def37da-8479-407e-ba34-bcc69b4b744a",
       "title": "Sydney tipped to lead 2027 house price rebound even as forced sales climb",
       "category": "finance",
       "news_type": "news_post",
@@ -495,7 +452,7 @@
       ]
     },
     {
-      "id": "01cab0ea-c067-4289-b125-036abdee2539",
+      "id": "86bbd672-b80b-411d-b500-887bc2528af7",
       "title": "Unemployment jumps, but wage growth also higher than expected",
       "category": "finance",
       "news_type": "blog_post",
@@ -525,7 +482,7 @@
       ]
     },
     {
-      "id": "a598748b-774e-4c23-a239-dd3c73bb6ac2",
+      "id": "b01cbac4-b288-4629-88a2-83542c65b765",
       "title": "The golden crash",
       "category": "finance",
       "news_type": "blog_post",
@@ -555,7 +512,7 @@
       ]
     },
     {
-      "id": "7a535eda-99af-4ed6-a139-66462c3c9de2",
+      "id": "c8f3b8da-a6d3-450e-b2e3-a8c35a26686c",
       "title": "Fed crushes Australian dollar",
       "category": "finance",
       "news_type": "blog_post",
@@ -585,7 +542,7 @@
       ]
     },
     {
-      "id": "05c77d1e-903b-412b-99f4-5a848081ac2d",
+      "id": "f919d44f-1ca7-4df3-b2e8-f4ceb42bda3a",
       "title": "Regional property values fall, boom markets lead the decline",
       "category": "finance",
       "news_type": "news_post",
@@ -615,7 +572,7 @@
       ]
     },
     {
-      "id": "9e552ef6-635b-4d6c-9225-bd9cbe06146a",
+      "id": "91ffad1f-e3d0-449a-afc0-d716184f7aa7",
       "title": "Gemini 4 Neon",
       "category": "tech",
       "news_type": "blog_post",
@@ -624,21 +581,15 @@
       "published_at": "2026-11-18T21:34:07+00:00",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "author": "yigitdemirag",
-      "summary": "HN Score: 518 | Comments: 102",
+      "summary": "HN Score: 520 | Comments: 102",
       "payload": {
         "hn_id": 50552424,
-        "score": 518,
-        "descendants": 471,
-        "hotness_score": 94,
+        "score": 520,
+        "descendants": 474,
+        "hotness_score": 95,
         "discussion_url": "https://news.ycombinator.com/item?id=50552424"
       },
       "entities": [
-        {
-          "name": "Hacker News",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "YCombinator",
-          "confidence_score": 1.0
-        },
         {
           "name": "blog.google",
           "entity_type": "DOMAIN",
@@ -650,11 +601,17 @@
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
+          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "1de4a4be-68df-4673-b8ab-76d3ecb952c2",
+      "id": "c7ab2cbe-cb6d-481c-a197-d9d08c5abff1",
       "title": "Melbourne broker elected as CAFBA\u2019s first female president",
       "category": "finance",
       "news_type": "news_post",
@@ -684,7 +641,7 @@
       ]
     },
     {
-      "id": "66e58a18-5d90-4ec0-b01d-8c365bd7693f",
+      "id": "30eb992a-4289-47ee-ba61-c65849540080",
       "title": "Canada\u2019s major immigration policy U-turn is a warning to Australia",
       "category": "finance",
       "news_type": "blog_post",
@@ -719,7 +676,7 @@
       ]
     },
     {
-      "id": "d626b409-8ca6-43f6-9978-e6ca271c6007",
+      "id": "6bb9bf94-71e0-4712-8c15-aa68367599b1",
       "title": "Mortgage broker profiles top 60,000 views in national spring campaign",
       "category": "finance",
       "news_type": "news_post",
@@ -749,7 +706,7 @@
       ]
     },
     {
-      "id": "ec782f99-46b3-4722-aeb7-9f12058e6445",
+      "id": "7e7f2431-8392-46fb-b2c0-7d20140a7174",
       "title": "[PODCAST] Waiting for the Property Market To Bottom? Here Is What I Am Watching with Dorian Traill",
       "category": "finance",
       "news_type": "blog_post",
@@ -785,7 +742,7 @@
       ]
     },
     {
-      "id": "375a43ad-e358-414d-9840-629e74bfa4d9",
+      "id": "2101d4f1-a22c-4a7d-8e3a-ba9d1d143267",
       "title": "Vehicle: Stolen Vehicle Alert \u2013 18 November",
       "category": "politics",
       "news_type": "news_post",
@@ -825,7 +782,7 @@
       ]
     },
     {
-      "id": "56ac98f8-75d1-4ec6-9819-a6b465d855fb",
+      "id": "35c19aa1-1e25-4361-abb0-617b12c5e7d8",
       "title": "Jamal Fogarty: Tigers ready to pounce on Manly halfback Jamal Fogarty",
       "category": "politics",
       "news_type": "news_post",
@@ -865,7 +822,7 @@
       ]
     },
     {
-      "id": "b05d9d68-f1fe-462e-8c52-f55c1e1ff31a",
+      "id": "d6cc45ce-3bab-46be-8f56-7b12ef10f38a",
       "title": "Lawyers Weekly: House Judiciary panel advances Matos' nomination for Supreme Court",
       "category": "politics",
       "news_type": "news_post",
@@ -905,7 +862,7 @@
       ]
     },
     {
-      "id": "ad2a0e98-15af-42d7-ace4-fb444f5a209b",
+      "id": "638bacbe-8dda-4f01-ae16-2433f7f17ec4",
       "title": "\ud83d\udcfa What Putin Wants From Trump at the APEC Summit | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -924,21 +881,21 @@
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "61f671c2-6cd2-4620-937a-a4ad8df3832d",
+      "id": "c73bb80e-90c6-4cff-b693-c55dbbe1a7ab",
       "title": "Joel Leavitt Royal Commission: \u2018I\u2019ll take the rap\u2019: Big Build labour hire boss admits fake invoices",
       "category": "politics",
       "news_type": "news_post",
@@ -958,15 +915,15 @@
       },
       "entities": [
         {
-          "name": "AFR",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Joel Leavitt Royal Commission",
           "entity_type": "TOPIC",
           "canonical_id": "gtrend:joel leavitt royal commission",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "AFR",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
           "confidence_score": 1.0
         },
         {
@@ -978,7 +935,7 @@
       ]
     },
     {
-      "id": "bea1ef2d-1954-4de0-af04-8727aa08b448",
+      "id": "119e4dd0-75af-431d-b546-a239f9e510dd",
       "title": "Unemployment: Breaking: Analysts surprised as unemployment rate surges to 4.9pc in October",
       "category": "finance",
       "news_type": "news_post",
@@ -1018,7 +975,7 @@
       ]
     },
     {
-      "id": "6b5f3832-d0aa-45ef-b64c-03f5a14ab242",
+      "id": "d1c5c377-1067-45dd-9a13-24532b2dd953",
       "title": "Cma Awards: Danielle Parton Will Wear a Dress Made for Dolly to The CMA Awards",
       "category": "politics",
       "news_type": "news_post",
@@ -1038,15 +995,15 @@
       },
       "entities": [
         {
-          "name": "Cma Awards",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:cma awards",
-          "confidence_score": 1.0
-        },
-        {
           "name": "Taste of Country",
           "entity_type": "SOURCE",
           "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Cma Awards",
+          "entity_type": "TOPIC",
+          "canonical_id": "gtrend:cma awards",
           "confidence_score": 1.0
         },
         {
@@ -1058,7 +1015,7 @@
       ]
     },
     {
-      "id": "f158d01e-5310-4d81-93d8-1d8a58c9bcc1",
+      "id": "918a0254-653f-4afe-a332-26f94da6ae7c",
       "title": "\ud83d\udcfa America\u2019s AI Lead Over China Is 12 Hours Not 12 Months \u2013 Paul Christiano",
       "category": "tech",
       "news_type": "youtube_video",
@@ -1082,21 +1039,21 @@
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "Dwarkesh Patel",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "Dwarkesh Patel",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "5c6c4d75-cd3f-4f00-b2d2-cb83f64cfa23",
+      "id": "e5341aac-9d15-4d92-81fd-8003199f2a9f",
       "title": "Seven new models at scalable price-performance",
       "category": "tech",
       "news_type": "blog_post",
@@ -1115,15 +1072,15 @@
       },
       "entities": [
         {
-          "name": "Hacker News",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "YCombinator",
-          "confidence_score": 1.0
-        },
-        {
           "name": "gmays",
           "entity_type": "PERSON",
           "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Hacker News",
+          "entity_type": "INSTITUTION",
+          "canonical_id": "YCombinator",
           "confidence_score": 1.0
         },
         {
@@ -1135,7 +1092,7 @@
       ]
     },
     {
-      "id": "c67b504e-d168-4024-a2c9-499e6c338fe9",
+      "id": "329a3c39-100c-4335-80a3-ba1ec7c8a90b",
       "title": "Unauthenticated remote code execution in Nginx",
       "category": "tech",
       "news_type": "blog_post",
@@ -1144,21 +1101,15 @@
       "published_at": "2026-11-18T15:19:55+00:00",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "author": "speedping",
-      "summary": "HN Score: 1176 | Comments: 80",
+      "summary": "HN Score: 1179 | Comments: 80",
       "payload": {
         "hn_id": 50547374,
-        "score": 1176,
-        "descendants": 525,
+        "score": 1179,
+        "descendants": 527,
         "hotness_score": 100,
         "discussion_url": "https://news.ycombinator.com/item?id=50547374"
       },
       "entities": [
-        {
-          "name": "wiz.io",
-          "entity_type": "DOMAIN",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
         {
           "name": "Hacker News",
           "entity_type": "INSTITUTION",
@@ -1170,11 +1121,17 @@
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "wiz.io",
+          "entity_type": "DOMAIN",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "ba49ab03-a32d-4323-b92e-9a6dd86d70c6",
+      "id": "d6a74dd5-42fc-4eff-b1bb-0c917a8ff988",
       "title": "Chief AI officers lack control over AI spending: study",
       "category": "finance",
       "news_type": "news_post",
@@ -1204,7 +1161,7 @@
       ]
     },
     {
-      "id": "4791040b-8fa0-4483-a838-1a644023f85a",
+      "id": "6468cbde-07c2-44ba-9dbd-7fa0673563ff",
       "title": "Brokers on Banks 2027 survey now open",
       "category": "finance",
       "news_type": "news_post",
@@ -1234,7 +1191,7 @@
       ]
     },
     {
-      "id": "b0667384-61cb-46bf-916f-689f23d4da78",
+      "id": "d2c07a26-d459-4c5f-bc40-de98c4005fd7",
       "title": "The Investing Rules Nobody Follows (But Everyone Knows)",
       "category": "finance",
       "news_type": "blog_post",
@@ -1264,7 +1221,7 @@
       ]
     },
     {
-      "id": "5e3f6d81-ee01-42ce-9b42-c7d92075c0a1",
+      "id": "aee82436-dfff-49a5-a798-c908a213d5e3",
       "title": "Mortgage brokers top trust rankings, but some scepticism lingers",
       "category": "finance",
       "news_type": "news_post",
@@ -1294,7 +1251,7 @@
       ]
     },
     {
-      "id": "8cdfd973-5728-469a-9cf9-4276748bfba6",
+      "id": "7ddfc74c-d5d9-4f70-963b-42b05bf30fe2",
       "title": "How much superannuation do you really need to retire comfortably?",
       "category": "finance",
       "news_type": "blog_post",
@@ -1324,7 +1281,7 @@
       ]
     },
     {
-      "id": "54c5ea33-6789-4779-a480-3bb4aebfe0da",
+      "id": "0f66ce2d-493d-41c3-8f3c-698b7deca57e",
       "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
       "category": "tech",
       "news_type": "official_filing",
@@ -1356,18 +1313,6 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Ghadi Nehme",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Dahyun Nam",
           "entity_type": "PERSON",
           "canonical_id": null,
@@ -1378,11 +1323,23 @@
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "Artificial Intelligence",
+          "entity_type": "TOPIC",
+          "canonical_id": "cs.AI",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Ghadi Nehme",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "270ffb9c-cc66-42e0-b5a5-46663f87b88b",
+      "id": "220f8469-2383-4702-9e8d-5e2fc675572d",
       "title": "ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation",
       "category": "tech",
       "news_type": "official_filing",
@@ -1411,20 +1368,14 @@
       },
       "entities": [
         {
+          "name": "Junpeng Zhang",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
           "name": "arXiv",
           "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Jiawei Shen",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Jie Feng",
-          "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
         },
@@ -1435,7 +1386,13 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Junpeng Zhang",
+          "name": "Jie Feng",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Jiawei Shen",
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
@@ -1443,7 +1400,7 @@
       ]
     },
     {
-      "id": "4d3edb98-a43f-4b40-9660-d4b013086cde",
+      "id": "a2cc167f-60f1-40e5-8f86-eabb8f108013",
       "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models",
       "category": "tech",
       "news_type": "official_filing",
@@ -1476,12 +1433,6 @@
           "confidence_score": 1.0
         },
         {
-          "name": "Manav Kulshrestha",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Artificial Intelligence",
           "entity_type": "TOPIC",
           "canonical_id": "cs.AI",
@@ -1489,6 +1440,12 @@
         },
         {
           "name": "Damon Conover",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Manav Kulshrestha",
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
@@ -1502,7 +1459,7 @@
       ]
     },
     {
-      "id": "65572fb2-b70e-4675-8a0a-e9156a55079e",
+      "id": "1cf2b3e2-dc9f-4917-ab9d-7cc9c95a0d6f",
       "title": "TOGBench: Benchmarking and Improving Tiny-Object Generation Fidelity in Aerial Imagery",
       "category": "tech",
       "news_type": "official_filing",
@@ -1533,6 +1490,12 @@
           "confidence_score": 1.0
         },
         {
+          "name": "Dongmin You",
+          "entity_type": "PERSON",
+          "canonical_id": null,
+          "confidence_score": 1.0
+        },
+        {
           "name": "Artificial Intelligence",
           "entity_type": "TOPIC",
           "canonical_id": "cs.AI",
@@ -1540,12 +1503,6 @@
         },
         {
           "name": "Chanhwi Jeong",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dongmin You",
           "entity_type": "PERSON",
           "canonical_id": null,
           "confidence_score": 1.0
@@ -1559,7 +1516,7 @@
       ]
     },
     {
-      "id": "213fd5e1-8cae-4256-9f42-a56be4a6a41b",
+      "id": "dca19e49-164b-4892-bdb3-e4f303a80545",
       "title": "A System 1 Decision Model for Medical Multiple-Choice Questions Built on Frozen Language Models",
       "category": "tech",
       "news_type": "official_filing",
@@ -1602,7 +1559,7 @@
       ]
     },
     {
-      "id": "cee2cba9-dbe2-4ab6-8065-92a98a916e75",
+      "id": "9304ecd2-600f-45d9-a120-7e626ff28647",
       "title": "National Vacancy Rate Rises to 1.5% | SQM Research",
       "category": "finance",
       "news_type": "blog_post",
@@ -1632,7 +1589,7 @@
       ]
     },
     {
-      "id": "f4a8aa73-9a5a-4814-9bd3-d9e7243c40db",
+      "id": "70f68ece-0f1f-4c59-bb5f-2bc810629cf8",
       "title": "Brokers remain a trusted source of information, MFAA says",
       "category": "finance",
       "news_type": "news_post",
@@ -1674,7 +1631,7 @@
       ]
     },
     {
-      "id": "e43b3c0c-9ad9-4434-b99f-d974c741fd76",
+      "id": "a9820405-af73-4386-aea5-6c9f589490f7",
       "title": "Unlicensed car loans cost Sydney dealer millions in penalties",
       "category": "finance",
       "news_type": "news_post",
@@ -1704,7 +1661,7 @@
       ]
     },
     {
-      "id": "0d94e3a0-fedf-4aed-851f-dc6ae86b987e",
+      "id": "c4f7ad8a-fce2-46a2-ac1d-839061e184b9",
       "title": "Mortgage demand plummeting as \u2018buyer strike\u2019 spreads across Australia",
       "category": "finance",
       "news_type": "news_post",
@@ -1751,7 +1708,7 @@
       ]
     },
     {
-      "id": "6463b3a1-a626-4231-b02e-e578cc962d97",
+      "id": "cdc68a45-0cbb-4da0-b019-e4f711523f6f",
       "title": "CBA fights fraud with new AI tool as blame game grips lending industry",
       "category": "finance",
       "news_type": "news_post",
@@ -1793,7 +1750,7 @@
       ]
     },
     {
-      "id": "6934445f-14bc-4423-a257-deaf17b6593f",
+      "id": "40b88077-e040-48ea-b0a3-89530a7b64be",
       "title": "Westpac leading index slips below trend as rate rises bite",
       "category": "finance",
       "news_type": "news_post",
@@ -1829,7 +1786,7 @@
       ]
     },
     {
-      "id": "e2f02ba1-1063-454e-a6e1-5b4e6e6f045b",
+      "id": "77b9ac5f-be51-4f0c-b4d7-80bc5e47b3ab",
       "title": "Bendigo Bank completes RACQ Bank takeover",
       "category": "finance",
       "news_type": "news_post",
@@ -1845,15 +1802,15 @@
       },
       "entities": [
         {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
           "name": "Bendigo Bank",
           "entity_type": "INSTITUTION",
           "canonical_id": "BEN",
+          "confidence_score": 1.0
+        },
+        {
+          "name": "Mortgage Professional Australia",
+          "entity_type": "SOURCE",
+          "canonical_id": null,
           "confidence_score": 1.0
         },
         {
@@ -1865,7 +1822,7 @@
       ]
     },
     {
-      "id": "6ef7ac72-6e5d-4f1c-b9ba-fb2ef849370d",
+      "id": "054f1821-b31a-48c4-9e80-af67f3009616",
       "title": "Genuine savings fall $25K short of 5% deposit, survey finds",
       "category": "finance",
       "news_type": "news_post",
@@ -1895,7 +1852,7 @@
       ]
     },
     {
-      "id": "e2163f1b-9edf-473f-a450-62819f32c497",
+      "id": "e729776f-5770-4a2f-bc10-28fb126b6f60",
       "title": "Mortgage demand sinks to seven-year seasonal low as buyers retreat",
       "category": "finance",
       "news_type": "news_post",
@@ -1925,7 +1882,7 @@
       ]
     },
     {
-      "id": "75c745ac-e7d7-4ef7-b5f0-b01cbe4005f6",
+      "id": "ba8ecf07-5ab9-4518-a208-ce965be1713b",
       "title": "Broker body executive Evan Thomas joins lending data standards board",
       "category": "finance",
       "news_type": "news_post",
@@ -1955,7 +1912,7 @@
       ]
     },
     {
-      "id": "03d819f6-8923-4564-8650-0e56e2a7b96a",
+      "id": "2225c435-2af9-4a8f-9f45-ada558c35d0b",
       "title": "Rich people are luckier",
       "category": "finance",
       "news_type": "blog_post",
@@ -1985,7 +1942,7 @@
       ]
     },
     {
-      "id": "1ae4bf19-a9d2-4f74-a3f6-d4fba53315ae",
+      "id": "3ac707de-cbd9-4c2a-8c8b-4ddb99e7222f",
       "title": "Broking industry voice added to LIXI board",
       "category": "finance",
       "news_type": "news_post",
@@ -2021,7 +1978,7 @@
       ]
     },
     {
-      "id": "743da8af-6820-49be-b370-7946f12fbc36",
+      "id": "c8b3e7b5-16b9-4d76-b63d-7e980b572769",
       "title": "Rental vacancy rate rises to 1.5% as Sydney and Melbourne ease",
       "category": "finance",
       "news_type": "news_post",
@@ -2051,7 +2008,7 @@
       ]
     },
     {
-      "id": "4edd712e-b32e-4daa-adb5-c43759d25fb7",
+      "id": "34f1011a-d2f8-4ff0-8f8d-57b1ca9df35b",
       "title": "\ud83d\udcfa Not to Let Fear Hold Me Back: Interview With Executive Jackie Varela",
       "category": "tech",
       "news_type": "youtube_video",
@@ -2070,21 +2027,21 @@
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "IBM Technology",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "IBM Technology",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "b450471b-e64d-422e-b1dd-82d62519e84d",
+      "id": "f8d5e7b4-cb12-48b3-872d-93264b7e6668",
       "title": "\ud83d\udcfa Why Xi Jinping Keeps Purging China\u2019s Top Leaders | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -2108,21 +2065,21 @@
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "0b7c611b-0b54-407b-b97e-159001fb3db7",
+      "id": "0558ef34-a960-41d1-b407-241cbd7af060",
       "title": "\ud83d\udcfa Why Your AI Agents Never Get Smarter",
       "category": "tech",
       "news_type": "youtube_video",
@@ -2141,21 +2098,21 @@
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "AI Engineer",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "6d350a03-bb95-4163-8d25-3f817f038f16",
+      "id": "e6af6048-4d6d-4073-898a-da405622294f",
       "title": "Investors head for the exits as lending records its biggest fall ever | Property Insiders",
       "category": "finance",
       "news_type": "blog_post",
@@ -2191,7 +2148,7 @@
       ]
     },
     {
-      "id": "da29097f-062b-4c5d-9538-7ffe55a88cd7",
+      "id": "f7f3aba2-bb21-4fd8-88ca-83432bac02bc",
       "title": "NSW blinks on underquoting: what the last-minute backflip means for buyers, sellers and investors",
       "category": "finance",
       "news_type": "blog_post",
@@ -2221,7 +2178,7 @@
       ]
     },
     {
-      "id": "7ccaadf8-6a33-45a4-b258-779510ea0c1d",
+      "id": "12d72b5e-560f-41dc-9889-c8fc6933a59f",
       "title": "Negative equity siren blares for first home buyers",
       "category": "finance",
       "news_type": "news_post",
@@ -2277,32 +2234,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Fraud",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Commonwealth Bank",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "CBA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "a42f25ac-481c-405d-8521-f54e4b844a09",
@@ -2319,32 +2251,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Macquarie Bank",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "MQG",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Credit Policy",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "6d312715-eb06-41f3-8a19-ccd771b9ed68",
@@ -2397,26 +2304,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Investment",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "fd887a55-1cd1-4f09-bfab-1af023577e30",
@@ -2433,26 +2321,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Fraud",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "1d99f43d-3fda-449e-9cfc-1d6c544fbc0d",
@@ -2503,20 +2372,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "8c2de7d3-d185-4b24-8e55-8d27ab11290d",
@@ -2536,26 +2392,7 @@
         "hotness_score": 37,
         "discussion_url": "https://news.ycombinator.com/item?id=50526560"
       },
-      "entities": [
-        {
-          "name": "jshier",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Hacker News",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "YCombinator",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "support.apple.com",
-          "entity_type": "DOMAIN",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "12bddb9d-9da3-43d6-b472-054af25eb187",
@@ -2610,20 +2447,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "52b44fae-765e-462b-b34d-0bf84cec52ba",
@@ -2754,20 +2578,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "2a23ce00-6b19-4228-afec-242ee71ed66f",
@@ -2784,20 +2595,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "0d241370-aef1-4089-b6a0-f1cf0c84f8bb",
@@ -2819,20 +2617,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "f3b6fdfe-97b2-401e-865f-4dec2fc5814c",
@@ -2887,20 +2672,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "b82c8c0c-40e8-4826-a5cb-21c6a3141e36",
@@ -2955,26 +2727,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Investment",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "3b11dd81-3153-4752-aada-4ff038151040",
@@ -2991,20 +2744,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "4a41959a-f398-4f9a-9268-523d113a7f87",
@@ -3021,20 +2761,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "84e20130-2bd9-4a56-8e01-9088aa6e2e08",
@@ -3051,20 +2778,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "5b83e7e1-1f32-4a19-a581-7d66f989c1b0",
@@ -3081,26 +2795,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "First Home Buyers",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "f911c440-c25c-4499-9047-f0d85c6f38ce",
@@ -3198,26 +2893,7 @@
         "wiki_topic": "John Christ",
         "wiki_url": "https://en.wikipedia.org/wiki/John_Christ"
       },
-      "entities": [
-        {
-          "name": "John Christ",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:john christ",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Knotfest",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "58d1ffbf-06a4-4d2a-beb6-5fc8d12c0544",
@@ -3267,26 +2943,7 @@
         "hotness_score": 53,
         "discussion_url": "https://news.ycombinator.com/item?id=50523459"
       },
-      "entities": [
-        {
-          "name": "Hacker News",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "YCombinator",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "opencode.ai",
-          "entity_type": "DOMAIN",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "mfiguiere",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "8da7cdfe-1a6f-4554-9e07-7819a827ec09",
@@ -3303,20 +2960,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "8d28acd5-143d-4b74-a343-63b895277022",
@@ -3338,26 +2982,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Australia",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Investment",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "4d76bb36-9659-4387-908c-29fca984f145",
@@ -3378,26 +3003,7 @@
         "news_source": "Fox Sports",
         "trends_url": "https://trends.google.com/trends/explore?q=cameron+munster"
       },
-      "entities": [
-        {
-          "name": "Fox Sports",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Cameron Munster",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:cameron munster",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "74a63068-90b4-4c53-bdaf-8b7626e1995f",
@@ -3418,26 +3024,7 @@
         "news_source": "PGA Tour",
         "trends_url": "https://trends.google.com/trends/explore?q=patrick+reed+pga+tour+card"
       },
-      "entities": [
-        {
-          "name": "PGA Tour",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Patrick Reed Pga Tour Card",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:patrick reed pga tour card",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "747c0d6d-3ae8-46b1-b7e7-d9c3d28ad812",
@@ -3458,26 +3045,7 @@
         "news_source": "Human Resources Director",
         "trends_url": "https://trends.google.com/trends/explore?q=country"
       },
-      "entities": [
-        {
-          "name": "Country",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:country",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Human Resources Director",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "814ec3be-a320-46fa-abcc-043bc49b2712",
@@ -3502,26 +3070,7 @@
         "wiki_topic": "Ruby Franke",
         "wiki_url": "https://en.wikipedia.org/wiki/Ruby_Franke"
       },
-      "entities": [
-        {
-          "name": "Ruby Franke",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:ruby franke",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "KUTV",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "a0bf20b2-76ad-456c-949c-dff3b70c46ee",
@@ -3542,26 +3091,7 @@
         "news_source": "The New York Times",
         "trends_url": "https://trends.google.com/trends/explore?q=1998+ky26"
       },
-      "entities": [
-        {
-          "name": "The New York Times",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "1998 Ky26",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:1998 ky26",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "4217197b-2583-431b-a64b-b65cf2eacba5",
@@ -3582,26 +3112,7 @@
         "news_source": "Queensland Police News",
         "trends_url": "https://trends.google.com/trends/explore?q=criminal+investigation"
       },
-      "entities": [
-        {
-          "name": "Criminal Investigation",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:criminal investigation",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Queensland Police News",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "9c97f5fe-5c52-40cd-a22e-b40cad429622",
@@ -3665,26 +3176,7 @@
         "news_source": "PerthNow",
         "trends_url": "https://trends.google.com/trends/explore?q=property"
       },
-      "entities": [
-        {
-          "name": "Property",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:property",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "PerthNow",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "41716698-f459-4400-a624-f04eededc096",
@@ -3709,26 +3201,7 @@
         "wiki_topic": "Australia",
         "wiki_url": "https://en.wikipedia.org/wiki/Australia"
       },
-      "entities": [
-        {
-          "name": "Michael Clarke Sandpapergate Opinions 2026",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:michael clarke sandpapergate opinions 2026",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Nine.com.au",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "6e8134fe-abe4-471e-87af-32bfb3e646d8",
@@ -3829,26 +3302,7 @@
         "news_source": "Bloomberg.com",
         "trends_url": "https://trends.google.com/trends/explore?q=mining"
       },
-      "entities": [
-        {
-          "name": "Mining",
-          "entity_type": "TOPIC",
-          "canonical_id": "gtrend:mining",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Bloomberg.com",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Google Trends",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "a9c0740b-9fc3-44ec-95e0-a4990426640f",
@@ -3891,7 +3345,7 @@
       ]
     },
     {
-      "id": "b8e8167b-307c-4b78-8c15-b431b696e456",
+      "id": "1a8f1c66-9b3d-4853-bf8b-4027831fe248",
       "title": "\ud83d\udcfa Trump Says He Might Meet With Kim Jong Un During Asia Trip | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -3907,29 +3361,29 @@
         "handle": "@wsj",
         "thumbnail": "https://i3.ytimg.com/vi/r4RYqRe0MM0/hqdefault.jpg",
         "is_video": true,
-        "hotness_score": 85,
         "wiki_trending": true,
         "wiki_views": 14463,
         "wiki_topic": "Kim Jong Un",
-        "wiki_url": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
+        "wiki_url": "https://en.wikipedia.org/wiki/Kim_Jong_Un",
+        "hotness_score": 85
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "872748cc-35be-4538-9993-29e381e16a53",
+      "id": "8ba85002-847b-4d45-85ce-ff01220e5c61",
       "title": "\ud83d\udcfa What Greece Learned From Going Broke\u2014and Others in Europe Still Haven\u2019t | WSJ News",
       "category": "finance",
       "news_type": "youtube_video",
@@ -3944,19 +3398,18 @@
         "channel_id": "UCMliswJ7oukCeW35GSayhRA",
         "handle": "@wsj",
         "thumbnail": "https://i2.ytimg.com/vi/M_HRqrYAPCs/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
+        "is_video": true
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -3982,20 +3435,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Australia",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "8e72f7c4-cb59-489b-8e5f-6fdb2010110f",
@@ -4025,38 +3465,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Kangwen Zhao",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Jianfeng Cai",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Ruopei Sun",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "4cc5fc0c-ea48-46cb-b080-3bc1413ceb65",
@@ -4087,38 +3496,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Jihao Zhao",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Zhen Tao",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Peng Liu",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "1f75583c-4551-42cb-8a3d-ee99efeb7172",
@@ -4143,32 +3521,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Ahmed Tariq",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Leo Guinan",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "e16d2047-3801-432e-930f-a87edf198924",
@@ -4197,38 +3550,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Jing Tian",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Maolei Huang",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Dexuan Duan",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "d926f314-f3db-4f9d-95f0-939e900c26ae",
@@ -4245,26 +3567,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Cash Rate",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "1ebc6e14-c913-4482-a22a-ffbe300b90d2",
@@ -4288,26 +3591,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "arXiv",
-          "entity_type": "INSTITUTION",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Artificial Intelligence",
-          "entity_type": "TOPIC",
-          "canonical_id": "cs.AI",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Sachin Gupta",
-          "entity_type": "PERSON",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "f32c4151-1051-4d76-9e14-745693942cf9",
@@ -4324,20 +3608,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "b0209496-9317-4caa-9128-30dbc6d307ab",
@@ -4354,26 +3625,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "First Home Buyers",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "b4b3e54d-b8e3-42a0-81c0-8251dea3a706",
@@ -4390,26 +3642,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Serviceability Buffer",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "3d998e6c-3330-456b-90c8-0154ec914ccb",
@@ -4428,18 +3661,6 @@
       },
       "entities": [
         {
-          "name": "RBA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "RBA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Westpac",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "WBC",
-          "confidence_score": 1.0
-        },
-        {
           "name": "Mortgage Industry",
           "entity_type": "TOPIC",
           "canonical_id": null,
@@ -4448,12 +3669,6 @@
         {
           "name": "Australian Broker",
           "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -4474,20 +3689,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "59e32853-257d-4302-acf9-326c46b0464d",
@@ -4504,26 +3706,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "20498789-a886-499a-94a8-ab1f06bdfe5d",
@@ -4540,20 +3723,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "3d3be984-8d63-4d62-9b3d-3a77665bf808",
@@ -4570,32 +3740,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Macquarie Bank",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "MQG",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "f823c44f-ae82-4e97-9bc7-637641cf9f1d",
@@ -4612,32 +3757,7 @@
         "source_type": "rss",
         "industry": "macro_finance"
       },
-      "entities": [
-        {
-          "name": "RBA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "RBA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Macroeconomics",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "MacroBusiness",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Cash Rate",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "c60cd49e-07e5-4c5f-ae77-e7248af1b307",
@@ -4654,32 +3774,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "APRA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "APRA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "ASIC",
-          "entity_type": "REGULATOR",
-          "canonical_id": "ASIC",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "1a74f630-4742-4a77-8ad7-6270a0740ab9",
@@ -4745,26 +3840,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Negative Equity",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "e272425f-7db7-455f-9479-316366047293",
@@ -4781,20 +3857,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "c1116748-4863-46e3-bbbd-b7c8ed6241bc",
@@ -4811,20 +3874,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "5cc30742-0e34-4e77-ae35-dd34450d0b9e",
@@ -4841,44 +3891,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "RBA",
-          "entity_type": "REGULATOR",
-          "canonical_id": "RBA",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Westpac",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "WBC",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "ANZ Bank",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "ANZ",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "National Australia Bank",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "NAB",
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "b35fe8f0-d6d3-412c-ad43-77619dd5ce9e",
@@ -4895,20 +3908,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "513c5812-084d-4033-90d7-a807dabbcb19",
@@ -4925,20 +3925,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "6bf595a6-60f7-4857-bd5b-562274e6e168",
@@ -4955,26 +3942,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "ANZ Bank",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "ANZ",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "25cc4d0b-b6a7-4615-91d6-16ab2a31a62a",
@@ -4991,20 +3959,7 @@
         "source_type": "rss",
         "industry": "property_economics"
       },
-      "entities": [
-        {
-          "name": "Housing Market",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Property Update",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "f15d2de2-3ac3-4904-a0bd-a6e78d8512b6",
@@ -5021,32 +3976,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Westpac",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "WBC",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Cash Rate",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "4efe93ca-dc12-4048-a72d-67350fb11bc3",
@@ -5345,7 +4275,7 @@
       ]
     },
     {
-      "id": "1e37e98c-694c-46a5-b30b-53f6c0fd0765",
+      "id": "654b1488-cbab-46fa-ba98-841745449079",
       "title": "\ud83d\udcfa Watch: SpaceX Makes History With Starship Landing",
       "category": "finance",
       "news_type": "youtube_short",
@@ -5360,30 +4290,25 @@
         "channel_id": "UCMliswJ7oukCeW35GSayhRA",
         "handle": "@wsj",
         "thumbnail": "https://i2.ytimg.com/vi/ykiNMhfRpOM/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85,
-        "wiki_trending": true,
-        "wiki_views": 10519,
-        "wiki_topic": "SpaceX Starship",
-        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship"
+        "is_video": true
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
       ]
     },
     {
-      "id": "438488cb-21e0-48b1-bf7d-bd487dd0d411",
+      "id": "574ef486-9ba7-4721-9172-2ed5dc0f63a3",
       "title": "\ud83d\udcfa Nationwide Groundstop Linked to Contractor Replacing Copper Wire, Duffy Says",
       "category": "finance",
       "news_type": "youtube_short",
@@ -5398,19 +4323,18 @@
         "channel_id": "UCMliswJ7oukCeW35GSayhRA",
         "handle": "@wsj",
         "thumbnail": "https://i3.ytimg.com/vi/jjYG2_7Sh6Y/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
+        "is_video": true
       },
       "entities": [
         {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
+          "name": "The Wall Street Journal",
+          "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
         },
         {
-          "name": "The Wall Street Journal",
-          "entity_type": "CREATOR",
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
           "canonical_id": null,
           "confidence_score": 1.0
         }
@@ -5435,20 +4359,7 @@
         "is_video": true,
         "hotness_score": 85
       },
-      "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "AI Engineer",
-          "entity_type": "CREATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "d51aac90-b686-463e-a3ea-463863432d24",
@@ -5465,20 +4376,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "03834a92-70d9-4216-a07e-da18c2041c70",
@@ -5495,26 +4393,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Industry",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Australian Broker",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "AFG",
-          "entity_type": "AGGREGATOR",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "b59f6ad7-7d66-416d-a7eb-2d3a580e5085",
@@ -5531,20 +4410,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "f3837a96-81a6-43a9-8344-76c87f2da068",
@@ -5561,20 +4427,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "e83ecb7e-66f7-4fd0-8032-ab09b6b61181",
@@ -5591,26 +4444,7 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Westpac",
-          "entity_type": "INSTITUTION",
-          "canonical_id": "WBC",
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
       "id": "c857cc4c-193e-4ada-ab02-a1502fc0d48f",
@@ -5627,23 +4461,10 @@
         "source_type": "atom_feed",
         "industry": "mortgage_broking"
       },
-      "entities": [
-        {
-          "name": "Mortgage Professional Australia",
-          "entity_type": "SOURCE",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
-        {
-          "name": "Mortgage Broking",
-          "entity_type": "TOPIC",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        }
-      ]
+      "entities": []
     },
     {
-      "id": "1d0518f5-1f84-48d0-814a-a2e983868bfc",
+      "id": "ff5ea32c-9e73-4e58-8740-6917fe383f4f",
       "title": "\ud83d\udcfa Who Evaluates the Evaluator? | Aparna Dhinakaran",
       "category": "tech",
       "news_type": "youtube_short",
@@ -5658,23 +4479,39 @@
         "channel_id": "UCONWr2M0moA8wsGHb3zUn_w",
         "handle": "@aiDotEngineer",
         "thumbnail": "https://i3.ytimg.com/vi/jjL_g1Gjuj8/hqdefault.jpg",
-        "is_video": true,
-        "hotness_score": 85
+        "is_video": true
       },
       "entities": [
-        {
-          "name": "YouTube",
-          "entity_type": "PLATFORM",
-          "canonical_id": null,
-          "confidence_score": 1.0
-        },
         {
           "name": "AI Engineer",
           "entity_type": "CREATOR",
           "canonical_id": null,
           "confidence_score": 1.0
+        },
+        {
+          "name": "YouTube",
+          "entity_type": "PLATFORM",
+          "canonical_id": null,
+          "confidence_score": 1.0
         }
       ]
+    },
+    {
+      "id": "4daef0bd-3e12-4a0b-b96f-10cbcce23f89",
+      "title": "New builds claim a record share of investor lending but\u2026",
+      "category": "finance",
+      "news_type": "news_post",
+      "source_id": "mpa_australia",
+      "source_name": "Mortgage Professional Australia",
+      "published_at": "2026-11-12T05:31:16Z",
+      "url": "https://www.mpamag.com/au/news/general/new-builds-claim-a-record-share-of-investor-lending-but/597106",
+      "author": "MPA Magazine",
+      "summary": "\u2026there\u2019s a catch. It\u2019s because established-home lending has collapsed, not because new-build lending has grown",
+      "payload": {
+        "source_type": "atom_feed",
+        "industry": "mortgage_broking"
+      },
+      "entities": []
     }
   ]
 }
