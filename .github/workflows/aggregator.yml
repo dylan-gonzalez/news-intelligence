@@ -2,7 +2,7 @@ name: News Aggregator (30-Minute Schedule)
 
 on:
   schedule:
-    # Trigger every 30 minutes in UTC
+    # Trigger every 30 minutes
     - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
@@ -16,7 +16,7 @@ on:
 
 permissions:
   id-token: write
-  contents: write
+  contents: read
 
 jobs:
   ingest-and-deploy:
@@ -24,17 +24,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Run News Collector Engine
-        run: |
-          python collector.py
 
       - name: Configure AWS credentials via OIDC
         uses: aws-actions/configure-aws-credentials@v4
@@ -42,7 +36,15 @@ jobs:
           role-to-assume: arn:aws:iam::145440262150:role/github-actions-news-intelligence
           aws-region: ap-southeast-2
 
-      - name: Sync updated feed & assets to S3
+      - name: Pull current state snapshot from S3
+        run: |
+          aws s3 cp s3://info.dylangonzalez.dev/db_snapshot.json ./db_snapshot.json || true
+
+      - name: Run News Collector Engine
+        run: |
+          python collector.py
+
+      - name: Push updated feed & assets directly to S3
         run: |
           aws s3 sync . s3://info.dylangonzalez.dev \
             --delete \
@@ -63,16 +65,3 @@ jobs:
           aws cloudfront create-invalidation \
             --distribution-id EW0A0BPO9NQCN \
             --paths "/*"
-
-      - name: Commit and push updated feed & snapshot
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.json db_snapshot.json sources.json
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: automated 30-min news ingestion [skip ci]"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "No feed changes detected."
-          fi
