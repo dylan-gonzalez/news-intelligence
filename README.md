@@ -1,6 +1,10 @@
-# News & Intelligence Platform (Anti-Algorithm Aggregator)
+# News & Intelligence Platform 
 
 A personal, high-signal intelligence platform designed to replace addictive social feeds with structured, chronological primary sources across **Tech, Finance, Health, and Politics**.
+
+Todo:
+* incoroporate neo4j, elasticsearch
+
 
 ## Architecture: Hybrid Operational + Knowledge Graph
 
